@@ -1,0 +1,138 @@
+﻿<?xml version="1.0"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/TR/xhtml1">
+<head>
+<title>IAIMPInputPluginHeader Interface</title>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+<meta name="generator" content="Documentation Insight (Trial Version)" />
+<base target="_self" />
+<link type="text/css" rel="Stylesheet" href="css/presentation.css" />
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/di.utils.js"></script>
+<script type="text/javascript">if (top.frames.length == 0)
+{
+var topicUrl = top.location.href.substring(top.location.href.lastIndexOf("/") + 1, top.location.href.length);
+var regex = new RegExp('(mk:@MSITStore|ms-help):?', 'i')
+if(!top.location.href.match(regex)) {
+	 top.location.href = "index.htm?" + topicUrl;
+}}
+else if (top && top.navigationFrame && top.navigationFrame.selectTocItem)
+{
+top.navigationFrame.selectTocItem("AIMPSDKInput.IAIMPInputPluginHeader");
+};</script>
+<style></style>
+</head>
+<body>
+<input type="hidden" id="contentEditableControl" class="userDataStyle" value="false" />
+<input type="hidden" id="userDataCache" class="userDataStyle" />
+<input type="hidden" id="hiddenScrollOffset" />
+<img id="collapseImage" style="display:none; height:0; width:0;" src="images/collapse_all.gif" title="Collapse image" xmlns="" />
+<img id="expandImage" style="display:none; height:0; width:0;" src="images/expand_all.gif" title="Expand Image" xmlns="" />
+<img id="collapseAllImage" style="display:none; height:0; width:0;" src="images/collapse_all.gif" xmlns="" />
+<img id="expandAllImage" style="display:none; height:0; width:0;" src="images/expand_all.gif" xmlns="" />
+<img id="dropDownImage" style="display:none; height:0; width:0;" src="images/dropdown.gif" xmlns="" />
+<img id="dropDownHoverImage" style="display:none; height:0; width:0;" src="images/dropdownHover.gif" xmlns="" />
+<img id="copyImage" style="display:none; height:0; width:0;" src="images/copycode.gif" title="Copy image" xmlns="" />
+<img id="copyHoverImage" style="display:none; height:0; width:0;" src="images/copycodeHighlight.gif" title="CopyHover image" xmlns="" />
+<div id="header">
+<div class="title">Aimp Help</div>
+</div>
+<div id="mainSection">
+<div id="mainBody">
+<div id="summarySection" class="section" xmlns="">
+<input class="tagName" type="hidden" value="summary" />
+<div id="summaryHeader" class="sectionHeader">
+<h1 class="heading">
+<span onclick="ExpandCollapse(summaryHeaderImage)" style="cursor:default;" onkeypress="ExpandCollapse_CheckKey(summaryHeader, event)" tabindex="0">
+<img id="summaryHeaderImage" class="toggle" name="toggleSwitch" src="images/collapse_all.gif" />Summary</span>
+</h1>
+</div>
+<div id="summaryContent" class="sectionContent" name="collapseableSection" style="" contentEditable="false">
+<p>
+    Interface that implements the getting information about the plugin.
+  </p><p>
+    Интерфейс, реализующий получение информации об плагине.
+  </p>
+</div>
+</div>
+<div id="syntaxSection" class="section" xmlns="">
+<div id="syntaxHeader" class="sectionHeader">
+<h1 class="heading">
+<span onclick="ExpandCollapse(syntaxHeaderImage)" style="cursor:default;" onkeypress="ExpandCollapse_CheckKey(syntaxHeader, event)" tabindex="0">
+<img id="syntaxHeaderImage" class="toggle" name="toggleSwitch" src="images/collapse_all.gif" />Syntax</span>
+</h1>
+</div>
+<div id="syntaxContent" class="sectionContent" name="collapseableSection" style="" contentEditable="false">
+<div id="syntaxDefinition" class="code"><pre class="brush: delphi; toolbar: false;">IAIMPInputPluginHeader = interface(IUnknown)</pre></div>
+</div>
+</div>
+<div id="IDASJ2ABSection" class="section" xmlns="">
+<div id="IDASJ2ABHeader" class="sectionHeader">
+<h1 class="heading">
+<span onclick="ExpandCollapse(IDASJ2ABHeaderImage)" style="cursor:default;" onkeypress="ExpandCollapse_CheckKey(IDASJ2ABHeader, event)" tabindex="0">
+<img id="IDASJ2ABHeaderImage" class="toggle" name="toggleSwitch" src="images/collapse_all.gif" />Methods</span>
+</h1>
+</div>
+<div id="IDASJ2ABContent" class="sectionContent" name="collapseableSection" style="" contentEditable="false">
+<div class="tableSection"><table id="IDASJ2AB"><thead><tr><td class="iconColumn"> </td><td class="memberNameColumn">Name</td><td class="memberDescriptionColumn">Description</td></tr></thead><tbody><tr><td><img src="images/pubmethod.gif" title="public method" /></td><td><a href="AIMPSDKInput.IAIMPInputPluginHeader.CreateDecoder(PWideChar,IAIMPInputPluginDecoder).htm" title="function CreateDecoder(AFileName: PWideChar; out ADecoder: IAIMPInputPluginDecoder): LongBool; stdcall;">CreateDecoder</a></td><td><p>
+    Creation of a decoder for the File / Stream.
+  </p><p>
+    Создание декодера для Файла / Потока.
+  </p></td></tr><tr><td><img src="images/pubmethod.gif" title="public method" /></td><td><a href="AIMPSDKInput.IAIMPInputPluginHeader.CreateDecoderEx(IAIMPInputStream,IAIMPInputPluginDecoder).htm" title="function CreateDecoderEx(AStream: IAIMPInputStream; out ADecoder: IAIMPInputPluginDecoder): LongBool; stdcall;">CreateDecoderEx</a></td><td><p>
+    Creation of a decoder for the File / Stream.
+  </p><p>
+    Создание декодера для Файла / Потока.
+  </p></td></tr><tr><td><img src="images/pubmethod.gif" title="public method" /></td><td><a href="AIMPSDKInput.IAIMPInputPluginHeader.Finalize.htm" title="function Finalize: LongBool; stdcall;">Finalize</a></td><td><p>
+    Finalization of the visualization.
+  </p><p>
+    Завершение визуализации.
+  </p></td></tr><tr><td><img src="images/pubmethod.gif" title="public method" /></td><td><a href="AIMPSDKInput.IAIMPInputPluginHeader.GetFileInfo(PWideChar,PAIMPFileInfo).htm" title="function GetFileInfo(AFileName: PWideChar; AFileInfo: PAIMPFileInfo): LongBool; stdcall;">GetFileInfo</a></td><td><p>
+    Geting Info about File.
+  </p><p>
+    Получение информации о файле.
+  </p></td></tr><tr><td><img src="images/pubmethod.gif" title="public method" /></td><td><a href="AIMPSDKInput.IAIMPInputPluginHeader.GetPluginAuthor.htm" title="function GetPluginAuthor: PWideChar; stdcall;">GetPluginAuthor</a></td><td><p>
+    Returns the name of the author of the plugin.
+  </p><p>
+    Возвращает имя автора плагина.
+  </p></td></tr><tr><td><img src="images/pubmethod.gif" title="public method" /></td><td><a href="AIMPSDKInput.IAIMPInputPluginHeader.GetPluginFlags.htm" title="function GetPluginFlags: DWORD; stdcall;">GetPluginFlags</a></td><td><p>
+    Sets the used flags.
+  </p><p>
+    Задает используемые флаги.
+  </p></td></tr><tr><td><img src="images/pubmethod.gif" title="public method" /></td><td><a href="AIMPSDKInput.IAIMPInputPluginHeader.GetPluginInfo.htm" title="function GetPluginInfo: PWideChar; stdcall;">GetPluginInfo</a></td><td><p>
+    Returns information about the plugin.
+  </p><p>
+    Возвращает информацию о плагине.
+  </p></td></tr><tr><td><img src="images/pubmethod.gif" title="public method" /></td><td><a href="AIMPSDKInput.IAIMPInputPluginHeader.GetPluginName.htm" title="function GetPluginName: PWideChar; stdcall;">GetPluginName</a></td><td><p>
+     Returns the name of the plugin.
+  </p><p>
+    Возвращает имя плагина.
+  </p></td></tr><tr><td><img src="images/pubmethod.gif" title="public method" /></td><td><a href="AIMPSDKInput.IAIMPInputPluginHeader.GetSupportsFormats.htm" title="function GetSupportsFormats: PWideChar; stdcall;">GetSupportsFormats</a></td><td><p>
+    Returns a list of the supported formats.
+  </p><p>
+    Возвращает список поддерживаемых форматов.
+  </p></td></tr><tr><td><img src="images/pubmethod.gif" title="public method" /></td><td><a href="AIMPSDKInput.IAIMPInputPluginHeader.Initialize.htm" title="function Initialize: LongBool; stdcall;">Initialize</a></td><td><p>
+    Initialization of the plugin.
+  </p><p>
+    Инициализация плагина.
+  </p></td></tr></tbody></table><a href="#mainBody">Top</a></div>
+</div>
+</div>
+<div id="seealsoSection" class="section" xmlns="">
+<input class="tagName" type="hidden" value="seealso" />
+<div id="seealsoHeader" class="sectionHeader">
+<h1 class="heading">
+<span onclick="ExpandCollapse(seealsoHeaderImage)" style="cursor:default;" onkeypress="ExpandCollapse_CheckKey(seealsoHeader, event)" tabindex="0">
+<img id="seealsoHeaderImage" class="toggle" name="toggleSwitch" src="images/collapse_all.gif" />See Also</span>
+</h1>
+</div>
+<div id="seealsoContent" class="sectionContent" name="collapseableSection" style="" contentEditable="false">
+<h4 class="subHeading">Reference</h4><ul class="seeAlsoCodeReference"><li><a href="AIMPSDKInput.htm" title="AIMPSDKInput">AIMPSDKInput Namespace</a></li></ul>
+</div>
+</div>
+</div>
+</div>
+<div id="footer">
+<div id="footerContent"><p><strong>Note</strong>: This file was generated by <a href="http://www.devjetsoftware.com" target="_blank">Documentation Insight</a> Trial version.</p></div>
+</div>
+</body>
+</html>

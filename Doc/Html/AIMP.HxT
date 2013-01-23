@@ -1,0 +1,587 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE HelpTOC SYSTEM "ms-help://hx/resources/HelpTOC.DTD">
+<HelpTOC
+DTDVersion="1.0">
+<HelpTOCNode Title="AIMPSDKAddons" Url="AIMPSDKAddons.htm">
+<HelpTOCNode Title="Classes &amp; Structures" Url="AIMPSDKAddons_Classes.htm">
+<HelpTOCNode Title="TAIMPFileStatisticsInfo" Url="AIMPSDKAddons.TAIMPFileStatisticsInfo.htm">
+<HelpTOCNode Title="AddDate" Url="AIMPSDKAddons.TAIMPFileStatisticsInfo.AddDate.htm" />
+<HelpTOCNode Title="Mark" Url="AIMPSDKAddons.TAIMPFileStatisticsInfo.Mark.htm" />
+<HelpTOCNode Title="PlayCount" Url="AIMPSDKAddons.TAIMPFileStatisticsInfo.PlayCount.htm" />
+<HelpTOCNode Title="PlayDate" Url="AIMPSDKAddons.TAIMPFileStatisticsInfo.PlayDate.htm" />
+</HelpTOCNode>
+<HelpTOCNode Title="TAIMPMenuItemInfo" Url="AIMPSDKAddons.TAIMPMenuItemInfo.htm">
+<HelpTOCNode Title="Bitmap" Url="AIMPSDKAddons.TAIMPMenuItemInfo.Bitmap.htm" />
+<HelpTOCNode Title="Caption" Url="AIMPSDKAddons.TAIMPMenuItemInfo.Caption.htm" />
+<HelpTOCNode Title="Flags" Url="AIMPSDKAddons.TAIMPMenuItemInfo.Flags.htm" />
+<HelpTOCNode Title="Proc" Url="AIMPSDKAddons.TAIMPMenuItemInfo.Proc.htm" />
+<HelpTOCNode Title="ShortCut" Url="AIMPSDKAddons.TAIMPMenuItemInfo.ShortCut.htm" />
+<HelpTOCNode Title="StructSize" Url="AIMPSDKAddons.TAIMPMenuItemInfo.StructSize.htm" />
+<HelpTOCNode Title="UserData" Url="AIMPSDKAddons.TAIMPMenuItemInfo.UserData.htm" />
+</HelpTOCNode>
+<HelpTOCNode Title="TAIMPSkinInfo" Url="AIMPSDKAddons.TAIMPSkinInfo.htm">
+<HelpTOCNode Title="AuthorBuffer" Url="AIMPSDKAddons.TAIMPSkinInfo.AuthorBuffer.htm" />
+<HelpTOCNode Title="AuthorBufferLength" Url="AIMPSDKAddons.TAIMPSkinInfo.AuthorBufferLength.htm" />
+<HelpTOCNode Title="InfoBuffer" Url="AIMPSDKAddons.TAIMPSkinInfo.InfoBuffer.htm" />
+<HelpTOCNode Title="InfoBufferLength" Url="AIMPSDKAddons.TAIMPSkinInfo.InfoBufferLength.htm" />
+<HelpTOCNode Title="NameBuffer" Url="AIMPSDKAddons.TAIMPSkinInfo.NameBuffer.htm" />
+<HelpTOCNode Title="NameBufferLength" Url="AIMPSDKAddons.TAIMPSkinInfo.NameBufferLength.htm" />
+<HelpTOCNode Title="Preview" Url="AIMPSDKAddons.TAIMPSkinInfo.Preview.htm" />
+<HelpTOCNode Title="StructSize" Url="AIMPSDKAddons.TAIMPSkinInfo.StructSize.htm" />
+</HelpTOCNode>
+</HelpTOCNode>
+<HelpTOCNode Title="Interfaces" Url="AIMPSDKAddons_Interfaces.htm">
+<HelpTOCNode Title="IAIMPAddonPlugin" Url="AIMPSDKAddons.IAIMPAddonPlugin.htm">
+<HelpTOCNode Title="Finalize" Url="AIMPSDKAddons.IAIMPAddonPlugin.Finalize.htm" />
+<HelpTOCNode Title="GetPluginAuthor" Url="AIMPSDKAddons.IAIMPAddonPlugin.GetPluginAuthor.htm" />
+<HelpTOCNode Title="GetPluginFlags" Url="AIMPSDKAddons.IAIMPAddonPlugin.GetPluginFlags.htm" />
+<HelpTOCNode Title="GetPluginInfo" Url="AIMPSDKAddons.IAIMPAddonPlugin.GetPluginInfo.htm" />
+<HelpTOCNode Title="GetPluginName" Url="AIMPSDKAddons.IAIMPAddonPlugin.GetPluginName.htm" />
+<HelpTOCNode Title="Initialize(IAIMPCoreUnit)" Url="AIMPSDKAddons.IAIMPAddonPlugin.Initialize(IAIMPCoreUnit).htm" />
+<HelpTOCNode Title="ShowSettingsDialog(HWND)" Url="AIMPSDKAddons.IAIMPAddonPlugin.ShowSettingsDialog(HWND).htm" />
+</HelpTOCNode>
+<HelpTOCNode Title="IAIMPAddonsConfigFile" Url="AIMPSDKAddons.IAIMPAddonsConfigFile.htm">
+<HelpTOCNode Title="ReadInteger(PWideChar,PWideChar,Integer,Integer,Integer)" Url="AIMPSDKAddons.IAIMPAddonsConfigFile.ReadInteger(PWideChar,PWideChar,Integer,Integer,Integer).htm" />
+<HelpTOCNode Title="ReadString(PWideChar,PWideChar,PWideChar,Integer,Integer,Integer)" Url="AIMPSDKAddons.IAIMPAddonsConfigFile.ReadString(PWideChar,PWideChar,PWideChar,Integer,Integer,Integer).htm" />
+<HelpTOCNode Title="SectionExists(PWideChar,Integer)" Url="AIMPSDKAddons.IAIMPAddonsConfigFile.SectionExists(PWideChar,Integer).htm" />
+<HelpTOCNode Title="SectionRemove(PWideChar,Integer)" Url="AIMPSDKAddons.IAIMPAddonsConfigFile.SectionRemove(PWideChar,Integer).htm" />
+<HelpTOCNode Title="WriteInteger(PWideChar,PWideChar,Integer,Integer,Integer)" Url="AIMPSDKAddons.IAIMPAddonsConfigFile.WriteInteger(PWideChar,PWideChar,Integer,Integer,Integer).htm" />
+<HelpTOCNode Title="WriteString(PWideChar,PWideChar,PWideChar,Integer,Integer,Integer)" Url="AIMPSDKAddons.IAIMPAddonsConfigFile.WriteString(PWideChar,PWideChar,PWideChar,Integer,Integer,Integer).htm" />
+</HelpTOCNode>
+<HelpTOCNode Title="IAIMPAddonsCoverArtManager" Url="AIMPSDKAddons.IAIMPAddonsCoverArtManager.htm">
+<HelpTOCNode Title="CoverArtDraw(HDC,TRect)" Url="AIMPSDKAddons.IAIMPAddonsCoverArtManager.CoverArtDraw(HDC,TRect).htm" />
+<HelpTOCNode Title="CoverArtGetFileName(PWideChar,Integer)" Url="AIMPSDKAddons.IAIMPAddonsCoverArtManager.CoverArtGetFileName(PWideChar,Integer).htm" />
+<HelpTOCNode Title="CoverArtGetForFile(PWideChar,PSize,PWideChar,Integer)" Url="AIMPSDKAddons.IAIMPAddonsCoverArtManager.CoverArtGetForFile(PWideChar,PSize,PWideChar,Integer).htm" />
+<HelpTOCNode Title="CoverArtGetSize(TSize)" Url="AIMPSDKAddons.IAIMPAddonsCoverArtManager.CoverArtGetSize(TSize).htm" />
+</HelpTOCNode>
+<HelpTOCNode Title="IAIMPAddonsFileInfoRepository" Url="AIMPSDKAddons.IAIMPAddonsFileInfoRepository.htm">
+<HelpTOCNode Title="GetInfo(PWideChar,PAIMPFileInfo)" Url="AIMPSDKAddons.IAIMPAddonsFileInfoRepository.GetInfo(PWideChar,PAIMPFileInfo).htm" />
+</HelpTOCNode>
+<HelpTOCNode Title="IAIMPAddonsLanguageFile" Url="AIMPSDKAddons.IAIMPAddonsLanguageFile.htm">
+<HelpTOCNode Title="CurrentFile(PWideChar,Integer)" Url="AIMPSDKAddons.IAIMPAddonsLanguageFile.CurrentFile(PWideChar,Integer).htm" />
+<HelpTOCNode Title="Notification(HWND,LongBool)" Url="AIMPSDKAddons.IAIMPAddonsLanguageFile.Notification(HWND,LongBool).htm" />
+<HelpTOCNode Title="ReadString(PWideChar,PWideChar,PWideChar,Integer,Integer,Integer)" Url="AIMPSDKAddons.IAIMPAddonsLanguageFile.ReadString(PWideChar,PWideChar,PWideChar,Integer,Integer,Integer).htm" />
+<HelpTOCNode Title="SectionExists(PWideChar,Integer)" Url="AIMPSDKAddons.IAIMPAddonsLanguageFile.SectionExists(PWideChar,Integer).htm" />
+<HelpTOCNode Title="Version" Url="AIMPSDKAddons.IAIMPAddonsLanguageFile.Version.htm" />
+</HelpTOCNode>
+<HelpTOCNode Title="IAIMPAddonsMenuManager" Url="AIMPSDKAddons.IAIMPAddonsMenuManager.htm">
+<HelpTOCNode Title="MenuCreate(DWORD,PAIMPMenuItemInfo)" Url="AIMPSDKAddons.IAIMPAddonsMenuManager.MenuCreate(DWORD,PAIMPMenuItemInfo).htm" />
+<HelpTOCNode Title="MenuCreateEx(HAIMPMENU,PAIMPMenuItemInfo)" Url="AIMPSDKAddons.IAIMPAddonsMenuManager.MenuCreateEx(HAIMPMENU,PAIMPMenuItemInfo).htm" />
+<HelpTOCNode Title="MenuRemove(HAIMPMENU)" Url="AIMPSDKAddons.IAIMPAddonsMenuManager.MenuRemove(HAIMPMENU).htm" />
+<HelpTOCNode Title="MenuTextToShortCut(PWideChar,Integer)" Url="AIMPSDKAddons.IAIMPAddonsMenuManager.MenuTextToShortCut(PWideChar,Integer).htm" />
+<HelpTOCNode Title="MenuUpdate(HAIMPMENU,PAIMPMenuItemInfo)" Url="AIMPSDKAddons.IAIMPAddonsMenuManager.MenuUpdate(HAIMPMENU,PAIMPMenuItemInfo).htm" />
+</HelpTOCNode>
+<HelpTOCNode Title="IAIMPAddonsOptionsDialog" Url="AIMPSDKAddons.IAIMPAddonsOptionsDialog.htm">
+<HelpTOCNode Title="FrameAdd(IAIMPAddonsOptionsDialogFrame)" Url="AIMPSDKAddons.IAIMPAddonsOptionsDialog.FrameAdd(IAIMPAddonsOptionsDialogFrame).htm" />
+<HelpTOCNode Title="FrameModified(IAIMPAddonsOptionsDialogFrame)" Url="AIMPSDKAddons.IAIMPAddonsOptionsDialog.FrameModified(IAIMPAddonsOptionsDialogFrame).htm" />
+<HelpTOCNode Title="FrameRemove(IAIMPAddonsOptionsDialogFrame)" Url="AIMPSDKAddons.IAIMPAddonsOptionsDialog.FrameRemove(IAIMPAddonsOptionsDialogFrame).htm" />
+<HelpTOCNode Title="FrameShow(IAIMPAddonsOptionsDialogFrame,LongBool)" Url="AIMPSDKAddons.IAIMPAddonsOptionsDialog.FrameShow(IAIMPAddonsOptionsDialogFrame,LongBool).htm" />
+</HelpTOCNode>
+<HelpTOCNode Title="IAIMPAddonsOptionsDialogFrame" Url="AIMPSDKAddons.IAIMPAddonsOptionsDialogFrame.htm">
+<HelpTOCNode Title="FrameCreate(HWND)" Url="AIMPSDKAddons.IAIMPAddonsOptionsDialogFrame.FrameCreate(HWND).htm" />
+<HelpTOCNode Title="FrameData" Url="AIMPSDKAddons.IAIMPAddonsOptionsDialogFrame.FrameData.htm" />
+<HelpTOCNode Title="FrameFlags" Url="AIMPSDKAddons.IAIMPAddonsOptionsDialogFrame.FrameFlags.htm" />
+<HelpTOCNode Title="FrameFree(HWND)" Url="AIMPSDKAddons.IAIMPAddonsOptionsDialogFrame.FrameFree(HWND).htm" />
+<HelpTOCNode Title="FrameLoadConfigNotify" Url="AIMPSDKAddons.IAIMPAddonsOptionsDialogFrame.FrameLoadConfigNotify.htm" />
+<HelpTOCNode Title="FrameName" Url="AIMPSDKAddons.IAIMPAddonsOptionsDialogFrame.FrameName.htm" />
+<HelpTOCNode Title="FrameSaveConfigNotify" Url="AIMPSDKAddons.IAIMPAddonsOptionsDialogFrame.FrameSaveConfigNotify.htm" />
+</HelpTOCNode>
+<HelpTOCNode Title="IAIMPAddonsPlayerManager" Url="AIMPSDKAddons.IAIMPAddonsPlayerManager.htm">
+<HelpTOCNode Title="ConfigGetPath(Integer,PWideChar,Integer)" Url="AIMPSDKAddons.IAIMPAddonsPlayerManager.ConfigGetPath(Integer,PWideChar,Integer).htm" />
+<HelpTOCNode Title="FileInfoQuery(PWideChar,PAIMPFileInfo)" Url="AIMPSDKAddons.IAIMPAddonsPlayerManager.FileInfoQuery(PWideChar,PAIMPFileInfo).htm" />
+<HelpTOCNode Title="FileInfoRepository(IAIMPAddonsFileInfoRepository,LongBool)" Url="AIMPSDKAddons.IAIMPAddonsPlayerManager.FileInfoRepository(IAIMPAddonsFileInfoRepository,LongBool).htm" />
+<HelpTOCNode Title="PlayEntry(HPLSENTRY)" Url="AIMPSDKAddons.IAIMPAddonsPlayerManager.PlayEntry(HPLSENTRY).htm" />
+<HelpTOCNode Title="PlayFile(PWideChar,LongBool)" Url="AIMPSDKAddons.IAIMPAddonsPlayerManager.PlayFile(PWideChar,LongBool).htm" />
+<HelpTOCNode Title="PlayingQueueController(IAIMPAddonsPlayingQueueController,LongBool)" Url="AIMPSDKAddons.IAIMPAddonsPlayerManager.PlayingQueueController(IAIMPAddonsPlayingQueueController,LongBool).htm" />
+<HelpTOCNode Title="PlayStorage(HPLS,Integer)" Url="AIMPSDKAddons.IAIMPAddonsPlayerManager.PlayStorage(HPLS,Integer).htm" />
+<HelpTOCNode Title="SupportsExts(DWORD,PWideChar,Integer)" Url="AIMPSDKAddons.IAIMPAddonsPlayerManager.SupportsExts(DWORD,PWideChar,Integer).htm" />
+</HelpTOCNode>
+<HelpTOCNode Title="IAIMPAddonsPlayingQueueController" Url="AIMPSDKAddons.IAIMPAddonsPlayingQueueController.htm">
+<HelpTOCNode Title="GetFile(HPLS,Integer,LongBool)" Url="AIMPSDKAddons.IAIMPAddonsPlayingQueueController.GetFile(HPLS,Integer,LongBool).htm" />
+</HelpTOCNode>
+<HelpTOCNode Title="IAIMPAddonsPlaylistManager" Url="AIMPSDKAddons.IAIMPAddonsPlaylistManager.htm">
+<HelpTOCNode Title="EntryDelete(HPLSENTRY)" Url="AIMPSDKAddons.IAIMPAddonsPlaylistManager.EntryDelete(HPLSENTRY).htm" />
+<HelpTOCNode Title="EntryGetGroup(HPLSENTRY,HPLSGROUP)" Url="AIMPSDKAddons.IAIMPAddonsPlaylistManager.EntryGetGroup(HPLSENTRY,HPLSGROUP).htm" />
+<HelpTOCNode Title="EntryPropertyGetValue(HPLSENTRY,Integer,Pointer,Integer)" Url="AIMPSDKAddons.IAIMPAddonsPlaylistManager.EntryPropertyGetValue(HPLSENTRY,Integer,Pointer,Integer).htm" />
+<HelpTOCNode Title="EntryPropertySetValue(HPLSENTRY,Integer,Pointer,Integer)" Url="AIMPSDKAddons.IAIMPAddonsPlaylistManager.EntryPropertySetValue(HPLSENTRY,Integer,Pointer,Integer).htm" />
+<HelpTOCNode Title="EntryReloadInfo(HPLSENTRY)" Url="AIMPSDKAddons.IAIMPAddonsPlaylistManager.EntryReloadInfo(HPLSENTRY).htm" />
+<HelpTOCNode Title="FormatString(PWideChar,Integer,Integer,Pointer,PWideChar)" Url="AIMPSDKAddons.IAIMPAddonsPlaylistManager.FormatString(PWideChar,Integer,Integer,Pointer,PWideChar).htm" />
+<HelpTOCNode Title="GroupPropertyGetValue(HPLSGROUP,Integer,Pointer,Integer)" Url="AIMPSDKAddons.IAIMPAddonsPlaylistManager.GroupPropertyGetValue(HPLSGROUP,Integer,Pointer,Integer).htm" />
+<HelpTOCNode Title="GroupPropertySetValue(HPLSGROUP,Integer,Pointer,Integer)" Url="AIMPSDKAddons.IAIMPAddonsPlaylistManager.GroupPropertySetValue(HPLSGROUP,Integer,Pointer,Integer).htm" />
+<HelpTOCNode Title="ListenerAdd(IAIMPAddonsPlaylistManagerListener)" Url="AIMPSDKAddons.IAIMPAddonsPlaylistManager.ListenerAdd(IAIMPAddonsPlaylistManagerListener).htm" />
+<HelpTOCNode Title="ListenerRemove(IAIMPAddonsPlaylistManagerListener)" Url="AIMPSDKAddons.IAIMPAddonsPlaylistManager.ListenerRemove(IAIMPAddonsPlaylistManagerListener).htm" />
+<HelpTOCNode Title="QueueEntryAdd(HPLSENTRY,LongBool)" Url="AIMPSDKAddons.IAIMPAddonsPlaylistManager.QueueEntryAdd(HPLSENTRY,LongBool).htm" />
+<HelpTOCNode Title="QueueEntryRemove(HPLSENTRY)" Url="AIMPSDKAddons.IAIMPAddonsPlaylistManager.QueueEntryRemove(HPLSENTRY).htm" />
+<HelpTOCNode Title="StorageActiveGet" Url="AIMPSDKAddons.IAIMPAddonsPlaylistManager.StorageActiveGet.htm" />
+<HelpTOCNode Title="StorageActiveSet(HPLS)" Url="AIMPSDKAddons.IAIMPAddonsPlaylistManager.StorageActiveSet(HPLS).htm" />
+<HelpTOCNode Title="StorageAddEntries(HPLS,IAIMPAddonsPlaylistStrings)" Url="AIMPSDKAddons.IAIMPAddonsPlaylistManager.StorageAddEntries(HPLS,IAIMPAddonsPlaylistStrings).htm" />
+<HelpTOCNode Title="StorageBeginUpdate(HPLS)" Url="AIMPSDKAddons.IAIMPAddonsPlaylistManager.StorageBeginUpdate(HPLS).htm" />
+<HelpTOCNode Title="StorageCreate(PWideChar,LongBool)" Url="AIMPSDKAddons.IAIMPAddonsPlaylistManager.StorageCreate(PWideChar,LongBool).htm" />
+<HelpTOCNode Title="StorageCreateFromFile(PWideChar,LongBool,LongBool)" Url="AIMPSDKAddons.IAIMPAddonsPlaylistManager.StorageCreateFromFile(PWideChar,LongBool,LongBool).htm" />
+<HelpTOCNode Title="StorageDelete(HPLS,Integer)" Url="AIMPSDKAddons.IAIMPAddonsPlaylistManager.StorageDelete(HPLS,Integer).htm" />
+<HelpTOCNode Title="StorageDeleteAll(HPLS)" Url="AIMPSDKAddons.IAIMPAddonsPlaylistManager.StorageDeleteAll(HPLS).htm" />
+<HelpTOCNode Title="StorageDeleteByFilter(HPLS,LongBool,TAIMPAddonsPlaylistManagerDeleteProc,Pointer)" Url="AIMPSDKAddons.IAIMPAddonsPlaylistManager.StorageDeleteByFilter(HPLS,LongBool,TAIMPAddonsPlaylistManagerDeleteProc,Pointer).htm" />
+<HelpTOCNode Title="StorageEndUpdate(HPLS)" Url="AIMPSDKAddons.IAIMPAddonsPlaylistManager.StorageEndUpdate(HPLS).htm" />
+<HelpTOCNode Title="StorageGet(Integer)" Url="AIMPSDKAddons.IAIMPAddonsPlaylistManager.StorageGet(Integer).htm" />
+<HelpTOCNode Title="StorageGetCount" Url="AIMPSDKAddons.IAIMPAddonsPlaylistManager.StorageGetCount.htm" />
+<HelpTOCNode Title="StorageGetEntry(HPLS,Integer)" Url="AIMPSDKAddons.IAIMPAddonsPlaylistManager.StorageGetEntry(HPLS,Integer).htm" />
+<HelpTOCNode Title="StorageGetEntryCount(HPLS)" Url="AIMPSDKAddons.IAIMPAddonsPlaylistManager.StorageGetEntryCount(HPLS).htm" />
+<HelpTOCNode Title="StorageGetFiles(HPLS,Integer,IAIMPAddonsPlaylistStrings)" Url="AIMPSDKAddons.IAIMPAddonsPlaylistManager.StorageGetFiles(HPLS,Integer,IAIMPAddonsPlaylistStrings).htm" />
+<HelpTOCNode Title="StorageGetGroup(HPLS,Integer)" Url="AIMPSDKAddons.IAIMPAddonsPlaylistManager.StorageGetGroup(HPLS,Integer).htm" />
+<HelpTOCNode Title="StorageGetGroupCount(HPLS)" Url="AIMPSDKAddons.IAIMPAddonsPlaylistManager.StorageGetGroupCount(HPLS).htm" />
+<HelpTOCNode Title="StoragePlayingGet" Url="AIMPSDKAddons.IAIMPAddonsPlaylistManager.StoragePlayingGet.htm" />
+<HelpTOCNode Title="StoragePropertyGetValue(HPLS,Integer,Pointer,Integer)" Url="AIMPSDKAddons.IAIMPAddonsPlaylistManager.StoragePropertyGetValue(HPLS,Integer,Pointer,Integer).htm" />
+<HelpTOCNode Title="StoragePropertySetValue(HPLS,Integer,Pointer,Integer)" Url="AIMPSDKAddons.IAIMPAddonsPlaylistManager.StoragePropertySetValue(HPLS,Integer,Pointer,Integer).htm" />
+<HelpTOCNode Title="StorageRemove(HPLS)" Url="AIMPSDKAddons.IAIMPAddonsPlaylistManager.StorageRemove(HPLS).htm" />
+<HelpTOCNode Title="StorageSort(HPLS,Integer)" Url="AIMPSDKAddons.IAIMPAddonsPlaylistManager.StorageSort(HPLS,Integer).htm" />
+<HelpTOCNode Title="StorageSortCustom(HPLS,TAIMPAddonsPlaylistManagerCompareProc,Pointer)" Url="AIMPSDKAddons.IAIMPAddonsPlaylistManager.StorageSortCustom(HPLS,TAIMPAddonsPlaylistManagerCompareProc,Pointer).htm" />
+<HelpTOCNode Title="StorageSortTemplate(HPLS,PWideChar,Integer)" Url="AIMPSDKAddons.IAIMPAddonsPlaylistManager.StorageSortTemplate(HPLS,PWideChar,Integer).htm" />
+</HelpTOCNode>
+<HelpTOCNode Title="IAIMPAddonsPlaylistManagerListener" Url="AIMPSDKAddons.IAIMPAddonsPlaylistManagerListener.htm">
+<HelpTOCNode Title="StorageActivated(HPLS)" Url="AIMPSDKAddons.IAIMPAddonsPlaylistManagerListener.StorageActivated(HPLS).htm" />
+<HelpTOCNode Title="StorageAdded(HPLS)" Url="AIMPSDKAddons.IAIMPAddonsPlaylistManagerListener.StorageAdded(HPLS).htm" />
+<HelpTOCNode Title="StorageChanged(HPLS,DWORD)" Url="AIMPSDKAddons.IAIMPAddonsPlaylistManagerListener.StorageChanged(HPLS,DWORD).htm" />
+<HelpTOCNode Title="StorageRemoved(HPLS)" Url="AIMPSDKAddons.IAIMPAddonsPlaylistManagerListener.StorageRemoved(HPLS).htm" />
+</HelpTOCNode>
+<HelpTOCNode Title="IAIMPAddonsPlaylistStrings" Url="AIMPSDKAddons.IAIMPAddonsPlaylistStrings.htm">
+<HelpTOCNode Title="ItemAdd(PWideChar,PAIMPFileInfo)" Url="AIMPSDKAddons.IAIMPAddonsPlaylistStrings.ItemAdd(PWideChar,PAIMPFileInfo).htm" />
+<HelpTOCNode Title="ItemGetCount" Url="AIMPSDKAddons.IAIMPAddonsPlaylistStrings.ItemGetCount.htm" />
+<HelpTOCNode Title="ItemGetFileName(Integer,PWideChar,Integer)" Url="AIMPSDKAddons.IAIMPAddonsPlaylistStrings.ItemGetFileName(Integer,PWideChar,Integer).htm" />
+<HelpTOCNode Title="ItemGetInfo(Integer,PAIMPFileInfo)" Url="AIMPSDKAddons.IAIMPAddonsPlaylistStrings.ItemGetInfo(Integer,PAIMPFileInfo).htm" />
+</HelpTOCNode>
+<HelpTOCNode Title="IAIMPAddonsProxySettings" Url="AIMPSDKAddons.IAIMPAddonsProxySettings.htm">
+<HelpTOCNode Title="GetProxyAuthorizationParams(PWideChar,Integer,PWideChar,Integer)" Url="AIMPSDKAddons.IAIMPAddonsProxySettings.GetProxyAuthorizationParams(PWideChar,Integer,PWideChar,Integer).htm" />
+<HelpTOCNode Title="GetProxyParams(PWideChar,Integer)" Url="AIMPSDKAddons.IAIMPAddonsProxySettings.GetProxyParams(PWideChar,Integer).htm" />
+</HelpTOCNode>
+<HelpTOCNode Title="IAIMPAddonsSkinsManager" Url="AIMPSDKAddons.IAIMPAddonsSkinsManager.htm">
+<HelpTOCNode Title="GetCurrentSettings(PWideChar,Integer,PInteger,PInteger)" Url="AIMPSDKAddons.IAIMPAddonsSkinsManager.GetCurrentSettings(PWideChar,Integer,PInteger,PInteger).htm" />
+<HelpTOCNode Title="GetSkinInfo(PWideChar,Integer,PAIMPSkinInfo)" Url="AIMPSDKAddons.IAIMPAddonsSkinsManager.GetSkinInfo(PWideChar,Integer,PAIMPSkinInfo).htm" />
+<HelpTOCNode Title="HSLToRGB(Byte,Byte,Byte,Byte,Byte,Byte)" Url="AIMPSDKAddons.IAIMPAddonsSkinsManager.HSLToRGB(Byte,Byte,Byte,Byte,Byte,Byte).htm" />
+<HelpTOCNode Title="RGBToHSL(Byte,Byte,Byte,Byte,Byte,Byte)" Url="AIMPSDKAddons.IAIMPAddonsSkinsManager.RGBToHSL(Byte,Byte,Byte,Byte,Byte,Byte).htm" />
+<HelpTOCNode Title="Select(PWideChar,Integer,Integer)" Url="AIMPSDKAddons.IAIMPAddonsSkinsManager.Select(PWideChar,Integer,Integer).htm" />
+</HelpTOCNode>
+</HelpTOCNode>
+<HelpTOCNode Title="Types" Url="AIMPSDKAddons_Types.htm">
+<HelpTOCNode Title="HAIMPMENU" Url="AIMPSDKAddons.HAIMPMENU.htm" />
+<HelpTOCNode Title="HPLS" Url="AIMPSDKAddons.HPLS.htm" />
+<HelpTOCNode Title="HPLSENTRY" Url="AIMPSDKAddons.HPLSENTRY.htm" />
+<HelpTOCNode Title="HPLSGROUP" Url="AIMPSDKAddons.HPLSGROUP.htm" />
+<HelpTOCNode Title="PAIMPFileStatisticsInfo" Url="AIMPSDKAddons.PAIMPFileStatisticsInfo.htm" />
+<HelpTOCNode Title="PAIMPMenuItemInfo" Url="AIMPSDKAddons.PAIMPMenuItemInfo.htm" />
+<HelpTOCNode Title="PAIMPSkinInfo" Url="AIMPSDKAddons.PAIMPSkinInfo.htm" />
+<HelpTOCNode Title="TAIMPAddonPluginHeaderProc" Url="AIMPSDKAddons.TAIMPAddonPluginHeaderProc.htm" />
+<HelpTOCNode Title="TAIMPAddonsPlaylistManagerCompareProc" Url="AIMPSDKAddons.TAIMPAddonsPlaylistManagerCompareProc.htm" />
+<HelpTOCNode Title="TAIMPAddonsPlaylistManagerDeleteProc" Url="AIMPSDKAddons.TAIMPAddonsPlaylistManagerDeleteProc.htm" />
+<HelpTOCNode Title="TAIMPMenuProc" Url="AIMPSDKAddons.TAIMPMenuProc.htm" />
+</HelpTOCNode>
+<HelpTOCNode Title="Variables &amp; Constants" Url="AIMPSDKAddons_Variables.htm">
+<HelpTOCNode Title="ActivePlaylistHandle" Url="AIMPSDKAddons.ActivePlaylistHandle.htm" />
+<HelpTOCNode Title="AIMP_ADDON_FLAGS_HAS_DIALOG" Url="AIMPSDKAddons.AIMP_ADDON_FLAGS_HAS_DIALOG.htm" />
+<HelpTOCNode Title="AIMP_CFG_PATH_HELP" Url="AIMPSDKAddons.AIMP_CFG_PATH_HELP.htm" />
+<HelpTOCNode Title="AIMP_CFG_PATH_ICONS" Url="AIMPSDKAddons.AIMP_CFG_PATH_ICONS.htm" />
+<HelpTOCNode Title="AIMP_CFG_PATH_LNG" Url="AIMPSDKAddons.AIMP_CFG_PATH_LNG.htm" />
+<HelpTOCNode Title="AIMP_CFG_PATH_ML" Url="AIMPSDKAddons.AIMP_CFG_PATH_ML.htm" />
+<HelpTOCNode Title="AIMP_CFG_PATH_ML_PLS" Url="AIMPSDKAddons.AIMP_CFG_PATH_ML_PLS.htm" />
+<HelpTOCNode Title="AIMP_CFG_PATH_MODULES" Url="AIMPSDKAddons.AIMP_CFG_PATH_MODULES.htm" />
+<HelpTOCNode Title="AIMP_CFG_PATH_PLS" Url="AIMPSDKAddons.AIMP_CFG_PATH_PLS.htm" />
+<HelpTOCNode Title="AIMP_CFG_PATH_PLUGINS" Url="AIMPSDKAddons.AIMP_CFG_PATH_PLUGINS.htm" />
+<HelpTOCNode Title="AIMP_CFG_PATH_PROFILE" Url="AIMPSDKAddons.AIMP_CFG_PATH_PROFILE.htm" />
+<HelpTOCNode Title="AIMP_CFG_PATH_SKINS" Url="AIMPSDKAddons.AIMP_CFG_PATH_SKINS.htm" />
+<HelpTOCNode Title="AIMP_MENUID_ADD" Url="AIMPSDKAddons.AIMP_MENUID_ADD.htm" />
+<HelpTOCNode Title="AIMP_MENUID_DEL" Url="AIMPSDKAddons.AIMP_MENUID_DEL.htm" />
+<HelpTOCNode Title="AIMP_MENUID_EQ_LIB" Url="AIMPSDKAddons.AIMP_MENUID_EQ_LIB.htm" />
+<HelpTOCNode Title="AIMP_MENUID_MAIN_CONFIGS" Url="AIMPSDKAddons.AIMP_MENUID_MAIN_CONFIGS.htm" />
+<HelpTOCNode Title="AIMP_MENUID_MAIN_FUNCTION" Url="AIMPSDKAddons.AIMP_MENUID_MAIN_FUNCTION.htm" />
+<HelpTOCNode Title="AIMP_MENUID_MAIN_OPTIONS" Url="AIMPSDKAddons.AIMP_MENUID_MAIN_OPTIONS.htm" />
+<HelpTOCNode Title="AIMP_MENUID_MISC" Url="AIMPSDKAddons.AIMP_MENUID_MISC.htm" />
+<HelpTOCNode Title="AIMP_MENUID_PLS" Url="AIMPSDKAddons.AIMP_MENUID_PLS.htm" />
+<HelpTOCNode Title="AIMP_MENUID_PLS_ADD" Url="AIMPSDKAddons.AIMP_MENUID_PLS_ADD.htm" />
+<HelpTOCNode Title="AIMP_MENUID_PLS_DEL" Url="AIMPSDKAddons.AIMP_MENUID_PLS_DEL.htm" />
+<HelpTOCNode Title="AIMP_MENUID_PLS_FNC" Url="AIMPSDKAddons.AIMP_MENUID_PLS_FNC.htm" />
+<HelpTOCNode Title="AIMP_MENUID_PLS_JUMP" Url="AIMPSDKAddons.AIMP_MENUID_PLS_JUMP.htm" />
+<HelpTOCNode Title="AIMP_MENUID_PLS_SEND" Url="AIMPSDKAddons.AIMP_MENUID_PLS_SEND.htm" />
+<HelpTOCNode Title="AIMP_MENUID_SORT" Url="AIMPSDKAddons.AIMP_MENUID_SORT.htm" />
+<HelpTOCNode Title="AIMP_MENUID_TRAY" Url="AIMPSDKAddons.AIMP_MENUID_TRAY.htm" />
+<HelpTOCNode Title="AIMP_MENUID_UTILITIES" Url="AIMPSDKAddons.AIMP_MENUID_UTILITIES.htm" />
+<HelpTOCNode Title="AIMP_MENUITEM_CHECKBOX" Url="AIMPSDKAddons.AIMP_MENUITEM_CHECKBOX.htm" />
+<HelpTOCNode Title="AIMP_MENUITEM_CHECKED" Url="AIMPSDKAddons.AIMP_MENUITEM_CHECKED.htm" />
+<HelpTOCNode Title="AIMP_MENUITEM_ENABLED" Url="AIMPSDKAddons.AIMP_MENUITEM_ENABLED.htm" />
+<HelpTOCNode Title="AIMP_MENUITEM_RADIOITEM" Url="AIMPSDKAddons.AIMP_MENUITEM_RADIOITEM.htm" />
+<HelpTOCNode Title="AIMP_PLAYLIST_ENTRY_PROPERTY_DISPLAYTEXT" Url="AIMPSDKAddons.AIMP_PLAYLIST_ENTRY_PROPERTY_DISPLAYTEXT.htm" />
+<HelpTOCNode Title="AIMP_PLAYLIST_ENTRY_PROPERTY_FILENAME" Url="AIMPSDKAddons.AIMP_PLAYLIST_ENTRY_PROPERTY_FILENAME.htm" />
+<HelpTOCNode Title="AIMP_PLAYLIST_ENTRY_PROPERTY_INDEX" Url="AIMPSDKAddons.AIMP_PLAYLIST_ENTRY_PROPERTY_INDEX.htm" />
+<HelpTOCNode Title="AIMP_PLAYLIST_ENTRY_PROPERTY_INFO" Url="AIMPSDKAddons.AIMP_PLAYLIST_ENTRY_PROPERTY_INFO.htm" />
+<HelpTOCNode Title="AIMP_PLAYLIST_ENTRY_PROPERTY_MARK" Url="AIMPSDKAddons.AIMP_PLAYLIST_ENTRY_PROPERTY_MARK.htm" />
+<HelpTOCNode Title="AIMP_PLAYLIST_ENTRY_PROPERTY_PLAYINGSWITCH" Url="AIMPSDKAddons.AIMP_PLAYLIST_ENTRY_PROPERTY_PLAYINGSWITCH.htm" />
+<HelpTOCNode Title="AIMP_PLAYLIST_ENTRY_PROPERTY_SELECTED" Url="AIMPSDKAddons.AIMP_PLAYLIST_ENTRY_PROPERTY_SELECTED.htm" />
+<HelpTOCNode Title="AIMP_PLAYLIST_ENTRY_PROPERTY_STATISTICS" Url="AIMPSDKAddons.AIMP_PLAYLIST_ENTRY_PROPERTY_STATISTICS.htm" />
+<HelpTOCNode Title="AIMP_PLAYLIST_FORMAT_MODE_CURRENT" Url="AIMPSDKAddons.AIMP_PLAYLIST_FORMAT_MODE_CURRENT.htm" />
+<HelpTOCNode Title="AIMP_PLAYLIST_FORMAT_MODE_FILEINFO" Url="AIMPSDKAddons.AIMP_PLAYLIST_FORMAT_MODE_FILEINFO.htm" />
+<HelpTOCNode Title="AIMP_PLAYLIST_FORMAT_MODE_PREVIEW" Url="AIMPSDKAddons.AIMP_PLAYLIST_FORMAT_MODE_PREVIEW.htm" />
+<HelpTOCNode Title="AIMP_PLAYLIST_GETFILES_SELECTED" Url="AIMPSDKAddons.AIMP_PLAYLIST_GETFILES_SELECTED.htm" />
+<HelpTOCNode Title="AIMP_PLAYLIST_GETFILES_VISIBLE" Url="AIMPSDKAddons.AIMP_PLAYLIST_GETFILES_VISIBLE.htm" />
+<HelpTOCNode Title="AIMP_PLAYLIST_GROUP_PROPERTY_DURATION" Url="AIMPSDKAddons.AIMP_PLAYLIST_GROUP_PROPERTY_DURATION.htm" />
+<HelpTOCNode Title="AIMP_PLAYLIST_GROUP_PROPERTY_EXPANDED" Url="AIMPSDKAddons.AIMP_PLAYLIST_GROUP_PROPERTY_EXPANDED.htm" />
+<HelpTOCNode Title="AIMP_PLAYLIST_GROUP_PROPERTY_NAME" Url="AIMPSDKAddons.AIMP_PLAYLIST_GROUP_PROPERTY_NAME.htm" />
+<HelpTOCNode Title="AIMP_PLAYLIST_NOTIFY_CONTENT" Url="AIMPSDKAddons.AIMP_PLAYLIST_NOTIFY_CONTENT.htm" />
+<HelpTOCNode Title="AIMP_PLAYLIST_NOTIFY_ENTRYINFO" Url="AIMPSDKAddons.AIMP_PLAYLIST_NOTIFY_ENTRYINFO.htm" />
+<HelpTOCNode Title="AIMP_PLAYLIST_NOTIFY_FOCUSINDEX" Url="AIMPSDKAddons.AIMP_PLAYLIST_NOTIFY_FOCUSINDEX.htm" />
+<HelpTOCNode Title="AIMP_PLAYLIST_NOTIFY_NAME" Url="AIMPSDKAddons.AIMP_PLAYLIST_NOTIFY_NAME.htm" />
+<HelpTOCNode Title="AIMP_PLAYLIST_NOTIFY_PLAYINDEX" Url="AIMPSDKAddons.AIMP_PLAYLIST_NOTIFY_PLAYINDEX.htm" />
+<HelpTOCNode Title="AIMP_PLAYLIST_NOTIFY_PLAYINGSWITCHS" Url="AIMPSDKAddons.AIMP_PLAYLIST_NOTIFY_PLAYINGSWITCHS.htm" />
+<HelpTOCNode Title="AIMP_PLAYLIST_NOTIFY_SELECTION" Url="AIMPSDKAddons.AIMP_PLAYLIST_NOTIFY_SELECTION.htm" />
+<HelpTOCNode Title="AIMP_PLAYLIST_NOTIFY_STATISTICS" Url="AIMPSDKAddons.AIMP_PLAYLIST_NOTIFY_STATISTICS.htm" />
+<HelpTOCNode Title="AIMP_PLAYLIST_NOTIFY_TRACKINGINDEX" Url="AIMPSDKAddons.AIMP_PLAYLIST_NOTIFY_TRACKINGINDEX.htm" />
+<HelpTOCNode Title="AIMP_PLAYLIST_SORT_TYPE_ARTIST" Url="AIMPSDKAddons.AIMP_PLAYLIST_SORT_TYPE_ARTIST.htm" />
+<HelpTOCNode Title="AIMP_PLAYLIST_SORT_TYPE_DURATION" Url="AIMPSDKAddons.AIMP_PLAYLIST_SORT_TYPE_DURATION.htm" />
+<HelpTOCNode Title="AIMP_PLAYLIST_SORT_TYPE_FILENAME" Url="AIMPSDKAddons.AIMP_PLAYLIST_SORT_TYPE_FILENAME.htm" />
+<HelpTOCNode Title="AIMP_PLAYLIST_SORT_TYPE_INVERSE" Url="AIMPSDKAddons.AIMP_PLAYLIST_SORT_TYPE_INVERSE.htm" />
+<HelpTOCNode Title="AIMP_PLAYLIST_SORT_TYPE_RANDOMIZE" Url="AIMPSDKAddons.AIMP_PLAYLIST_SORT_TYPE_RANDOMIZE.htm" />
+<HelpTOCNode Title="AIMP_PLAYLIST_SORT_TYPE_TITLE" Url="AIMPSDKAddons.AIMP_PLAYLIST_SORT_TYPE_TITLE.htm" />
+<HelpTOCNode Title="AIMP_PLAYLIST_STORAGE_PROPERTY_DURATION" Url="AIMPSDKAddons.AIMP_PLAYLIST_STORAGE_PROPERTY_DURATION.htm" />
+<HelpTOCNode Title="AIMP_PLAYLIST_STORAGE_PROPERTY_FOCUSINDEX" Url="AIMPSDKAddons.AIMP_PLAYLIST_STORAGE_PROPERTY_FOCUSINDEX.htm" />
+<HelpTOCNode Title="AIMP_PLAYLIST_STORAGE_PROPERTY_FORMATING_LINE1_TEMPLATE" Url="AIMPSDKAddons.AIMP_PLAYLIST_STORAGE_PROPERTY_FORMATING_LINE1_TEMPLATE.htm" />
+<HelpTOCNode Title="AIMP_PLAYLIST_STORAGE_PROPERTY_FORMATING_LINE2_TEMPLATE" Url="AIMPSDKAddons.AIMP_PLAYLIST_STORAGE_PROPERTY_FORMATING_LINE2_TEMPLATE.htm" />
+<HelpTOCNode Title="AIMP_PLAYLIST_STORAGE_PROPERTY_FORMATING_OVERRIDEN" Url="AIMPSDKAddons.AIMP_PLAYLIST_STORAGE_PROPERTY_FORMATING_OVERRIDEN.htm" />
+<HelpTOCNode Title="AIMP_PLAYLIST_STORAGE_PROPERTY_GROUPPING" Url="AIMPSDKAddons.AIMP_PLAYLIST_STORAGE_PROPERTY_GROUPPING.htm" />
+<HelpTOCNode Title="AIMP_PLAYLIST_STORAGE_PROPERTY_GROUPPING_AUTOMERGING" Url="AIMPSDKAddons.AIMP_PLAYLIST_STORAGE_PROPERTY_GROUPPING_AUTOMERGING.htm" />
+<HelpTOCNode Title="AIMP_PLAYLIST_STORAGE_PROPERTY_GROUPPING_OVERRIDEN" Url="AIMPSDKAddons.AIMP_PLAYLIST_STORAGE_PROPERTY_GROUPPING_OVERRIDEN.htm" />
+<HelpTOCNode Title="AIMP_PLAYLIST_STORAGE_PROPERTY_GROUPPING_TEMPLATE" Url="AIMPSDKAddons.AIMP_PLAYLIST_STORAGE_PROPERTY_GROUPPING_TEMPLATE.htm" />
+<HelpTOCNode Title="AIMP_PLAYLIST_STORAGE_PROPERTY_NAME" Url="AIMPSDKAddons.AIMP_PLAYLIST_STORAGE_PROPERTY_NAME.htm" />
+<HelpTOCNode Title="AIMP_PLAYLIST_STORAGE_PROPERTY_PLAYINGINDEX" Url="AIMPSDKAddons.AIMP_PLAYLIST_STORAGE_PROPERTY_PLAYINGINDEX.htm" />
+<HelpTOCNode Title="AIMP_PLAYLIST_STORAGE_PROPERTY_READONLY" Url="AIMPSDKAddons.AIMP_PLAYLIST_STORAGE_PROPERTY_READONLY.htm" />
+<HelpTOCNode Title="AIMP_PLAYLIST_STORAGE_PROPERTY_SIZE" Url="AIMPSDKAddons.AIMP_PLAYLIST_STORAGE_PROPERTY_SIZE.htm" />
+<HelpTOCNode Title="AIMP_PLAYLIST_STORAGE_PROPERTY_TRACKINGINDEX" Url="AIMPSDKAddons.AIMP_PLAYLIST_STORAGE_PROPERTY_TRACKINGINDEX.htm" />
+<HelpTOCNode Title="AIMP_PLAYLIST_STORAGE_PROPERTY_VIEW_DURATION" Url="AIMPSDKAddons.AIMP_PLAYLIST_STORAGE_PROPERTY_VIEW_DURATION.htm" />
+<HelpTOCNode Title="AIMP_PLAYLIST_STORAGE_PROPERTY_VIEW_EXPAND_BUTTONS" Url="AIMPSDKAddons.AIMP_PLAYLIST_STORAGE_PROPERTY_VIEW_EXPAND_BUTTONS.htm" />
+<HelpTOCNode Title="AIMP_PLAYLIST_STORAGE_PROPERTY_VIEW_MARKS" Url="AIMPSDKAddons.AIMP_PLAYLIST_STORAGE_PROPERTY_VIEW_MARKS.htm" />
+<HelpTOCNode Title="AIMP_PLAYLIST_STORAGE_PROPERTY_VIEW_NUMBERS" Url="AIMPSDKAddons.AIMP_PLAYLIST_STORAGE_PROPERTY_VIEW_NUMBERS.htm" />
+<HelpTOCNode Title="AIMP_PLAYLIST_STORAGE_PROPERTY_VIEW_NUMBERS_ABSOLUTE" Url="AIMPSDKAddons.AIMP_PLAYLIST_STORAGE_PROPERTY_VIEW_NUMBERS_ABSOLUTE.htm" />
+<HelpTOCNode Title="AIMP_PLAYLIST_STORAGE_PROPERTY_VIEW_OVERRIDEN" Url="AIMPSDKAddons.AIMP_PLAYLIST_STORAGE_PROPERTY_VIEW_OVERRIDEN.htm" />
+<HelpTOCNode Title="AIMP_PLAYLIST_STORAGE_PROPERTY_VIEW_SECOND_LINE" Url="AIMPSDKAddons.AIMP_PLAYLIST_STORAGE_PROPERTY_VIEW_SECOND_LINE.htm" />
+<HelpTOCNode Title="AIMP_PLAYLIST_STORAGE_PROPERTY_VIEW_SWITCHES" Url="AIMPSDKAddons.AIMP_PLAYLIST_STORAGE_PROPERTY_VIEW_SWITCHES.htm" />
+<HelpTOCNode Title="AIMP_SUPPORTS_EXTS_FORMAT_AUDIO" Url="AIMPSDKAddons.AIMP_SUPPORTS_EXTS_FORMAT_AUDIO.htm" />
+<HelpTOCNode Title="AIMP_SUPPORTS_EXTS_FORMAT_PLAYLIST" Url="AIMPSDKAddons.AIMP_SUPPORTS_EXTS_FORMAT_PLAYLIST.htm" />
+<HelpTOCNode Title="IID_IAIMPAddonsConfigFile" Url="AIMPSDKAddons.IID_IAIMPAddonsConfigFile.htm" />
+<HelpTOCNode Title="IID_IAIMPAddonsCoverArtManager" Url="AIMPSDKAddons.IID_IAIMPAddonsCoverArtManager.htm" />
+<HelpTOCNode Title="IID_IAIMPAddonsLanguageFile" Url="AIMPSDKAddons.IID_IAIMPAddonsLanguageFile.htm" />
+<HelpTOCNode Title="IID_IAIMPAddonsMenuManager" Url="AIMPSDKAddons.IID_IAIMPAddonsMenuManager.htm" />
+<HelpTOCNode Title="IID_IAIMPAddonsOptionsDialog" Url="AIMPSDKAddons.IID_IAIMPAddonsOptionsDialog.htm" />
+<HelpTOCNode Title="IID_IAIMPAddonsPlayerManager" Url="AIMPSDKAddons.IID_IAIMPAddonsPlayerManager.htm" />
+<HelpTOCNode Title="IID_IAIMPAddonsPlaylistManager" Url="AIMPSDKAddons.IID_IAIMPAddonsPlaylistManager.htm" />
+<HelpTOCNode Title="IID_IAIMPAddonsPlaylistManagerListener" Url="AIMPSDKAddons.IID_IAIMPAddonsPlaylistManagerListener.htm" />
+<HelpTOCNode Title="IID_IAIMPAddonsPlaylistStrings" Url="AIMPSDKAddons.IID_IAIMPAddonsPlaylistStrings.htm" />
+<HelpTOCNode Title="IID_IAIMPAddonsProxySettings" Url="AIMPSDKAddons.IID_IAIMPAddonsProxySettings.htm" />
+<HelpTOCNode Title="IID_IAIMPAddonsSkinsManager" Url="AIMPSDKAddons.IID_IAIMPAddonsSkinsManager.htm" />
+<HelpTOCNode Title="SID_IAIMPAddonsConfigFile" Url="AIMPSDKAddons.SID_IAIMPAddonsConfigFile.htm" />
+<HelpTOCNode Title="SID_IAIMPAddonsCoverArtManager" Url="AIMPSDKAddons.SID_IAIMPAddonsCoverArtManager.htm" />
+<HelpTOCNode Title="SID_IAIMPAddonsLanguageFile" Url="AIMPSDKAddons.SID_IAIMPAddonsLanguageFile.htm" />
+<HelpTOCNode Title="SID_IAIMPAddonsMenuManager" Url="AIMPSDKAddons.SID_IAIMPAddonsMenuManager.htm" />
+<HelpTOCNode Title="SID_IAIMPAddonsOptionsDialog" Url="AIMPSDKAddons.SID_IAIMPAddonsOptionsDialog.htm" />
+<HelpTOCNode Title="SID_IAIMPAddonsPlayerManager" Url="AIMPSDKAddons.SID_IAIMPAddonsPlayerManager.htm" />
+<HelpTOCNode Title="SID_IAIMPAddonsPlaylistManager" Url="AIMPSDKAddons.SID_IAIMPAddonsPlaylistManager.htm" />
+<HelpTOCNode Title="SID_IAIMPAddonsPlaylistManagerListener" Url="AIMPSDKAddons.SID_IAIMPAddonsPlaylistManagerListener.htm" />
+<HelpTOCNode Title="SID_IAIMPAddonsPlaylistStrings" Url="AIMPSDKAddons.SID_IAIMPAddonsPlaylistStrings.htm" />
+<HelpTOCNode Title="SID_IAIMPAddonsProxySettings" Url="AIMPSDKAddons.SID_IAIMPAddonsProxySettings.htm" />
+<HelpTOCNode Title="SID_IAIMPAddonsSkinsManager" Url="AIMPSDKAddons.SID_IAIMPAddonsSkinsManager.htm" />
+<HelpTOCNode Title="WM_AIMP_LANG_CHANGED" Url="AIMPSDKAddons.WM_AIMP_LANG_CHANGED.htm" />
+</HelpTOCNode>
+</HelpTOCNode>
+<HelpTOCNode Title="AIMPSDKCommon" Url="AIMPSDKCommon.htm">
+<HelpTOCNode Title="Classes &amp; Structures" Url="AIMPSDKCommon_Classes.htm">
+<HelpTOCNode Title="TAIMPFileInfo" Url="AIMPSDKCommon.TAIMPFileInfo.htm">
+<HelpTOCNode Title="Active" Url="AIMPSDKCommon.TAIMPFileInfo.Active.htm" />
+<HelpTOCNode Title="Album" Url="AIMPSDKCommon.TAIMPFileInfo.Album.htm" />
+<HelpTOCNode Title="AlbumLength" Url="AIMPSDKCommon.TAIMPFileInfo.AlbumLength.htm" />
+<HelpTOCNode Title="Artist" Url="AIMPSDKCommon.TAIMPFileInfo.Artist.htm" />
+<HelpTOCNode Title="ArtistLength" Url="AIMPSDKCommon.TAIMPFileInfo.ArtistLength.htm" />
+<HelpTOCNode Title="BitRate" Url="AIMPSDKCommon.TAIMPFileInfo.BitRate.htm" />
+<HelpTOCNode Title="Channels" Url="AIMPSDKCommon.TAIMPFileInfo.Channels.htm" />
+<HelpTOCNode Title="Date" Url="AIMPSDKCommon.TAIMPFileInfo.Date.htm" />
+<HelpTOCNode Title="DateLength" Url="AIMPSDKCommon.TAIMPFileInfo.DateLength.htm" />
+<HelpTOCNode Title="Duration" Url="AIMPSDKCommon.TAIMPFileInfo.Duration.htm" />
+<HelpTOCNode Title="FileName" Url="AIMPSDKCommon.TAIMPFileInfo.FileName.htm" />
+<HelpTOCNode Title="FileNameLength" Url="AIMPSDKCommon.TAIMPFileInfo.FileNameLength.htm" />
+<HelpTOCNode Title="FileSize" Url="AIMPSDKCommon.TAIMPFileInfo.FileSize.htm" />
+<HelpTOCNode Title="Genre" Url="AIMPSDKCommon.TAIMPFileInfo.Genre.htm" />
+<HelpTOCNode Title="GenreLength" Url="AIMPSDKCommon.TAIMPFileInfo.GenreLength.htm" />
+<HelpTOCNode Title="Mark" Url="AIMPSDKCommon.TAIMPFileInfo.Mark.htm" />
+<HelpTOCNode Title="SampleRate" Url="AIMPSDKCommon.TAIMPFileInfo.SampleRate.htm" />
+<HelpTOCNode Title="StructSize" Url="AIMPSDKCommon.TAIMPFileInfo.StructSize.htm" />
+<HelpTOCNode Title="Title" Url="AIMPSDKCommon.TAIMPFileInfo.Title.htm" />
+<HelpTOCNode Title="TitleLength" Url="AIMPSDKCommon.TAIMPFileInfo.TitleLength.htm" />
+<HelpTOCNode Title="TrackNumber" Url="AIMPSDKCommon.TAIMPFileInfo.TrackNumber.htm" />
+</HelpTOCNode>
+</HelpTOCNode>
+<HelpTOCNode Title="Types" Url="AIMPSDKCommon_Types.htm">
+<HelpTOCNode Title="PAIMPFileInfo" Url="AIMPSDKCommon.PAIMPFileInfo.htm" />
+</HelpTOCNode>
+</HelpTOCNode>
+<HelpTOCNode Title="AIMPSDKCore" Url="AIMPSDKCore.htm">
+<HelpTOCNode Title="Classes &amp; Structures" Url="AIMPSDKCore_Classes.htm">
+<HelpTOCNode Title="TAIMPVersionInfo" Url="AIMPSDKCore.TAIMPVersionInfo.htm">
+<HelpTOCNode Title="BuildDate" Url="AIMPSDKCore.TAIMPVersionInfo.BuildDate.htm" />
+<HelpTOCNode Title="BuildNumber" Url="AIMPSDKCore.TAIMPVersionInfo.BuildNumber.htm" />
+<HelpTOCNode Title="BuildSuffix" Url="AIMPSDKCore.TAIMPVersionInfo.BuildSuffix.htm" />
+<HelpTOCNode Title="ID" Url="AIMPSDKCore.TAIMPVersionInfo.ID.htm" />
+</HelpTOCNode>
+</HelpTOCNode>
+<HelpTOCNode Title="Interfaces" Url="AIMPSDKCore_Interfaces.htm">
+<HelpTOCNode Title="IAIMPCoreUnit" Url="AIMPSDKCore.IAIMPCoreUnit.htm">
+<HelpTOCNode Title="GetVersion(TAIMPVersionInfo)" Url="AIMPSDKCore.IAIMPCoreUnit.GetVersion(TAIMPVersionInfo).htm" />
+<HelpTOCNode Title="MessageHook(IAIMPCoreUnitMessageHook)" Url="AIMPSDKCore.IAIMPCoreUnit.MessageHook(IAIMPCoreUnitMessageHook).htm" />
+<HelpTOCNode Title="MessageRegister(PWideChar)" Url="AIMPSDKCore.IAIMPCoreUnit.MessageRegister(PWideChar).htm" />
+<HelpTOCNode Title="MessageSend(DWORD,Integer,Pointer)" Url="AIMPSDKCore.IAIMPCoreUnit.MessageSend(DWORD,Integer,Pointer).htm" />
+<HelpTOCNode Title="MessageUnhook(IAIMPCoreUnitMessageHook)" Url="AIMPSDKCore.IAIMPCoreUnit.MessageUnhook(IAIMPCoreUnitMessageHook).htm" />
+</HelpTOCNode>
+<HelpTOCNode Title="IAIMPCoreUnitMessageHook" Url="AIMPSDKCore.IAIMPCoreUnitMessageHook.htm">
+<HelpTOCNode Title="CoreMessage(DWORD,Integer,Pointer,HRESULT)" Url="AIMPSDKCore.IAIMPCoreUnitMessageHook.CoreMessage(DWORD,Integer,Pointer,HRESULT).htm" />
+</HelpTOCNode>
+</HelpTOCNode>
+<HelpTOCNode Title="Variables &amp; Constants" Url="AIMPSDKCore_Variables.htm">
+<HelpTOCNode Title="AIMP_MES_END_OF_PLAYLIST" Url="AIMPSDKCore.AIMP_MES_END_OF_PLAYLIST.htm" />
+<HelpTOCNode Title="AIMP_MES_END_OF_QUEUE" Url="AIMPSDKCore.AIMP_MES_END_OF_QUEUE.htm" />
+<HelpTOCNode Title="AIMP_MPH_APPLICATION" Url="AIMPSDKCore.AIMP_MPH_APPLICATION.htm" />
+<HelpTOCNode Title="AIMP_MPH_EQUALIZERFORM" Url="AIMPSDKCore.AIMP_MPH_EQUALIZERFORM.htm" />
+<HelpTOCNode Title="AIMP_MPH_MAINFORM" Url="AIMPSDKCore.AIMP_MPH_MAINFORM.htm" />
+<HelpTOCNode Title="AIMP_MPH_PLAYLISTFORM" Url="AIMPSDKCore.AIMP_MPH_PLAYLISTFORM.htm" />
+<HelpTOCNode Title="AIMP_MPH_TRAYCONTROL" Url="AIMPSDKCore.AIMP_MPH_TRAYCONTROL.htm" />
+<HelpTOCNode Title="AIMP_MSG_CMD_ABOUT" Url="AIMPSDKCore.AIMP_MSG_CMD_ABOUT.htm" />
+<HelpTOCNode Title="AIMP_MSG_CMD_ADD_FILES" Url="AIMPSDKCore.AIMP_MSG_CMD_ADD_FILES.htm" />
+<HelpTOCNode Title="AIMP_MSG_CMD_ADD_FOLDERS" Url="AIMPSDKCore.AIMP_MSG_CMD_ADD_FOLDERS.htm" />
+<HelpTOCNode Title="AIMP_MSG_CMD_ADD_PLAYLISTS" Url="AIMPSDKCore.AIMP_MSG_CMD_ADD_PLAYLISTS.htm" />
+<HelpTOCNode Title="AIMP_MSG_CMD_ADD_URL" Url="AIMPSDKCore.AIMP_MSG_CMD_ADD_URL.htm" />
+<HelpTOCNode Title="AIMP_MSG_CMD_BASE" Url="AIMPSDKCore.AIMP_MSG_CMD_BASE.htm" />
+<HelpTOCNode Title="AIMP_MSG_CMD_BOOKMARKS" Url="AIMPSDKCore.AIMP_MSG_CMD_BOOKMARKS.htm" />
+<HelpTOCNode Title="AIMP_MSG_CMD_BOOKMARKS_ADD" Url="AIMPSDKCore.AIMP_MSG_CMD_BOOKMARKS_ADD.htm" />
+<HelpTOCNode Title="AIMP_MSG_CMD_NEXT" Url="AIMPSDKCore.AIMP_MSG_CMD_NEXT.htm" />
+<HelpTOCNode Title="AIMP_MSG_CMD_OPEN_FILES" Url="AIMPSDKCore.AIMP_MSG_CMD_OPEN_FILES.htm" />
+<HelpTOCNode Title="AIMP_MSG_CMD_OPEN_FOLDERS" Url="AIMPSDKCore.AIMP_MSG_CMD_OPEN_FOLDERS.htm" />
+<HelpTOCNode Title="AIMP_MSG_CMD_OPEN_PLAYLISTS" Url="AIMPSDKCore.AIMP_MSG_CMD_OPEN_PLAYLISTS.htm" />
+<HelpTOCNode Title="AIMP_MSG_CMD_OPTIONS" Url="AIMPSDKCore.AIMP_MSG_CMD_OPTIONS.htm" />
+<HelpTOCNode Title="AIMP_MSG_CMD_PAUSE" Url="AIMPSDKCore.AIMP_MSG_CMD_PAUSE.htm" />
+<HelpTOCNode Title="AIMP_MSG_CMD_PLAY" Url="AIMPSDKCore.AIMP_MSG_CMD_PLAY.htm" />
+<HelpTOCNode Title="AIMP_MSG_CMD_PLAY_PREV_PLAYLIST" Url="AIMPSDKCore.AIMP_MSG_CMD_PLAY_PREV_PLAYLIST.htm" />
+<HelpTOCNode Title="AIMP_MSG_CMD_PLAYPAUSE" Url="AIMPSDKCore.AIMP_MSG_CMD_PLAYPAUSE.htm" />
+<HelpTOCNode Title="AIMP_MSG_CMD_PLS_DELETE_ALL" Url="AIMPSDKCore.AIMP_MSG_CMD_PLS_DELETE_ALL.htm" />
+<HelpTOCNode Title="AIMP_MSG_CMD_PLS_DELETE_DUPLICATES" Url="AIMPSDKCore.AIMP_MSG_CMD_PLS_DELETE_DUPLICATES.htm" />
+<HelpTOCNode Title="AIMP_MSG_CMD_PLS_DELETE_NON_EXISTS" Url="AIMPSDKCore.AIMP_MSG_CMD_PLS_DELETE_NON_EXISTS.htm" />
+<HelpTOCNode Title="AIMP_MSG_CMD_PLS_DELETE_NON_SELECTED" Url="AIMPSDKCore.AIMP_MSG_CMD_PLS_DELETE_NON_SELECTED.htm" />
+<HelpTOCNode Title="AIMP_MSG_CMD_PLS_DELETE_PLAYING_FROM_HDD" Url="AIMPSDKCore.AIMP_MSG_CMD_PLS_DELETE_PLAYING_FROM_HDD.htm" />
+<HelpTOCNode Title="AIMP_MSG_CMD_PLS_DELETE_SELECTED" Url="AIMPSDKCore.AIMP_MSG_CMD_PLS_DELETE_SELECTED.htm" />
+<HelpTOCNode Title="AIMP_MSG_CMD_PLS_DELETE_SELECTED_FROM_HDD" Url="AIMPSDKCore.AIMP_MSG_CMD_PLS_DELETE_SELECTED_FROM_HDD.htm" />
+<HelpTOCNode Title="AIMP_MSG_CMD_PLS_DELETE_SWITCHEDOFF" Url="AIMPSDKCore.AIMP_MSG_CMD_PLS_DELETE_SWITCHEDOFF.htm" />
+<HelpTOCNode Title="AIMP_MSG_CMD_PLS_DELETE_SWITCHEDOFF_FROM_HDD" Url="AIMPSDKCore.AIMP_MSG_CMD_PLS_DELETE_SWITCHEDOFF_FROM_HDD.htm" />
+<HelpTOCNode Title="AIMP_MSG_CMD_PLS_FOCUS_NOWPLAYING" Url="AIMPSDKCore.AIMP_MSG_CMD_PLS_FOCUS_NOWPLAYING.htm" />
+<HelpTOCNode Title="AIMP_MSG_CMD_PLS_RESCAN" Url="AIMPSDKCore.AIMP_MSG_CMD_PLS_RESCAN.htm" />
+<HelpTOCNode Title="AIMP_MSG_CMD_PLS_SORT_BY_ARTIST" Url="AIMPSDKCore.AIMP_MSG_CMD_PLS_SORT_BY_ARTIST.htm" />
+<HelpTOCNode Title="AIMP_MSG_CMD_PLS_SORT_BY_DURATION" Url="AIMPSDKCore.AIMP_MSG_CMD_PLS_SORT_BY_DURATION.htm" />
+<HelpTOCNode Title="AIMP_MSG_CMD_PLS_SORT_BY_FOLDER" Url="AIMPSDKCore.AIMP_MSG_CMD_PLS_SORT_BY_FOLDER.htm" />
+<HelpTOCNode Title="AIMP_MSG_CMD_PLS_SORT_BY_TITLE" Url="AIMPSDKCore.AIMP_MSG_CMD_PLS_SORT_BY_TITLE.htm" />
+<HelpTOCNode Title="AIMP_MSG_CMD_PLS_SORT_INVERT" Url="AIMPSDKCore.AIMP_MSG_CMD_PLS_SORT_INVERT.htm" />
+<HelpTOCNode Title="AIMP_MSG_CMD_PLS_SORT_RANDOMIZE" Url="AIMPSDKCore.AIMP_MSG_CMD_PLS_SORT_RANDOMIZE.htm" />
+<HelpTOCNode Title="AIMP_MSG_CMD_PLS_SWITCH_OFF" Url="AIMPSDKCore.AIMP_MSG_CMD_PLS_SWITCH_OFF.htm" />
+<HelpTOCNode Title="AIMP_MSG_CMD_PLS_SWITCH_ON" Url="AIMPSDKCore.AIMP_MSG_CMD_PLS_SWITCH_ON.htm" />
+<HelpTOCNode Title="AIMP_MSG_CMD_PLUGINS" Url="AIMPSDKCore.AIMP_MSG_CMD_PLUGINS.htm" />
+<HelpTOCNode Title="AIMP_MSG_CMD_PREV" Url="AIMPSDKCore.AIMP_MSG_CMD_PREV.htm" />
+<HelpTOCNode Title="AIMP_MSG_CMD_QTE_NOWPLAYING_FILE" Url="AIMPSDKCore.AIMP_MSG_CMD_QTE_NOWPLAYING_FILE.htm" />
+<HelpTOCNode Title="AIMP_MSG_CMD_QUIT" Url="AIMPSDKCore.AIMP_MSG_CMD_QUIT.htm" />
+<HelpTOCNode Title="AIMP_MSG_CMD_RADIOCAT" Url="AIMPSDKCore.AIMP_MSG_CMD_RADIOCAT.htm" />
+<HelpTOCNode Title="AIMP_MSG_CMD_RUNSTR_SEEKING_HINT" Url="AIMPSDKCore.AIMP_MSG_CMD_RUNSTR_SEEKING_HINT.htm" />
+<HelpTOCNode Title="AIMP_MSG_CMD_RUNSTR_SHOW_TEXT" Url="AIMPSDKCore.AIMP_MSG_CMD_RUNSTR_SHOW_TEXT.htm" />
+<HelpTOCNode Title="AIMP_MSG_CMD_SAVE_PLAYLISTS" Url="AIMPSDKCore.AIMP_MSG_CMD_SAVE_PLAYLISTS.htm" />
+<HelpTOCNode Title="AIMP_MSG_CMD_SCHEDULER" Url="AIMPSDKCore.AIMP_MSG_CMD_SCHEDULER.htm" />
+<HelpTOCNode Title="AIMP_MSG_CMD_SEARCH" Url="AIMPSDKCore.AIMP_MSG_CMD_SEARCH.htm" />
+<HelpTOCNode Title="AIMP_MSG_CMD_SHOW_CURRENT_QFI" Url="AIMPSDKCore.AIMP_MSG_CMD_SHOW_CURRENT_QFI.htm" />
+<HelpTOCNode Title="AIMP_MSG_CMD_STATE_GET" Url="AIMPSDKCore.AIMP_MSG_CMD_STATE_GET.htm" />
+<HelpTOCNode Title="AIMP_MSG_CMD_STOP" Url="AIMPSDKCore.AIMP_MSG_CMD_STOP.htm" />
+<HelpTOCNode Title="AIMP_MSG_CMD_TOGGLE_PARTREPEAT" Url="AIMPSDKCore.AIMP_MSG_CMD_TOGGLE_PARTREPEAT.htm" />
+<HelpTOCNode Title="AIMP_MSG_CMD_TRAY_MINIMIZE_RESTORE" Url="AIMPSDKCore.AIMP_MSG_CMD_TRAY_MINIMIZE_RESTORE.htm" />
+<HelpTOCNode Title="AIMP_MSG_CMD_VISUAL_NEXT" Url="AIMPSDKCore.AIMP_MSG_CMD_VISUAL_NEXT.htm" />
+<HelpTOCNode Title="AIMP_MSG_CMD_VISUAL_PREV" Url="AIMPSDKCore.AIMP_MSG_CMD_VISUAL_PREV.htm" />
+<HelpTOCNode Title="AIMP_MSG_EVENT_BASE" Url="AIMPSDKCore.AIMP_MSG_EVENT_BASE.htm" />
+<HelpTOCNode Title="AIMP_MSG_EVENT_CMD_STATE" Url="AIMPSDKCore.AIMP_MSG_EVENT_CMD_STATE.htm" />
+<HelpTOCNode Title="AIMP_MSG_EVENT_FILEMARK" Url="AIMPSDKCore.AIMP_MSG_EVENT_FILEMARK.htm" />
+<HelpTOCNode Title="AIMP_MSG_EVENT_LANGUAGE" Url="AIMPSDKCore.AIMP_MSG_EVENT_LANGUAGE.htm" />
+<HelpTOCNode Title="AIMP_MSG_EVENT_MODULES" Url="AIMPSDKCore.AIMP_MSG_EVENT_MODULES.htm" />
+<HelpTOCNode Title="AIMP_MSG_EVENT_OPTIONS" Url="AIMPSDKCore.AIMP_MSG_EVENT_OPTIONS.htm" />
+<HelpTOCNode Title="AIMP_MSG_EVENT_OPTIONS_FRAME_LIST" Url="AIMPSDKCore.AIMP_MSG_EVENT_OPTIONS_FRAME_LIST.htm" />
+<HelpTOCNode Title="AIMP_MSG_EVENT_OPTIONS_FRAME_MODIFIED" Url="AIMPSDKCore.AIMP_MSG_EVENT_OPTIONS_FRAME_MODIFIED.htm" />
+<HelpTOCNode Title="AIMP_MSG_EVENT_PLAYER_STATE" Url="AIMPSDKCore.AIMP_MSG_EVENT_PLAYER_STATE.htm" />
+<HelpTOCNode Title="AIMP_MSG_EVENT_PLAYER_UPDATE_POSITION" Url="AIMPSDKCore.AIMP_MSG_EVENT_PLAYER_UPDATE_POSITION.htm" />
+<HelpTOCNode Title="AIMP_MSG_EVENT_PROPERTY_VALUE" Url="AIMPSDKCore.AIMP_MSG_EVENT_PROPERTY_VALUE.htm" />
+<HelpTOCNode Title="AIMP_MSG_EVENT_SKIN" Url="AIMPSDKCore.AIMP_MSG_EVENT_SKIN.htm" />
+<HelpTOCNode Title="AIMP_MSG_EVENT_STATISTICS_CHANGED" Url="AIMPSDKCore.AIMP_MSG_EVENT_STATISTICS_CHANGED.htm" />
+<HelpTOCNode Title="AIMP_MSG_EVENT_STATISTICS_DROPPED" Url="AIMPSDKCore.AIMP_MSG_EVENT_STATISTICS_DROPPED.htm" />
+<HelpTOCNode Title="AIMP_MSG_EVENT_STREAM_END" Url="AIMPSDKCore.AIMP_MSG_EVENT_STREAM_END.htm" />
+<HelpTOCNode Title="AIMP_MSG_EVENT_STREAM_START" Url="AIMPSDKCore.AIMP_MSG_EVENT_STREAM_START.htm" />
+<HelpTOCNode Title="AIMP_MSG_EVENT_STREAM_START_SUBTRACK" Url="AIMPSDKCore.AIMP_MSG_EVENT_STREAM_START_SUBTRACK.htm" />
+<HelpTOCNode Title="AIMP_MSG_EVENT_VISUAL_PLUGIN" Url="AIMPSDKCore.AIMP_MSG_EVENT_VISUAL_PLUGIN.htm" />
+<HelpTOCNode Title="AIMP_MSG_PROPERTY_ACTION_ON_END_OF_PLAYLIST" Url="AIMPSDKCore.AIMP_MSG_PROPERTY_ACTION_ON_END_OF_PLAYLIST.htm" />
+<HelpTOCNode Title="AIMP_MSG_PROPERTY_BALANCE" Url="AIMPSDKCore.AIMP_MSG_PROPERTY_BALANCE.htm" />
+<HelpTOCNode Title="AIMP_MSG_PROPERTY_BASE" Url="AIMPSDKCore.AIMP_MSG_PROPERTY_BASE.htm" />
+<HelpTOCNode Title="AIMP_MSG_PROPERTY_CHORUS" Url="AIMPSDKCore.AIMP_MSG_PROPERTY_CHORUS.htm" />
+<HelpTOCNode Title="AIMP_MSG_PROPERTY_ECHO" Url="AIMPSDKCore.AIMP_MSG_PROPERTY_ECHO.htm" />
+<HelpTOCNode Title="AIMP_MSG_PROPERTY_ENHANCER" Url="AIMPSDKCore.AIMP_MSG_PROPERTY_ENHANCER.htm" />
+<HelpTOCNode Title="AIMP_MSG_PROPERTY_EQUALIZER" Url="AIMPSDKCore.AIMP_MSG_PROPERTY_EQUALIZER.htm" />
+<HelpTOCNode Title="AIMP_MSG_PROPERTY_EQUALIZER_BAND" Url="AIMPSDKCore.AIMP_MSG_PROPERTY_EQUALIZER_BAND.htm" />
+<HelpTOCNode Title="AIMP_MSG_PROPERTY_FLANGER" Url="AIMPSDKCore.AIMP_MSG_PROPERTY_FLANGER.htm" />
+<HelpTOCNode Title="AIMP_MSG_PROPERTY_HWND" Url="AIMPSDKCore.AIMP_MSG_PROPERTY_HWND.htm" />
+<HelpTOCNode Title="AIMP_MSG_PROPERTY_MINIMIZED_TO_TRAY" Url="AIMPSDKCore.AIMP_MSG_PROPERTY_MINIMIZED_TO_TRAY.htm" />
+<HelpTOCNode Title="AIMP_MSG_PROPERTY_MUTE" Url="AIMPSDKCore.AIMP_MSG_PROPERTY_MUTE.htm" />
+<HelpTOCNode Title="AIMP_MSG_PROPERTY_PARTREPEAT" Url="AIMPSDKCore.AIMP_MSG_PROPERTY_PARTREPEAT.htm" />
+<HelpTOCNode Title="AIMP_MSG_PROPERTY_PITCH" Url="AIMPSDKCore.AIMP_MSG_PROPERTY_PITCH.htm" />
+<HelpTOCNode Title="AIMP_MSG_PROPERTY_PLAYER_DURATION" Url="AIMPSDKCore.AIMP_MSG_PROPERTY_PLAYER_DURATION.htm" />
+<HelpTOCNode Title="AIMP_MSG_PROPERTY_PLAYER_POSITION" Url="AIMPSDKCore.AIMP_MSG_PROPERTY_PLAYER_POSITION.htm" />
+<HelpTOCNode Title="AIMP_MSG_PROPERTY_PLAYER_STATE" Url="AIMPSDKCore.AIMP_MSG_PROPERTY_PLAYER_STATE.htm" />
+<HelpTOCNode Title="AIMP_MSG_PROPERTY_PREAMP" Url="AIMPSDKCore.AIMP_MSG_PROPERTY_PREAMP.htm" />
+<HelpTOCNode Title="AIMP_MSG_PROPERTY_RADIOCAP" Url="AIMPSDKCore.AIMP_MSG_PROPERTY_RADIOCAP.htm" />
+<HelpTOCNode Title="AIMP_MSG_PROPERTY_REPEAT" Url="AIMPSDKCore.AIMP_MSG_PROPERTY_REPEAT.htm" />
+<HelpTOCNode Title="AIMP_MSG_PROPERTY_REPEAT_SINGLE_FILE_PLAYLISTS" Url="AIMPSDKCore.AIMP_MSG_PROPERTY_REPEAT_SINGLE_FILE_PLAYLISTS.htm" />
+<HelpTOCNode Title="AIMP_MSG_PROPERTY_REVERB" Url="AIMPSDKCore.AIMP_MSG_PROPERTY_REVERB.htm" />
+<HelpTOCNode Title="AIMP_MSG_PROPERTY_REVERSETIME" Url="AIMPSDKCore.AIMP_MSG_PROPERTY_REVERSETIME.htm" />
+<HelpTOCNode Title="AIMP_MSG_PROPERTY_SHUFFLE" Url="AIMPSDKCore.AIMP_MSG_PROPERTY_SHUFFLE.htm" />
+<HelpTOCNode Title="AIMP_MSG_PROPERTY_SPEED" Url="AIMPSDKCore.AIMP_MSG_PROPERTY_SPEED.htm" />
+<HelpTOCNode Title="AIMP_MSG_PROPERTY_STAYONTOP" Url="AIMPSDKCore.AIMP_MSG_PROPERTY_STAYONTOP.htm" />
+<HelpTOCNode Title="AIMP_MSG_PROPERTY_STOP_AFTER_TRACK" Url="AIMPSDKCore.AIMP_MSG_PROPERTY_STOP_AFTER_TRACK.htm" />
+<HelpTOCNode Title="AIMP_MSG_PROPERTY_TEMPO" Url="AIMPSDKCore.AIMP_MSG_PROPERTY_TEMPO.htm" />
+<HelpTOCNode Title="AIMP_MSG_PROPERTY_TRUEBASS" Url="AIMPSDKCore.AIMP_MSG_PROPERTY_TRUEBASS.htm" />
+<HelpTOCNode Title="AIMP_MSG_PROPERTY_VOLUME" Url="AIMPSDKCore.AIMP_MSG_PROPERTY_VOLUME.htm" />
+<HelpTOCNode Title="AIMP_MSG_PROPVALUE_GET" Url="AIMPSDKCore.AIMP_MSG_PROPVALUE_GET.htm" />
+<HelpTOCNode Title="AIMP_MSG_PROPVALUE_SET" Url="AIMPSDKCore.AIMP_MSG_PROPVALUE_SET.htm" />
+<HelpTOCNode Title="IID_IAIMPCoreUnitMessageHook" Url="AIMPSDKCore.IID_IAIMPCoreUnitMessageHook.htm" />
+<HelpTOCNode Title="SID_IAIMPCoreUnitMessageHook" Url="AIMPSDKCore.SID_IAIMPCoreUnitMessageHook.htm" />
+</HelpTOCNode>
+</HelpTOCNode>
+<HelpTOCNode Title="AIMPSDKInput" Url="AIMPSDKInput.htm">
+<HelpTOCNode Title="Interfaces" Url="AIMPSDKInput_Interfaces.htm">
+<HelpTOCNode Title="IAIMPInputPluginDecoder" Url="AIMPSDKInput.IAIMPInputPluginDecoder.htm">
+<HelpTOCNode Title="DecoderGetFormatType" Url="AIMPSDKInput.IAIMPInputPluginDecoder.DecoderGetFormatType.htm" />
+<HelpTOCNode Title="DecoderGetInfo(Integer,Integer,Integer)" Url="AIMPSDKInput.IAIMPInputPluginDecoder.DecoderGetInfo(Integer,Integer,Integer).htm" />
+<HelpTOCNode Title="DecoderGetPosition" Url="AIMPSDKInput.IAIMPInputPluginDecoder.DecoderGetPosition.htm" />
+<HelpTOCNode Title="DecoderGetSize" Url="AIMPSDKInput.IAIMPInputPluginDecoder.DecoderGetSize.htm" />
+<HelpTOCNode Title="DecoderGetTags(PAIMPFileInfo)" Url="AIMPSDKInput.IAIMPInputPluginDecoder.DecoderGetTags(PAIMPFileInfo).htm" />
+<HelpTOCNode Title="DecoderIsRealTimeStream" Url="AIMPSDKInput.IAIMPInputPluginDecoder.DecoderIsRealTimeStream.htm" />
+<HelpTOCNode Title="DecoderIsSeekable" Url="AIMPSDKInput.IAIMPInputPluginDecoder.DecoderIsSeekable.htm" />
+<HelpTOCNode Title="DecoderRead(PByte,Integer)" Url="AIMPSDKInput.IAIMPInputPluginDecoder.DecoderRead(PByte,Integer).htm" />
+<HelpTOCNode Title="DecoderSetPosition(Int64)" Url="AIMPSDKInput.IAIMPInputPluginDecoder.DecoderSetPosition(Int64).htm" />
+</HelpTOCNode>
+<HelpTOCNode Title="IAIMPInputPluginHeader" Url="AIMPSDKInput.IAIMPInputPluginHeader.htm">
+<HelpTOCNode Title="CreateDecoder(PWideChar,IAIMPInputPluginDecoder)" Url="AIMPSDKInput.IAIMPInputPluginHeader.CreateDecoder(PWideChar,IAIMPInputPluginDecoder).htm" />
+<HelpTOCNode Title="CreateDecoderEx(IAIMPInputStream,IAIMPInputPluginDecoder)" Url="AIMPSDKInput.IAIMPInputPluginHeader.CreateDecoderEx(IAIMPInputStream,IAIMPInputPluginDecoder).htm" />
+<HelpTOCNode Title="Finalize" Url="AIMPSDKInput.IAIMPInputPluginHeader.Finalize.htm" />
+<HelpTOCNode Title="GetFileInfo(PWideChar,PAIMPFileInfo)" Url="AIMPSDKInput.IAIMPInputPluginHeader.GetFileInfo(PWideChar,PAIMPFileInfo).htm" />
+<HelpTOCNode Title="GetPluginAuthor" Url="AIMPSDKInput.IAIMPInputPluginHeader.GetPluginAuthor.htm" />
+<HelpTOCNode Title="GetPluginFlags" Url="AIMPSDKInput.IAIMPInputPluginHeader.GetPluginFlags.htm" />
+<HelpTOCNode Title="GetPluginInfo" Url="AIMPSDKInput.IAIMPInputPluginHeader.GetPluginInfo.htm" />
+<HelpTOCNode Title="GetPluginName" Url="AIMPSDKInput.IAIMPInputPluginHeader.GetPluginName.htm" />
+<HelpTOCNode Title="GetSupportsFormats" Url="AIMPSDKInput.IAIMPInputPluginHeader.GetSupportsFormats.htm" />
+<HelpTOCNode Title="Initialize" Url="AIMPSDKInput.IAIMPInputPluginHeader.Initialize.htm" />
+</HelpTOCNode>
+<HelpTOCNode Title="IAIMPInputStream" Url="AIMPSDKInput.IAIMPInputStream.htm">
+<HelpTOCNode Title="GetPosition" Url="AIMPSDKInput.IAIMPInputStream.GetPosition.htm" />
+<HelpTOCNode Title="GetSize" Url="AIMPSDKInput.IAIMPInputStream.GetSize.htm" />
+<HelpTOCNode Title="ReadData(PByte,Integer)" Url="AIMPSDKInput.IAIMPInputStream.ReadData(PByte,Integer).htm" />
+<HelpTOCNode Title="SetPosition(Int64)" Url="AIMPSDKInput.IAIMPInputStream.SetPosition(Int64).htm" />
+<HelpTOCNode Title="Skip(Int64)" Url="AIMPSDKInput.IAIMPInputStream.Skip(Int64).htm" />
+</HelpTOCNode>
+</HelpTOCNode>
+<HelpTOCNode Title="Types" Url="AIMPSDKInput_Types.htm">
+<HelpTOCNode Title="TAIMPInputPluginHeaderProc" Url="AIMPSDKInput.TAIMPInputPluginHeaderProc.htm" />
+</HelpTOCNode>
+<HelpTOCNode Title="Variables &amp; Constants" Url="AIMPSDKInput_Variables.htm">
+<HelpTOCNode Title="AIMP_INPUT_BITDEPTH_08BIT" Url="AIMPSDKInput.AIMP_INPUT_BITDEPTH_08BIT.htm" />
+<HelpTOCNode Title="AIMP_INPUT_BITDEPTH_16BIT" Url="AIMPSDKInput.AIMP_INPUT_BITDEPTH_16BIT.htm" />
+<HelpTOCNode Title="AIMP_INPUT_BITDEPTH_24BIT" Url="AIMPSDKInput.AIMP_INPUT_BITDEPTH_24BIT.htm" />
+<HelpTOCNode Title="AIMP_INPUT_BITDEPTH_32BIT" Url="AIMPSDKInput.AIMP_INPUT_BITDEPTH_32BIT.htm" />
+<HelpTOCNode Title="AIMP_INPUT_BITDEPTH_32BITFLOAT" Url="AIMPSDKInput.AIMP_INPUT_BITDEPTH_32BITFLOAT.htm" />
+<HelpTOCNode Title="AIMP_INPUT_BITDEPTH_64BITFLOAT" Url="AIMPSDKInput.AIMP_INPUT_BITDEPTH_64BITFLOAT.htm" />
+<HelpTOCNode Title="AIMP_INPUT_FLAG_FILE" Url="AIMPSDKInput.AIMP_INPUT_FLAG_FILE.htm" />
+<HelpTOCNode Title="AIMP_INPUT_FLAG_ISTREAM" Url="AIMPSDKInput.AIMP_INPUT_FLAG_ISTREAM.htm" />
+<HelpTOCNode Title="IID_IAIMPInputPluginDecoder" Url="AIMPSDKInput.IID_IAIMPInputPluginDecoder.htm" />
+<HelpTOCNode Title="IID_IAIMPInputStream" Url="AIMPSDKInput.IID_IAIMPInputStream.htm" />
+<HelpTOCNode Title="SID_IAIMPInputPluginDecoder" Url="AIMPSDKInput.SID_IAIMPInputPluginDecoder.htm" />
+<HelpTOCNode Title="SID_IAIMPInputStream" Url="AIMPSDKInput.SID_IAIMPInputStream.htm" />
+</HelpTOCNode>
+</HelpTOCNode>
+<HelpTOCNode Title="AIMPSDKRemote" Url="AIMPSDKRemote.htm">
+<HelpTOCNode Title="Variables &amp; Constants" Url="AIMPSDKRemote_Variables.htm">
+<HelpTOCNode Title="AIMP_RA_CMD_ADD_FILES" Url="AIMPSDKRemote.AIMP_RA_CMD_ADD_FILES.htm" />
+<HelpTOCNode Title="AIMP_RA_CMD_ADD_FOLDERS" Url="AIMPSDKRemote.AIMP_RA_CMD_ADD_FOLDERS.htm" />
+<HelpTOCNode Title="AIMP_RA_CMD_ADD_PLAYLISTS" Url="AIMPSDKRemote.AIMP_RA_CMD_ADD_PLAYLISTS.htm" />
+<HelpTOCNode Title="AIMP_RA_CMD_ADD_URL" Url="AIMPSDKRemote.AIMP_RA_CMD_ADD_URL.htm" />
+<HelpTOCNode Title="AIMP_RA_CMD_BASE" Url="AIMPSDKRemote.AIMP_RA_CMD_BASE.htm" />
+<HelpTOCNode Title="AIMP_RA_CMD_GET_COVER_ART" Url="AIMPSDKRemote.AIMP_RA_CMD_GET_COVER_ART.htm" />
+<HelpTOCNode Title="AIMP_RA_CMD_NEXT" Url="AIMPSDKRemote.AIMP_RA_CMD_NEXT.htm" />
+<HelpTOCNode Title="AIMP_RA_CMD_OPEN_FILES" Url="AIMPSDKRemote.AIMP_RA_CMD_OPEN_FILES.htm" />
+<HelpTOCNode Title="AIMP_RA_CMD_OPEN_FOLDERS" Url="AIMPSDKRemote.AIMP_RA_CMD_OPEN_FOLDERS.htm" />
+<HelpTOCNode Title="AIMP_RA_CMD_OPEN_PLAYLISTS" Url="AIMPSDKRemote.AIMP_RA_CMD_OPEN_PLAYLISTS.htm" />
+<HelpTOCNode Title="AIMP_RA_CMD_PAUSE" Url="AIMPSDKRemote.AIMP_RA_CMD_PAUSE.htm" />
+<HelpTOCNode Title="AIMP_RA_CMD_PLAY" Url="AIMPSDKRemote.AIMP_RA_CMD_PLAY.htm" />
+<HelpTOCNode Title="AIMP_RA_CMD_PLAYPAUSE" Url="AIMPSDKRemote.AIMP_RA_CMD_PLAYPAUSE.htm" />
+<HelpTOCNode Title="AIMP_RA_CMD_PREV" Url="AIMPSDKRemote.AIMP_RA_CMD_PREV.htm" />
+<HelpTOCNode Title="AIMP_RA_CMD_QUIT" Url="AIMPSDKRemote.AIMP_RA_CMD_QUIT.htm" />
+<HelpTOCNode Title="AIMP_RA_CMD_REGISTER_NOTIFY" Url="AIMPSDKRemote.AIMP_RA_CMD_REGISTER_NOTIFY.htm" />
+<HelpTOCNode Title="AIMP_RA_CMD_STOP" Url="AIMPSDKRemote.AIMP_RA_CMD_STOP.htm" />
+<HelpTOCNode Title="AIMP_RA_CMD_UNREGISTER_NOTIFY" Url="AIMPSDKRemote.AIMP_RA_CMD_UNREGISTER_NOTIFY.htm" />
+<HelpTOCNode Title="AIMP_RA_CMD_VISUAL_NEXT" Url="AIMPSDKRemote.AIMP_RA_CMD_VISUAL_NEXT.htm" />
+<HelpTOCNode Title="AIMP_RA_CMD_VISUAL_PREV" Url="AIMPSDKRemote.AIMP_RA_CMD_VISUAL_PREV.htm" />
+<HelpTOCNode Title="AIMP_RA_NOTIFY_BASE" Url="AIMPSDKRemote.AIMP_RA_NOTIFY_BASE.htm" />
+<HelpTOCNode Title="AIMP_RA_NOTIFY_PROPERTY" Url="AIMPSDKRemote.AIMP_RA_NOTIFY_PROPERTY.htm" />
+<HelpTOCNode Title="AIMP_RA_NOTIFY_TRACK_INFO" Url="AIMPSDKRemote.AIMP_RA_NOTIFY_TRACK_INFO.htm" />
+<HelpTOCNode Title="AIMP_RA_NOTIFY_TRACK_START" Url="AIMPSDKRemote.AIMP_RA_NOTIFY_TRACK_START.htm" />
+<HelpTOCNode Title="AIMP_RA_PROPERTY_MASK" Url="AIMPSDKRemote.AIMP_RA_PROPERTY_MASK.htm" />
+<HelpTOCNode Title="AIMP_RA_PROPERTY_MUTE" Url="AIMPSDKRemote.AIMP_RA_PROPERTY_MUTE.htm" />
+<HelpTOCNode Title="AIMP_RA_PROPERTY_PLAYER_DURATION" Url="AIMPSDKRemote.AIMP_RA_PROPERTY_PLAYER_DURATION.htm" />
+<HelpTOCNode Title="AIMP_RA_PROPERTY_PLAYER_POSITION" Url="AIMPSDKRemote.AIMP_RA_PROPERTY_PLAYER_POSITION.htm" />
+<HelpTOCNode Title="AIMP_RA_PROPERTY_PLAYER_STATE" Url="AIMPSDKRemote.AIMP_RA_PROPERTY_PLAYER_STATE.htm" />
+<HelpTOCNode Title="AIMP_RA_PROPERTY_RADIOCAP" Url="AIMPSDKRemote.AIMP_RA_PROPERTY_RADIOCAP.htm" />
+<HelpTOCNode Title="AIMP_RA_PROPERTY_TRACK_REPEAT" Url="AIMPSDKRemote.AIMP_RA_PROPERTY_TRACK_REPEAT.htm" />
+<HelpTOCNode Title="AIMP_RA_PROPERTY_TRACK_SHUFFLE" Url="AIMPSDKRemote.AIMP_RA_PROPERTY_TRACK_SHUFFLE.htm" />
+<HelpTOCNode Title="AIMP_RA_PROPERTY_VERSION" Url="AIMPSDKRemote.AIMP_RA_PROPERTY_VERSION.htm" />
+<HelpTOCNode Title="AIMP_RA_PROPERTY_VOLUME" Url="AIMPSDKRemote.AIMP_RA_PROPERTY_VOLUME.htm" />
+<HelpTOCNode Title="AIMP_RA_PROPVALUE_GET" Url="AIMPSDKRemote.AIMP_RA_PROPVALUE_GET.htm" />
+<HelpTOCNode Title="AIMP_RA_PROPVALUE_SET" Url="AIMPSDKRemote.AIMP_RA_PROPVALUE_SET.htm" />
+<HelpTOCNode Title="AIMPRemoteAccessClass" Url="AIMPSDKRemote.AIMPRemoteAccessClass.htm" />
+<HelpTOCNode Title="AIMPRemoteAccessMapFileSize" Url="AIMPSDKRemote.AIMPRemoteAccessMapFileSize.htm" />
+<HelpTOCNode Title="WM_AIMP_COMMAND" Url="AIMPSDKRemote.WM_AIMP_COMMAND.htm" />
+<HelpTOCNode Title="WM_AIMP_COPYDATA_COVER_ID" Url="AIMPSDKRemote.WM_AIMP_COPYDATA_COVER_ID.htm" />
+<HelpTOCNode Title="WM_AIMP_NOTIFY" Url="AIMPSDKRemote.WM_AIMP_NOTIFY.htm" />
+<HelpTOCNode Title="WM_AIMP_PROPERTY" Url="AIMPSDKRemote.WM_AIMP_PROPERTY.htm" />
+</HelpTOCNode>
+</HelpTOCNode>
+<HelpTOCNode Title="AIMPSDKVisual" Url="AIMPSDKVisual.htm">
+<HelpTOCNode Title="Classes &amp; Structures" Url="AIMPSDKVisual_Classes.htm">
+<HelpTOCNode Title="TAIMPVisualData" Url="AIMPSDKVisual.TAIMPVisualData.htm">
+<HelpTOCNode Title="LevelL" Url="AIMPSDKVisual.TAIMPVisualData.LevelL.htm" />
+<HelpTOCNode Title="LevelR" Url="AIMPSDKVisual.TAIMPVisualData.LevelR.htm" />
+<HelpTOCNode Title="Spectrum" Url="AIMPSDKVisual.TAIMPVisualData.Spectrum.htm" />
+<HelpTOCNode Title="WaveForm" Url="AIMPSDKVisual.TAIMPVisualData.WaveForm.htm" />
+</HelpTOCNode>
+</HelpTOCNode>
+<HelpTOCNode Title="Interfaces" Url="AIMPSDKVisual_Interfaces.htm">
+<HelpTOCNode Title="IAIMPVisualPlugin3" Url="AIMPSDKVisual.IAIMPVisualPlugin3.htm">
+<HelpTOCNode Title="DisplayClick(Integer,Integer)" Url="AIMPSDKVisual.IAIMPVisualPlugin3.DisplayClick(Integer,Integer).htm" />
+<HelpTOCNode Title="DisplayRender(HDC,PAIMPVisualData)" Url="AIMPSDKVisual.IAIMPVisualPlugin3.DisplayRender(HDC,PAIMPVisualData).htm" />
+<HelpTOCNode Title="DisplayResize(Integer,Integer)" Url="AIMPSDKVisual.IAIMPVisualPlugin3.DisplayResize(Integer,Integer).htm" />
+<HelpTOCNode Title="Finalize" Url="AIMPSDKVisual.IAIMPVisualPlugin3.Finalize.htm" />
+<HelpTOCNode Title="GetPluginAuthor" Url="AIMPSDKVisual.IAIMPVisualPlugin3.GetPluginAuthor.htm" />
+<HelpTOCNode Title="GetPluginFlags" Url="AIMPSDKVisual.IAIMPVisualPlugin3.GetPluginFlags.htm" />
+<HelpTOCNode Title="GetPluginInfo" Url="AIMPSDKVisual.IAIMPVisualPlugin3.GetPluginInfo.htm" />
+<HelpTOCNode Title="GetPluginName" Url="AIMPSDKVisual.IAIMPVisualPlugin3.GetPluginName.htm" />
+<HelpTOCNode Title="Initialize(IAIMPCoreUnit)" Url="AIMPSDKVisual.IAIMPVisualPlugin3.Initialize(IAIMPCoreUnit).htm" />
+</HelpTOCNode>
+</HelpTOCNode>
+<HelpTOCNode Title="Types" Url="AIMPSDKVisual_Types.htm">
+<HelpTOCNode Title="PAIMPVisualData" Url="AIMPSDKVisual.PAIMPVisualData.htm" />
+<HelpTOCNode Title="TAIMPVisualPluginProc" Url="AIMPSDKVisual.TAIMPVisualPluginProc.htm" />
+<HelpTOCNode Title="TSpectrum" Url="AIMPSDKVisual.TSpectrum.htm" />
+<HelpTOCNode Title="TWaveForm" Url="AIMPSDKVisual.TWaveForm.htm" />
+</HelpTOCNode>
+<HelpTOCNode Title="Variables &amp; Constants" Url="AIMPSDKVisual_Variables.htm">
+<HelpTOCNode Title="AIMP_VISUAL_FLAGS_NOT_SUSPEND" Url="AIMPSDKVisual.AIMP_VISUAL_FLAGS_NOT_SUSPEND.htm" />
+<HelpTOCNode Title="AIMP_VISUAL_FLAGS_RQD_DATA_SPECTRUM" Url="AIMPSDKVisual.AIMP_VISUAL_FLAGS_RQD_DATA_SPECTRUM.htm" />
+<HelpTOCNode Title="AIMP_VISUAL_FLAGS_RQD_DATA_WAVE" Url="AIMPSDKVisual.AIMP_VISUAL_FLAGS_RQD_DATA_WAVE.htm" />
+</HelpTOCNode>
+</HelpTOCNode>
+</HelpTOC>

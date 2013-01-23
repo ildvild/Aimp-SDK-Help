@@ -1,0 +1,1238 @@
+Microsoft HTML Help Compiler 4.74.8702
+
+Compiling e:\Ildar\Delphi\Aimp-SDK-Help\Doc\CHM\AIMP.chm
+
+HHC3004: Warning: AIMPSDKAddons.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.htm
+HHC3004: Warning: AIMPSDKAddons_Classes.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons_Classes.htm
+HHC3004: Warning: AIMPSDKAddons.TAIMPFileStatisticsInfo.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.TAIMPFileStatisticsInfo.htm
+HHC3004: Warning: AIMPSDKAddons.TAIMPFileStatisticsInfo.AddDate.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.TAIMPFileStatisticsInfo.AddDate.htm
+HHC3004: Warning: AIMPSDKAddons.TAIMPFileStatisticsInfo.Mark.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.TAIMPFileStatisticsInfo.Mark.htm
+HHC3004: Warning: AIMPSDKAddons.TAIMPFileStatisticsInfo.PlayCount.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.TAIMPFileStatisticsInfo.PlayCount.htm
+HHC3004: Warning: AIMPSDKAddons.TAIMPFileStatisticsInfo.PlayDate.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.TAIMPFileStatisticsInfo.PlayDate.htm
+HHC3004: Warning: AIMPSDKAddons.TAIMPMenuItemInfo.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.TAIMPMenuItemInfo.htm
+HHC3004: Warning: AIMPSDKAddons.TAIMPMenuItemInfo.Bitmap.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.TAIMPMenuItemInfo.Bitmap.htm
+HHC3004: Warning: AIMPSDKAddons.TAIMPMenuItemInfo.Caption.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.TAIMPMenuItemInfo.Caption.htm
+HHC3004: Warning: AIMPSDKAddons.TAIMPMenuItemInfo.Flags.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.TAIMPMenuItemInfo.Flags.htm
+HHC3004: Warning: AIMPSDKAddons.TAIMPMenuItemInfo.Proc.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.TAIMPMenuItemInfo.Proc.htm
+HHC3004: Warning: AIMPSDKAddons.TAIMPMenuItemInfo.ShortCut.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.TAIMPMenuItemInfo.ShortCut.htm
+HHC3004: Warning: AIMPSDKAddons.TAIMPMenuItemInfo.StructSize.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.TAIMPMenuItemInfo.StructSize.htm
+HHC3004: Warning: AIMPSDKAddons.TAIMPMenuItemInfo.UserData.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.TAIMPMenuItemInfo.UserData.htm
+HHC3004: Warning: AIMPSDKAddons.TAIMPSkinInfo.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.TAIMPSkinInfo.htm
+HHC3004: Warning: AIMPSDKAddons.TAIMPSkinInfo.AuthorBuffer.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.TAIMPSkinInfo.AuthorBuffer.htm
+HHC3004: Warning: AIMPSDKAddons.TAIMPSkinInfo.AuthorBufferLength.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.TAIMPSkinInfo.AuthorBufferLength.htm
+HHC3004: Warning: AIMPSDKAddons.TAIMPSkinInfo.InfoBuffer.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.TAIMPSkinInfo.InfoBuffer.htm
+HHC3004: Warning: AIMPSDKAddons.TAIMPSkinInfo.InfoBufferLength.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.TAIMPSkinInfo.InfoBufferLength.htm
+HHC3004: Warning: AIMPSDKAddons.TAIMPSkinInfo.NameBuffer.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.TAIMPSkinInfo.NameBuffer.htm
+HHC3004: Warning: AIMPSDKAddons.TAIMPSkinInfo.NameBufferLength.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.TAIMPSkinInfo.NameBufferLength.htm
+HHC3004: Warning: AIMPSDKAddons.TAIMPSkinInfo.Preview.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.TAIMPSkinInfo.Preview.htm
+HHC3004: Warning: AIMPSDKAddons.TAIMPSkinInfo.StructSize.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.TAIMPSkinInfo.StructSize.htm
+HHC3004: Warning: AIMPSDKAddons_Interfaces.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons_Interfaces.htm
+HHC3004: Warning: AIMPSDKAddons.IAIMPAddonPlugin.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.IAIMPAddonPlugin.htm
+HHC3004: Warning: AIMPSDKAddons.IAIMPAddonPlugin.Finalize.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.IAIMPAddonPlugin.Finalize.htm
+HHC3004: Warning: AIMPSDKAddons.IAIMPAddonPlugin.GetPluginAuthor.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.IAIMPAddonPlugin.GetPluginAuthor.htm
+HHC3004: Warning: AIMPSDKAddons.IAIMPAddonPlugin.GetPluginFlags.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.IAIMPAddonPlugin.GetPluginFlags.htm
+HHC3004: Warning: AIMPSDKAddons.IAIMPAddonPlugin.GetPluginInfo.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.IAIMPAddonPlugin.GetPluginInfo.htm
+HHC3004: Warning: AIMPSDKAddons.IAIMPAddonPlugin.GetPluginName.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.IAIMPAddonPlugin.GetPluginName.htm
+HHC3004: Warning: AIMPSDKAddons.IAIMPAddonPlugin.Initialize(IAIMPCoreUnit).htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.IAIMPAddonPlugin.Initialize(IAIMPCoreUnit).htm
+HHC3004: Warning: AIMPSDKAddons.IAIMPAddonPlugin.ShowSettingsDialog(HWND).htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.IAIMPAddonPlugin.ShowSettingsDialog(HWND).htm
+HHC3004: Warning: AIMPSDKAddons.IAIMPAddonsConfigFile.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.IAIMPAddonsConfigFile.htm
+HHC3004: Warning: AIMPSDKAddons.IAIMPAddonsConfigFile.ReadInteger(PWideChar,PWideChar,Integer,Integer,Integer).htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.IAIMPAddonsConfigFile.ReadInteger(PWideChar,PWideChar,Integer,Integer,Integer).htm
+HHC3004: Warning: AIMPSDKAddons.IAIMPAddonsConfigFile.ReadString(PWideChar,PWideChar,PWideChar,Integer,Integer,Integer).htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.IAIMPAddonsConfigFile.ReadString(PWideChar,PWideChar,PWideChar,Integer,Integer,Integer).htm
+HHC3004: Warning: AIMPSDKAddons.IAIMPAddonsConfigFile.SectionExists(PWideChar,Integer).htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.IAIMPAddonsConfigFile.SectionExists(PWideChar,Integer).htm
+HHC3004: Warning: AIMPSDKAddons.IAIMPAddonsConfigFile.SectionRemove(PWideChar,Integer).htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.IAIMPAddonsConfigFile.SectionRemove(PWideChar,Integer).htm
+HHC3004: Warning: AIMPSDKAddons.IAIMPAddonsConfigFile.WriteInteger(PWideChar,PWideChar,Integer,Integer,Integer).htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.IAIMPAddonsConfigFile.WriteInteger(PWideChar,PWideChar,Integer,Integer,Integer).htm
+HHC3004: Warning: AIMPSDKAddons.IAIMPAddonsConfigFile.WriteString(PWideChar,PWideChar,PWideChar,Integer,Integer,Integer).htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.IAIMPAddonsConfigFile.WriteString(PWideChar,PWideChar,PWideChar,Integer,Integer,Integer).htm
+HHC3004: Warning: AIMPSDKAddons.IAIMPAddonsCoverArtManager.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.IAIMPAddonsCoverArtManager.htm
+HHC3004: Warning: AIMPSDKAddons.IAIMPAddonsCoverArtManager.CoverArtDraw(HDC,TRect).htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.IAIMPAddonsCoverArtManager.CoverArtDraw(HDC,TRect).htm
+HHC3004: Warning: AIMPSDKAddons.IAIMPAddonsCoverArtManager.CoverArtGetFileName(PWideChar,Integer).htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.IAIMPAddonsCoverArtManager.CoverArtGetFileName(PWideChar,Integer).htm
+HHC3004: Warning: AIMPSDKAddons.IAIMPAddonsCoverArtManager.CoverArtGetForFile(PWideChar,PSize,PWideChar,Integer).htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.IAIMPAddonsCoverArtManager.CoverArtGetForFile(PWideChar,PSize,PWideChar,Integer).htm
+HHC3004: Warning: AIMPSDKAddons.IAIMPAddonsCoverArtManager.CoverArtGetSize(TSize).htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.IAIMPAddonsCoverArtManager.CoverArtGetSize(TSize).htm
+HHC3004: Warning: AIMPSDKAddons.IAIMPAddonsFileInfoRepository.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.IAIMPAddonsFileInfoRepository.htm
+HHC3004: Warning: AIMPSDKAddons.IAIMPAddonsFileInfoRepository.GetInfo(PWideChar,PAIMPFileInfo).htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.IAIMPAddonsFileInfoRepository.GetInfo(PWideChar,PAIMPFileInfo).htm
+HHC3004: Warning: AIMPSDKAddons.IAIMPAddonsLanguageFile.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.IAIMPAddonsLanguageFile.htm
+HHC3004: Warning: AIMPSDKAddons.IAIMPAddonsLanguageFile.CurrentFile(PWideChar,Integer).htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.IAIMPAddonsLanguageFile.CurrentFile(PWideChar,Integer).htm
+HHC3004: Warning: AIMPSDKAddons.IAIMPAddonsLanguageFile.Notification(HWND,LongBool).htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.IAIMPAddonsLanguageFile.Notification(HWND,LongBool).htm
+HHC3004: Warning: AIMPSDKAddons.IAIMPAddonsLanguageFile.ReadString(PWideChar,PWideChar,PWideChar,Integer,Integer,Integer).htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.IAIMPAddonsLanguageFile.ReadString(PWideChar,PWideChar,PWideChar,Integer,Integer,Integer).htm
+HHC3004: Warning: AIMPSDKAddons.IAIMPAddonsLanguageFile.SectionExists(PWideChar,Integer).htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.IAIMPAddonsLanguageFile.SectionExists(PWideChar,Integer).htm
+HHC3004: Warning: AIMPSDKAddons.IAIMPAddonsLanguageFile.Version.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.IAIMPAddonsLanguageFile.Version.htm
+HHC3004: Warning: AIMPSDKAddons.IAIMPAddonsMenuManager.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.IAIMPAddonsMenuManager.htm
+HHC3004: Warning: AIMPSDKAddons.IAIMPAddonsMenuManager.MenuCreate(DWORD,PAIMPMenuItemInfo).htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.IAIMPAddonsMenuManager.MenuCreate(DWORD,PAIMPMenuItemInfo).htm
+HHC3004: Warning: AIMPSDKAddons.IAIMPAddonsMenuManager.MenuCreateEx(HAIMPMENU,PAIMPMenuItemInfo).htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.IAIMPAddonsMenuManager.MenuCreateEx(HAIMPMENU,PAIMPMenuItemInfo).htm
+HHC3004: Warning: AIMPSDKAddons.IAIMPAddonsMenuManager.MenuRemove(HAIMPMENU).htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.IAIMPAddonsMenuManager.MenuRemove(HAIMPMENU).htm
+HHC3004: Warning: AIMPSDKAddons.IAIMPAddonsMenuManager.MenuTextToShortCut(PWideChar,Integer).htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.IAIMPAddonsMenuManager.MenuTextToShortCut(PWideChar,Integer).htm
+HHC3004: Warning: AIMPSDKAddons.IAIMPAddonsMenuManager.MenuUpdate(HAIMPMENU,PAIMPMenuItemInfo).htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.IAIMPAddonsMenuManager.MenuUpdate(HAIMPMENU,PAIMPMenuItemInfo).htm
+HHC3004: Warning: AIMPSDKAddons.IAIMPAddonsOptionsDialog.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.IAIMPAddonsOptionsDialog.htm
+HHC3004: Warning: AIMPSDKAddons.IAIMPAddonsOptionsDialog.FrameAdd(IAIMPAddonsOptionsDialogFrame).htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.IAIMPAddonsOptionsDialog.FrameAdd(IAIMPAddonsOptionsDialogFrame).htm
+HHC3004: Warning: AIMPSDKAddons.IAIMPAddonsOptionsDialog.FrameModified(IAIMPAddonsOptionsDialogFrame).htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.IAIMPAddonsOptionsDialog.FrameModified(IAIMPAddonsOptionsDialogFrame).htm
+HHC3004: Warning: AIMPSDKAddons.IAIMPAddonsOptionsDialog.FrameRemove(IAIMPAddonsOptionsDialogFrame).htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.IAIMPAddonsOptionsDialog.FrameRemove(IAIMPAddonsOptionsDialogFrame).htm
+HHC3004: Warning: AIMPSDKAddons.IAIMPAddonsOptionsDialog.FrameShow(IAIMPAddonsOptionsDialogFrame,LongBool).htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.IAIMPAddonsOptionsDialog.FrameShow(IAIMPAddonsOptionsDialogFrame,LongBool).htm
+HHC3004: Warning: AIMPSDKAddons.IAIMPAddonsOptionsDialogFrame.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.IAIMPAddonsOptionsDialogFrame.htm
+HHC3004: Warning: AIMPSDKAddons.IAIMPAddonsOptionsDialogFrame.FrameCreate(HWND).htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.IAIMPAddonsOptionsDialogFrame.FrameCreate(HWND).htm
+HHC3004: Warning: AIMPSDKAddons.IAIMPAddonsOptionsDialogFrame.FrameData.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.IAIMPAddonsOptionsDialogFrame.FrameData.htm
+HHC3004: Warning: AIMPSDKAddons.IAIMPAddonsOptionsDialogFrame.FrameFlags.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.IAIMPAddonsOptionsDialogFrame.FrameFlags.htm
+HHC3004: Warning: AIMPSDKAddons.IAIMPAddonsOptionsDialogFrame.FrameFree(HWND).htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.IAIMPAddonsOptionsDialogFrame.FrameFree(HWND).htm
+HHC3004: Warning: AIMPSDKAddons.IAIMPAddonsOptionsDialogFrame.FrameLoadConfigNotify.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.IAIMPAddonsOptionsDialogFrame.FrameLoadConfigNotify.htm
+HHC3004: Warning: AIMPSDKAddons.IAIMPAddonsOptionsDialogFrame.FrameName.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.IAIMPAddonsOptionsDialogFrame.FrameName.htm
+HHC3004: Warning: AIMPSDKAddons.IAIMPAddonsOptionsDialogFrame.FrameSaveConfigNotify.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.IAIMPAddonsOptionsDialogFrame.FrameSaveConfigNotify.htm
+HHC3004: Warning: AIMPSDKAddons.IAIMPAddonsPlayerManager.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.IAIMPAddonsPlayerManager.htm
+HHC3004: Warning: AIMPSDKAddons.IAIMPAddonsPlayerManager.ConfigGetPath(Integer,PWideChar,Integer).htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.IAIMPAddonsPlayerManager.ConfigGetPath(Integer,PWideChar,Integer).htm
+HHC3004: Warning: AIMPSDKAddons.IAIMPAddonsPlayerManager.FileInfoQuery(PWideChar,PAIMPFileInfo).htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.IAIMPAddonsPlayerManager.FileInfoQuery(PWideChar,PAIMPFileInfo).htm
+HHC3004: Warning: AIMPSDKAddons.IAIMPAddonsPlayerManager.FileInfoRepository(IAIMPAddonsFileInfoRepository,LongBool).htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.IAIMPAddonsPlayerManager.FileInfoRepository(IAIMPAddonsFileInfoRepository,LongBool).htm
+HHC3004: Warning: AIMPSDKAddons.IAIMPAddonsPlayerManager.PlayEntry(HPLSENTRY).htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.IAIMPAddonsPlayerManager.PlayEntry(HPLSENTRY).htm
+HHC3004: Warning: AIMPSDKAddons.IAIMPAddonsPlayerManager.PlayFile(PWideChar,LongBool).htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.IAIMPAddonsPlayerManager.PlayFile(PWideChar,LongBool).htm
+HHC3004: Warning: AIMPSDKAddons.IAIMPAddonsPlayerManager.PlayingQueueController(IAIMPAddonsPlayingQueueController,LongBool).htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.IAIMPAddonsPlayerManager.PlayingQueueController(IAIMPAddonsPlayingQueueController,LongBool).htm
+HHC3004: Warning: AIMPSDKAddons.IAIMPAddonsPlayerManager.PlayStorage(HPLS,Integer).htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.IAIMPAddonsPlayerManager.PlayStorage(HPLS,Integer).htm
+HHC3004: Warning: AIMPSDKAddons.IAIMPAddonsPlayerManager.SupportsExts(DWORD,PWideChar,Integer).htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.IAIMPAddonsPlayerManager.SupportsExts(DWORD,PWideChar,Integer).htm
+HHC3004: Warning: AIMPSDKAddons.IAIMPAddonsPlayingQueueController.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.IAIMPAddonsPlayingQueueController.htm
+HHC3004: Warning: AIMPSDKAddons.IAIMPAddonsPlayingQueueController.GetFile(HPLS,Integer,LongBool).htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.IAIMPAddonsPlayingQueueController.GetFile(HPLS,Integer,LongBool).htm
+HHC3004: Warning: AIMPSDKAddons.IAIMPAddonsPlaylistManager.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.IAIMPAddonsPlaylistManager.htm
+HHC3004: Warning: AIMPSDKAddons.IAIMPAddonsPlaylistManager.EntryDelete(HPLSENTRY).htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.IAIMPAddonsPlaylistManager.EntryDelete(HPLSENTRY).htm
+HHC3004: Warning: AIMPSDKAddons.IAIMPAddonsPlaylistManager.EntryGetGroup(HPLSENTRY,HPLSGROUP).htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.IAIMPAddonsPlaylistManager.EntryGetGroup(HPLSENTRY,HPLSGROUP).htm
+HHC3004: Warning: AIMPSDKAddons.IAIMPAddonsPlaylistManager.EntryPropertyGetValue(HPLSENTRY,Integer,Pointer,Integer).htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.IAIMPAddonsPlaylistManager.EntryPropertyGetValue(HPLSENTRY,Integer,Pointer,Integer).htm
+HHC3004: Warning: AIMPSDKAddons.IAIMPAddonsPlaylistManager.EntryPropertySetValue(HPLSENTRY,Integer,Pointer,Integer).htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.IAIMPAddonsPlaylistManager.EntryPropertySetValue(HPLSENTRY,Integer,Pointer,Integer).htm
+HHC3004: Warning: AIMPSDKAddons.IAIMPAddonsPlaylistManager.EntryReloadInfo(HPLSENTRY).htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.IAIMPAddonsPlaylistManager.EntryReloadInfo(HPLSENTRY).htm
+HHC3004: Warning: AIMPSDKAddons.IAIMPAddonsPlaylistManager.FormatString(PWideChar,Integer,Integer,Pointer,PWideChar).htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.IAIMPAddonsPlaylistManager.FormatString(PWideChar,Integer,Integer,Pointer,PWideChar).htm
+HHC3004: Warning: AIMPSDKAddons.IAIMPAddonsPlaylistManager.GroupPropertyGetValue(HPLSGROUP,Integer,Pointer,Integer).htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.IAIMPAddonsPlaylistManager.GroupPropertyGetValue(HPLSGROUP,Integer,Pointer,Integer).htm
+HHC3004: Warning: AIMPSDKAddons.IAIMPAddonsPlaylistManager.GroupPropertySetValue(HPLSGROUP,Integer,Pointer,Integer).htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.IAIMPAddonsPlaylistManager.GroupPropertySetValue(HPLSGROUP,Integer,Pointer,Integer).htm
+HHC3004: Warning: AIMPSDKAddons.IAIMPAddonsPlaylistManager.ListenerAdd(IAIMPAddonsPlaylistManagerListener).htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.IAIMPAddonsPlaylistManager.ListenerAdd(IAIMPAddonsPlaylistManagerListener).htm
+HHC3004: Warning: AIMPSDKAddons.IAIMPAddonsPlaylistManager.ListenerRemove(IAIMPAddonsPlaylistManagerListener).htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.IAIMPAddonsPlaylistManager.ListenerRemove(IAIMPAddonsPlaylistManagerListener).htm
+HHC3004: Warning: AIMPSDKAddons.IAIMPAddonsPlaylistManager.QueueEntryAdd(HPLSENTRY,LongBool).htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.IAIMPAddonsPlaylistManager.QueueEntryAdd(HPLSENTRY,LongBool).htm
+HHC3004: Warning: AIMPSDKAddons.IAIMPAddonsPlaylistManager.QueueEntryRemove(HPLSENTRY).htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.IAIMPAddonsPlaylistManager.QueueEntryRemove(HPLSENTRY).htm
+HHC3004: Warning: AIMPSDKAddons.IAIMPAddonsPlaylistManager.StorageActiveGet.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.IAIMPAddonsPlaylistManager.StorageActiveGet.htm
+HHC3004: Warning: AIMPSDKAddons.IAIMPAddonsPlaylistManager.StorageActiveSet(HPLS).htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.IAIMPAddonsPlaylistManager.StorageActiveSet(HPLS).htm
+HHC3004: Warning: AIMPSDKAddons.IAIMPAddonsPlaylistManager.StorageAddEntries(HPLS,IAIMPAddonsPlaylistStrings).htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.IAIMPAddonsPlaylistManager.StorageAddEntries(HPLS,IAIMPAddonsPlaylistStrings).htm
+HHC3004: Warning: AIMPSDKAddons.IAIMPAddonsPlaylistManager.StorageBeginUpdate(HPLS).htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.IAIMPAddonsPlaylistManager.StorageBeginUpdate(HPLS).htm
+HHC3004: Warning: AIMPSDKAddons.IAIMPAddonsPlaylistManager.StorageCreate(PWideChar,LongBool).htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.IAIMPAddonsPlaylistManager.StorageCreate(PWideChar,LongBool).htm
+HHC3004: Warning: AIMPSDKAddons.IAIMPAddonsPlaylistManager.StorageCreateFromFile(PWideChar,LongBool,LongBool).htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.IAIMPAddonsPlaylistManager.StorageCreateFromFile(PWideChar,LongBool,LongBool).htm
+HHC3004: Warning: AIMPSDKAddons.IAIMPAddonsPlaylistManager.StorageDelete(HPLS,Integer).htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.IAIMPAddonsPlaylistManager.StorageDelete(HPLS,Integer).htm
+HHC3004: Warning: AIMPSDKAddons.IAIMPAddonsPlaylistManager.StorageDeleteAll(HPLS).htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.IAIMPAddonsPlaylistManager.StorageDeleteAll(HPLS).htm
+HHC3004: Warning: AIMPSDKAddons.IAIMPAddonsPlaylistManager.StorageDeleteByFilter(HPLS,LongBool,TAIMPAddonsPlaylistManagerDeleteProc,Pointer).htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.IAIMPAddonsPlaylistManager.StorageDeleteByFilter(HPLS,LongBool,TAIMPAddonsPlaylistManagerDeleteProc,Pointer).htm
+HHC3004: Warning: AIMPSDKAddons.IAIMPAddonsPlaylistManager.StorageEndUpdate(HPLS).htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.IAIMPAddonsPlaylistManager.StorageEndUpdate(HPLS).htm
+HHC3004: Warning: AIMPSDKAddons.IAIMPAddonsPlaylistManager.StorageGet(Integer).htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.IAIMPAddonsPlaylistManager.StorageGet(Integer).htm
+HHC3004: Warning: AIMPSDKAddons.IAIMPAddonsPlaylistManager.StorageGetCount.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.IAIMPAddonsPlaylistManager.StorageGetCount.htm
+HHC3004: Warning: AIMPSDKAddons.IAIMPAddonsPlaylistManager.StorageGetEntry(HPLS,Integer).htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.IAIMPAddonsPlaylistManager.StorageGetEntry(HPLS,Integer).htm
+HHC3004: Warning: AIMPSDKAddons.IAIMPAddonsPlaylistManager.StorageGetEntryCount(HPLS).htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.IAIMPAddonsPlaylistManager.StorageGetEntryCount(HPLS).htm
+HHC3004: Warning: AIMPSDKAddons.IAIMPAddonsPlaylistManager.StorageGetFiles(HPLS,Integer,IAIMPAddonsPlaylistStrings).htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.IAIMPAddonsPlaylistManager.StorageGetFiles(HPLS,Integer,IAIMPAddonsPlaylistStrings).htm
+HHC3004: Warning: AIMPSDKAddons.IAIMPAddonsPlaylistManager.StorageGetGroup(HPLS,Integer).htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.IAIMPAddonsPlaylistManager.StorageGetGroup(HPLS,Integer).htm
+HHC3004: Warning: AIMPSDKAddons.IAIMPAddonsPlaylistManager.StorageGetGroupCount(HPLS).htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.IAIMPAddonsPlaylistManager.StorageGetGroupCount(HPLS).htm
+HHC3004: Warning: AIMPSDKAddons.IAIMPAddonsPlaylistManager.StoragePlayingGet.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.IAIMPAddonsPlaylistManager.StoragePlayingGet.htm
+HHC3004: Warning: AIMPSDKAddons.IAIMPAddonsPlaylistManager.StoragePropertyGetValue(HPLS,Integer,Pointer,Integer).htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.IAIMPAddonsPlaylistManager.StoragePropertyGetValue(HPLS,Integer,Pointer,Integer).htm
+HHC3004: Warning: AIMPSDKAddons.IAIMPAddonsPlaylistManager.StoragePropertySetValue(HPLS,Integer,Pointer,Integer).htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.IAIMPAddonsPlaylistManager.StoragePropertySetValue(HPLS,Integer,Pointer,Integer).htm
+HHC3004: Warning: AIMPSDKAddons.IAIMPAddonsPlaylistManager.StorageRemove(HPLS).htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.IAIMPAddonsPlaylistManager.StorageRemove(HPLS).htm
+HHC3004: Warning: AIMPSDKAddons.IAIMPAddonsPlaylistManager.StorageSort(HPLS,Integer).htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.IAIMPAddonsPlaylistManager.StorageSort(HPLS,Integer).htm
+HHC3004: Warning: AIMPSDKAddons.IAIMPAddonsPlaylistManager.StorageSortCustom(HPLS,TAIMPAddonsPlaylistManagerCompareProc,Pointer).htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.IAIMPAddonsPlaylistManager.StorageSortCustom(HPLS,TAIMPAddonsPlaylistManagerCompareProc,Pointer).htm
+HHC3004: Warning: AIMPSDKAddons.IAIMPAddonsPlaylistManager.StorageSortTemplate(HPLS,PWideChar,Integer).htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.IAIMPAddonsPlaylistManager.StorageSortTemplate(HPLS,PWideChar,Integer).htm
+HHC3004: Warning: AIMPSDKAddons.IAIMPAddonsPlaylistManagerListener.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.IAIMPAddonsPlaylistManagerListener.htm
+HHC3004: Warning: AIMPSDKAddons.IAIMPAddonsPlaylistManagerListener.StorageActivated(HPLS).htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.IAIMPAddonsPlaylistManagerListener.StorageActivated(HPLS).htm
+HHC3004: Warning: AIMPSDKAddons.IAIMPAddonsPlaylistManagerListener.StorageAdded(HPLS).htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.IAIMPAddonsPlaylistManagerListener.StorageAdded(HPLS).htm
+HHC3004: Warning: AIMPSDKAddons.IAIMPAddonsPlaylistManagerListener.StorageChanged(HPLS,DWORD).htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.IAIMPAddonsPlaylistManagerListener.StorageChanged(HPLS,DWORD).htm
+HHC3004: Warning: AIMPSDKAddons.IAIMPAddonsPlaylistManagerListener.StorageRemoved(HPLS).htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.IAIMPAddonsPlaylistManagerListener.StorageRemoved(HPLS).htm
+HHC3004: Warning: AIMPSDKAddons.IAIMPAddonsPlaylistStrings.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.IAIMPAddonsPlaylistStrings.htm
+HHC3004: Warning: AIMPSDKAddons.IAIMPAddonsPlaylistStrings.ItemAdd(PWideChar,PAIMPFileInfo).htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.IAIMPAddonsPlaylistStrings.ItemAdd(PWideChar,PAIMPFileInfo).htm
+HHC3004: Warning: AIMPSDKAddons.IAIMPAddonsPlaylistStrings.ItemGetCount.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.IAIMPAddonsPlaylistStrings.ItemGetCount.htm
+HHC3004: Warning: AIMPSDKAddons.IAIMPAddonsPlaylistStrings.ItemGetFileName(Integer,PWideChar,Integer).htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.IAIMPAddonsPlaylistStrings.ItemGetFileName(Integer,PWideChar,Integer).htm
+HHC3004: Warning: AIMPSDKAddons.IAIMPAddonsPlaylistStrings.ItemGetInfo(Integer,PAIMPFileInfo).htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.IAIMPAddonsPlaylistStrings.ItemGetInfo(Integer,PAIMPFileInfo).htm
+HHC3004: Warning: AIMPSDKAddons.IAIMPAddonsProxySettings.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.IAIMPAddonsProxySettings.htm
+HHC3004: Warning: AIMPSDKAddons.IAIMPAddonsProxySettings.GetProxyAuthorizationParams(PWideChar,Integer,PWideChar,Integer).htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.IAIMPAddonsProxySettings.GetProxyAuthorizationParams(PWideChar,Integer,PWideChar,Integer).htm
+HHC3004: Warning: AIMPSDKAddons.IAIMPAddonsProxySettings.GetProxyParams(PWideChar,Integer).htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.IAIMPAddonsProxySettings.GetProxyParams(PWideChar,Integer).htm
+HHC3004: Warning: AIMPSDKAddons.IAIMPAddonsSkinsManager.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.IAIMPAddonsSkinsManager.htm
+HHC3004: Warning: AIMPSDKAddons.IAIMPAddonsSkinsManager.GetCurrentSettings(PWideChar,Integer,PInteger,PInteger).htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.IAIMPAddonsSkinsManager.GetCurrentSettings(PWideChar,Integer,PInteger,PInteger).htm
+HHC3004: Warning: AIMPSDKAddons.IAIMPAddonsSkinsManager.GetSkinInfo(PWideChar,Integer,PAIMPSkinInfo).htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.IAIMPAddonsSkinsManager.GetSkinInfo(PWideChar,Integer,PAIMPSkinInfo).htm
+HHC3004: Warning: AIMPSDKAddons.IAIMPAddonsSkinsManager.HSLToRGB(Byte,Byte,Byte,Byte,Byte,Byte).htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.IAIMPAddonsSkinsManager.HSLToRGB(Byte,Byte,Byte,Byte,Byte,Byte).htm
+HHC3004: Warning: AIMPSDKAddons.IAIMPAddonsSkinsManager.RGBToHSL(Byte,Byte,Byte,Byte,Byte,Byte).htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.IAIMPAddonsSkinsManager.RGBToHSL(Byte,Byte,Byte,Byte,Byte,Byte).htm
+HHC3004: Warning: AIMPSDKAddons.IAIMPAddonsSkinsManager.Select(PWideChar,Integer,Integer).htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.IAIMPAddonsSkinsManager.Select(PWideChar,Integer,Integer).htm
+HHC3004: Warning: AIMPSDKAddons_Types.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons_Types.htm
+HHC3004: Warning: AIMPSDKAddons.HAIMPMENU.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.HAIMPMENU.htm
+HHC3004: Warning: AIMPSDKAddons.HPLS.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.HPLS.htm
+HHC3004: Warning: AIMPSDKAddons.HPLSENTRY.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.HPLSENTRY.htm
+HHC3004: Warning: AIMPSDKAddons.HPLSGROUP.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.HPLSGROUP.htm
+HHC3004: Warning: AIMPSDKAddons.PAIMPFileStatisticsInfo.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.PAIMPFileStatisticsInfo.htm
+HHC3004: Warning: AIMPSDKAddons.PAIMPMenuItemInfo.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.PAIMPMenuItemInfo.htm
+HHC3004: Warning: AIMPSDKAddons.PAIMPSkinInfo.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.PAIMPSkinInfo.htm
+HHC3004: Warning: AIMPSDKAddons.TAIMPAddonPluginHeaderProc.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.TAIMPAddonPluginHeaderProc.htm
+HHC3004: Warning: AIMPSDKAddons.TAIMPAddonsPlaylistManagerCompareProc.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.TAIMPAddonsPlaylistManagerCompareProc.htm
+HHC3004: Warning: AIMPSDKAddons.TAIMPAddonsPlaylistManagerDeleteProc.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.TAIMPAddonsPlaylistManagerDeleteProc.htm
+HHC3004: Warning: AIMPSDKAddons.TAIMPMenuProc.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.TAIMPMenuProc.htm
+HHC3004: Warning: AIMPSDKAddons_Variables.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons_Variables.htm
+HHC3004: Warning: AIMPSDKAddons.ActivePlaylistHandle.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.ActivePlaylistHandle.htm
+HHC3004: Warning: AIMPSDKAddons.AIMP_ADDON_FLAGS_HAS_DIALOG.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.AIMP_ADDON_FLAGS_HAS_DIALOG.htm
+HHC3004: Warning: AIMPSDKAddons.AIMP_CFG_PATH_HELP.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.AIMP_CFG_PATH_HELP.htm
+HHC3004: Warning: AIMPSDKAddons.AIMP_CFG_PATH_ICONS.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.AIMP_CFG_PATH_ICONS.htm
+HHC3004: Warning: AIMPSDKAddons.AIMP_CFG_PATH_LNG.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.AIMP_CFG_PATH_LNG.htm
+HHC3004: Warning: AIMPSDKAddons.AIMP_CFG_PATH_ML.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.AIMP_CFG_PATH_ML.htm
+HHC3004: Warning: AIMPSDKAddons.AIMP_CFG_PATH_ML_PLS.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.AIMP_CFG_PATH_ML_PLS.htm
+HHC3004: Warning: AIMPSDKAddons.AIMP_CFG_PATH_MODULES.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.AIMP_CFG_PATH_MODULES.htm
+HHC3004: Warning: AIMPSDKAddons.AIMP_CFG_PATH_PLS.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.AIMP_CFG_PATH_PLS.htm
+HHC3004: Warning: AIMPSDKAddons.AIMP_CFG_PATH_PLUGINS.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.AIMP_CFG_PATH_PLUGINS.htm
+HHC3004: Warning: AIMPSDKAddons.AIMP_CFG_PATH_PROFILE.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.AIMP_CFG_PATH_PROFILE.htm
+HHC3004: Warning: AIMPSDKAddons.AIMP_CFG_PATH_SKINS.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.AIMP_CFG_PATH_SKINS.htm
+HHC3004: Warning: AIMPSDKAddons.AIMP_MENUID_ADD.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.AIMP_MENUID_ADD.htm
+HHC3004: Warning: AIMPSDKAddons.AIMP_MENUID_DEL.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.AIMP_MENUID_DEL.htm
+HHC3004: Warning: AIMPSDKAddons.AIMP_MENUID_EQ_LIB.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.AIMP_MENUID_EQ_LIB.htm
+HHC3004: Warning: AIMPSDKAddons.AIMP_MENUID_MAIN_CONFIGS.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.AIMP_MENUID_MAIN_CONFIGS.htm
+HHC3004: Warning: AIMPSDKAddons.AIMP_MENUID_MAIN_FUNCTION.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.AIMP_MENUID_MAIN_FUNCTION.htm
+HHC3004: Warning: AIMPSDKAddons.AIMP_MENUID_MAIN_OPTIONS.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.AIMP_MENUID_MAIN_OPTIONS.htm
+HHC3004: Warning: AIMPSDKAddons.AIMP_MENUID_MISC.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.AIMP_MENUID_MISC.htm
+HHC3004: Warning: AIMPSDKAddons.AIMP_MENUID_PLS.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.AIMP_MENUID_PLS.htm
+HHC3004: Warning: AIMPSDKAddons.AIMP_MENUID_PLS_ADD.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.AIMP_MENUID_PLS_ADD.htm
+HHC3004: Warning: AIMPSDKAddons.AIMP_MENUID_PLS_DEL.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.AIMP_MENUID_PLS_DEL.htm
+HHC3004: Warning: AIMPSDKAddons.AIMP_MENUID_PLS_FNC.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.AIMP_MENUID_PLS_FNC.htm
+HHC3004: Warning: AIMPSDKAddons.AIMP_MENUID_PLS_JUMP.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.AIMP_MENUID_PLS_JUMP.htm
+HHC3004: Warning: AIMPSDKAddons.AIMP_MENUID_PLS_SEND.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.AIMP_MENUID_PLS_SEND.htm
+HHC3004: Warning: AIMPSDKAddons.AIMP_MENUID_SORT.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.AIMP_MENUID_SORT.htm
+HHC3004: Warning: AIMPSDKAddons.AIMP_MENUID_TRAY.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.AIMP_MENUID_TRAY.htm
+HHC3004: Warning: AIMPSDKAddons.AIMP_MENUID_UTILITIES.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.AIMP_MENUID_UTILITIES.htm
+HHC3004: Warning: AIMPSDKAddons.AIMP_MENUITEM_CHECKBOX.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.AIMP_MENUITEM_CHECKBOX.htm
+HHC3004: Warning: AIMPSDKAddons.AIMP_MENUITEM_CHECKED.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.AIMP_MENUITEM_CHECKED.htm
+HHC3004: Warning: AIMPSDKAddons.AIMP_MENUITEM_ENABLED.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.AIMP_MENUITEM_ENABLED.htm
+HHC3004: Warning: AIMPSDKAddons.AIMP_MENUITEM_RADIOITEM.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.AIMP_MENUITEM_RADIOITEM.htm
+HHC3004: Warning: AIMPSDKAddons.AIMP_PLAYLIST_ENTRY_PROPERTY_DISPLAYTEXT.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.AIMP_PLAYLIST_ENTRY_PROPERTY_DISPLAYTEXT.htm
+HHC3004: Warning: AIMPSDKAddons.AIMP_PLAYLIST_ENTRY_PROPERTY_FILENAME.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.AIMP_PLAYLIST_ENTRY_PROPERTY_FILENAME.htm
+HHC3004: Warning: AIMPSDKAddons.AIMP_PLAYLIST_ENTRY_PROPERTY_INDEX.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.AIMP_PLAYLIST_ENTRY_PROPERTY_INDEX.htm
+HHC3004: Warning: AIMPSDKAddons.AIMP_PLAYLIST_ENTRY_PROPERTY_INFO.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.AIMP_PLAYLIST_ENTRY_PROPERTY_INFO.htm
+HHC3004: Warning: AIMPSDKAddons.AIMP_PLAYLIST_ENTRY_PROPERTY_MARK.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.AIMP_PLAYLIST_ENTRY_PROPERTY_MARK.htm
+HHC3004: Warning: AIMPSDKAddons.AIMP_PLAYLIST_ENTRY_PROPERTY_PLAYINGSWITCH.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.AIMP_PLAYLIST_ENTRY_PROPERTY_PLAYINGSWITCH.htm
+HHC3004: Warning: AIMPSDKAddons.AIMP_PLAYLIST_ENTRY_PROPERTY_SELECTED.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.AIMP_PLAYLIST_ENTRY_PROPERTY_SELECTED.htm
+HHC3004: Warning: AIMPSDKAddons.AIMP_PLAYLIST_ENTRY_PROPERTY_STATISTICS.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.AIMP_PLAYLIST_ENTRY_PROPERTY_STATISTICS.htm
+HHC3004: Warning: AIMPSDKAddons.AIMP_PLAYLIST_FORMAT_MODE_CURRENT.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.AIMP_PLAYLIST_FORMAT_MODE_CURRENT.htm
+HHC3004: Warning: AIMPSDKAddons.AIMP_PLAYLIST_FORMAT_MODE_FILEINFO.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.AIMP_PLAYLIST_FORMAT_MODE_FILEINFO.htm
+HHC3004: Warning: AIMPSDKAddons.AIMP_PLAYLIST_FORMAT_MODE_PREVIEW.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.AIMP_PLAYLIST_FORMAT_MODE_PREVIEW.htm
+HHC3004: Warning: AIMPSDKAddons.AIMP_PLAYLIST_GETFILES_SELECTED.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.AIMP_PLAYLIST_GETFILES_SELECTED.htm
+HHC3004: Warning: AIMPSDKAddons.AIMP_PLAYLIST_GETFILES_VISIBLE.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.AIMP_PLAYLIST_GETFILES_VISIBLE.htm
+HHC3004: Warning: AIMPSDKAddons.AIMP_PLAYLIST_GROUP_PROPERTY_DURATION.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.AIMP_PLAYLIST_GROUP_PROPERTY_DURATION.htm
+HHC3004: Warning: AIMPSDKAddons.AIMP_PLAYLIST_GROUP_PROPERTY_EXPANDED.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.AIMP_PLAYLIST_GROUP_PROPERTY_EXPANDED.htm
+HHC3004: Warning: AIMPSDKAddons.AIMP_PLAYLIST_GROUP_PROPERTY_NAME.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.AIMP_PLAYLIST_GROUP_PROPERTY_NAME.htm
+HHC3004: Warning: AIMPSDKAddons.AIMP_PLAYLIST_NOTIFY_CONTENT.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.AIMP_PLAYLIST_NOTIFY_CONTENT.htm
+HHC3004: Warning: AIMPSDKAddons.AIMP_PLAYLIST_NOTIFY_ENTRYINFO.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.AIMP_PLAYLIST_NOTIFY_ENTRYINFO.htm
+HHC3004: Warning: AIMPSDKAddons.AIMP_PLAYLIST_NOTIFY_FOCUSINDEX.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.AIMP_PLAYLIST_NOTIFY_FOCUSINDEX.htm
+HHC3004: Warning: AIMPSDKAddons.AIMP_PLAYLIST_NOTIFY_NAME.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.AIMP_PLAYLIST_NOTIFY_NAME.htm
+HHC3004: Warning: AIMPSDKAddons.AIMP_PLAYLIST_NOTIFY_PLAYINDEX.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.AIMP_PLAYLIST_NOTIFY_PLAYINDEX.htm
+HHC3004: Warning: AIMPSDKAddons.AIMP_PLAYLIST_NOTIFY_PLAYINGSWITCHS.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.AIMP_PLAYLIST_NOTIFY_PLAYINGSWITCHS.htm
+HHC3004: Warning: AIMPSDKAddons.AIMP_PLAYLIST_NOTIFY_SELECTION.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.AIMP_PLAYLIST_NOTIFY_SELECTION.htm
+HHC3004: Warning: AIMPSDKAddons.AIMP_PLAYLIST_NOTIFY_STATISTICS.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.AIMP_PLAYLIST_NOTIFY_STATISTICS.htm
+HHC3004: Warning: AIMPSDKAddons.AIMP_PLAYLIST_NOTIFY_TRACKINGINDEX.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.AIMP_PLAYLIST_NOTIFY_TRACKINGINDEX.htm
+HHC3004: Warning: AIMPSDKAddons.AIMP_PLAYLIST_SORT_TYPE_ARTIST.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.AIMP_PLAYLIST_SORT_TYPE_ARTIST.htm
+HHC3004: Warning: AIMPSDKAddons.AIMP_PLAYLIST_SORT_TYPE_DURATION.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.AIMP_PLAYLIST_SORT_TYPE_DURATION.htm
+HHC3004: Warning: AIMPSDKAddons.AIMP_PLAYLIST_SORT_TYPE_FILENAME.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.AIMP_PLAYLIST_SORT_TYPE_FILENAME.htm
+HHC3004: Warning: AIMPSDKAddons.AIMP_PLAYLIST_SORT_TYPE_INVERSE.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.AIMP_PLAYLIST_SORT_TYPE_INVERSE.htm
+HHC3004: Warning: AIMPSDKAddons.AIMP_PLAYLIST_SORT_TYPE_RANDOMIZE.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.AIMP_PLAYLIST_SORT_TYPE_RANDOMIZE.htm
+HHC3004: Warning: AIMPSDKAddons.AIMP_PLAYLIST_SORT_TYPE_TITLE.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.AIMP_PLAYLIST_SORT_TYPE_TITLE.htm
+HHC3004: Warning: AIMPSDKAddons.AIMP_PLAYLIST_STORAGE_PROPERTY_DURATION.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.AIMP_PLAYLIST_STORAGE_PROPERTY_DURATION.htm
+HHC3004: Warning: AIMPSDKAddons.AIMP_PLAYLIST_STORAGE_PROPERTY_FOCUSINDEX.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.AIMP_PLAYLIST_STORAGE_PROPERTY_FOCUSINDEX.htm
+HHC3004: Warning: AIMPSDKAddons.AIMP_PLAYLIST_STORAGE_PROPERTY_FORMATING_LINE1_TEMPLATE.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.AIMP_PLAYLIST_STORAGE_PROPERTY_FORMATING_LINE1_TEMPLATE.htm
+HHC3004: Warning: AIMPSDKAddons.AIMP_PLAYLIST_STORAGE_PROPERTY_FORMATING_LINE2_TEMPLATE.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.AIMP_PLAYLIST_STORAGE_PROPERTY_FORMATING_LINE2_TEMPLATE.htm
+HHC3004: Warning: AIMPSDKAddons.AIMP_PLAYLIST_STORAGE_PROPERTY_FORMATING_OVERRIDEN.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.AIMP_PLAYLIST_STORAGE_PROPERTY_FORMATING_OVERRIDEN.htm
+HHC3004: Warning: AIMPSDKAddons.AIMP_PLAYLIST_STORAGE_PROPERTY_GROUPPING.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.AIMP_PLAYLIST_STORAGE_PROPERTY_GROUPPING.htm
+HHC3004: Warning: AIMPSDKAddons.AIMP_PLAYLIST_STORAGE_PROPERTY_GROUPPING_AUTOMERGING.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.AIMP_PLAYLIST_STORAGE_PROPERTY_GROUPPING_AUTOMERGING.htm
+HHC3004: Warning: AIMPSDKAddons.AIMP_PLAYLIST_STORAGE_PROPERTY_GROUPPING_OVERRIDEN.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.AIMP_PLAYLIST_STORAGE_PROPERTY_GROUPPING_OVERRIDEN.htm
+HHC3004: Warning: AIMPSDKAddons.AIMP_PLAYLIST_STORAGE_PROPERTY_GROUPPING_TEMPLATE.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.AIMP_PLAYLIST_STORAGE_PROPERTY_GROUPPING_TEMPLATE.htm
+HHC3004: Warning: AIMPSDKAddons.AIMP_PLAYLIST_STORAGE_PROPERTY_NAME.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.AIMP_PLAYLIST_STORAGE_PROPERTY_NAME.htm
+HHC3004: Warning: AIMPSDKAddons.AIMP_PLAYLIST_STORAGE_PROPERTY_PLAYINGINDEX.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.AIMP_PLAYLIST_STORAGE_PROPERTY_PLAYINGINDEX.htm
+HHC3004: Warning: AIMPSDKAddons.AIMP_PLAYLIST_STORAGE_PROPERTY_READONLY.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.AIMP_PLAYLIST_STORAGE_PROPERTY_READONLY.htm
+HHC3004: Warning: AIMPSDKAddons.AIMP_PLAYLIST_STORAGE_PROPERTY_SIZE.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.AIMP_PLAYLIST_STORAGE_PROPERTY_SIZE.htm
+HHC3004: Warning: AIMPSDKAddons.AIMP_PLAYLIST_STORAGE_PROPERTY_TRACKINGINDEX.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.AIMP_PLAYLIST_STORAGE_PROPERTY_TRACKINGINDEX.htm
+HHC3004: Warning: AIMPSDKAddons.AIMP_PLAYLIST_STORAGE_PROPERTY_VIEW_DURATION.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.AIMP_PLAYLIST_STORAGE_PROPERTY_VIEW_DURATION.htm
+HHC3004: Warning: AIMPSDKAddons.AIMP_PLAYLIST_STORAGE_PROPERTY_VIEW_EXPAND_BUTTONS.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.AIMP_PLAYLIST_STORAGE_PROPERTY_VIEW_EXPAND_BUTTONS.htm
+HHC3004: Warning: AIMPSDKAddons.AIMP_PLAYLIST_STORAGE_PROPERTY_VIEW_MARKS.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.AIMP_PLAYLIST_STORAGE_PROPERTY_VIEW_MARKS.htm
+HHC3004: Warning: AIMPSDKAddons.AIMP_PLAYLIST_STORAGE_PROPERTY_VIEW_NUMBERS.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.AIMP_PLAYLIST_STORAGE_PROPERTY_VIEW_NUMBERS.htm
+HHC3004: Warning: AIMPSDKAddons.AIMP_PLAYLIST_STORAGE_PROPERTY_VIEW_NUMBERS_ABSOLUTE.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.AIMP_PLAYLIST_STORAGE_PROPERTY_VIEW_NUMBERS_ABSOLUTE.htm
+HHC3004: Warning: AIMPSDKAddons.AIMP_PLAYLIST_STORAGE_PROPERTY_VIEW_OVERRIDEN.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.AIMP_PLAYLIST_STORAGE_PROPERTY_VIEW_OVERRIDEN.htm
+HHC3004: Warning: AIMPSDKAddons.AIMP_PLAYLIST_STORAGE_PROPERTY_VIEW_SECOND_LINE.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.AIMP_PLAYLIST_STORAGE_PROPERTY_VIEW_SECOND_LINE.htm
+HHC3004: Warning: AIMPSDKAddons.AIMP_PLAYLIST_STORAGE_PROPERTY_VIEW_SWITCHES.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.AIMP_PLAYLIST_STORAGE_PROPERTY_VIEW_SWITCHES.htm
+HHC3004: Warning: AIMPSDKAddons.AIMP_SUPPORTS_EXTS_FORMAT_AUDIO.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.AIMP_SUPPORTS_EXTS_FORMAT_AUDIO.htm
+HHC3004: Warning: AIMPSDKAddons.AIMP_SUPPORTS_EXTS_FORMAT_PLAYLIST.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.AIMP_SUPPORTS_EXTS_FORMAT_PLAYLIST.htm
+HHC3004: Warning: AIMPSDKAddons.IID_IAIMPAddonsConfigFile.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.IID_IAIMPAddonsConfigFile.htm
+HHC3004: Warning: AIMPSDKAddons.IID_IAIMPAddonsCoverArtManager.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.IID_IAIMPAddonsCoverArtManager.htm
+HHC3004: Warning: AIMPSDKAddons.IID_IAIMPAddonsLanguageFile.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.IID_IAIMPAddonsLanguageFile.htm
+HHC3004: Warning: AIMPSDKAddons.IID_IAIMPAddonsMenuManager.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.IID_IAIMPAddonsMenuManager.htm
+HHC3004: Warning: AIMPSDKAddons.IID_IAIMPAddonsOptionsDialog.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.IID_IAIMPAddonsOptionsDialog.htm
+HHC3004: Warning: AIMPSDKAddons.IID_IAIMPAddonsPlayerManager.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.IID_IAIMPAddonsPlayerManager.htm
+HHC3004: Warning: AIMPSDKAddons.IID_IAIMPAddonsPlaylistManager.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.IID_IAIMPAddonsPlaylistManager.htm
+HHC3004: Warning: AIMPSDKAddons.IID_IAIMPAddonsPlaylistManagerListener.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.IID_IAIMPAddonsPlaylistManagerListener.htm
+HHC3004: Warning: AIMPSDKAddons.IID_IAIMPAddonsPlaylistStrings.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.IID_IAIMPAddonsPlaylistStrings.htm
+HHC3004: Warning: AIMPSDKAddons.IID_IAIMPAddonsProxySettings.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.IID_IAIMPAddonsProxySettings.htm
+HHC3004: Warning: AIMPSDKAddons.IID_IAIMPAddonsSkinsManager.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.IID_IAIMPAddonsSkinsManager.htm
+HHC3004: Warning: AIMPSDKAddons.SID_IAIMPAddonsConfigFile.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.SID_IAIMPAddonsConfigFile.htm
+HHC3004: Warning: AIMPSDKAddons.SID_IAIMPAddonsCoverArtManager.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.SID_IAIMPAddonsCoverArtManager.htm
+HHC3004: Warning: AIMPSDKAddons.SID_IAIMPAddonsLanguageFile.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.SID_IAIMPAddonsLanguageFile.htm
+HHC3004: Warning: AIMPSDKAddons.SID_IAIMPAddonsMenuManager.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.SID_IAIMPAddonsMenuManager.htm
+HHC3004: Warning: AIMPSDKAddons.SID_IAIMPAddonsOptionsDialog.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.SID_IAIMPAddonsOptionsDialog.htm
+HHC3004: Warning: AIMPSDKAddons.SID_IAIMPAddonsPlayerManager.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.SID_IAIMPAddonsPlayerManager.htm
+HHC3004: Warning: AIMPSDKAddons.SID_IAIMPAddonsPlaylistManager.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.SID_IAIMPAddonsPlaylistManager.htm
+HHC3004: Warning: AIMPSDKAddons.SID_IAIMPAddonsPlaylistManagerListener.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.SID_IAIMPAddonsPlaylistManagerListener.htm
+HHC3004: Warning: AIMPSDKAddons.SID_IAIMPAddonsPlaylistStrings.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.SID_IAIMPAddonsPlaylistStrings.htm
+HHC3004: Warning: AIMPSDKAddons.SID_IAIMPAddonsProxySettings.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.SID_IAIMPAddonsProxySettings.htm
+HHC3004: Warning: AIMPSDKAddons.SID_IAIMPAddonsSkinsManager.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.SID_IAIMPAddonsSkinsManager.htm
+HHC3004: Warning: AIMPSDKAddons.WM_AIMP_LANG_CHANGED.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKAddons.WM_AIMP_LANG_CHANGED.htm
+HHC3004: Warning: AIMPSDKCommon.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKCommon.htm
+HHC3004: Warning: AIMPSDKCommon_Classes.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKCommon_Classes.htm
+HHC3004: Warning: AIMPSDKCommon.TAIMPFileInfo.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKCommon.TAIMPFileInfo.htm
+HHC3004: Warning: AIMPSDKCommon.TAIMPFileInfo.Active.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKCommon.TAIMPFileInfo.Active.htm
+HHC3004: Warning: AIMPSDKCommon.TAIMPFileInfo.Album.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKCommon.TAIMPFileInfo.Album.htm
+HHC3004: Warning: AIMPSDKCommon.TAIMPFileInfo.AlbumLength.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKCommon.TAIMPFileInfo.AlbumLength.htm
+HHC3004: Warning: AIMPSDKCommon.TAIMPFileInfo.Artist.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKCommon.TAIMPFileInfo.Artist.htm
+HHC3004: Warning: AIMPSDKCommon.TAIMPFileInfo.ArtistLength.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKCommon.TAIMPFileInfo.ArtistLength.htm
+HHC3004: Warning: AIMPSDKCommon.TAIMPFileInfo.BitRate.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKCommon.TAIMPFileInfo.BitRate.htm
+HHC3004: Warning: AIMPSDKCommon.TAIMPFileInfo.Channels.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKCommon.TAIMPFileInfo.Channels.htm
+HHC3004: Warning: AIMPSDKCommon.TAIMPFileInfo.Date.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKCommon.TAIMPFileInfo.Date.htm
+HHC3004: Warning: AIMPSDKCommon.TAIMPFileInfo.DateLength.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKCommon.TAIMPFileInfo.DateLength.htm
+HHC3004: Warning: AIMPSDKCommon.TAIMPFileInfo.Duration.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKCommon.TAIMPFileInfo.Duration.htm
+HHC3004: Warning: AIMPSDKCommon.TAIMPFileInfo.FileName.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKCommon.TAIMPFileInfo.FileName.htm
+HHC3004: Warning: AIMPSDKCommon.TAIMPFileInfo.FileNameLength.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKCommon.TAIMPFileInfo.FileNameLength.htm
+HHC3004: Warning: AIMPSDKCommon.TAIMPFileInfo.FileSize.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKCommon.TAIMPFileInfo.FileSize.htm
+HHC3004: Warning: AIMPSDKCommon.TAIMPFileInfo.Genre.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKCommon.TAIMPFileInfo.Genre.htm
+HHC3004: Warning: AIMPSDKCommon.TAIMPFileInfo.GenreLength.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKCommon.TAIMPFileInfo.GenreLength.htm
+HHC3004: Warning: AIMPSDKCommon.TAIMPFileInfo.Mark.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKCommon.TAIMPFileInfo.Mark.htm
+HHC3004: Warning: AIMPSDKCommon.TAIMPFileInfo.SampleRate.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKCommon.TAIMPFileInfo.SampleRate.htm
+HHC3004: Warning: AIMPSDKCommon.TAIMPFileInfo.StructSize.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKCommon.TAIMPFileInfo.StructSize.htm
+HHC3004: Warning: AIMPSDKCommon.TAIMPFileInfo.Title.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKCommon.TAIMPFileInfo.Title.htm
+HHC3004: Warning: AIMPSDKCommon.TAIMPFileInfo.TitleLength.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKCommon.TAIMPFileInfo.TitleLength.htm
+HHC3004: Warning: AIMPSDKCommon.TAIMPFileInfo.TrackNumber.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKCommon.TAIMPFileInfo.TrackNumber.htm
+HHC3004: Warning: AIMPSDKCommon_Types.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKCommon_Types.htm
+HHC3004: Warning: AIMPSDKCommon.PAIMPFileInfo.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKCommon.PAIMPFileInfo.htm
+HHC3004: Warning: AIMPSDKCore.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKCore.htm
+HHC3004: Warning: AIMPSDKCore_Classes.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKCore_Classes.htm
+HHC3004: Warning: AIMPSDKCore.TAIMPVersionInfo.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKCore.TAIMPVersionInfo.htm
+HHC3004: Warning: AIMPSDKCore.TAIMPVersionInfo.BuildDate.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKCore.TAIMPVersionInfo.BuildDate.htm
+HHC3004: Warning: AIMPSDKCore.TAIMPVersionInfo.BuildNumber.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKCore.TAIMPVersionInfo.BuildNumber.htm
+HHC3004: Warning: AIMPSDKCore.TAIMPVersionInfo.BuildSuffix.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKCore.TAIMPVersionInfo.BuildSuffix.htm
+HHC3004: Warning: AIMPSDKCore.TAIMPVersionInfo.ID.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKCore.TAIMPVersionInfo.ID.htm
+HHC3004: Warning: AIMPSDKCore_Interfaces.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKCore_Interfaces.htm
+HHC3004: Warning: AIMPSDKCore.IAIMPCoreUnit.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKCore.IAIMPCoreUnit.htm
+HHC3004: Warning: AIMPSDKCore.IAIMPCoreUnit.GetVersion(TAIMPVersionInfo).htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKCore.IAIMPCoreUnit.GetVersion(TAIMPVersionInfo).htm
+HHC3004: Warning: AIMPSDKCore.IAIMPCoreUnit.MessageHook(IAIMPCoreUnitMessageHook).htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKCore.IAIMPCoreUnit.MessageHook(IAIMPCoreUnitMessageHook).htm
+HHC3004: Warning: AIMPSDKCore.IAIMPCoreUnit.MessageRegister(PWideChar).htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKCore.IAIMPCoreUnit.MessageRegister(PWideChar).htm
+HHC3004: Warning: AIMPSDKCore.IAIMPCoreUnit.MessageSend(DWORD,Integer,Pointer).htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKCore.IAIMPCoreUnit.MessageSend(DWORD,Integer,Pointer).htm
+HHC3004: Warning: AIMPSDKCore.IAIMPCoreUnit.MessageUnhook(IAIMPCoreUnitMessageHook).htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKCore.IAIMPCoreUnit.MessageUnhook(IAIMPCoreUnitMessageHook).htm
+HHC3004: Warning: AIMPSDKCore.IAIMPCoreUnitMessageHook.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKCore.IAIMPCoreUnitMessageHook.htm
+HHC3004: Warning: AIMPSDKCore.IAIMPCoreUnitMessageHook.CoreMessage(DWORD,Integer,Pointer,HRESULT).htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKCore.IAIMPCoreUnitMessageHook.CoreMessage(DWORD,Integer,Pointer,HRESULT).htm
+HHC3004: Warning: AIMPSDKCore_Variables.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKCore_Variables.htm
+HHC3004: Warning: AIMPSDKCore.AIMP_MES_END_OF_PLAYLIST.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKCore.AIMP_MES_END_OF_PLAYLIST.htm
+HHC3004: Warning: AIMPSDKCore.AIMP_MES_END_OF_QUEUE.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKCore.AIMP_MES_END_OF_QUEUE.htm
+HHC3004: Warning: AIMPSDKCore.AIMP_MPH_APPLICATION.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKCore.AIMP_MPH_APPLICATION.htm
+HHC3004: Warning: AIMPSDKCore.AIMP_MPH_EQUALIZERFORM.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKCore.AIMP_MPH_EQUALIZERFORM.htm
+HHC3004: Warning: AIMPSDKCore.AIMP_MPH_MAINFORM.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKCore.AIMP_MPH_MAINFORM.htm
+HHC3004: Warning: AIMPSDKCore.AIMP_MPH_PLAYLISTFORM.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKCore.AIMP_MPH_PLAYLISTFORM.htm
+HHC3004: Warning: AIMPSDKCore.AIMP_MPH_TRAYCONTROL.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKCore.AIMP_MPH_TRAYCONTROL.htm
+HHC3004: Warning: AIMPSDKCore.AIMP_MSG_CMD_ABOUT.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKCore.AIMP_MSG_CMD_ABOUT.htm
+HHC3004: Warning: AIMPSDKCore.AIMP_MSG_CMD_ADD_FILES.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKCore.AIMP_MSG_CMD_ADD_FILES.htm
+HHC3004: Warning: AIMPSDKCore.AIMP_MSG_CMD_ADD_FOLDERS.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKCore.AIMP_MSG_CMD_ADD_FOLDERS.htm
+HHC3004: Warning: AIMPSDKCore.AIMP_MSG_CMD_ADD_PLAYLISTS.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKCore.AIMP_MSG_CMD_ADD_PLAYLISTS.htm
+HHC3004: Warning: AIMPSDKCore.AIMP_MSG_CMD_ADD_URL.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKCore.AIMP_MSG_CMD_ADD_URL.htm
+HHC3004: Warning: AIMPSDKCore.AIMP_MSG_CMD_BASE.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKCore.AIMP_MSG_CMD_BASE.htm
+HHC3004: Warning: AIMPSDKCore.AIMP_MSG_CMD_BOOKMARKS.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKCore.AIMP_MSG_CMD_BOOKMARKS.htm
+HHC3004: Warning: AIMPSDKCore.AIMP_MSG_CMD_BOOKMARKS_ADD.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKCore.AIMP_MSG_CMD_BOOKMARKS_ADD.htm
+HHC3004: Warning: AIMPSDKCore.AIMP_MSG_CMD_NEXT.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKCore.AIMP_MSG_CMD_NEXT.htm
+HHC3004: Warning: AIMPSDKCore.AIMP_MSG_CMD_OPEN_FILES.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKCore.AIMP_MSG_CMD_OPEN_FILES.htm
+HHC3004: Warning: AIMPSDKCore.AIMP_MSG_CMD_OPEN_FOLDERS.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKCore.AIMP_MSG_CMD_OPEN_FOLDERS.htm
+HHC3004: Warning: AIMPSDKCore.AIMP_MSG_CMD_OPEN_PLAYLISTS.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKCore.AIMP_MSG_CMD_OPEN_PLAYLISTS.htm
+HHC3004: Warning: AIMPSDKCore.AIMP_MSG_CMD_OPTIONS.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKCore.AIMP_MSG_CMD_OPTIONS.htm
+HHC3004: Warning: AIMPSDKCore.AIMP_MSG_CMD_PAUSE.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKCore.AIMP_MSG_CMD_PAUSE.htm
+HHC3004: Warning: AIMPSDKCore.AIMP_MSG_CMD_PLAY.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKCore.AIMP_MSG_CMD_PLAY.htm
+HHC3004: Warning: AIMPSDKCore.AIMP_MSG_CMD_PLAY_PREV_PLAYLIST.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKCore.AIMP_MSG_CMD_PLAY_PREV_PLAYLIST.htm
+HHC3004: Warning: AIMPSDKCore.AIMP_MSG_CMD_PLAYPAUSE.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKCore.AIMP_MSG_CMD_PLAYPAUSE.htm
+HHC3004: Warning: AIMPSDKCore.AIMP_MSG_CMD_PLS_DELETE_ALL.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKCore.AIMP_MSG_CMD_PLS_DELETE_ALL.htm
+HHC3004: Warning: AIMPSDKCore.AIMP_MSG_CMD_PLS_DELETE_DUPLICATES.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKCore.AIMP_MSG_CMD_PLS_DELETE_DUPLICATES.htm
+HHC3004: Warning: AIMPSDKCore.AIMP_MSG_CMD_PLS_DELETE_NON_EXISTS.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKCore.AIMP_MSG_CMD_PLS_DELETE_NON_EXISTS.htm
+HHC3004: Warning: AIMPSDKCore.AIMP_MSG_CMD_PLS_DELETE_NON_SELECTED.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKCore.AIMP_MSG_CMD_PLS_DELETE_NON_SELECTED.htm
+HHC3004: Warning: AIMPSDKCore.AIMP_MSG_CMD_PLS_DELETE_PLAYING_FROM_HDD.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKCore.AIMP_MSG_CMD_PLS_DELETE_PLAYING_FROM_HDD.htm
+HHC3004: Warning: AIMPSDKCore.AIMP_MSG_CMD_PLS_DELETE_SELECTED.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKCore.AIMP_MSG_CMD_PLS_DELETE_SELECTED.htm
+HHC3004: Warning: AIMPSDKCore.AIMP_MSG_CMD_PLS_DELETE_SELECTED_FROM_HDD.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKCore.AIMP_MSG_CMD_PLS_DELETE_SELECTED_FROM_HDD.htm
+HHC3004: Warning: AIMPSDKCore.AIMP_MSG_CMD_PLS_DELETE_SWITCHEDOFF.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKCore.AIMP_MSG_CMD_PLS_DELETE_SWITCHEDOFF.htm
+HHC3004: Warning: AIMPSDKCore.AIMP_MSG_CMD_PLS_DELETE_SWITCHEDOFF_FROM_HDD.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKCore.AIMP_MSG_CMD_PLS_DELETE_SWITCHEDOFF_FROM_HDD.htm
+HHC3004: Warning: AIMPSDKCore.AIMP_MSG_CMD_PLS_FOCUS_NOWPLAYING.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKCore.AIMP_MSG_CMD_PLS_FOCUS_NOWPLAYING.htm
+HHC3004: Warning: AIMPSDKCore.AIMP_MSG_CMD_PLS_RESCAN.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKCore.AIMP_MSG_CMD_PLS_RESCAN.htm
+HHC3004: Warning: AIMPSDKCore.AIMP_MSG_CMD_PLS_SORT_BY_ARTIST.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKCore.AIMP_MSG_CMD_PLS_SORT_BY_ARTIST.htm
+HHC3004: Warning: AIMPSDKCore.AIMP_MSG_CMD_PLS_SORT_BY_DURATION.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKCore.AIMP_MSG_CMD_PLS_SORT_BY_DURATION.htm
+HHC3004: Warning: AIMPSDKCore.AIMP_MSG_CMD_PLS_SORT_BY_FOLDER.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKCore.AIMP_MSG_CMD_PLS_SORT_BY_FOLDER.htm
+HHC3004: Warning: AIMPSDKCore.AIMP_MSG_CMD_PLS_SORT_BY_TITLE.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKCore.AIMP_MSG_CMD_PLS_SORT_BY_TITLE.htm
+HHC3004: Warning: AIMPSDKCore.AIMP_MSG_CMD_PLS_SORT_INVERT.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKCore.AIMP_MSG_CMD_PLS_SORT_INVERT.htm
+HHC3004: Warning: AIMPSDKCore.AIMP_MSG_CMD_PLS_SORT_RANDOMIZE.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKCore.AIMP_MSG_CMD_PLS_SORT_RANDOMIZE.htm
+HHC3004: Warning: AIMPSDKCore.AIMP_MSG_CMD_PLS_SWITCH_OFF.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKCore.AIMP_MSG_CMD_PLS_SWITCH_OFF.htm
+HHC3004: Warning: AIMPSDKCore.AIMP_MSG_CMD_PLS_SWITCH_ON.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKCore.AIMP_MSG_CMD_PLS_SWITCH_ON.htm
+HHC3004: Warning: AIMPSDKCore.AIMP_MSG_CMD_PLUGINS.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKCore.AIMP_MSG_CMD_PLUGINS.htm
+HHC3004: Warning: AIMPSDKCore.AIMP_MSG_CMD_PREV.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKCore.AIMP_MSG_CMD_PREV.htm
+HHC3004: Warning: AIMPSDKCore.AIMP_MSG_CMD_QTE_NOWPLAYING_FILE.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKCore.AIMP_MSG_CMD_QTE_NOWPLAYING_FILE.htm
+HHC3004: Warning: AIMPSDKCore.AIMP_MSG_CMD_QUIT.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKCore.AIMP_MSG_CMD_QUIT.htm
+HHC3004: Warning: AIMPSDKCore.AIMP_MSG_CMD_RADIOCAT.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKCore.AIMP_MSG_CMD_RADIOCAT.htm
+HHC3004: Warning: AIMPSDKCore.AIMP_MSG_CMD_RUNSTR_SEEKING_HINT.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKCore.AIMP_MSG_CMD_RUNSTR_SEEKING_HINT.htm
+HHC3004: Warning: AIMPSDKCore.AIMP_MSG_CMD_RUNSTR_SHOW_TEXT.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKCore.AIMP_MSG_CMD_RUNSTR_SHOW_TEXT.htm
+HHC3004: Warning: AIMPSDKCore.AIMP_MSG_CMD_SAVE_PLAYLISTS.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKCore.AIMP_MSG_CMD_SAVE_PLAYLISTS.htm
+HHC3004: Warning: AIMPSDKCore.AIMP_MSG_CMD_SCHEDULER.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKCore.AIMP_MSG_CMD_SCHEDULER.htm
+HHC3004: Warning: AIMPSDKCore.AIMP_MSG_CMD_SEARCH.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKCore.AIMP_MSG_CMD_SEARCH.htm
+HHC3004: Warning: AIMPSDKCore.AIMP_MSG_CMD_SHOW_CURRENT_QFI.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKCore.AIMP_MSG_CMD_SHOW_CURRENT_QFI.htm
+HHC3004: Warning: AIMPSDKCore.AIMP_MSG_CMD_STATE_GET.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKCore.AIMP_MSG_CMD_STATE_GET.htm
+HHC3004: Warning: AIMPSDKCore.AIMP_MSG_CMD_STOP.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKCore.AIMP_MSG_CMD_STOP.htm
+HHC3004: Warning: AIMPSDKCore.AIMP_MSG_CMD_TOGGLE_PARTREPEAT.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKCore.AIMP_MSG_CMD_TOGGLE_PARTREPEAT.htm
+HHC3004: Warning: AIMPSDKCore.AIMP_MSG_CMD_TRAY_MINIMIZE_RESTORE.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKCore.AIMP_MSG_CMD_TRAY_MINIMIZE_RESTORE.htm
+HHC3004: Warning: AIMPSDKCore.AIMP_MSG_CMD_VISUAL_NEXT.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKCore.AIMP_MSG_CMD_VISUAL_NEXT.htm
+HHC3004: Warning: AIMPSDKCore.AIMP_MSG_CMD_VISUAL_PREV.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKCore.AIMP_MSG_CMD_VISUAL_PREV.htm
+HHC3004: Warning: AIMPSDKCore.AIMP_MSG_EVENT_BASE.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKCore.AIMP_MSG_EVENT_BASE.htm
+HHC3004: Warning: AIMPSDKCore.AIMP_MSG_EVENT_CMD_STATE.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKCore.AIMP_MSG_EVENT_CMD_STATE.htm
+HHC3004: Warning: AIMPSDKCore.AIMP_MSG_EVENT_FILEMARK.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKCore.AIMP_MSG_EVENT_FILEMARK.htm
+HHC3004: Warning: AIMPSDKCore.AIMP_MSG_EVENT_LANGUAGE.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKCore.AIMP_MSG_EVENT_LANGUAGE.htm
+HHC3004: Warning: AIMPSDKCore.AIMP_MSG_EVENT_MODULES.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKCore.AIMP_MSG_EVENT_MODULES.htm
+HHC3004: Warning: AIMPSDKCore.AIMP_MSG_EVENT_OPTIONS.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKCore.AIMP_MSG_EVENT_OPTIONS.htm
+HHC3004: Warning: AIMPSDKCore.AIMP_MSG_EVENT_OPTIONS_FRAME_LIST.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKCore.AIMP_MSG_EVENT_OPTIONS_FRAME_LIST.htm
+HHC3004: Warning: AIMPSDKCore.AIMP_MSG_EVENT_OPTIONS_FRAME_MODIFIED.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKCore.AIMP_MSG_EVENT_OPTIONS_FRAME_MODIFIED.htm
+HHC3004: Warning: AIMPSDKCore.AIMP_MSG_EVENT_PLAYER_STATE.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKCore.AIMP_MSG_EVENT_PLAYER_STATE.htm
+HHC3004: Warning: AIMPSDKCore.AIMP_MSG_EVENT_PLAYER_UPDATE_POSITION.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKCore.AIMP_MSG_EVENT_PLAYER_UPDATE_POSITION.htm
+HHC3004: Warning: AIMPSDKCore.AIMP_MSG_EVENT_PROPERTY_VALUE.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKCore.AIMP_MSG_EVENT_PROPERTY_VALUE.htm
+HHC3004: Warning: AIMPSDKCore.AIMP_MSG_EVENT_SKIN.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKCore.AIMP_MSG_EVENT_SKIN.htm
+HHC3004: Warning: AIMPSDKCore.AIMP_MSG_EVENT_STATISTICS_CHANGED.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKCore.AIMP_MSG_EVENT_STATISTICS_CHANGED.htm
+HHC3004: Warning: AIMPSDKCore.AIMP_MSG_EVENT_STATISTICS_DROPPED.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKCore.AIMP_MSG_EVENT_STATISTICS_DROPPED.htm
+HHC3004: Warning: AIMPSDKCore.AIMP_MSG_EVENT_STREAM_END.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKCore.AIMP_MSG_EVENT_STREAM_END.htm
+HHC3004: Warning: AIMPSDKCore.AIMP_MSG_EVENT_STREAM_START.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKCore.AIMP_MSG_EVENT_STREAM_START.htm
+HHC3004: Warning: AIMPSDKCore.AIMP_MSG_EVENT_STREAM_START_SUBTRACK.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKCore.AIMP_MSG_EVENT_STREAM_START_SUBTRACK.htm
+HHC3004: Warning: AIMPSDKCore.AIMP_MSG_EVENT_VISUAL_PLUGIN.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKCore.AIMP_MSG_EVENT_VISUAL_PLUGIN.htm
+HHC3004: Warning: AIMPSDKCore.AIMP_MSG_PROPERTY_ACTION_ON_END_OF_PLAYLIST.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKCore.AIMP_MSG_PROPERTY_ACTION_ON_END_OF_PLAYLIST.htm
+HHC3004: Warning: AIMPSDKCore.AIMP_MSG_PROPERTY_BALANCE.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKCore.AIMP_MSG_PROPERTY_BALANCE.htm
+HHC3004: Warning: AIMPSDKCore.AIMP_MSG_PROPERTY_BASE.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKCore.AIMP_MSG_PROPERTY_BASE.htm
+HHC3004: Warning: AIMPSDKCore.AIMP_MSG_PROPERTY_CHORUS.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKCore.AIMP_MSG_PROPERTY_CHORUS.htm
+HHC3004: Warning: AIMPSDKCore.AIMP_MSG_PROPERTY_ECHO.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKCore.AIMP_MSG_PROPERTY_ECHO.htm
+HHC3004: Warning: AIMPSDKCore.AIMP_MSG_PROPERTY_ENHANCER.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKCore.AIMP_MSG_PROPERTY_ENHANCER.htm
+HHC3004: Warning: AIMPSDKCore.AIMP_MSG_PROPERTY_EQUALIZER.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKCore.AIMP_MSG_PROPERTY_EQUALIZER.htm
+HHC3004: Warning: AIMPSDKCore.AIMP_MSG_PROPERTY_EQUALIZER_BAND.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKCore.AIMP_MSG_PROPERTY_EQUALIZER_BAND.htm
+HHC3004: Warning: AIMPSDKCore.AIMP_MSG_PROPERTY_FLANGER.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKCore.AIMP_MSG_PROPERTY_FLANGER.htm
+HHC3004: Warning: AIMPSDKCore.AIMP_MSG_PROPERTY_HWND.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKCore.AIMP_MSG_PROPERTY_HWND.htm
+HHC3004: Warning: AIMPSDKCore.AIMP_MSG_PROPERTY_MINIMIZED_TO_TRAY.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKCore.AIMP_MSG_PROPERTY_MINIMIZED_TO_TRAY.htm
+HHC3004: Warning: AIMPSDKCore.AIMP_MSG_PROPERTY_MUTE.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKCore.AIMP_MSG_PROPERTY_MUTE.htm
+HHC3004: Warning: AIMPSDKCore.AIMP_MSG_PROPERTY_PARTREPEAT.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKCore.AIMP_MSG_PROPERTY_PARTREPEAT.htm
+HHC3004: Warning: AIMPSDKCore.AIMP_MSG_PROPERTY_PITCH.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKCore.AIMP_MSG_PROPERTY_PITCH.htm
+HHC3004: Warning: AIMPSDKCore.AIMP_MSG_PROPERTY_PLAYER_DURATION.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKCore.AIMP_MSG_PROPERTY_PLAYER_DURATION.htm
+HHC3004: Warning: AIMPSDKCore.AIMP_MSG_PROPERTY_PLAYER_POSITION.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKCore.AIMP_MSG_PROPERTY_PLAYER_POSITION.htm
+HHC3004: Warning: AIMPSDKCore.AIMP_MSG_PROPERTY_PLAYER_STATE.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKCore.AIMP_MSG_PROPERTY_PLAYER_STATE.htm
+HHC3004: Warning: AIMPSDKCore.AIMP_MSG_PROPERTY_PREAMP.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKCore.AIMP_MSG_PROPERTY_PREAMP.htm
+HHC3004: Warning: AIMPSDKCore.AIMP_MSG_PROPERTY_RADIOCAP.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKCore.AIMP_MSG_PROPERTY_RADIOCAP.htm
+HHC3004: Warning: AIMPSDKCore.AIMP_MSG_PROPERTY_REPEAT.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKCore.AIMP_MSG_PROPERTY_REPEAT.htm
+HHC3004: Warning: AIMPSDKCore.AIMP_MSG_PROPERTY_REPEAT_SINGLE_FILE_PLAYLISTS.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKCore.AIMP_MSG_PROPERTY_REPEAT_SINGLE_FILE_PLAYLISTS.htm
+HHC3004: Warning: AIMPSDKCore.AIMP_MSG_PROPERTY_REVERB.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKCore.AIMP_MSG_PROPERTY_REVERB.htm
+HHC3004: Warning: AIMPSDKCore.AIMP_MSG_PROPERTY_REVERSETIME.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKCore.AIMP_MSG_PROPERTY_REVERSETIME.htm
+HHC3004: Warning: AIMPSDKCore.AIMP_MSG_PROPERTY_SHUFFLE.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKCore.AIMP_MSG_PROPERTY_SHUFFLE.htm
+HHC3004: Warning: AIMPSDKCore.AIMP_MSG_PROPERTY_SPEED.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKCore.AIMP_MSG_PROPERTY_SPEED.htm
+HHC3004: Warning: AIMPSDKCore.AIMP_MSG_PROPERTY_STAYONTOP.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKCore.AIMP_MSG_PROPERTY_STAYONTOP.htm
+HHC3004: Warning: AIMPSDKCore.AIMP_MSG_PROPERTY_STOP_AFTER_TRACK.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKCore.AIMP_MSG_PROPERTY_STOP_AFTER_TRACK.htm
+HHC3004: Warning: AIMPSDKCore.AIMP_MSG_PROPERTY_TEMPO.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKCore.AIMP_MSG_PROPERTY_TEMPO.htm
+HHC3004: Warning: AIMPSDKCore.AIMP_MSG_PROPERTY_TRUEBASS.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKCore.AIMP_MSG_PROPERTY_TRUEBASS.htm
+HHC3004: Warning: AIMPSDKCore.AIMP_MSG_PROPERTY_VOLUME.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKCore.AIMP_MSG_PROPERTY_VOLUME.htm
+HHC3004: Warning: AIMPSDKCore.AIMP_MSG_PROPVALUE_GET.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKCore.AIMP_MSG_PROPVALUE_GET.htm
+HHC3004: Warning: AIMPSDKCore.AIMP_MSG_PROPVALUE_SET.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKCore.AIMP_MSG_PROPVALUE_SET.htm
+HHC3004: Warning: AIMPSDKCore.IID_IAIMPCoreUnitMessageHook.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKCore.IID_IAIMPCoreUnitMessageHook.htm
+HHC3004: Warning: AIMPSDKCore.SID_IAIMPCoreUnitMessageHook.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKCore.SID_IAIMPCoreUnitMessageHook.htm
+HHC3004: Warning: AIMPSDKInput.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKInput.htm
+HHC3004: Warning: AIMPSDKInput_Interfaces.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKInput_Interfaces.htm
+HHC3004: Warning: AIMPSDKInput.IAIMPInputPluginDecoder.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKInput.IAIMPInputPluginDecoder.htm
+HHC3004: Warning: AIMPSDKInput.IAIMPInputPluginDecoder.DecoderGetFormatType.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKInput.IAIMPInputPluginDecoder.DecoderGetFormatType.htm
+HHC3004: Warning: AIMPSDKInput.IAIMPInputPluginDecoder.DecoderGetInfo(Integer,Integer,Integer).htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKInput.IAIMPInputPluginDecoder.DecoderGetInfo(Integer,Integer,Integer).htm
+HHC3004: Warning: AIMPSDKInput.IAIMPInputPluginDecoder.DecoderGetPosition.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKInput.IAIMPInputPluginDecoder.DecoderGetPosition.htm
+HHC3004: Warning: AIMPSDKInput.IAIMPInputPluginDecoder.DecoderGetSize.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKInput.IAIMPInputPluginDecoder.DecoderGetSize.htm
+HHC3004: Warning: AIMPSDKInput.IAIMPInputPluginDecoder.DecoderGetTags(PAIMPFileInfo).htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKInput.IAIMPInputPluginDecoder.DecoderGetTags(PAIMPFileInfo).htm
+HHC3004: Warning: AIMPSDKInput.IAIMPInputPluginDecoder.DecoderIsRealTimeStream.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKInput.IAIMPInputPluginDecoder.DecoderIsRealTimeStream.htm
+HHC3004: Warning: AIMPSDKInput.IAIMPInputPluginDecoder.DecoderIsSeekable.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKInput.IAIMPInputPluginDecoder.DecoderIsSeekable.htm
+HHC3004: Warning: AIMPSDKInput.IAIMPInputPluginDecoder.DecoderRead(PByte,Integer).htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKInput.IAIMPInputPluginDecoder.DecoderRead(PByte,Integer).htm
+HHC3004: Warning: AIMPSDKInput.IAIMPInputPluginDecoder.DecoderSetPosition(Int64).htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKInput.IAIMPInputPluginDecoder.DecoderSetPosition(Int64).htm
+HHC3004: Warning: AIMPSDKInput.IAIMPInputPluginHeader.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKInput.IAIMPInputPluginHeader.htm
+HHC3004: Warning: AIMPSDKInput.IAIMPInputPluginHeader.CreateDecoder(PWideChar,IAIMPInputPluginDecoder).htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKInput.IAIMPInputPluginHeader.CreateDecoder(PWideChar,IAIMPInputPluginDecoder).htm
+HHC3004: Warning: AIMPSDKInput.IAIMPInputPluginHeader.CreateDecoderEx(IAIMPInputStream,IAIMPInputPluginDecoder).htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKInput.IAIMPInputPluginHeader.CreateDecoderEx(IAIMPInputStream,IAIMPInputPluginDecoder).htm
+HHC3004: Warning: AIMPSDKInput.IAIMPInputPluginHeader.Finalize.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKInput.IAIMPInputPluginHeader.Finalize.htm
+HHC3004: Warning: AIMPSDKInput.IAIMPInputPluginHeader.GetFileInfo(PWideChar,PAIMPFileInfo).htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKInput.IAIMPInputPluginHeader.GetFileInfo(PWideChar,PAIMPFileInfo).htm
+HHC3004: Warning: AIMPSDKInput.IAIMPInputPluginHeader.GetPluginAuthor.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKInput.IAIMPInputPluginHeader.GetPluginAuthor.htm
+HHC3004: Warning: AIMPSDKInput.IAIMPInputPluginHeader.GetPluginFlags.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKInput.IAIMPInputPluginHeader.GetPluginFlags.htm
+HHC3004: Warning: AIMPSDKInput.IAIMPInputPluginHeader.GetPluginInfo.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKInput.IAIMPInputPluginHeader.GetPluginInfo.htm
+HHC3004: Warning: AIMPSDKInput.IAIMPInputPluginHeader.GetPluginName.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKInput.IAIMPInputPluginHeader.GetPluginName.htm
+HHC3004: Warning: AIMPSDKInput.IAIMPInputPluginHeader.GetSupportsFormats.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKInput.IAIMPInputPluginHeader.GetSupportsFormats.htm
+HHC3004: Warning: AIMPSDKInput.IAIMPInputPluginHeader.Initialize.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKInput.IAIMPInputPluginHeader.Initialize.htm
+HHC3004: Warning: AIMPSDKInput.IAIMPInputStream.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKInput.IAIMPInputStream.htm
+HHC3004: Warning: AIMPSDKInput.IAIMPInputStream.GetPosition.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKInput.IAIMPInputStream.GetPosition.htm
+HHC3004: Warning: AIMPSDKInput.IAIMPInputStream.GetSize.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKInput.IAIMPInputStream.GetSize.htm
+HHC3004: Warning: AIMPSDKInput.IAIMPInputStream.ReadData(PByte,Integer).htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKInput.IAIMPInputStream.ReadData(PByte,Integer).htm
+HHC3004: Warning: AIMPSDKInput.IAIMPInputStream.SetPosition(Int64).htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKInput.IAIMPInputStream.SetPosition(Int64).htm
+HHC3004: Warning: AIMPSDKInput.IAIMPInputStream.Skip(Int64).htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKInput.IAIMPInputStream.Skip(Int64).htm
+HHC3004: Warning: AIMPSDKInput_Types.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKInput_Types.htm
+HHC3004: Warning: AIMPSDKInput.TAIMPInputPluginHeaderProc.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKInput.TAIMPInputPluginHeaderProc.htm
+HHC3004: Warning: AIMPSDKInput_Variables.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKInput_Variables.htm
+HHC3004: Warning: AIMPSDKInput.AIMP_INPUT_BITDEPTH_08BIT.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKInput.AIMP_INPUT_BITDEPTH_08BIT.htm
+HHC3004: Warning: AIMPSDKInput.AIMP_INPUT_BITDEPTH_16BIT.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKInput.AIMP_INPUT_BITDEPTH_16BIT.htm
+HHC3004: Warning: AIMPSDKInput.AIMP_INPUT_BITDEPTH_24BIT.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKInput.AIMP_INPUT_BITDEPTH_24BIT.htm
+HHC3004: Warning: AIMPSDKInput.AIMP_INPUT_BITDEPTH_32BIT.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKInput.AIMP_INPUT_BITDEPTH_32BIT.htm
+HHC3004: Warning: AIMPSDKInput.AIMP_INPUT_BITDEPTH_32BITFLOAT.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKInput.AIMP_INPUT_BITDEPTH_32BITFLOAT.htm
+HHC3004: Warning: AIMPSDKInput.AIMP_INPUT_BITDEPTH_64BITFLOAT.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKInput.AIMP_INPUT_BITDEPTH_64BITFLOAT.htm
+HHC3004: Warning: AIMPSDKInput.AIMP_INPUT_FLAG_FILE.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKInput.AIMP_INPUT_FLAG_FILE.htm
+HHC3004: Warning: AIMPSDKInput.AIMP_INPUT_FLAG_ISTREAM.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKInput.AIMP_INPUT_FLAG_ISTREAM.htm
+HHC3004: Warning: AIMPSDKInput.IID_IAIMPInputPluginDecoder.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKInput.IID_IAIMPInputPluginDecoder.htm
+HHC3004: Warning: AIMPSDKInput.IID_IAIMPInputStream.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKInput.IID_IAIMPInputStream.htm
+HHC3004: Warning: AIMPSDKInput.SID_IAIMPInputPluginDecoder.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKInput.SID_IAIMPInputPluginDecoder.htm
+HHC3004: Warning: AIMPSDKInput.SID_IAIMPInputStream.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKInput.SID_IAIMPInputStream.htm
+HHC3004: Warning: AIMPSDKRemote.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKRemote.htm
+HHC3004: Warning: AIMPSDKRemote_Variables.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKRemote_Variables.htm
+HHC3004: Warning: AIMPSDKRemote.AIMP_RA_CMD_ADD_FILES.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKRemote.AIMP_RA_CMD_ADD_FILES.htm
+HHC3004: Warning: AIMPSDKRemote.AIMP_RA_CMD_ADD_FOLDERS.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKRemote.AIMP_RA_CMD_ADD_FOLDERS.htm
+HHC3004: Warning: AIMPSDKRemote.AIMP_RA_CMD_ADD_PLAYLISTS.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKRemote.AIMP_RA_CMD_ADD_PLAYLISTS.htm
+HHC3004: Warning: AIMPSDKRemote.AIMP_RA_CMD_ADD_URL.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKRemote.AIMP_RA_CMD_ADD_URL.htm
+HHC3004: Warning: AIMPSDKRemote.AIMP_RA_CMD_BASE.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKRemote.AIMP_RA_CMD_BASE.htm
+HHC3004: Warning: AIMPSDKRemote.AIMP_RA_CMD_GET_COVER_ART.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKRemote.AIMP_RA_CMD_GET_COVER_ART.htm
+HHC3004: Warning: AIMPSDKRemote.AIMP_RA_CMD_NEXT.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKRemote.AIMP_RA_CMD_NEXT.htm
+HHC3004: Warning: AIMPSDKRemote.AIMP_RA_CMD_OPEN_FILES.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKRemote.AIMP_RA_CMD_OPEN_FILES.htm
+HHC3004: Warning: AIMPSDKRemote.AIMP_RA_CMD_OPEN_FOLDERS.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKRemote.AIMP_RA_CMD_OPEN_FOLDERS.htm
+HHC3004: Warning: AIMPSDKRemote.AIMP_RA_CMD_OPEN_PLAYLISTS.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKRemote.AIMP_RA_CMD_OPEN_PLAYLISTS.htm
+HHC3004: Warning: AIMPSDKRemote.AIMP_RA_CMD_PAUSE.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKRemote.AIMP_RA_CMD_PAUSE.htm
+HHC3004: Warning: AIMPSDKRemote.AIMP_RA_CMD_PLAY.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKRemote.AIMP_RA_CMD_PLAY.htm
+HHC3004: Warning: AIMPSDKRemote.AIMP_RA_CMD_PLAYPAUSE.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKRemote.AIMP_RA_CMD_PLAYPAUSE.htm
+HHC3004: Warning: AIMPSDKRemote.AIMP_RA_CMD_PREV.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKRemote.AIMP_RA_CMD_PREV.htm
+HHC3004: Warning: AIMPSDKRemote.AIMP_RA_CMD_QUIT.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKRemote.AIMP_RA_CMD_QUIT.htm
+HHC3004: Warning: AIMPSDKRemote.AIMP_RA_CMD_REGISTER_NOTIFY.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKRemote.AIMP_RA_CMD_REGISTER_NOTIFY.htm
+HHC3004: Warning: AIMPSDKRemote.AIMP_RA_CMD_STOP.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKRemote.AIMP_RA_CMD_STOP.htm
+HHC3004: Warning: AIMPSDKRemote.AIMP_RA_CMD_UNREGISTER_NOTIFY.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKRemote.AIMP_RA_CMD_UNREGISTER_NOTIFY.htm
+HHC3004: Warning: AIMPSDKRemote.AIMP_RA_CMD_VISUAL_NEXT.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKRemote.AIMP_RA_CMD_VISUAL_NEXT.htm
+HHC3004: Warning: AIMPSDKRemote.AIMP_RA_CMD_VISUAL_PREV.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKRemote.AIMP_RA_CMD_VISUAL_PREV.htm
+HHC3004: Warning: AIMPSDKRemote.AIMP_RA_NOTIFY_BASE.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKRemote.AIMP_RA_NOTIFY_BASE.htm
+HHC3004: Warning: AIMPSDKRemote.AIMP_RA_NOTIFY_PROPERTY.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKRemote.AIMP_RA_NOTIFY_PROPERTY.htm
+HHC3004: Warning: AIMPSDKRemote.AIMP_RA_NOTIFY_TRACK_INFO.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKRemote.AIMP_RA_NOTIFY_TRACK_INFO.htm
+HHC3004: Warning: AIMPSDKRemote.AIMP_RA_NOTIFY_TRACK_START.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKRemote.AIMP_RA_NOTIFY_TRACK_START.htm
+HHC3004: Warning: AIMPSDKRemote.AIMP_RA_PROPERTY_MASK.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKRemote.AIMP_RA_PROPERTY_MASK.htm
+HHC3004: Warning: AIMPSDKRemote.AIMP_RA_PROPERTY_MUTE.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKRemote.AIMP_RA_PROPERTY_MUTE.htm
+HHC3004: Warning: AIMPSDKRemote.AIMP_RA_PROPERTY_PLAYER_DURATION.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKRemote.AIMP_RA_PROPERTY_PLAYER_DURATION.htm
+HHC3004: Warning: AIMPSDKRemote.AIMP_RA_PROPERTY_PLAYER_POSITION.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKRemote.AIMP_RA_PROPERTY_PLAYER_POSITION.htm
+HHC3004: Warning: AIMPSDKRemote.AIMP_RA_PROPERTY_PLAYER_STATE.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKRemote.AIMP_RA_PROPERTY_PLAYER_STATE.htm
+HHC3004: Warning: AIMPSDKRemote.AIMP_RA_PROPERTY_RADIOCAP.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKRemote.AIMP_RA_PROPERTY_RADIOCAP.htm
+HHC3004: Warning: AIMPSDKRemote.AIMP_RA_PROPERTY_TRACK_REPEAT.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKRemote.AIMP_RA_PROPERTY_TRACK_REPEAT.htm
+HHC3004: Warning: AIMPSDKRemote.AIMP_RA_PROPERTY_TRACK_SHUFFLE.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKRemote.AIMP_RA_PROPERTY_TRACK_SHUFFLE.htm
+HHC3004: Warning: AIMPSDKRemote.AIMP_RA_PROPERTY_VERSION.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKRemote.AIMP_RA_PROPERTY_VERSION.htm
+HHC3004: Warning: AIMPSDKRemote.AIMP_RA_PROPERTY_VOLUME.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKRemote.AIMP_RA_PROPERTY_VOLUME.htm
+HHC3004: Warning: AIMPSDKRemote.AIMP_RA_PROPVALUE_GET.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKRemote.AIMP_RA_PROPVALUE_GET.htm
+HHC3004: Warning: AIMPSDKRemote.AIMP_RA_PROPVALUE_SET.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKRemote.AIMP_RA_PROPVALUE_SET.htm
+HHC3004: Warning: AIMPSDKRemote.AIMPRemoteAccessClass.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKRemote.AIMPRemoteAccessClass.htm
+HHC3004: Warning: AIMPSDKRemote.AIMPRemoteAccessMapFileSize.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKRemote.AIMPRemoteAccessMapFileSize.htm
+HHC3004: Warning: AIMPSDKRemote.WM_AIMP_COMMAND.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKRemote.WM_AIMP_COMMAND.htm
+HHC3004: Warning: AIMPSDKRemote.WM_AIMP_COPYDATA_COVER_ID.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKRemote.WM_AIMP_COPYDATA_COVER_ID.htm
+HHC3004: Warning: AIMPSDKRemote.WM_AIMP_NOTIFY.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKRemote.WM_AIMP_NOTIFY.htm
+HHC3004: Warning: AIMPSDKRemote.WM_AIMP_PROPERTY.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKRemote.WM_AIMP_PROPERTY.htm
+HHC3004: Warning: AIMPSDKVisual.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKVisual.htm
+HHC3004: Warning: AIMPSDKVisual_Classes.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKVisual_Classes.htm
+HHC3004: Warning: AIMPSDKVisual.TAIMPVisualData.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKVisual.TAIMPVisualData.htm
+HHC3004: Warning: AIMPSDKVisual.TAIMPVisualData.LevelL.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKVisual.TAIMPVisualData.LevelL.htm
+HHC3004: Warning: AIMPSDKVisual.TAIMPVisualData.LevelR.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKVisual.TAIMPVisualData.LevelR.htm
+HHC3004: Warning: AIMPSDKVisual.TAIMPVisualData.Spectrum.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKVisual.TAIMPVisualData.Spectrum.htm
+HHC3004: Warning: AIMPSDKVisual.TAIMPVisualData.WaveForm.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKVisual.TAIMPVisualData.WaveForm.htm
+HHC3004: Warning: AIMPSDKVisual_Interfaces.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKVisual_Interfaces.htm
+HHC3004: Warning: AIMPSDKVisual.IAIMPVisualPlugin3.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKVisual.IAIMPVisualPlugin3.htm
+HHC3004: Warning: AIMPSDKVisual.IAIMPVisualPlugin3.DisplayClick(Integer,Integer).htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKVisual.IAIMPVisualPlugin3.DisplayClick(Integer,Integer).htm
+HHC3004: Warning: AIMPSDKVisual.IAIMPVisualPlugin3.DisplayRender(HDC,PAIMPVisualData).htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKVisual.IAIMPVisualPlugin3.DisplayRender(HDC,PAIMPVisualData).htm
+HHC3004: Warning: AIMPSDKVisual.IAIMPVisualPlugin3.DisplayResize(Integer,Integer).htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKVisual.IAIMPVisualPlugin3.DisplayResize(Integer,Integer).htm
+HHC3004: Warning: AIMPSDKVisual.IAIMPVisualPlugin3.Finalize.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKVisual.IAIMPVisualPlugin3.Finalize.htm
+HHC3004: Warning: AIMPSDKVisual.IAIMPVisualPlugin3.GetPluginAuthor.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKVisual.IAIMPVisualPlugin3.GetPluginAuthor.htm
+HHC3004: Warning: AIMPSDKVisual.IAIMPVisualPlugin3.GetPluginFlags.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKVisual.IAIMPVisualPlugin3.GetPluginFlags.htm
+HHC3004: Warning: AIMPSDKVisual.IAIMPVisualPlugin3.GetPluginInfo.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKVisual.IAIMPVisualPlugin3.GetPluginInfo.htm
+HHC3004: Warning: AIMPSDKVisual.IAIMPVisualPlugin3.GetPluginName.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKVisual.IAIMPVisualPlugin3.GetPluginName.htm
+HHC3004: Warning: AIMPSDKVisual.IAIMPVisualPlugin3.Initialize(IAIMPCoreUnit).htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKVisual.IAIMPVisualPlugin3.Initialize(IAIMPCoreUnit).htm
+HHC3004: Warning: AIMPSDKVisual_Types.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKVisual_Types.htm
+HHC3004: Warning: AIMPSDKVisual.PAIMPVisualData.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKVisual.PAIMPVisualData.htm
+HHC3004: Warning: AIMPSDKVisual.TAIMPVisualPluginProc.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKVisual.TAIMPVisualPluginProc.htm
+HHC3004: Warning: AIMPSDKVisual.TSpectrum.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKVisual.TSpectrum.htm
+HHC3004: Warning: AIMPSDKVisual.TWaveForm.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKVisual.TWaveForm.htm
+HHC3004: Warning: AIMPSDKVisual_Variables.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKVisual_Variables.htm
+HHC3004: Warning: AIMPSDKVisual.AIMP_VISUAL_FLAGS_NOT_SUSPEND.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKVisual.AIMP_VISUAL_FLAGS_NOT_SUSPEND.htm
+HHC3004: Warning: AIMPSDKVisual.AIMP_VISUAL_FLAGS_RQD_DATA_SPECTRUM.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKVisual.AIMP_VISUAL_FLAGS_RQD_DATA_SPECTRUM.htm
+HHC3004: Warning: AIMPSDKVisual.AIMP_VISUAL_FLAGS_RQD_DATA_WAVE.htm : The HTML tag "?xml version="1.0"?" is not a valid HTML tag (it does not begin with an alphanumeric character).
+AIMPSDKVisual.AIMP_VISUAL_FLAGS_RQD_DATA_WAVE.htm
+images\alert_caution.gif
+images\alert_note.gif
+images\alert_security.gif
+images\book-closed.png
+images\book.png
+images\box.gif
+images\Caution.gif
+images\circle.gif
+images\collall.gif
+images\collapse.gif
+images\collapse_all.gif
+images\copycode.gif
+images\copycodeHighlight.gif
+images\dropdown.gif
+images\dropdownHover.gif
+images\drpdown.gif
+images\drpdown_orange.gif
+images\drpdown_orange_up.gif
+images\drpup.gif
+images\exp.gif
+images\expall.gif
+images\expand.gif
+images\expand_all.gif
+images\filter1a.gif
+images\filter1c.gif
+images\footer-bg.png
+images\footer.gif
+images\gradient.gif
+images\greencheck.gif
+images\greychck.gif
+images\header-bg.png
+images\hmtoggle_plus0.gif
+images\hmtoggle_plus1.gif
+images\iconErrorTop.png
+images\LastChild.gif
+images\load.gif
+images\load_hover.gif
+images\note.gif
+images\pencil.GIF
+images\privclass.gif
+images\privdelegate.gif
+images\privenum.gif
+images\privenumeration.gif
+images\privevent.gif
+images\privextension.gif
+images\privfield.gif
+images\privinterface.gif
+images\privmethod.gif
+images\privproperty.gif
+images\privstructure.gif
+images\protclass.gif
+images\protdelegate.gif
+images\protenum.gif
+images\protenumeration.gif
+images\protevent.gif
+images\protextension.gif
+images\protfield.gif
+images\protinterface.gif
+images\protmethod.gif
+images\protoperator.gif
+images\protproperty.gif
+images\protstructure.gif
+images\pubclass.gif
+images\pubdelegate.gif
+images\pubenum.gif
+images\pubenumeration.gif
+images\pubevent.gif
+images\pubextension.gif
+images\pubfield.gif
+images\pubinterface.gif
+images\pubmethod.gif
+images\puboperator.gif
+images\pubproperty.gif
+images\pubstructure.gif
+images\requirements1a.gif
+images\requirements1c.gif
+images\save.gif
+images\save_hover.gif
+images\security.gif
+images\seealso1a.gif
+images\seealso1c.gif
+images\static.gif
+images\topic.png
+images\vgrabber.gif
+css\csshover3.htc
+css\dynatree\0.png
+css\dynatree\1.png
+css\dynatree\10.png
+css\dynatree\11.png
+css\dynatree\12.png
+css\dynatree\13.png
+css\dynatree\14.png
+css\dynatree\15.png
+css\dynatree\16.png
+css\dynatree\17.png
+css\dynatree\18.png
+css\dynatree\19.png
+css\dynatree\2.png
+css\dynatree\20.png
+css\dynatree\21.png
+css\dynatree\22.png
+css\dynatree\23.png
+css\dynatree\24.png
+css\dynatree\25.png
+css\dynatree\26.png
+css\dynatree\27.png
+css\dynatree\28.png
+css\dynatree\29.png
+css\dynatree\3.png
+css\dynatree\30.png
+css\dynatree\31.png
+css\dynatree\32.png
+css\dynatree\33.png
+css\dynatree\34.png
+css\dynatree\35.png
+css\dynatree\36.png
+css\dynatree\37.png
+css\dynatree\38.png
+css\dynatree\39.png
+css\dynatree\4.png
+css\dynatree\40.png
+css\dynatree\41.png
+css\dynatree\5.png
+css\dynatree\6.png
+css\dynatree\7.png
+css\dynatree\8.png
+css\dynatree\9.png
+css\dynatree\icons.gif
+css\dynatree\loading.gif
+css\dynatree\ui.dynatree.css
+css\dynatree\vline.gif
+css\editor.css
+css\ielte8.css
+css\presentation.css
+css\reset.css
+css\smoothness\images\ui-bg_flat_0_aaaaaa_40x100.png
+css\smoothness\images\ui-bg_flat_75_ffffff_40x100.png
+css\smoothness\images\ui-bg_glass_55_fbf9ee_1x400.png
+css\smoothness\images\ui-bg_glass_65_ffffff_1x400.png
+css\smoothness\images\ui-bg_glass_75_dadada_1x400.png
+css\smoothness\images\ui-bg_glass_75_e6e6e6_1x400.png
+css\smoothness\images\ui-bg_glass_95_fef1ec_1x400.png
+css\smoothness\images\ui-bg_highlight-soft_75_cccccc_1x100.png
+css\smoothness\images\ui-icons_222222_256x240.png
+css\smoothness\images\ui-icons_2e83ff_256x240.png
+css\smoothness\images\ui-icons_454545_256x240.png
+css\smoothness\images\ui-icons_888888_256x240.png
+css\smoothness\images\ui-icons_cd0a0a_256x240.png
+css\smoothness\jquery-ui-1.8.22.custom.css
+css\toc.css
+js\di.toc.js
+js\di.utils.js
+js\jquery-ui-1.8.22.custom.min.js
+js\jquery.cookie.js
+js\jquery.dynatree.min.js
+js\jquery.min.js
+js\jquery.textchange.min.js
+js\splitter.js
+AIMP.hhc
+AIMP.hhk
+
+Compile time: 0 minutes, 7 seconds
+1,067	Topics
+3,918	Local links
+532	Internet links
+0	Graphics
+
+
+Created e:\Ildar\Delphi\Aimp-SDK-Help\Doc\CHM\AIMP.chm, 456,262 bytes
+Compression decreased file by 3,239,101 bytes.

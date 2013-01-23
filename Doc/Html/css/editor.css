@@ -1,0 +1,40 @@
+body
+{
+  behavior: url("csshover3.htc");
+}
+
+/* IE7+ */
+div[contentEditable="true"]:hover
+{
+  border: #ccc dotted 1px;
+  background-color: lightyellow;
+  margin: -1px;
+}
+
+div[contentEditable="true"]:focus
+{
+  outline:none;
+  border: 1px dotted #f1ca7f;
+  margin: -1px;
+  background-color: lightyellow;
+}
+
+/*@@@*/
+div[contentEditable="true"]
+{
+    border: 1px dotted #ddd;
+    margin: -1px;
+    min-height: 15px;
+    padding: 3px;
+}
+
+div.sectionContent
+{
+	min-height:30px;
+}
+
+img
+{
+	max-width:100%;
+	border: none;
+}

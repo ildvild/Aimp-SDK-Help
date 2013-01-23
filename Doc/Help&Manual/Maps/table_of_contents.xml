@@ -1,0 +1,1068 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<map xmlns:xsi="http://www.w3.org/2001/XInclude">
+  <topicref type="topic" id="-494365971" build="ALL" icon="0" href="AIMPSDKAddons">  <caption translate="true">AIMPSDKAddons</caption>
+<topicref type="topic" id="-477316505" build="ALL" icon="0" href="AIMPSDKAddons_Classes">  <caption translate="true">Classes &amp; Structures</caption>
+<topicref type="topic" id="-397478817" build="ALL" icon="0" href="AIMPSDKAddons.TAIMPFileStatisticsInfo">  <caption translate="true">TAIMPFileStatisticsInfo</caption>
+<topicref type="topic" id="167778904" build="ALL" icon="0" href="AIMPSDKAddons.TAIMPFileStatisticsInfo.AddDate">  <caption translate="true">AddDate</caption>
+</topicref>
+<topicref type="topic" id="1858549555" build="ALL" icon="0" href="AIMPSDKAddons.TAIMPFileStatisticsInfo.Mark">  <caption translate="true">Mark</caption>
+</topicref>
+<topicref type="topic" id="-565464785" build="ALL" icon="0" href="AIMPSDKAddons.TAIMPFileStatisticsInfo.PlayCount">  <caption translate="true">PlayCount</caption>
+</topicref>
+<topicref type="topic" id="668332029" build="ALL" icon="0" href="AIMPSDKAddons.TAIMPFileStatisticsInfo.PlayDate">  <caption translate="true">PlayDate</caption>
+</topicref>
+</topicref>
+<topicref type="topic" id="-1699106684" build="ALL" icon="0" href="AIMPSDKAddons.TAIMPMenuItemInfo">  <caption translate="true">TAIMPMenuItemInfo</caption>
+<topicref type="topic" id="-2111391078" build="ALL" icon="0" href="AIMPSDKAddons.TAIMPMenuItemInfo.Bitmap">  <caption translate="true">Bitmap</caption>
+</topicref>
+<topicref type="topic" id="-1480951053" build="ALL" icon="0" href="AIMPSDKAddons.TAIMPMenuItemInfo.Caption">  <caption translate="true">Caption</caption>
+</topicref>
+<topicref type="topic" id="-1039557726" build="ALL" icon="0" href="AIMPSDKAddons.TAIMPMenuItemInfo.Flags">  <caption translate="true">Flags</caption>
+</topicref>
+<topicref type="topic" id="840274043" build="ALL" icon="0" href="AIMPSDKAddons.TAIMPMenuItemInfo.Proc">  <caption translate="true">Proc</caption>
+</topicref>
+<topicref type="topic" id="-1825404960" build="ALL" icon="0" href="AIMPSDKAddons.TAIMPMenuItemInfo.ShortCut">  <caption translate="true">ShortCut</caption>
+</topicref>
+<topicref type="topic" id="1703272298" build="ALL" icon="0" href="AIMPSDKAddons.TAIMPMenuItemInfo.StructSize">  <caption translate="true">StructSize</caption>
+</topicref>
+<topicref type="topic" id="-1408994290" build="ALL" icon="0" href="AIMPSDKAddons.TAIMPMenuItemInfo.UserData">  <caption translate="true">UserData</caption>
+</topicref>
+</topicref>
+<topicref type="topic" id="-851752341" build="ALL" icon="0" href="AIMPSDKAddons.TAIMPSkinInfo">  <caption translate="true">TAIMPSkinInfo</caption>
+<topicref type="topic" id="-114250801" build="ALL" icon="0" href="AIMPSDKAddons.TAIMPSkinInfo.AuthorBuffer">  <caption translate="true">AuthorBuffer</caption>
+</topicref>
+<topicref type="topic" id="964199361" build="ALL" icon="0" href="AIMPSDKAddons.TAIMPSkinInfo.AuthorBufferLength">  <caption translate="true">AuthorBufferLength</caption>
+</topicref>
+<topicref type="topic" id="-204508896" build="ALL" icon="0" href="AIMPSDKAddons.TAIMPSkinInfo.InfoBuffer">  <caption translate="true">InfoBuffer</caption>
+</topicref>
+<topicref type="topic" id="-1111196991" build="ALL" icon="0" href="AIMPSDKAddons.TAIMPSkinInfo.InfoBufferLength">  <caption translate="true">InfoBufferLength</caption>
+</topicref>
+<topicref type="topic" id="-1921629957" build="ALL" icon="0" href="AIMPSDKAddons.TAIMPSkinInfo.NameBuffer">  <caption translate="true">NameBuffer</caption>
+</topicref>
+<topicref type="topic" id="2050301103" build="ALL" icon="0" href="AIMPSDKAddons.TAIMPSkinInfo.NameBufferLength">  <caption translate="true">NameBufferLength</caption>
+</topicref>
+<topicref type="topic" id="-1856916073" build="ALL" icon="0" href="AIMPSDKAddons.TAIMPSkinInfo.Preview">  <caption translate="true">Preview</caption>
+</topicref>
+<topicref type="topic" id="-250925949" build="ALL" icon="0" href="AIMPSDKAddons.TAIMPSkinInfo.StructSize">  <caption translate="true">StructSize</caption>
+</topicref>
+</topicref>
+</topicref>
+<topicref type="topic" id="1809849287" build="ALL" icon="0" href="AIMPSDKAddons_Interfaces">  <caption translate="true">Interfaces</caption>
+<topicref type="topic" id="1579723151" build="ALL" icon="0" href="AIMPSDKAddons.IAIMPAddonPlugin">  <caption translate="true">IAIMPAddonPlugin</caption>
+<topicref type="topic" id="-1821236921" build="ALL" icon="0" href="AIMPSDKAddons.IAIMPAddonPlugin.Finalize">  <caption translate="true">Finalize</caption>
+</topicref>
+<topicref type="topic" id="2065514691" build="ALL" icon="0" href="AIMPSDKAddons.IAIMPAddonPlugin.GetPluginAuthor">  <caption translate="true">GetPluginAuthor</caption>
+</topicref>
+<topicref type="topic" id="-496136425" build="ALL" icon="0" href="AIMPSDKAddons.IAIMPAddonPlugin.GetPluginFlags">  <caption translate="true">GetPluginFlags</caption>
+</topicref>
+<topicref type="topic" id="1076173977" build="ALL" icon="0" href="AIMPSDKAddons.IAIMPAddonPlugin.GetPluginInfo">  <caption translate="true">GetPluginInfo</caption>
+</topicref>
+<topicref type="topic" id="2131085707" build="ALL" icon="0" href="AIMPSDKAddons.IAIMPAddonPlugin.GetPluginName">  <caption translate="true">GetPluginName</caption>
+</topicref>
+<topicref type="topic" id="-299037098" build="ALL" icon="0" href="AIMPSDKAddons.IAIMPAddonPlugin.Initialize(IAIMPCoreUnit)">  <caption translate="true">Initialize(IAIMPCoreUnit)</caption>
+</topicref>
+<topicref type="topic" id="1069856805" build="ALL" icon="0" href="AIMPSDKAddons.IAIMPAddonPlugin.ShowSettingsDialog(HWND)">  <caption translate="true">ShowSettingsDialog(HWND)</caption>
+</topicref>
+</topicref>
+<topicref type="topic" id="-925103963" build="ALL" icon="0" href="AIMPSDKAddons.IAIMPAddonsConfigFile">  <caption translate="true">IAIMPAddonsConfigFile</caption>
+<topicref type="topic" id="-1198838878" build="ALL" icon="0" href="AIMPSDKAddons.IAIMPAddonsConfigFile.ReadInteger(PWideChar,PWideChar,Integer,Integer,Integer)">  <caption translate="true">ReadInteger(PWideChar,PWideChar,Integer,Integer,Integer)</caption>
+</topicref>
+<topicref type="topic" id="1806633748" build="ALL" icon="0" href="AIMPSDKAddons.IAIMPAddonsConfigFile.ReadString(PWideChar,PWideChar,PWideChar,Integer,Integer,Integer)">  <caption translate="true">ReadString(PWideChar,PWideChar,PWideChar,Integer,Integer,Integer)</caption>
+</topicref>
+<topicref type="topic" id="912645296" build="ALL" icon="0" href="AIMPSDKAddons.IAIMPAddonsConfigFile.SectionExists(PWideChar,Integer)">  <caption translate="true">SectionExists(PWideChar,Integer)</caption>
+</topicref>
+<topicref type="topic" id="-2045087362" build="ALL" icon="0" href="AIMPSDKAddons.IAIMPAddonsConfigFile.SectionRemove(PWideChar,Integer)">  <caption translate="true">SectionRemove(PWideChar,Integer)</caption>
+</topicref>
+<topicref type="topic" id="-537894745" build="ALL" icon="0" href="AIMPSDKAddons.IAIMPAddonsConfigFile.WriteInteger(PWideChar,PWideChar,Integer,Integer,Integer)">  <caption translate="true">WriteInteger(PWideChar,PWideChar,Integer,Integer,Integer)</caption>
+</topicref>
+<topicref type="topic" id="326135075" build="ALL" icon="0" href="AIMPSDKAddons.IAIMPAddonsConfigFile.WriteString(PWideChar,PWideChar,PWideChar,Integer,Integer,Integer)">  <caption translate="true">WriteString(PWideChar,PWideChar,PWideChar,Integer,Integer,Integer)</caption>
+</topicref>
+</topicref>
+<topicref type="topic" id="1381291167" build="ALL" icon="0" href="AIMPSDKAddons.IAIMPAddonsCoverArtManager">  <caption translate="true">IAIMPAddonsCoverArtManager</caption>
+<topicref type="topic" id="555326218" build="ALL" icon="0" href="AIMPSDKAddons.IAIMPAddonsCoverArtManager.CoverArtDraw(HDC,TRect)">  <caption translate="true">CoverArtDraw(HDC,TRect)</caption>
+</topicref>
+<topicref type="topic" id="-2083331222" build="ALL" icon="0" href="AIMPSDKAddons.IAIMPAddonsCoverArtManager.CoverArtGetFileName(PWideChar,Integer)">  <caption translate="true">CoverArtGetFileName(PWideChar,Integer)</caption>
+</topicref>
+<topicref type="topic" id="1215327224" build="ALL" icon="0" href="AIMPSDKAddons.IAIMPAddonsCoverArtManager.CoverArtGetForFile(PWideChar,PSize,PWideChar,Integer)">  <caption translate="true">CoverArtGetForFile(PWideChar,PSize,PWideChar,Integer)</caption>
+</topicref>
+<topicref type="topic" id="-1605657332" build="ALL" icon="0" href="AIMPSDKAddons.IAIMPAddonsCoverArtManager.CoverArtGetSize(TSize)">  <caption translate="true">CoverArtGetSize(TSize)</caption>
+</topicref>
+</topicref>
+<topicref type="topic" id="936953435" build="ALL" icon="0" href="AIMPSDKAddons.IAIMPAddonsFileInfoRepository">  <caption translate="true">IAIMPAddonsFileInfoRepository</caption>
+<topicref type="topic" id="-771602148" build="ALL" icon="0" href="AIMPSDKAddons.IAIMPAddonsFileInfoRepository.GetInfo(PWideChar,PAIMPFileInfo)">  <caption translate="true">GetInfo(PWideChar,PAIMPFileInfo)</caption>
+</topicref>
+</topicref>
+<topicref type="topic" id="-2028692810" build="ALL" icon="0" href="AIMPSDKAddons.IAIMPAddonsLanguageFile">  <caption translate="true">IAIMPAddonsLanguageFile</caption>
+<topicref type="topic" id="-736824633" build="ALL" icon="0" href="AIMPSDKAddons.IAIMPAddonsLanguageFile.CurrentFile(PWideChar,Integer)">  <caption translate="true">CurrentFile(PWideChar,Integer)</caption>
+</topicref>
+<topicref type="topic" id="1595819147" build="ALL" icon="0" href="AIMPSDKAddons.IAIMPAddonsLanguageFile.Notification(HWND,LongBool)">  <caption translate="true">Notification(HWND,LongBool)</caption>
+</topicref>
+<topicref type="topic" id="2121402835" build="ALL" icon="0" href="AIMPSDKAddons.IAIMPAddonsLanguageFile.ReadString(PWideChar,PWideChar,PWideChar,Integer,Integer,Integer)">  <caption translate="true">ReadString(PWideChar,PWideChar,PWideChar,Integer,Integer,Integer)</caption>
+</topicref>
+<topicref type="topic" id="1638440501" build="ALL" icon="0" href="AIMPSDKAddons.IAIMPAddonsLanguageFile.SectionExists(PWideChar,Integer)">  <caption translate="true">SectionExists(PWideChar,Integer)</caption>
+</topicref>
+<topicref type="topic" id="803551256" build="ALL" icon="0" href="AIMPSDKAddons.IAIMPAddonsLanguageFile.Version">  <caption translate="true">Version</caption>
+</topicref>
+</topicref>
+<topicref type="topic" id="966107229" build="ALL" icon="0" href="AIMPSDKAddons.IAIMPAddonsMenuManager">  <caption translate="true">IAIMPAddonsMenuManager</caption>
+<topicref type="topic" id="682408587" build="ALL" icon="0" href="AIMPSDKAddons.IAIMPAddonsMenuManager.MenuCreate(DWORD,PAIMPMenuItemInfo)">  <caption translate="true">MenuCreate(DWORD,PAIMPMenuItemInfo)</caption>
+</topicref>
+<topicref type="topic" id="1146203762" build="ALL" icon="0" href="AIMPSDKAddons.IAIMPAddonsMenuManager.MenuCreateEx(HAIMPMENU,PAIMPMenuItemInfo)">  <caption translate="true">MenuCreateEx(HAIMPMENU,PAIMPMenuItemInfo)</caption>
+</topicref>
+<topicref type="topic" id="1565785192" build="ALL" icon="0" href="AIMPSDKAddons.IAIMPAddonsMenuManager.MenuRemove(HAIMPMENU)">  <caption translate="true">MenuRemove(HAIMPMENU)</caption>
+</topicref>
+<topicref type="topic" id="1275381879" build="ALL" icon="0" href="AIMPSDKAddons.IAIMPAddonsMenuManager.MenuTextToShortCut(PWideChar,Integer)">  <caption translate="true">MenuTextToShortCut(PWideChar,Integer)</caption>
+</topicref>
+<topicref type="topic" id="-2083989549" build="ALL" icon="0" href="AIMPSDKAddons.IAIMPAddonsMenuManager.MenuUpdate(HAIMPMENU,PAIMPMenuItemInfo)">  <caption translate="true">MenuUpdate(HAIMPMENU,PAIMPMenuItemInfo)</caption>
+</topicref>
+</topicref>
+<topicref type="topic" id="-1099616850" build="ALL" icon="0" href="AIMPSDKAddons.IAIMPAddonsOptionsDialog">  <caption translate="true">IAIMPAddonsOptionsDialog</caption>
+<topicref type="topic" id="-977389753" build="ALL" icon="0" href="AIMPSDKAddons.IAIMPAddonsOptionsDialog.FrameAdd(IAIMPAddonsOptionsDialogFrame)">  <caption translate="true">FrameAdd(IAIMPAddonsOptionsDialogFrame)</caption>
+</topicref>
+<topicref type="topic" id="-1318497046" build="ALL" icon="0" href="AIMPSDKAddons.IAIMPAddonsOptionsDialog.FrameModified(IAIMPAddonsOptionsDialogFrame)">  <caption translate="true">FrameModified(IAIMPAddonsOptionsDialogFrame)</caption>
+</topicref>
+<topicref type="topic" id="972609719" build="ALL" icon="0" href="AIMPSDKAddons.IAIMPAddonsOptionsDialog.FrameRemove(IAIMPAddonsOptionsDialogFrame)">  <caption translate="true">FrameRemove(IAIMPAddonsOptionsDialogFrame)</caption>
+</topicref>
+<topicref type="topic" id="332372792" build="ALL" icon="0" href="AIMPSDKAddons.IAIMPAddonsOptionsDialog.FrameShow(IAIMPAddonsOptionsDialogFrame,LongBool)">  <caption translate="true">FrameShow(IAIMPAddonsOptionsDialogFrame,LongBool)</caption>
+</topicref>
+</topicref>
+<topicref type="topic" id="1760640619" build="ALL" icon="0" href="AIMPSDKAddons.IAIMPAddonsOptionsDialogFrame">  <caption translate="true">IAIMPAddonsOptionsDialogFrame</caption>
+<topicref type="topic" id="1963924126" build="ALL" icon="0" href="AIMPSDKAddons.IAIMPAddonsOptionsDialogFrame.FrameCreate(HWND)">  <caption translate="true">FrameCreate(HWND)</caption>
+</topicref>
+<topicref type="topic" id="-825986973" build="ALL" icon="0" href="AIMPSDKAddons.IAIMPAddonsOptionsDialogFrame.FrameData">  <caption translate="true">FrameData</caption>
+</topicref>
+<topicref type="topic" id="-1388626208" build="ALL" icon="0" href="AIMPSDKAddons.IAIMPAddonsOptionsDialogFrame.FrameFlags">  <caption translate="true">FrameFlags</caption>
+</topicref>
+<topicref type="topic" id="-1323446676" build="ALL" icon="0" href="AIMPSDKAddons.IAIMPAddonsOptionsDialogFrame.FrameFree(HWND)">  <caption translate="true">FrameFree(HWND)</caption>
+</topicref>
+<topicref type="topic" id="-248781028" build="ALL" icon="0" href="AIMPSDKAddons.IAIMPAddonsOptionsDialogFrame.FrameLoadConfigNotify">  <caption translate="true">FrameLoadConfigNotify</caption>
+</topicref>
+<topicref type="topic" id="-1885452029" build="ALL" icon="0" href="AIMPSDKAddons.IAIMPAddonsOptionsDialogFrame.FrameName">  <caption translate="true">FrameName</caption>
+</topicref>
+<topicref type="topic" id="-1250552725" build="ALL" icon="0" href="AIMPSDKAddons.IAIMPAddonsOptionsDialogFrame.FrameSaveConfigNotify">  <caption translate="true">FrameSaveConfigNotify</caption>
+</topicref>
+</topicref>
+<topicref type="topic" id="821220844" build="ALL" icon="0" href="AIMPSDKAddons.IAIMPAddonsPlayerManager">  <caption translate="true">IAIMPAddonsPlayerManager</caption>
+<topicref type="topic" id="-1935872526" build="ALL" icon="0" href="AIMPSDKAddons.IAIMPAddonsPlayerManager.ConfigGetPath(Integer,PWideChar,Integer)">  <caption translate="true">ConfigGetPath(Integer,PWideChar,Integer)</caption>
+</topicref>
+<topicref type="topic" id="1813559809" build="ALL" icon="0" href="AIMPSDKAddons.IAIMPAddonsPlayerManager.FileInfoQuery(PWideChar,PAIMPFileInfo)">  <caption translate="true">FileInfoQuery(PWideChar,PAIMPFileInfo)</caption>
+</topicref>
+<topicref type="topic" id="-1639114098" build="ALL" icon="0" href="AIMPSDKAddons.IAIMPAddonsPlayerManager.FileInfoRepository(IAIMPAddonsFileInfoRepository,LongBool)">  <caption translate="true">FileInfoRepository(IAIMPAddonsFileInfoRepository,LongBool)</caption>
+</topicref>
+<topicref type="topic" id="-205397095" build="ALL" icon="0" href="AIMPSDKAddons.IAIMPAddonsPlayerManager.PlayEntry(HPLSENTRY)">  <caption translate="true">PlayEntry(HPLSENTRY)</caption>
+</topicref>
+<topicref type="topic" id="-379565359" build="ALL" icon="0" href="AIMPSDKAddons.IAIMPAddonsPlayerManager.PlayFile(PWideChar,LongBool)">  <caption translate="true">PlayFile(PWideChar,LongBool)</caption>
+</topicref>
+<topicref type="topic" id="-71985459" build="ALL" icon="0" href="AIMPSDKAddons.IAIMPAddonsPlayerManager.PlayingQueueController(IAIMPAddonsPlayingQueueController,LongBool)">  <caption translate="true">PlayingQueueController(IAIMPAddonsPlayingQueueController,LongBool)</caption>
+</topicref>
+<topicref type="topic" id="-1874617921" build="ALL" icon="0" href="AIMPSDKAddons.IAIMPAddonsPlayerManager.PlayStorage(HPLS,Integer)">  <caption translate="true">PlayStorage(HPLS,Integer)</caption>
+</topicref>
+<topicref type="topic" id="1998539601" build="ALL" icon="0" href="AIMPSDKAddons.IAIMPAddonsPlayerManager.SupportsExts(DWORD,PWideChar,Integer)">  <caption translate="true">SupportsExts(DWORD,PWideChar,Integer)</caption>
+</topicref>
+</topicref>
+<topicref type="topic" id="-1296618384" build="ALL" icon="0" href="AIMPSDKAddons.IAIMPAddonsPlayingQueueController">  <caption translate="true">IAIMPAddonsPlayingQueueController</caption>
+<topicref type="topic" id="-774090722" build="ALL" icon="0" href="AIMPSDKAddons.IAIMPAddonsPlayingQueueController.GetFile(HPLS,Integer,LongBool)">  <caption translate="true">GetFile(HPLS,Integer,LongBool)</caption>
+</topicref>
+</topicref>
+<topicref type="topic" id="-1736026720" build="ALL" icon="0" href="AIMPSDKAddons.IAIMPAddonsPlaylistManager">  <caption translate="true">IAIMPAddonsPlaylistManager</caption>
+<topicref type="topic" id="-779462277" build="ALL" icon="0" href="AIMPSDKAddons.IAIMPAddonsPlaylistManager.EntryDelete(HPLSENTRY)">  <caption translate="true">EntryDelete(HPLSENTRY)</caption>
+</topicref>
+<topicref type="topic" id="-1853233605" build="ALL" icon="0" href="AIMPSDKAddons.IAIMPAddonsPlaylistManager.EntryGetGroup(HPLSENTRY,HPLSGROUP)">  <caption translate="true">EntryGetGroup(HPLSENTRY,HPLSGROUP)</caption>
+</topicref>
+<topicref type="topic" id="-1611887046" build="ALL" icon="0" href="AIMPSDKAddons.IAIMPAddonsPlaylistManager.EntryPropertyGetValue(HPLSENTRY,Integer,Pointer,Integer)">  <caption translate="true">EntryPropertyGetValue(HPLSENTRY,Integer,Pointer,Integer)</caption>
+</topicref>
+<topicref type="topic" id="-1364839933" build="ALL" icon="0" href="AIMPSDKAddons.IAIMPAddonsPlaylistManager.EntryPropertySetValue(HPLSENTRY,Integer,Pointer,Integer)">  <caption translate="true">EntryPropertySetValue(HPLSENTRY,Integer,Pointer,Integer)</caption>
+</topicref>
+<topicref type="topic" id="526733721" build="ALL" icon="0" href="AIMPSDKAddons.IAIMPAddonsPlaylistManager.EntryReloadInfo(HPLSENTRY)">  <caption translate="true">EntryReloadInfo(HPLSENTRY)</caption>
+</topicref>
+<topicref type="topic" id="-588554570" build="ALL" icon="0" href="AIMPSDKAddons.IAIMPAddonsPlaylistManager.FormatString(PWideChar,Integer,Integer,Pointer,PWideChar)">  <caption translate="true">FormatString(PWideChar,Integer,Integer,Pointer,PWideChar)</caption>
+</topicref>
+<topicref type="topic" id="-1328314106" build="ALL" icon="0" href="AIMPSDKAddons.IAIMPAddonsPlaylistManager.GroupPropertyGetValue(HPLSGROUP,Integer,Pointer,Integer)">  <caption translate="true">GroupPropertyGetValue(HPLSGROUP,Integer,Pointer,Integer)</caption>
+</topicref>
+<topicref type="topic" id="135601531" build="ALL" icon="0" href="AIMPSDKAddons.IAIMPAddonsPlaylistManager.GroupPropertySetValue(HPLSGROUP,Integer,Pointer,Integer)">  <caption translate="true">GroupPropertySetValue(HPLSGROUP,Integer,Pointer,Integer)</caption>
+</topicref>
+<topicref type="topic" id="-728406013" build="ALL" icon="0" href="AIMPSDKAddons.IAIMPAddonsPlaylistManager.ListenerAdd(IAIMPAddonsPlaylistManagerListener)">  <caption translate="true">ListenerAdd(IAIMPAddonsPlaylistManagerListener)</caption>
+</topicref>
+<topicref type="topic" id="2093313251" build="ALL" icon="0" href="AIMPSDKAddons.IAIMPAddonsPlaylistManager.ListenerRemove(IAIMPAddonsPlaylistManagerListener)">  <caption translate="true">ListenerRemove(IAIMPAddonsPlaylistManagerListener)</caption>
+</topicref>
+<topicref type="topic" id="1130900107" build="ALL" icon="0" href="AIMPSDKAddons.IAIMPAddonsPlaylistManager.QueueEntryAdd(HPLSENTRY,LongBool)">  <caption translate="true">QueueEntryAdd(HPLSENTRY,LongBool)</caption>
+</topicref>
+<topicref type="topic" id="567719686" build="ALL" icon="0" href="AIMPSDKAddons.IAIMPAddonsPlaylistManager.QueueEntryRemove(HPLSENTRY)">  <caption translate="true">QueueEntryRemove(HPLSENTRY)</caption>
+</topicref>
+<topicref type="topic" id="-1188038400" build="ALL" icon="0" href="AIMPSDKAddons.IAIMPAddonsPlaylistManager.StorageActiveGet">  <caption translate="true">StorageActiveGet</caption>
+</topicref>
+<topicref type="topic" id="-698410385" build="ALL" icon="0" href="AIMPSDKAddons.IAIMPAddonsPlaylistManager.StorageActiveSet(HPLS)">  <caption translate="true">StorageActiveSet(HPLS)</caption>
+</topicref>
+<topicref type="topic" id="-358027612" build="ALL" icon="0" href="AIMPSDKAddons.IAIMPAddonsPlaylistManager.StorageAddEntries(HPLS,IAIMPAddonsPlaylistStrings)">  <caption translate="true">StorageAddEntries(HPLS,IAIMPAddonsPlaylistStrings)</caption>
+</topicref>
+<topicref type="topic" id="-1100840305" build="ALL" icon="0" href="AIMPSDKAddons.IAIMPAddonsPlaylistManager.StorageBeginUpdate(HPLS)">  <caption translate="true">StorageBeginUpdate(HPLS)</caption>
+</topicref>
+<topicref type="topic" id="705120136" build="ALL" icon="0" href="AIMPSDKAddons.IAIMPAddonsPlaylistManager.StorageCreate(PWideChar,LongBool)">  <caption translate="true">StorageCreate(PWideChar,LongBool)</caption>
+</topicref>
+<topicref type="topic" id="867159235" build="ALL" icon="0" href="AIMPSDKAddons.IAIMPAddonsPlaylistManager.StorageCreateFromFile(PWideChar,LongBool,LongBool)">  <caption translate="true">StorageCreateFromFile(PWideChar,LongBool,LongBool)</caption>
+</topicref>
+<topicref type="topic" id="1353909680" build="ALL" icon="0" href="AIMPSDKAddons.IAIMPAddonsPlaylistManager.StorageDelete(HPLS,Integer)">  <caption translate="true">StorageDelete(HPLS,Integer)</caption>
+</topicref>
+<topicref type="topic" id="1394061740" build="ALL" icon="0" href="AIMPSDKAddons.IAIMPAddonsPlaylistManager.StorageDeleteAll(HPLS)">  <caption translate="true">StorageDeleteAll(HPLS)</caption>
+</topicref>
+<topicref type="topic" id="1284551240" build="ALL" icon="0" href="AIMPSDKAddons.IAIMPAddonsPlaylistManager.StorageDeleteByFilter(HPLS,LongBool,TAIMPAddonsPlaylistManagerDeleteProc,Pointer)">  <caption translate="true">StorageDeleteByFilter(HPLS,LongBool,TAIMPAddonsPlaylistManagerDeleteProc,Pointer)</caption>
+</topicref>
+<topicref type="topic" id="1978719039" build="ALL" icon="0" href="AIMPSDKAddons.IAIMPAddonsPlaylistManager.StorageEndUpdate(HPLS)">  <caption translate="true">StorageEndUpdate(HPLS)</caption>
+</topicref>
+<topicref type="topic" id="-689214506" build="ALL" icon="0" href="AIMPSDKAddons.IAIMPAddonsPlaylistManager.StorageGet(Integer)">  <caption translate="true">StorageGet(Integer)</caption>
+</topicref>
+<topicref type="topic" id="-1834967092" build="ALL" icon="0" href="AIMPSDKAddons.IAIMPAddonsPlaylistManager.StorageGetCount">  <caption translate="true">StorageGetCount</caption>
+</topicref>
+<topicref type="topic" id="-965166956" build="ALL" icon="0" href="AIMPSDKAddons.IAIMPAddonsPlaylistManager.StorageGetEntry(HPLS,Integer)">  <caption translate="true">StorageGetEntry(HPLS,Integer)</caption>
+</topicref>
+<topicref type="topic" id="1437758880" build="ALL" icon="0" href="AIMPSDKAddons.IAIMPAddonsPlaylistManager.StorageGetEntryCount(HPLS)">  <caption translate="true">StorageGetEntryCount(HPLS)</caption>
+</topicref>
+<topicref type="topic" id="1451494098" build="ALL" icon="0" href="AIMPSDKAddons.IAIMPAddonsPlaylistManager.StorageGetFiles(HPLS,Integer,IAIMPAddonsPlaylistStrings)">  <caption translate="true">StorageGetFiles(HPLS,Integer,IAIMPAddonsPlaylistStrings)</caption>
+</topicref>
+<topicref type="topic" id="1236279584" build="ALL" icon="0" href="AIMPSDKAddons.IAIMPAddonsPlaylistManager.StorageGetGroup(HPLS,Integer)">  <caption translate="true">StorageGetGroup(HPLS,Integer)</caption>
+</topicref>
+<topicref type="topic" id="-1583348288" build="ALL" icon="0" href="AIMPSDKAddons.IAIMPAddonsPlaylistManager.StorageGetGroupCount(HPLS)">  <caption translate="true">StorageGetGroupCount(HPLS)</caption>
+</topicref>
+<topicref type="topic" id="-1564653931" build="ALL" icon="0" href="AIMPSDKAddons.IAIMPAddonsPlaylistManager.StoragePlayingGet">  <caption translate="true">StoragePlayingGet</caption>
+</topicref>
+<topicref type="topic" id="-56040746" build="ALL" icon="0" href="AIMPSDKAddons.IAIMPAddonsPlaylistManager.StoragePropertyGetValue(HPLS,Integer,Pointer,Integer)">  <caption translate="true">StoragePropertyGetValue(HPLS,Integer,Pointer,Integer)</caption>
+</topicref>
+<topicref type="topic" id="-146686657" build="ALL" icon="0" href="AIMPSDKAddons.IAIMPAddonsPlaylistManager.StoragePropertySetValue(HPLS,Integer,Pointer,Integer)">  <caption translate="true">StoragePropertySetValue(HPLS,Integer,Pointer,Integer)</caption>
+</topicref>
+<topicref type="topic" id="795521837" build="ALL" icon="0" href="AIMPSDKAddons.IAIMPAddonsPlaylistManager.StorageRemove(HPLS)">  <caption translate="true">StorageRemove(HPLS)</caption>
+</topicref>
+<topicref type="topic" id="2083631654" build="ALL" icon="0" href="AIMPSDKAddons.IAIMPAddonsPlaylistManager.StorageSort(HPLS,Integer)">  <caption translate="true">StorageSort(HPLS,Integer)</caption>
+</topicref>
+<topicref type="topic" id="1033737749" build="ALL" icon="0" href="AIMPSDKAddons.IAIMPAddonsPlaylistManager.StorageSortCustom(HPLS,TAIMPAddonsPlaylistManagerCompareProc,Pointer)">  <caption translate="true">StorageSortCustom(HPLS,TAIMPAddonsPlaylistManagerCompareProc,Pointer)</caption>
+</topicref>
+<topicref type="topic" id="-1624758451" build="ALL" icon="0" href="AIMPSDKAddons.IAIMPAddonsPlaylistManager.StorageSortTemplate(HPLS,PWideChar,Integer)">  <caption translate="true">StorageSortTemplate(HPLS,PWideChar,Integer)</caption>
+</topicref>
+</topicref>
+<topicref type="topic" id="-910700310" build="ALL" icon="0" href="AIMPSDKAddons.IAIMPAddonsPlaylistManagerListener">  <caption translate="true">IAIMPAddonsPlaylistManagerListener</caption>
+<topicref type="topic" id="124741245" build="ALL" icon="0" href="AIMPSDKAddons.IAIMPAddonsPlaylistManagerListener.StorageActivated(HPLS)">  <caption translate="true">StorageActivated(HPLS)</caption>
+</topicref>
+<topicref type="topic" id="-2139835577" build="ALL" icon="0" href="AIMPSDKAddons.IAIMPAddonsPlaylistManagerListener.StorageAdded(HPLS)">  <caption translate="true">StorageAdded(HPLS)</caption>
+</topicref>
+<topicref type="topic" id="-793436790" build="ALL" icon="0" href="AIMPSDKAddons.IAIMPAddonsPlaylistManagerListener.StorageChanged(HPLS,DWORD)">  <caption translate="true">StorageChanged(HPLS,DWORD)</caption>
+</topicref>
+<topicref type="topic" id="1442230503" build="ALL" icon="0" href="AIMPSDKAddons.IAIMPAddonsPlaylistManagerListener.StorageRemoved(HPLS)">  <caption translate="true">StorageRemoved(HPLS)</caption>
+</topicref>
+</topicref>
+<topicref type="topic" id="-347132308" build="ALL" icon="0" href="AIMPSDKAddons.IAIMPAddonsPlaylistStrings">  <caption translate="true">IAIMPAddonsPlaylistStrings</caption>
+<topicref type="topic" id="-2006111266" build="ALL" icon="0" href="AIMPSDKAddons.IAIMPAddonsPlaylistStrings.ItemAdd(PWideChar,PAIMPFileInfo)">  <caption translate="true">ItemAdd(PWideChar,PAIMPFileInfo)</caption>
+</topicref>
+<topicref type="topic" id="727343448" build="ALL" icon="0" href="AIMPSDKAddons.IAIMPAddonsPlaylistStrings.ItemGetCount">  <caption translate="true">ItemGetCount</caption>
+</topicref>
+<topicref type="topic" id="-1337081724" build="ALL" icon="0" href="AIMPSDKAddons.IAIMPAddonsPlaylistStrings.ItemGetFileName(Integer,PWideChar,Integer)">  <caption translate="true">ItemGetFileName(Integer,PWideChar,Integer)</caption>
+</topicref>
+<topicref type="topic" id="1575909432" build="ALL" icon="0" href="AIMPSDKAddons.IAIMPAddonsPlaylistStrings.ItemGetInfo(Integer,PAIMPFileInfo)">  <caption translate="true">ItemGetInfo(Integer,PAIMPFileInfo)</caption>
+</topicref>
+</topicref>
+<topicref type="topic" id="2087847078" build="ALL" icon="0" href="AIMPSDKAddons.IAIMPAddonsProxySettings">  <caption translate="true">IAIMPAddonsProxySettings</caption>
+<topicref type="topic" id="-694547012" build="ALL" icon="0" href="AIMPSDKAddons.IAIMPAddonsProxySettings.GetProxyAuthorizationParams(PWideChar,Integer,PWideChar,Integer)">  <caption translate="true">GetProxyAuthorizationParams(PWideChar,Integer,PWideChar,Integer)</caption>
+</topicref>
+<topicref type="topic" id="253271637" build="ALL" icon="0" href="AIMPSDKAddons.IAIMPAddonsProxySettings.GetProxyParams(PWideChar,Integer)">  <caption translate="true">GetProxyParams(PWideChar,Integer)</caption>
+</topicref>
+</topicref>
+<topicref type="topic" id="1168707517" build="ALL" icon="0" href="AIMPSDKAddons.IAIMPAddonsSkinsManager">  <caption translate="true">IAIMPAddonsSkinsManager</caption>
+<topicref type="topic" id="1468384730" build="ALL" icon="0" href="AIMPSDKAddons.IAIMPAddonsSkinsManager.GetCurrentSettings(PWideChar,Integer,PInteger,PInteger)">  <caption translate="true">GetCurrentSettings(PWideChar,Integer,PInteger,PInteger)</caption>
+</topicref>
+<topicref type="topic" id="1266060649" build="ALL" icon="0" href="AIMPSDKAddons.IAIMPAddonsSkinsManager.GetSkinInfo(PWideChar,Integer,PAIMPSkinInfo)">  <caption translate="true">GetSkinInfo(PWideChar,Integer,PAIMPSkinInfo)</caption>
+</topicref>
+<topicref type="topic" id="-1738225303" build="ALL" icon="0" href="AIMPSDKAddons.IAIMPAddonsSkinsManager.HSLToRGB(Byte,Byte,Byte,Byte,Byte,Byte)">  <caption translate="true">HSLToRGB(Byte,Byte,Byte,Byte,Byte,Byte)</caption>
+</topicref>
+<topicref type="topic" id="-1641562418" build="ALL" icon="0" href="AIMPSDKAddons.IAIMPAddonsSkinsManager.RGBToHSL(Byte,Byte,Byte,Byte,Byte,Byte)">  <caption translate="true">RGBToHSL(Byte,Byte,Byte,Byte,Byte,Byte)</caption>
+</topicref>
+<topicref type="topic" id="266638237" build="ALL" icon="0" href="AIMPSDKAddons.IAIMPAddonsSkinsManager.Select(PWideChar,Integer,Integer)">  <caption translate="true">Select(PWideChar,Integer,Integer)</caption>
+</topicref>
+</topicref>
+</topicref>
+<topicref type="topic" id="425452359" build="ALL" icon="0" href="AIMPSDKAddons_Types">  <caption translate="true">Types</caption>
+<topicref type="topic" id="810170552" build="ALL" icon="0" href="AIMPSDKAddons.HAIMPMENU">  <caption translate="true">HAIMPMENU</caption>
+</topicref>
+<topicref type="topic" id="1968962566" build="ALL" icon="0" href="AIMPSDKAddons.HPLS">  <caption translate="true">HPLS</caption>
+</topicref>
+<topicref type="topic" id="-204416839" build="ALL" icon="0" href="AIMPSDKAddons.HPLSENTRY">  <caption translate="true">HPLSENTRY</caption>
+</topicref>
+<topicref type="topic" id="2103953159" build="ALL" icon="0" href="AIMPSDKAddons.HPLSGROUP">  <caption translate="true">HPLSGROUP</caption>
+</topicref>
+<topicref type="topic" id="-905747162" build="ALL" icon="0" href="AIMPSDKAddons.PAIMPFileStatisticsInfo">  <caption translate="true">PAIMPFileStatisticsInfo</caption>
+</topicref>
+<topicref type="topic" id="1179070159" build="ALL" icon="0" href="AIMPSDKAddons.PAIMPMenuItemInfo">  <caption translate="true">PAIMPMenuItemInfo</caption>
+</topicref>
+<topicref type="topic" id="1539257700" build="ALL" icon="0" href="AIMPSDKAddons.PAIMPSkinInfo">  <caption translate="true">PAIMPSkinInfo</caption>
+</topicref>
+<topicref type="topic" id="-57397160" build="ALL" icon="0" href="AIMPSDKAddons.TAIMPAddonPluginHeaderProc">  <caption translate="true">TAIMPAddonPluginHeaderProc</caption>
+</topicref>
+<topicref type="topic" id="884415121" build="ALL" icon="0" href="AIMPSDKAddons.TAIMPAddonsPlaylistManagerCompareProc">  <caption translate="true">TAIMPAddonsPlaylistManagerCompareProc</caption>
+</topicref>
+<topicref type="topic" id="-8461562" build="ALL" icon="0" href="AIMPSDKAddons.TAIMPAddonsPlaylistManagerDeleteProc">  <caption translate="true">TAIMPAddonsPlaylistManagerDeleteProc</caption>
+</topicref>
+<topicref type="topic" id="-435130906" build="ALL" icon="0" href="AIMPSDKAddons.TAIMPMenuProc">  <caption translate="true">TAIMPMenuProc</caption>
+</topicref>
+</topicref>
+<topicref type="topic" id="78280435" build="ALL" icon="0" href="AIMPSDKAddons_Variables">  <caption translate="true">Variables &amp; Constants</caption>
+<topicref type="topic" id="-1105839774" build="ALL" icon="0" href="AIMPSDKAddons.ActivePlaylistHandle">  <caption translate="true">ActivePlaylistHandle</caption>
+</topicref>
+<topicref type="topic" id="1537634599" build="ALL" icon="0" href="AIMPSDKAddons.AIMP_ADDON_FLAGS_HAS_DIALOG">  <caption translate="true">AIMP_ADDON_FLAGS_HAS_DIALOG</caption>
+</topicref>
+<topicref type="topic" id="1284513779" build="ALL" icon="0" href="AIMPSDKAddons.AIMP_CFG_PATH_HELP">  <caption translate="true">AIMP_CFG_PATH_HELP</caption>
+</topicref>
+<topicref type="topic" id="-1587726697" build="ALL" icon="0" href="AIMPSDKAddons.AIMP_CFG_PATH_ICONS">  <caption translate="true">AIMP_CFG_PATH_ICONS</caption>
+</topicref>
+<topicref type="topic" id="1651227688" build="ALL" icon="0" href="AIMPSDKAddons.AIMP_CFG_PATH_LNG">  <caption translate="true">AIMP_CFG_PATH_LNG</caption>
+</topicref>
+<topicref type="topic" id="-30721630" build="ALL" icon="0" href="AIMPSDKAddons.AIMP_CFG_PATH_ML">  <caption translate="true">AIMP_CFG_PATH_ML</caption>
+</topicref>
+<topicref type="topic" id="-1474849581" build="ALL" icon="0" href="AIMPSDKAddons.AIMP_CFG_PATH_ML_PLS">  <caption translate="true">AIMP_CFG_PATH_ML_PLS</caption>
+</topicref>
+<topicref type="topic" id="-172064775" build="ALL" icon="0" href="AIMPSDKAddons.AIMP_CFG_PATH_MODULES">  <caption translate="true">AIMP_CFG_PATH_MODULES</caption>
+</topicref>
+<topicref type="topic" id="-1541648226" build="ALL" icon="0" href="AIMPSDKAddons.AIMP_CFG_PATH_PLS">  <caption translate="true">AIMP_CFG_PATH_PLS</caption>
+</topicref>
+<topicref type="topic" id="1463977267" build="ALL" icon="0" href="AIMPSDKAddons.AIMP_CFG_PATH_PLUGINS">  <caption translate="true">AIMP_CFG_PATH_PLUGINS</caption>
+</topicref>
+<topicref type="topic" id="1824094677" build="ALL" icon="0" href="AIMPSDKAddons.AIMP_CFG_PATH_PROFILE">  <caption translate="true">AIMP_CFG_PATH_PROFILE</caption>
+</topicref>
+<topicref type="topic" id="178157711" build="ALL" icon="0" href="AIMPSDKAddons.AIMP_CFG_PATH_SKINS">  <caption translate="true">AIMP_CFG_PATH_SKINS</caption>
+</topicref>
+<topicref type="topic" id="678654887" build="ALL" icon="0" href="AIMPSDKAddons.AIMP_MENUID_ADD">  <caption translate="true">AIMP_MENUID_ADD</caption>
+</topicref>
+<topicref type="topic" id="-239974464" build="ALL" icon="0" href="AIMPSDKAddons.AIMP_MENUID_DEL">  <caption translate="true">AIMP_MENUID_DEL</caption>
+</topicref>
+<topicref type="topic" id="-1850814762" build="ALL" icon="0" href="AIMPSDKAddons.AIMP_MENUID_EQ_LIB">  <caption translate="true">AIMP_MENUID_EQ_LIB</caption>
+</topicref>
+<topicref type="topic" id="-1616691046" build="ALL" icon="0" href="AIMPSDKAddons.AIMP_MENUID_MAIN_CONFIGS">  <caption translate="true">AIMP_MENUID_MAIN_CONFIGS</caption>
+</topicref>
+<topicref type="topic" id="-501597141" build="ALL" icon="0" href="AIMPSDKAddons.AIMP_MENUID_MAIN_FUNCTION">  <caption translate="true">AIMP_MENUID_MAIN_FUNCTION</caption>
+</topicref>
+<topicref type="topic" id="2063318246" build="ALL" icon="0" href="AIMPSDKAddons.AIMP_MENUID_MAIN_OPTIONS">  <caption translate="true">AIMP_MENUID_MAIN_OPTIONS</caption>
+</topicref>
+<topicref type="topic" id="-1822949515" build="ALL" icon="0" href="AIMPSDKAddons.AIMP_MENUID_MISC">  <caption translate="true">AIMP_MENUID_MISC</caption>
+</topicref>
+<topicref type="topic" id="324895976" build="ALL" icon="0" href="AIMPSDKAddons.AIMP_MENUID_PLS">  <caption translate="true">AIMP_MENUID_PLS</caption>
+</topicref>
+<topicref type="topic" id="-1520199158" build="ALL" icon="0" href="AIMPSDKAddons.AIMP_MENUID_PLS_ADD">  <caption translate="true">AIMP_MENUID_PLS_ADD</caption>
+</topicref>
+<topicref type="topic" id="-281812870" build="ALL" icon="0" href="AIMPSDKAddons.AIMP_MENUID_PLS_DEL">  <caption translate="true">AIMP_MENUID_PLS_DEL</caption>
+</topicref>
+<topicref type="topic" id="-140103152" build="ALL" icon="0" href="AIMPSDKAddons.AIMP_MENUID_PLS_FNC">  <caption translate="true">AIMP_MENUID_PLS_FNC</caption>
+</topicref>
+<topicref type="topic" id="-1978047701" build="ALL" icon="0" href="AIMPSDKAddons.AIMP_MENUID_PLS_JUMP">  <caption translate="true">AIMP_MENUID_PLS_JUMP</caption>
+</topicref>
+<topicref type="topic" id="-1941946538" build="ALL" icon="0" href="AIMPSDKAddons.AIMP_MENUID_PLS_SEND">  <caption translate="true">AIMP_MENUID_PLS_SEND</caption>
+</topicref>
+<topicref type="topic" id="-996566338" build="ALL" icon="0" href="AIMPSDKAddons.AIMP_MENUID_SORT">  <caption translate="true">AIMP_MENUID_SORT</caption>
+</topicref>
+<topicref type="topic" id="-853919443" build="ALL" icon="0" href="AIMPSDKAddons.AIMP_MENUID_TRAY">  <caption translate="true">AIMP_MENUID_TRAY</caption>
+</topicref>
+<topicref type="topic" id="-2051618679" build="ALL" icon="0" href="AIMPSDKAddons.AIMP_MENUID_UTILITIES">  <caption translate="true">AIMP_MENUID_UTILITIES</caption>
+</topicref>
+<topicref type="topic" id="535628855" build="ALL" icon="0" href="AIMPSDKAddons.AIMP_MENUITEM_CHECKBOX">  <caption translate="true">AIMP_MENUITEM_CHECKBOX</caption>
+</topicref>
+<topicref type="topic" id="-507418815" build="ALL" icon="0" href="AIMPSDKAddons.AIMP_MENUITEM_CHECKED">  <caption translate="true">AIMP_MENUITEM_CHECKED</caption>
+</topicref>
+<topicref type="topic" id="1853554110" build="ALL" icon="0" href="AIMPSDKAddons.AIMP_MENUITEM_ENABLED">  <caption translate="true">AIMP_MENUITEM_ENABLED</caption>
+</topicref>
+<topicref type="topic" id="-1932950230" build="ALL" icon="0" href="AIMPSDKAddons.AIMP_MENUITEM_RADIOITEM">  <caption translate="true">AIMP_MENUITEM_RADIOITEM</caption>
+</topicref>
+<topicref type="topic" id="-2114291050" build="ALL" icon="0" href="AIMPSDKAddons.AIMP_PLAYLIST_ENTRY_PROPERTY_DISPLAYTEXT">  <caption translate="true">AIMP_PLAYLIST_ENTRY_PROPERTY_DISPLAYTEXT</caption>
+</topicref>
+<topicref type="topic" id="1478934044" build="ALL" icon="0" href="AIMPSDKAddons.AIMP_PLAYLIST_ENTRY_PROPERTY_FILENAME">  <caption translate="true">AIMP_PLAYLIST_ENTRY_PROPERTY_FILENAME</caption>
+</topicref>
+<topicref type="topic" id="1672536308" build="ALL" icon="0" href="AIMPSDKAddons.AIMP_PLAYLIST_ENTRY_PROPERTY_INDEX">  <caption translate="true">AIMP_PLAYLIST_ENTRY_PROPERTY_INDEX</caption>
+</topicref>
+<topicref type="topic" id="-1890847993" build="ALL" icon="0" href="AIMPSDKAddons.AIMP_PLAYLIST_ENTRY_PROPERTY_INFO">  <caption translate="true">AIMP_PLAYLIST_ENTRY_PROPERTY_INFO</caption>
+</topicref>
+<topicref type="topic" id="-1230971006" build="ALL" icon="0" href="AIMPSDKAddons.AIMP_PLAYLIST_ENTRY_PROPERTY_MARK">  <caption translate="true">AIMP_PLAYLIST_ENTRY_PROPERTY_MARK</caption>
+</topicref>
+<topicref type="topic" id="1163482113" build="ALL" icon="0" href="AIMPSDKAddons.AIMP_PLAYLIST_ENTRY_PROPERTY_PLAYINGSWITCH">  <caption translate="true">AIMP_PLAYLIST_ENTRY_PROPERTY_PLAYINGSWITCH</caption>
+</topicref>
+<topicref type="topic" id="-646875701" build="ALL" icon="0" href="AIMPSDKAddons.AIMP_PLAYLIST_ENTRY_PROPERTY_SELECTED">  <caption translate="true">AIMP_PLAYLIST_ENTRY_PROPERTY_SELECTED</caption>
+</topicref>
+<topicref type="topic" id="226160803" build="ALL" icon="0" href="AIMPSDKAddons.AIMP_PLAYLIST_ENTRY_PROPERTY_STATISTICS">  <caption translate="true">AIMP_PLAYLIST_ENTRY_PROPERTY_STATISTICS</caption>
+</topicref>
+<topicref type="topic" id="-1868937916" build="ALL" icon="0" href="AIMPSDKAddons.AIMP_PLAYLIST_FORMAT_MODE_CURRENT">  <caption translate="true">AIMP_PLAYLIST_FORMAT_MODE_CURRENT</caption>
+</topicref>
+<topicref type="topic" id="-1692857827" build="ALL" icon="0" href="AIMPSDKAddons.AIMP_PLAYLIST_FORMAT_MODE_FILEINFO">  <caption translate="true">AIMP_PLAYLIST_FORMAT_MODE_FILEINFO</caption>
+</topicref>
+<topicref type="topic" id="2008022887" build="ALL" icon="0" href="AIMPSDKAddons.AIMP_PLAYLIST_FORMAT_MODE_PREVIEW">  <caption translate="true">AIMP_PLAYLIST_FORMAT_MODE_PREVIEW</caption>
+</topicref>
+<topicref type="topic" id="535165996" build="ALL" icon="0" href="AIMPSDKAddons.AIMP_PLAYLIST_GETFILES_SELECTED">  <caption translate="true">AIMP_PLAYLIST_GETFILES_SELECTED</caption>
+</topicref>
+<topicref type="topic" id="-1693221243" build="ALL" icon="0" href="AIMPSDKAddons.AIMP_PLAYLIST_GETFILES_VISIBLE">  <caption translate="true">AIMP_PLAYLIST_GETFILES_VISIBLE</caption>
+</topicref>
+<topicref type="topic" id="864091095" build="ALL" icon="0" href="AIMPSDKAddons.AIMP_PLAYLIST_GROUP_PROPERTY_DURATION">  <caption translate="true">AIMP_PLAYLIST_GROUP_PROPERTY_DURATION</caption>
+</topicref>
+<topicref type="topic" id="-867973390" build="ALL" icon="0" href="AIMPSDKAddons.AIMP_PLAYLIST_GROUP_PROPERTY_EXPANDED">  <caption translate="true">AIMP_PLAYLIST_GROUP_PROPERTY_EXPANDED</caption>
+</topicref>
+<topicref type="topic" id="1655881785" build="ALL" icon="0" href="AIMPSDKAddons.AIMP_PLAYLIST_GROUP_PROPERTY_NAME">  <caption translate="true">AIMP_PLAYLIST_GROUP_PROPERTY_NAME</caption>
+</topicref>
+<topicref type="topic" id="1650118097" build="ALL" icon="0" href="AIMPSDKAddons.AIMP_PLAYLIST_NOTIFY_CONTENT">  <caption translate="true">AIMP_PLAYLIST_NOTIFY_CONTENT</caption>
+</topicref>
+<topicref type="topic" id="-483109686" build="ALL" icon="0" href="AIMPSDKAddons.AIMP_PLAYLIST_NOTIFY_ENTRYINFO">  <caption translate="true">AIMP_PLAYLIST_NOTIFY_ENTRYINFO</caption>
+</topicref>
+<topicref type="topic" id="-1118165824" build="ALL" icon="0" href="AIMPSDKAddons.AIMP_PLAYLIST_NOTIFY_FOCUSINDEX">  <caption translate="true">AIMP_PLAYLIST_NOTIFY_FOCUSINDEX</caption>
+</topicref>
+<topicref type="topic" id="-1358511799" build="ALL" icon="0" href="AIMPSDKAddons.AIMP_PLAYLIST_NOTIFY_NAME">  <caption translate="true">AIMP_PLAYLIST_NOTIFY_NAME</caption>
+</topicref>
+<topicref type="topic" id="1183090753" build="ALL" icon="0" href="AIMPSDKAddons.AIMP_PLAYLIST_NOTIFY_PLAYINDEX">  <caption translate="true">AIMP_PLAYLIST_NOTIFY_PLAYINDEX</caption>
+</topicref>
+<topicref type="topic" id="-697283657" build="ALL" icon="0" href="AIMPSDKAddons.AIMP_PLAYLIST_NOTIFY_PLAYINGSWITCHS">  <caption translate="true">AIMP_PLAYLIST_NOTIFY_PLAYINGSWITCHS</caption>
+</topicref>
+<topicref type="topic" id="-999604783" build="ALL" icon="0" href="AIMPSDKAddons.AIMP_PLAYLIST_NOTIFY_SELECTION">  <caption translate="true">AIMP_PLAYLIST_NOTIFY_SELECTION</caption>
+</topicref>
+<topicref type="topic" id="-1013262161" build="ALL" icon="0" href="AIMPSDKAddons.AIMP_PLAYLIST_NOTIFY_STATISTICS">  <caption translate="true">AIMP_PLAYLIST_NOTIFY_STATISTICS</caption>
+</topicref>
+<topicref type="topic" id="1539212538" build="ALL" icon="0" href="AIMPSDKAddons.AIMP_PLAYLIST_NOTIFY_TRACKINGINDEX">  <caption translate="true">AIMP_PLAYLIST_NOTIFY_TRACKINGINDEX</caption>
+</topicref>
+<topicref type="topic" id="1007246923" build="ALL" icon="0" href="AIMPSDKAddons.AIMP_PLAYLIST_SORT_TYPE_ARTIST">  <caption translate="true">AIMP_PLAYLIST_SORT_TYPE_ARTIST</caption>
+</topicref>
+<topicref type="topic" id="1525275561" build="ALL" icon="0" href="AIMPSDKAddons.AIMP_PLAYLIST_SORT_TYPE_DURATION">  <caption translate="true">AIMP_PLAYLIST_SORT_TYPE_DURATION</caption>
+</topicref>
+<topicref type="topic" id="1278824807" build="ALL" icon="0" href="AIMPSDKAddons.AIMP_PLAYLIST_SORT_TYPE_FILENAME">  <caption translate="true">AIMP_PLAYLIST_SORT_TYPE_FILENAME</caption>
+</topicref>
+<topicref type="topic" id="784586693" build="ALL" icon="0" href="AIMPSDKAddons.AIMP_PLAYLIST_SORT_TYPE_INVERSE">  <caption translate="true">AIMP_PLAYLIST_SORT_TYPE_INVERSE</caption>
+</topicref>
+<topicref type="topic" id="-114877512" build="ALL" icon="0" href="AIMPSDKAddons.AIMP_PLAYLIST_SORT_TYPE_RANDOMIZE">  <caption translate="true">AIMP_PLAYLIST_SORT_TYPE_RANDOMIZE</caption>
+</topicref>
+<topicref type="topic" id="-2020755404" build="ALL" icon="0" href="AIMPSDKAddons.AIMP_PLAYLIST_SORT_TYPE_TITLE">  <caption translate="true">AIMP_PLAYLIST_SORT_TYPE_TITLE</caption>
+</topicref>
+<topicref type="topic" id="-717616494" build="ALL" icon="0" href="AIMPSDKAddons.AIMP_PLAYLIST_STORAGE_PROPERTY_DURATION">  <caption translate="true">AIMP_PLAYLIST_STORAGE_PROPERTY_DURATION</caption>
+</topicref>
+<topicref type="topic" id="1308886097" build="ALL" icon="0" href="AIMPSDKAddons.AIMP_PLAYLIST_STORAGE_PROPERTY_FOCUSINDEX">  <caption translate="true">AIMP_PLAYLIST_STORAGE_PROPERTY_FOCUSINDEX</caption>
+</topicref>
+<topicref type="topic" id="-1598928886" build="ALL" icon="0" href="AIMPSDKAddons.AIMP_PLAYLIST_STORAGE_PROPERTY_FORMATING_LINE1_TEMPLATE">  <caption translate="true">AIMP_PLAYLIST_STORAGE_PROPERTY_FORMATING_LINE1_TEMPLATE</caption>
+</topicref>
+<topicref type="topic" id="-38211411" build="ALL" icon="0" href="AIMPSDKAddons.AIMP_PLAYLIST_STORAGE_PROPERTY_FORMATING_LINE2_TEMPLATE">  <caption translate="true">AIMP_PLAYLIST_STORAGE_PROPERTY_FORMATING_LINE2_TEMPLATE</caption>
+</topicref>
+<topicref type="topic" id="-776104890" build="ALL" icon="0" href="AIMPSDKAddons.AIMP_PLAYLIST_STORAGE_PROPERTY_FORMATING_OVERRIDEN">  <caption translate="true">AIMP_PLAYLIST_STORAGE_PROPERTY_FORMATING_OVERRIDEN</caption>
+</topicref>
+<topicref type="topic" id="-1522288060" build="ALL" icon="0" href="AIMPSDKAddons.AIMP_PLAYLIST_STORAGE_PROPERTY_GROUPPING">  <caption translate="true">AIMP_PLAYLIST_STORAGE_PROPERTY_GROUPPING</caption>
+</topicref>
+<topicref type="topic" id="2089416171" build="ALL" icon="0" href="AIMPSDKAddons.AIMP_PLAYLIST_STORAGE_PROPERTY_GROUPPING_AUTOMERGING">  <caption translate="true">AIMP_PLAYLIST_STORAGE_PROPERTY_GROUPPING_AUTOMERGING</caption>
+</topicref>
+<topicref type="topic" id="1878755972" build="ALL" icon="0" href="AIMPSDKAddons.AIMP_PLAYLIST_STORAGE_PROPERTY_GROUPPING_OVERRIDEN">  <caption translate="true">AIMP_PLAYLIST_STORAGE_PROPERTY_GROUPPING_OVERRIDEN</caption>
+</topicref>
+<topicref type="topic" id="-1734809442" build="ALL" icon="0" href="AIMPSDKAddons.AIMP_PLAYLIST_STORAGE_PROPERTY_GROUPPING_TEMPLATE">  <caption translate="true">AIMP_PLAYLIST_STORAGE_PROPERTY_GROUPPING_TEMPLATE</caption>
+</topicref>
+<topicref type="topic" id="1163839033" build="ALL" icon="0" href="AIMPSDKAddons.AIMP_PLAYLIST_STORAGE_PROPERTY_NAME">  <caption translate="true">AIMP_PLAYLIST_STORAGE_PROPERTY_NAME</caption>
+</topicref>
+<topicref type="topic" id="-428729547" build="ALL" icon="0" href="AIMPSDKAddons.AIMP_PLAYLIST_STORAGE_PROPERTY_PLAYINGINDEX">  <caption translate="true">AIMP_PLAYLIST_STORAGE_PROPERTY_PLAYINGINDEX</caption>
+</topicref>
+<topicref type="topic" id="-1220690257" build="ALL" icon="0" href="AIMPSDKAddons.AIMP_PLAYLIST_STORAGE_PROPERTY_READONLY">  <caption translate="true">AIMP_PLAYLIST_STORAGE_PROPERTY_READONLY</caption>
+</topicref>
+<topicref type="topic" id="-1217251865" build="ALL" icon="0" href="AIMPSDKAddons.AIMP_PLAYLIST_STORAGE_PROPERTY_SIZE">  <caption translate="true">AIMP_PLAYLIST_STORAGE_PROPERTY_SIZE</caption>
+</topicref>
+<topicref type="topic" id="-1878779420" build="ALL" icon="0" href="AIMPSDKAddons.AIMP_PLAYLIST_STORAGE_PROPERTY_TRACKINGINDEX">  <caption translate="true">AIMP_PLAYLIST_STORAGE_PROPERTY_TRACKINGINDEX</caption>
+</topicref>
+<topicref type="topic" id="822381858" build="ALL" icon="0" href="AIMPSDKAddons.AIMP_PLAYLIST_STORAGE_PROPERTY_VIEW_DURATION">  <caption translate="true">AIMP_PLAYLIST_STORAGE_PROPERTY_VIEW_DURATION</caption>
+</topicref>
+<topicref type="topic" id="592132552" build="ALL" icon="0" href="AIMPSDKAddons.AIMP_PLAYLIST_STORAGE_PROPERTY_VIEW_EXPAND_BUTTONS">  <caption translate="true">AIMP_PLAYLIST_STORAGE_PROPERTY_VIEW_EXPAND_BUTTONS</caption>
+</topicref>
+<topicref type="topic" id="1679658144" build="ALL" icon="0" href="AIMPSDKAddons.AIMP_PLAYLIST_STORAGE_PROPERTY_VIEW_MARKS">  <caption translate="true">AIMP_PLAYLIST_STORAGE_PROPERTY_VIEW_MARKS</caption>
+</topicref>
+<topicref type="topic" id="1612455167" build="ALL" icon="0" href="AIMPSDKAddons.AIMP_PLAYLIST_STORAGE_PROPERTY_VIEW_NUMBERS">  <caption translate="true">AIMP_PLAYLIST_STORAGE_PROPERTY_VIEW_NUMBERS</caption>
+</topicref>
+<topicref type="topic" id="-1628508078" build="ALL" icon="0" href="AIMPSDKAddons.AIMP_PLAYLIST_STORAGE_PROPERTY_VIEW_NUMBERS_ABSOLUTE">  <caption translate="true">AIMP_PLAYLIST_STORAGE_PROPERTY_VIEW_NUMBERS_ABSOLUTE</caption>
+</topicref>
+<topicref type="topic" id="1430100123" build="ALL" icon="0" href="AIMPSDKAddons.AIMP_PLAYLIST_STORAGE_PROPERTY_VIEW_OVERRIDEN">  <caption translate="true">AIMP_PLAYLIST_STORAGE_PROPERTY_VIEW_OVERRIDEN</caption>
+</topicref>
+<topicref type="topic" id="-1915320502" build="ALL" icon="0" href="AIMPSDKAddons.AIMP_PLAYLIST_STORAGE_PROPERTY_VIEW_SECOND_LINE">  <caption translate="true">AIMP_PLAYLIST_STORAGE_PROPERTY_VIEW_SECOND_LINE</caption>
+</topicref>
+<topicref type="topic" id="-305245855" build="ALL" icon="0" href="AIMPSDKAddons.AIMP_PLAYLIST_STORAGE_PROPERTY_VIEW_SWITCHES">  <caption translate="true">AIMP_PLAYLIST_STORAGE_PROPERTY_VIEW_SWITCHES</caption>
+</topicref>
+<topicref type="topic" id="-246230769" build="ALL" icon="0" href="AIMPSDKAddons.AIMP_SUPPORTS_EXTS_FORMAT_AUDIO">  <caption translate="true">AIMP_SUPPORTS_EXTS_FORMAT_AUDIO</caption>
+</topicref>
+<topicref type="topic" id="-235180513" build="ALL" icon="0" href="AIMPSDKAddons.AIMP_SUPPORTS_EXTS_FORMAT_PLAYLIST">  <caption translate="true">AIMP_SUPPORTS_EXTS_FORMAT_PLAYLIST</caption>
+</topicref>
+<topicref type="topic" id="677328084" build="ALL" icon="0" href="AIMPSDKAddons.IID_IAIMPAddonsConfigFile">  <caption translate="true">IID_IAIMPAddonsConfigFile</caption>
+</topicref>
+<topicref type="topic" id="-707863571" build="ALL" icon="0" href="AIMPSDKAddons.IID_IAIMPAddonsCoverArtManager">  <caption translate="true">IID_IAIMPAddonsCoverArtManager</caption>
+</topicref>
+<topicref type="topic" id="1484958749" build="ALL" icon="0" href="AIMPSDKAddons.IID_IAIMPAddonsLanguageFile">  <caption translate="true">IID_IAIMPAddonsLanguageFile</caption>
+</topicref>
+<topicref type="topic" id="1251397248" build="ALL" icon="0" href="AIMPSDKAddons.IID_IAIMPAddonsMenuManager">  <caption translate="true">IID_IAIMPAddonsMenuManager</caption>
+</topicref>
+<topicref type="topic" id="1846922933" build="ALL" icon="0" href="AIMPSDKAddons.IID_IAIMPAddonsOptionsDialog">  <caption translate="true">IID_IAIMPAddonsOptionsDialog</caption>
+</topicref>
+<topicref type="topic" id="-1160784257" build="ALL" icon="0" href="AIMPSDKAddons.IID_IAIMPAddonsPlayerManager">  <caption translate="true">IID_IAIMPAddonsPlayerManager</caption>
+</topicref>
+<topicref type="topic" id="861095132" build="ALL" icon="0" href="AIMPSDKAddons.IID_IAIMPAddonsPlaylistManager">  <caption translate="true">IID_IAIMPAddonsPlaylistManager</caption>
+</topicref>
+<topicref type="topic" id="1025821493" build="ALL" icon="0" href="AIMPSDKAddons.IID_IAIMPAddonsPlaylistManagerListener">  <caption translate="true">IID_IAIMPAddonsPlaylistManagerListener</caption>
+</topicref>
+<topicref type="topic" id="1746790172" build="ALL" icon="0" href="AIMPSDKAddons.IID_IAIMPAddonsPlaylistStrings">  <caption translate="true">IID_IAIMPAddonsPlaylistStrings</caption>
+</topicref>
+<topicref type="topic" id="-1862643884" build="ALL" icon="0" href="AIMPSDKAddons.IID_IAIMPAddonsProxySettings">  <caption translate="true">IID_IAIMPAddonsProxySettings</caption>
+</topicref>
+<topicref type="topic" id="-2010250323" build="ALL" icon="0" href="AIMPSDKAddons.IID_IAIMPAddonsSkinsManager">  <caption translate="true">IID_IAIMPAddonsSkinsManager</caption>
+</topicref>
+<topicref type="topic" id="-876481236" build="ALL" icon="0" href="AIMPSDKAddons.SID_IAIMPAddonsConfigFile">  <caption translate="true">SID_IAIMPAddonsConfigFile</caption>
+</topicref>
+<topicref type="topic" id="-190905552" build="ALL" icon="0" href="AIMPSDKAddons.SID_IAIMPAddonsCoverArtManager">  <caption translate="true">SID_IAIMPAddonsCoverArtManager</caption>
+</topicref>
+<topicref type="topic" id="-1456810846" build="ALL" icon="0" href="AIMPSDKAddons.SID_IAIMPAddonsLanguageFile">  <caption translate="true">SID_IAIMPAddonsLanguageFile</caption>
+</topicref>
+<topicref type="topic" id="1312390716" build="ALL" icon="0" href="AIMPSDKAddons.SID_IAIMPAddonsMenuManager">  <caption translate="true">SID_IAIMPAddonsMenuManager</caption>
+</topicref>
+<topicref type="topic" id="847719475" build="ALL" icon="0" href="AIMPSDKAddons.SID_IAIMPAddonsOptionsDialog">  <caption translate="true">SID_IAIMPAddonsOptionsDialog</caption>
+</topicref>
+<topicref type="topic" id="975501356" build="ALL" icon="0" href="AIMPSDKAddons.SID_IAIMPAddonsPlayerManager">  <caption translate="true">SID_IAIMPAddonsPlayerManager</caption>
+</topicref>
+<topicref type="topic" id="1473912964" build="ALL" icon="0" href="AIMPSDKAddons.SID_IAIMPAddonsPlaylistManager">  <caption translate="true">SID_IAIMPAddonsPlaylistManager</caption>
+</topicref>
+<topicref type="topic" id="-133549284" build="ALL" icon="0" href="AIMPSDKAddons.SID_IAIMPAddonsPlaylistManagerListener">  <caption translate="true">SID_IAIMPAddonsPlaylistManagerListener</caption>
+</topicref>
+<topicref type="topic" id="295261685" build="ALL" icon="0" href="AIMPSDKAddons.SID_IAIMPAddonsPlaylistStrings">  <caption translate="true">SID_IAIMPAddonsPlaylistStrings</caption>
+</topicref>
+<topicref type="topic" id="1311448855" build="ALL" icon="0" href="AIMPSDKAddons.SID_IAIMPAddonsProxySettings">  <caption translate="true">SID_IAIMPAddonsProxySettings</caption>
+</topicref>
+<topicref type="topic" id="-1917442458" build="ALL" icon="0" href="AIMPSDKAddons.SID_IAIMPAddonsSkinsManager">  <caption translate="true">SID_IAIMPAddonsSkinsManager</caption>
+</topicref>
+<topicref type="topic" id="-1105029910" build="ALL" icon="0" href="AIMPSDKAddons.WM_AIMP_LANG_CHANGED">  <caption translate="true">WM_AIMP_LANG_CHANGED</caption>
+</topicref>
+</topicref>
+</topicref>
+<topicref type="topic" id="522990216" build="ALL" icon="0" href="AIMPSDKCommon">  <caption translate="true">AIMPSDKCommon</caption>
+<topicref type="topic" id="-1229084741" build="ALL" icon="0" href="AIMPSDKCommon_Classes">  <caption translate="true">Classes &amp; Structures</caption>
+<topicref type="topic" id="-1026900516" build="ALL" icon="0" href="AIMPSDKCommon.TAIMPFileInfo">  <caption translate="true">TAIMPFileInfo</caption>
+<topicref type="topic" id="-1912748242" build="ALL" icon="0" href="AIMPSDKCommon.TAIMPFileInfo.Active">  <caption translate="true">Active</caption>
+</topicref>
+<topicref type="topic" id="1205944014" build="ALL" icon="0" href="AIMPSDKCommon.TAIMPFileInfo.Album">  <caption translate="true">Album</caption>
+</topicref>
+<topicref type="topic" id="-46836185" build="ALL" icon="0" href="AIMPSDKCommon.TAIMPFileInfo.AlbumLength">  <caption translate="true">AlbumLength</caption>
+</topicref>
+<topicref type="topic" id="1323171911" build="ALL" icon="0" href="AIMPSDKCommon.TAIMPFileInfo.Artist">  <caption translate="true">Artist</caption>
+</topicref>
+<topicref type="topic" id="995131508" build="ALL" icon="0" href="AIMPSDKCommon.TAIMPFileInfo.ArtistLength">  <caption translate="true">ArtistLength</caption>
+</topicref>
+<topicref type="topic" id="1006261373" build="ALL" icon="0" href="AIMPSDKCommon.TAIMPFileInfo.BitRate">  <caption translate="true">BitRate</caption>
+</topicref>
+<topicref type="topic" id="-1897572497" build="ALL" icon="0" href="AIMPSDKCommon.TAIMPFileInfo.Channels">  <caption translate="true">Channels</caption>
+</topicref>
+<topicref type="topic" id="-394257321" build="ALL" icon="0" href="AIMPSDKCommon.TAIMPFileInfo.Date">  <caption translate="true">Date</caption>
+</topicref>
+<topicref type="topic" id="-121748075" build="ALL" icon="0" href="AIMPSDKCommon.TAIMPFileInfo.DateLength">  <caption translate="true">DateLength</caption>
+</topicref>
+<topicref type="topic" id="-89694321" build="ALL" icon="0" href="AIMPSDKCommon.TAIMPFileInfo.Duration">  <caption translate="true">Duration</caption>
+</topicref>
+<topicref type="topic" id="375316017" build="ALL" icon="0" href="AIMPSDKCommon.TAIMPFileInfo.FileName">  <caption translate="true">FileName</caption>
+</topicref>
+<topicref type="topic" id="-827321371" build="ALL" icon="0" href="AIMPSDKCommon.TAIMPFileInfo.FileNameLength">  <caption translate="true">FileNameLength</caption>
+</topicref>
+<topicref type="topic" id="-560385165" build="ALL" icon="0" href="AIMPSDKCommon.TAIMPFileInfo.FileSize">  <caption translate="true">FileSize</caption>
+</topicref>
+<topicref type="topic" id="607505307" build="ALL" icon="0" href="AIMPSDKCommon.TAIMPFileInfo.Genre">  <caption translate="true">Genre</caption>
+</topicref>
+<topicref type="topic" id="-1945014913" build="ALL" icon="0" href="AIMPSDKCommon.TAIMPFileInfo.GenreLength">  <caption translate="true">GenreLength</caption>
+</topicref>
+<topicref type="topic" id="973282603" build="ALL" icon="0" href="AIMPSDKCommon.TAIMPFileInfo.Mark">  <caption translate="true">Mark</caption>
+</topicref>
+<topicref type="topic" id="1031956636" build="ALL" icon="0" href="AIMPSDKCommon.TAIMPFileInfo.SampleRate">  <caption translate="true">SampleRate</caption>
+</topicref>
+<topicref type="topic" id="-1230482092" build="ALL" icon="0" href="AIMPSDKCommon.TAIMPFileInfo.StructSize">  <caption translate="true">StructSize</caption>
+</topicref>
+<topicref type="topic" id="-915865472" build="ALL" icon="0" href="AIMPSDKCommon.TAIMPFileInfo.Title">  <caption translate="true">Title</caption>
+</topicref>
+<topicref type="topic" id="1118665544" build="ALL" icon="0" href="AIMPSDKCommon.TAIMPFileInfo.TitleLength">  <caption translate="true">TitleLength</caption>
+</topicref>
+<topicref type="topic" id="127741240" build="ALL" icon="0" href="AIMPSDKCommon.TAIMPFileInfo.TrackNumber">  <caption translate="true">TrackNumber</caption>
+</topicref>
+</topicref>
+</topicref>
+<topicref type="topic" id="-1521683403" build="ALL" icon="0" href="AIMPSDKCommon_Types">  <caption translate="true">Types</caption>
+<topicref type="topic" id="-1131260172" build="ALL" icon="0" href="AIMPSDKCommon.PAIMPFileInfo">  <caption translate="true">PAIMPFileInfo</caption>
+</topicref>
+</topicref>
+</topicref>
+<topicref type="topic" id="1589271472" build="ALL" icon="0" href="AIMPSDKCore">  <caption translate="true">AIMPSDKCore</caption>
+<topicref type="topic" id="2095183817" build="ALL" icon="0" href="AIMPSDKCore_Classes">  <caption translate="true">Classes &amp; Structures</caption>
+<topicref type="topic" id="-1934546207" build="ALL" icon="0" href="AIMPSDKCore.TAIMPVersionInfo">  <caption translate="true">TAIMPVersionInfo</caption>
+<topicref type="topic" id="1938905057" build="ALL" icon="0" href="AIMPSDKCore.TAIMPVersionInfo.BuildDate">  <caption translate="true">BuildDate</caption>
+</topicref>
+<topicref type="topic" id="-317231511" build="ALL" icon="0" href="AIMPSDKCore.TAIMPVersionInfo.BuildNumber">  <caption translate="true">BuildNumber</caption>
+</topicref>
+<topicref type="topic" id="1534561039" build="ALL" icon="0" href="AIMPSDKCore.TAIMPVersionInfo.BuildSuffix">  <caption translate="true">BuildSuffix</caption>
+</topicref>
+<topicref type="topic" id="-1658899087" build="ALL" icon="0" href="AIMPSDKCore.TAIMPVersionInfo.ID">  <caption translate="true">ID</caption>
+</topicref>
+</topicref>
+</topicref>
+<topicref type="topic" id="1173385184" build="ALL" icon="0" href="AIMPSDKCore_Interfaces">  <caption translate="true">Interfaces</caption>
+<topicref type="topic" id="371848661" build="ALL" icon="0" href="AIMPSDKCore.IAIMPCoreUnit">  <caption translate="true">IAIMPCoreUnit</caption>
+<topicref type="topic" id="986075412" build="ALL" icon="0" href="AIMPSDKCore.IAIMPCoreUnit.GetVersion(TAIMPVersionInfo)">  <caption translate="true">GetVersion(TAIMPVersionInfo)</caption>
+</topicref>
+<topicref type="topic" id="-1080988465" build="ALL" icon="0" href="AIMPSDKCore.IAIMPCoreUnit.MessageHook(IAIMPCoreUnitMessageHook)">  <caption translate="true">MessageHook(IAIMPCoreUnitMessageHook)</caption>
+</topicref>
+<topicref type="topic" id="1742698963" build="ALL" icon="0" href="AIMPSDKCore.IAIMPCoreUnit.MessageRegister(PWideChar)">  <caption translate="true">MessageRegister(PWideChar)</caption>
+</topicref>
+<topicref type="topic" id="-281869397" build="ALL" icon="0" href="AIMPSDKCore.IAIMPCoreUnit.MessageSend(DWORD,Integer,Pointer)">  <caption translate="true">MessageSend(DWORD,Integer,Pointer)</caption>
+</topicref>
+<topicref type="topic" id="490314782" build="ALL" icon="0" href="AIMPSDKCore.IAIMPCoreUnit.MessageUnhook(IAIMPCoreUnitMessageHook)">  <caption translate="true">MessageUnhook(IAIMPCoreUnitMessageHook)</caption>
+</topicref>
+</topicref>
+<topicref type="topic" id="1270240906" build="ALL" icon="0" href="AIMPSDKCore.IAIMPCoreUnitMessageHook">  <caption translate="true">IAIMPCoreUnitMessageHook</caption>
+<topicref type="topic" id="2058249858" build="ALL" icon="0" href="AIMPSDKCore.IAIMPCoreUnitMessageHook.CoreMessage(DWORD,Integer,Pointer,HRESULT)">  <caption translate="true">CoreMessage(DWORD,Integer,Pointer,HRESULT)</caption>
+</topicref>
+</topicref>
+</topicref>
+<topicref type="topic" id="550194193" build="ALL" icon="0" href="AIMPSDKCore_Variables">  <caption translate="true">Variables &amp; Constants</caption>
+<topicref type="topic" id="-44730235" build="ALL" icon="0" href="AIMPSDKCore.AIMP_MES_END_OF_PLAYLIST">  <caption translate="true">AIMP_MES_END_OF_PLAYLIST</caption>
+</topicref>
+<topicref type="topic" id="-2137610430" build="ALL" icon="0" href="AIMPSDKCore.AIMP_MES_END_OF_QUEUE">  <caption translate="true">AIMP_MES_END_OF_QUEUE</caption>
+</topicref>
+<topicref type="topic" id="2136068597" build="ALL" icon="0" href="AIMPSDKCore.AIMP_MPH_APPLICATION">  <caption translate="true">AIMP_MPH_APPLICATION</caption>
+</topicref>
+<topicref type="topic" id="-1749677088" build="ALL" icon="0" href="AIMPSDKCore.AIMP_MPH_EQUALIZERFORM">  <caption translate="true">AIMP_MPH_EQUALIZERFORM</caption>
+</topicref>
+<topicref type="topic" id="-1892990988" build="ALL" icon="0" href="AIMPSDKCore.AIMP_MPH_MAINFORM">  <caption translate="true">AIMP_MPH_MAINFORM</caption>
+</topicref>
+<topicref type="topic" id="-1846384287" build="ALL" icon="0" href="AIMPSDKCore.AIMP_MPH_PLAYLISTFORM">  <caption translate="true">AIMP_MPH_PLAYLISTFORM</caption>
+</topicref>
+<topicref type="topic" id="-1435359015" build="ALL" icon="0" href="AIMPSDKCore.AIMP_MPH_TRAYCONTROL">  <caption translate="true">AIMP_MPH_TRAYCONTROL</caption>
+</topicref>
+<topicref type="topic" id="429466177" build="ALL" icon="0" href="AIMPSDKCore.AIMP_MSG_CMD_ABOUT">  <caption translate="true">AIMP_MSG_CMD_ABOUT</caption>
+</topicref>
+<topicref type="topic" id="1737527995" build="ALL" icon="0" href="AIMPSDKCore.AIMP_MSG_CMD_ADD_FILES">  <caption translate="true">AIMP_MSG_CMD_ADD_FILES</caption>
+</topicref>
+<topicref type="topic" id="-589842123" build="ALL" icon="0" href="AIMPSDKCore.AIMP_MSG_CMD_ADD_FOLDERS">  <caption translate="true">AIMP_MSG_CMD_ADD_FOLDERS</caption>
+</topicref>
+<topicref type="topic" id="-46163745" build="ALL" icon="0" href="AIMPSDKCore.AIMP_MSG_CMD_ADD_PLAYLISTS">  <caption translate="true">AIMP_MSG_CMD_ADD_PLAYLISTS</caption>
+</topicref>
+<topicref type="topic" id="-623931443" build="ALL" icon="0" href="AIMPSDKCore.AIMP_MSG_CMD_ADD_URL">  <caption translate="true">AIMP_MSG_CMD_ADD_URL</caption>
+</topicref>
+<topicref type="topic" id="2128199536" build="ALL" icon="0" href="AIMPSDKCore.AIMP_MSG_CMD_BASE">  <caption translate="true">AIMP_MSG_CMD_BASE</caption>
+</topicref>
+<topicref type="topic" id="-511754473" build="ALL" icon="0" href="AIMPSDKCore.AIMP_MSG_CMD_BOOKMARKS">  <caption translate="true">AIMP_MSG_CMD_BOOKMARKS</caption>
+</topicref>
+<topicref type="topic" id="-588248041" build="ALL" icon="0" href="AIMPSDKCore.AIMP_MSG_CMD_BOOKMARKS_ADD">  <caption translate="true">AIMP_MSG_CMD_BOOKMARKS_ADD</caption>
+</topicref>
+<topicref type="topic" id="416523703" build="ALL" icon="0" href="AIMPSDKCore.AIMP_MSG_CMD_NEXT">  <caption translate="true">AIMP_MSG_CMD_NEXT</caption>
+</topicref>
+<topicref type="topic" id="1738920461" build="ALL" icon="0" href="AIMPSDKCore.AIMP_MSG_CMD_OPEN_FILES">  <caption translate="true">AIMP_MSG_CMD_OPEN_FILES</caption>
+</topicref>
+<topicref type="topic" id="-989445027" build="ALL" icon="0" href="AIMPSDKCore.AIMP_MSG_CMD_OPEN_FOLDERS">  <caption translate="true">AIMP_MSG_CMD_OPEN_FOLDERS</caption>
+</topicref>
+<topicref type="topic" id="452732890" build="ALL" icon="0" href="AIMPSDKCore.AIMP_MSG_CMD_OPEN_PLAYLISTS">  <caption translate="true">AIMP_MSG_CMD_OPEN_PLAYLISTS</caption>
+</topicref>
+<topicref type="topic" id="-980924472" build="ALL" icon="0" href="AIMPSDKCore.AIMP_MSG_CMD_OPTIONS">  <caption translate="true">AIMP_MSG_CMD_OPTIONS</caption>
+</topicref>
+<topicref type="topic" id="652272124" build="ALL" icon="0" href="AIMPSDKCore.AIMP_MSG_CMD_PAUSE">  <caption translate="true">AIMP_MSG_CMD_PAUSE</caption>
+</topicref>
+<topicref type="topic" id="-438997106" build="ALL" icon="0" href="AIMPSDKCore.AIMP_MSG_CMD_PLAY">  <caption translate="true">AIMP_MSG_CMD_PLAY</caption>
+</topicref>
+<topicref type="topic" id="-717366906" build="ALL" icon="0" href="AIMPSDKCore.AIMP_MSG_CMD_PLAY_PREV_PLAYLIST">  <caption translate="true">AIMP_MSG_CMD_PLAY_PREV_PLAYLIST</caption>
+</topicref>
+<topicref type="topic" id="154784911" build="ALL" icon="0" href="AIMPSDKCore.AIMP_MSG_CMD_PLAYPAUSE">  <caption translate="true">AIMP_MSG_CMD_PLAYPAUSE</caption>
+</topicref>
+<topicref type="topic" id="232853451" build="ALL" icon="0" href="AIMPSDKCore.AIMP_MSG_CMD_PLS_DELETE_ALL">  <caption translate="true">AIMP_MSG_CMD_PLS_DELETE_ALL</caption>
+</topicref>
+<topicref type="topic" id="-1969993782" build="ALL" icon="0" href="AIMPSDKCore.AIMP_MSG_CMD_PLS_DELETE_DUPLICATES">  <caption translate="true">AIMP_MSG_CMD_PLS_DELETE_DUPLICATES</caption>
+</topicref>
+<topicref type="topic" id="-1105377380" build="ALL" icon="0" href="AIMPSDKCore.AIMP_MSG_CMD_PLS_DELETE_NON_EXISTS">  <caption translate="true">AIMP_MSG_CMD_PLS_DELETE_NON_EXISTS</caption>
+</topicref>
+<topicref type="topic" id="1485490050" build="ALL" icon="0" href="AIMPSDKCore.AIMP_MSG_CMD_PLS_DELETE_NON_SELECTED">  <caption translate="true">AIMP_MSG_CMD_PLS_DELETE_NON_SELECTED</caption>
+</topicref>
+<topicref type="topic" id="141565578" build="ALL" icon="0" href="AIMPSDKCore.AIMP_MSG_CMD_PLS_DELETE_PLAYING_FROM_HDD">  <caption translate="true">AIMP_MSG_CMD_PLS_DELETE_PLAYING_FROM_HDD</caption>
+</topicref>
+<topicref type="topic" id="-772070534" build="ALL" icon="0" href="AIMPSDKCore.AIMP_MSG_CMD_PLS_DELETE_SELECTED">  <caption translate="true">AIMP_MSG_CMD_PLS_DELETE_SELECTED</caption>
+</topicref>
+<topicref type="topic" id="-776073555" build="ALL" icon="0" href="AIMPSDKCore.AIMP_MSG_CMD_PLS_DELETE_SELECTED_FROM_HDD">  <caption translate="true">AIMP_MSG_CMD_PLS_DELETE_SELECTED_FROM_HDD</caption>
+</topicref>
+<topicref type="topic" id="1414979113" build="ALL" icon="0" href="AIMPSDKCore.AIMP_MSG_CMD_PLS_DELETE_SWITCHEDOFF">  <caption translate="true">AIMP_MSG_CMD_PLS_DELETE_SWITCHEDOFF</caption>
+</topicref>
+<topicref type="topic" id="-942750024" build="ALL" icon="0" href="AIMPSDKCore.AIMP_MSG_CMD_PLS_DELETE_SWITCHEDOFF_FROM_HDD">  <caption translate="true">AIMP_MSG_CMD_PLS_DELETE_SWITCHEDOFF_FROM_HDD</caption>
+</topicref>
+<topicref type="topic" id="251827568" build="ALL" icon="0" href="AIMPSDKCore.AIMP_MSG_CMD_PLS_FOCUS_NOWPLAYING">  <caption translate="true">AIMP_MSG_CMD_PLS_FOCUS_NOWPLAYING</caption>
+</topicref>
+<topicref type="topic" id="903296785" build="ALL" icon="0" href="AIMPSDKCore.AIMP_MSG_CMD_PLS_RESCAN">  <caption translate="true">AIMP_MSG_CMD_PLS_RESCAN</caption>
+</topicref>
+<topicref type="topic" id="1093297634" build="ALL" icon="0" href="AIMPSDKCore.AIMP_MSG_CMD_PLS_SORT_BY_ARTIST">  <caption translate="true">AIMP_MSG_CMD_PLS_SORT_BY_ARTIST</caption>
+</topicref>
+<topicref type="topic" id="-1195442483" build="ALL" icon="0" href="AIMPSDKCore.AIMP_MSG_CMD_PLS_SORT_BY_DURATION">  <caption translate="true">AIMP_MSG_CMD_PLS_SORT_BY_DURATION</caption>
+</topicref>
+<topicref type="topic" id="-1006382220" build="ALL" icon="0" href="AIMPSDKCore.AIMP_MSG_CMD_PLS_SORT_BY_FOLDER">  <caption translate="true">AIMP_MSG_CMD_PLS_SORT_BY_FOLDER</caption>
+</topicref>
+<topicref type="topic" id="1254427747" build="ALL" icon="0" href="AIMPSDKCore.AIMP_MSG_CMD_PLS_SORT_BY_TITLE">  <caption translate="true">AIMP_MSG_CMD_PLS_SORT_BY_TITLE</caption>
+</topicref>
+<topicref type="topic" id="1191767908" build="ALL" icon="0" href="AIMPSDKCore.AIMP_MSG_CMD_PLS_SORT_INVERT">  <caption translate="true">AIMP_MSG_CMD_PLS_SORT_INVERT</caption>
+</topicref>
+<topicref type="topic" id="-1323505128" build="ALL" icon="0" href="AIMPSDKCore.AIMP_MSG_CMD_PLS_SORT_RANDOMIZE">  <caption translate="true">AIMP_MSG_CMD_PLS_SORT_RANDOMIZE</caption>
+</topicref>
+<topicref type="topic" id="-228720458" build="ALL" icon="0" href="AIMPSDKCore.AIMP_MSG_CMD_PLS_SWITCH_OFF">  <caption translate="true">AIMP_MSG_CMD_PLS_SWITCH_OFF</caption>
+</topicref>
+<topicref type="topic" id="1231724456" build="ALL" icon="0" href="AIMPSDKCore.AIMP_MSG_CMD_PLS_SWITCH_ON">  <caption translate="true">AIMP_MSG_CMD_PLS_SWITCH_ON</caption>
+</topicref>
+<topicref type="topic" id="555855074" build="ALL" icon="0" href="AIMPSDKCore.AIMP_MSG_CMD_PLUGINS">  <caption translate="true">AIMP_MSG_CMD_PLUGINS</caption>
+</topicref>
+<topicref type="topic" id="1416125546" build="ALL" icon="0" href="AIMPSDKCore.AIMP_MSG_CMD_PREV">  <caption translate="true">AIMP_MSG_CMD_PREV</caption>
+</topicref>
+<topicref type="topic" id="872187095" build="ALL" icon="0" href="AIMPSDKCore.AIMP_MSG_CMD_QTE_NOWPLAYING_FILE">  <caption translate="true">AIMP_MSG_CMD_QTE_NOWPLAYING_FILE</caption>
+</topicref>
+<topicref type="topic" id="-1244929370" build="ALL" icon="0" href="AIMPSDKCore.AIMP_MSG_CMD_QUIT">  <caption translate="true">AIMP_MSG_CMD_QUIT</caption>
+</topicref>
+<topicref type="topic" id="61668709" build="ALL" icon="0" href="AIMPSDKCore.AIMP_MSG_CMD_RADIOCAT">  <caption translate="true">AIMP_MSG_CMD_RADIOCAT</caption>
+</topicref>
+<topicref type="topic" id="880101406" build="ALL" icon="0" href="AIMPSDKCore.AIMP_MSG_CMD_RUNSTR_SEEKING_HINT">  <caption translate="true">AIMP_MSG_CMD_RUNSTR_SEEKING_HINT</caption>
+</topicref>
+<topicref type="topic" id="-623987546" build="ALL" icon="0" href="AIMPSDKCore.AIMP_MSG_CMD_RUNSTR_SHOW_TEXT">  <caption translate="true">AIMP_MSG_CMD_RUNSTR_SHOW_TEXT</caption>
+</topicref>
+<topicref type="topic" id="-50842929" build="ALL" icon="0" href="AIMPSDKCore.AIMP_MSG_CMD_SAVE_PLAYLISTS">  <caption translate="true">AIMP_MSG_CMD_SAVE_PLAYLISTS</caption>
+</topicref>
+<topicref type="topic" id="1931613280" build="ALL" icon="0" href="AIMPSDKCore.AIMP_MSG_CMD_SCHEDULER">  <caption translate="true">AIMP_MSG_CMD_SCHEDULER</caption>
+</topicref>
+<topicref type="topic" id="459904186" build="ALL" icon="0" href="AIMPSDKCore.AIMP_MSG_CMD_SEARCH">  <caption translate="true">AIMP_MSG_CMD_SEARCH</caption>
+</topicref>
+<topicref type="topic" id="-377103652" build="ALL" icon="0" href="AIMPSDKCore.AIMP_MSG_CMD_SHOW_CURRENT_QFI">  <caption translate="true">AIMP_MSG_CMD_SHOW_CURRENT_QFI</caption>
+</topicref>
+<topicref type="topic" id="-579707923" build="ALL" icon="0" href="AIMPSDKCore.AIMP_MSG_CMD_STATE_GET">  <caption translate="true">AIMP_MSG_CMD_STATE_GET</caption>
+</topicref>
+<topicref type="topic" id="-1712421203" build="ALL" icon="0" href="AIMPSDKCore.AIMP_MSG_CMD_STOP">  <caption translate="true">AIMP_MSG_CMD_STOP</caption>
+</topicref>
+<topicref type="topic" id="1118544208" build="ALL" icon="0" href="AIMPSDKCore.AIMP_MSG_CMD_TOGGLE_PARTREPEAT">  <caption translate="true">AIMP_MSG_CMD_TOGGLE_PARTREPEAT</caption>
+</topicref>
+<topicref type="topic" id="-1553700870" build="ALL" icon="0" href="AIMPSDKCore.AIMP_MSG_CMD_TRAY_MINIMIZE_RESTORE">  <caption translate="true">AIMP_MSG_CMD_TRAY_MINIMIZE_RESTORE</caption>
+</topicref>
+<topicref type="topic" id="-318550900" build="ALL" icon="0" href="AIMPSDKCore.AIMP_MSG_CMD_VISUAL_NEXT">  <caption translate="true">AIMP_MSG_CMD_VISUAL_NEXT</caption>
+</topicref>
+<topicref type="topic" id="1664214547" build="ALL" icon="0" href="AIMPSDKCore.AIMP_MSG_CMD_VISUAL_PREV">  <caption translate="true">AIMP_MSG_CMD_VISUAL_PREV</caption>
+</topicref>
+<topicref type="topic" id="144224881" build="ALL" icon="0" href="AIMPSDKCore.AIMP_MSG_EVENT_BASE">  <caption translate="true">AIMP_MSG_EVENT_BASE</caption>
+</topicref>
+<topicref type="topic" id="1850185120" build="ALL" icon="0" href="AIMPSDKCore.AIMP_MSG_EVENT_CMD_STATE">  <caption translate="true">AIMP_MSG_EVENT_CMD_STATE</caption>
+</topicref>
+<topicref type="topic" id="1363421848" build="ALL" icon="0" href="AIMPSDKCore.AIMP_MSG_EVENT_FILEMARK">  <caption translate="true">AIMP_MSG_EVENT_FILEMARK</caption>
+</topicref>
+<topicref type="topic" id="-576083789" build="ALL" icon="0" href="AIMPSDKCore.AIMP_MSG_EVENT_LANGUAGE">  <caption translate="true">AIMP_MSG_EVENT_LANGUAGE</caption>
+</topicref>
+<topicref type="topic" id="-1519899275" build="ALL" icon="0" href="AIMPSDKCore.AIMP_MSG_EVENT_MODULES">  <caption translate="true">AIMP_MSG_EVENT_MODULES</caption>
+</topicref>
+<topicref type="topic" id="-295296421" build="ALL" icon="0" href="AIMPSDKCore.AIMP_MSG_EVENT_OPTIONS">  <caption translate="true">AIMP_MSG_EVENT_OPTIONS</caption>
+</topicref>
+<topicref type="topic" id="-638701459" build="ALL" icon="0" href="AIMPSDKCore.AIMP_MSG_EVENT_OPTIONS_FRAME_LIST">  <caption translate="true">AIMP_MSG_EVENT_OPTIONS_FRAME_LIST</caption>
+</topicref>
+<topicref type="topic" id="-1513914336" build="ALL" icon="0" href="AIMPSDKCore.AIMP_MSG_EVENT_OPTIONS_FRAME_MODIFIED">  <caption translate="true">AIMP_MSG_EVENT_OPTIONS_FRAME_MODIFIED</caption>
+</topicref>
+<topicref type="topic" id="-517134266" build="ALL" icon="0" href="AIMPSDKCore.AIMP_MSG_EVENT_PLAYER_STATE">  <caption translate="true">AIMP_MSG_EVENT_PLAYER_STATE</caption>
+</topicref>
+<topicref type="topic" id="2006597873" build="ALL" icon="0" href="AIMPSDKCore.AIMP_MSG_EVENT_PLAYER_UPDATE_POSITION">  <caption translate="true">AIMP_MSG_EVENT_PLAYER_UPDATE_POSITION</caption>
+</topicref>
+<topicref type="topic" id="-681750462" build="ALL" icon="0" href="AIMPSDKCore.AIMP_MSG_EVENT_PROPERTY_VALUE">  <caption translate="true">AIMP_MSG_EVENT_PROPERTY_VALUE</caption>
+</topicref>
+<topicref type="topic" id="46974158" build="ALL" icon="0" href="AIMPSDKCore.AIMP_MSG_EVENT_SKIN">  <caption translate="true">AIMP_MSG_EVENT_SKIN</caption>
+</topicref>
+<topicref type="topic" id="-280398891" build="ALL" icon="0" href="AIMPSDKCore.AIMP_MSG_EVENT_STATISTICS_CHANGED">  <caption translate="true">AIMP_MSG_EVENT_STATISTICS_CHANGED</caption>
+</topicref>
+<topicref type="topic" id="1623007898" build="ALL" icon="0" href="AIMPSDKCore.AIMP_MSG_EVENT_STATISTICS_DROPPED">  <caption translate="true">AIMP_MSG_EVENT_STATISTICS_DROPPED</caption>
+</topicref>
+<topicref type="topic" id="-1557588795" build="ALL" icon="0" href="AIMPSDKCore.AIMP_MSG_EVENT_STREAM_END">  <caption translate="true">AIMP_MSG_EVENT_STREAM_END</caption>
+</topicref>
+<topicref type="topic" id="1959120362" build="ALL" icon="0" href="AIMPSDKCore.AIMP_MSG_EVENT_STREAM_START">  <caption translate="true">AIMP_MSG_EVENT_STREAM_START</caption>
+</topicref>
+<topicref type="topic" id="122394048" build="ALL" icon="0" href="AIMPSDKCore.AIMP_MSG_EVENT_STREAM_START_SUBTRACK">  <caption translate="true">AIMP_MSG_EVENT_STREAM_START_SUBTRACK</caption>
+</topicref>
+<topicref type="topic" id="2140290262" build="ALL" icon="0" href="AIMPSDKCore.AIMP_MSG_EVENT_VISUAL_PLUGIN">  <caption translate="true">AIMP_MSG_EVENT_VISUAL_PLUGIN</caption>
+</topicref>
+<topicref type="topic" id="662594379" build="ALL" icon="0" href="AIMPSDKCore.AIMP_MSG_PROPERTY_ACTION_ON_END_OF_PLAYLIST">  <caption translate="true">AIMP_MSG_PROPERTY_ACTION_ON_END_OF_PLAYLIST</caption>
+</topicref>
+<topicref type="topic" id="-136940520" build="ALL" icon="0" href="AIMPSDKCore.AIMP_MSG_PROPERTY_BALANCE">  <caption translate="true">AIMP_MSG_PROPERTY_BALANCE</caption>
+</topicref>
+<topicref type="topic" id="-1174100962" build="ALL" icon="0" href="AIMPSDKCore.AIMP_MSG_PROPERTY_BASE">  <caption translate="true">AIMP_MSG_PROPERTY_BASE</caption>
+</topicref>
+<topicref type="topic" id="-289772183" build="ALL" icon="0" href="AIMPSDKCore.AIMP_MSG_PROPERTY_CHORUS">  <caption translate="true">AIMP_MSG_PROPERTY_CHORUS</caption>
+</topicref>
+<topicref type="topic" id="-522146789" build="ALL" icon="0" href="AIMPSDKCore.AIMP_MSG_PROPERTY_ECHO">  <caption translate="true">AIMP_MSG_PROPERTY_ECHO</caption>
+</topicref>
+<topicref type="topic" id="1029124748" build="ALL" icon="0" href="AIMPSDKCore.AIMP_MSG_PROPERTY_ENHANCER">  <caption translate="true">AIMP_MSG_PROPERTY_ENHANCER</caption>
+</topicref>
+<topicref type="topic" id="-508621811" build="ALL" icon="0" href="AIMPSDKCore.AIMP_MSG_PROPERTY_EQUALIZER">  <caption translate="true">AIMP_MSG_PROPERTY_EQUALIZER</caption>
+</topicref>
+<topicref type="topic" id="469711077" build="ALL" icon="0" href="AIMPSDKCore.AIMP_MSG_PROPERTY_EQUALIZER_BAND">  <caption translate="true">AIMP_MSG_PROPERTY_EQUALIZER_BAND</caption>
+</topicref>
+<topicref type="topic" id="-1645418395" build="ALL" icon="0" href="AIMPSDKCore.AIMP_MSG_PROPERTY_FLANGER">  <caption translate="true">AIMP_MSG_PROPERTY_FLANGER</caption>
+</topicref>
+<topicref type="topic" id="843765330" build="ALL" icon="0" href="AIMPSDKCore.AIMP_MSG_PROPERTY_HWND">  <caption translate="true">AIMP_MSG_PROPERTY_HWND</caption>
+</topicref>
+<topicref type="topic" id="-1611783158" build="ALL" icon="0" href="AIMPSDKCore.AIMP_MSG_PROPERTY_MINIMIZED_TO_TRAY">  <caption translate="true">AIMP_MSG_PROPERTY_MINIMIZED_TO_TRAY</caption>
+</topicref>
+<topicref type="topic" id="-1679762789" build="ALL" icon="0" href="AIMPSDKCore.AIMP_MSG_PROPERTY_MUTE">  <caption translate="true">AIMP_MSG_PROPERTY_MUTE</caption>
+</topicref>
+<topicref type="topic" id="-1303314500" build="ALL" icon="0" href="AIMPSDKCore.AIMP_MSG_PROPERTY_PARTREPEAT">  <caption translate="true">AIMP_MSG_PROPERTY_PARTREPEAT</caption>
+</topicref>
+<topicref type="topic" id="517522339" build="ALL" icon="0" href="AIMPSDKCore.AIMP_MSG_PROPERTY_PITCH">  <caption translate="true">AIMP_MSG_PROPERTY_PITCH</caption>
+</topicref>
+<topicref type="topic" id="-646260789" build="ALL" icon="0" href="AIMPSDKCore.AIMP_MSG_PROPERTY_PLAYER_DURATION">  <caption translate="true">AIMP_MSG_PROPERTY_PLAYER_DURATION</caption>
+</topicref>
+<topicref type="topic" id="-312401735" build="ALL" icon="0" href="AIMPSDKCore.AIMP_MSG_PROPERTY_PLAYER_POSITION">  <caption translate="true">AIMP_MSG_PROPERTY_PLAYER_POSITION</caption>
+</topicref>
+<topicref type="topic" id="-1796716618" build="ALL" icon="0" href="AIMPSDKCore.AIMP_MSG_PROPERTY_PLAYER_STATE">  <caption translate="true">AIMP_MSG_PROPERTY_PLAYER_STATE</caption>
+</topicref>
+<topicref type="topic" id="-2083181952" build="ALL" icon="0" href="AIMPSDKCore.AIMP_MSG_PROPERTY_PREAMP">  <caption translate="true">AIMP_MSG_PROPERTY_PREAMP</caption>
+</topicref>
+<topicref type="topic" id="559176147" build="ALL" icon="0" href="AIMPSDKCore.AIMP_MSG_PROPERTY_RADIOCAP">  <caption translate="true">AIMP_MSG_PROPERTY_RADIOCAP</caption>
+</topicref>
+<topicref type="topic" id="-999804948" build="ALL" icon="0" href="AIMPSDKCore.AIMP_MSG_PROPERTY_REPEAT">  <caption translate="true">AIMP_MSG_PROPERTY_REPEAT</caption>
+</topicref>
+<topicref type="topic" id="-1327366274" build="ALL" icon="0" href="AIMPSDKCore.AIMP_MSG_PROPERTY_REPEAT_SINGLE_FILE_PLAYLISTS">  <caption translate="true">AIMP_MSG_PROPERTY_REPEAT_SINGLE_FILE_PLAYLISTS</caption>
+</topicref>
+<topicref type="topic" id="511878306" build="ALL" icon="0" href="AIMPSDKCore.AIMP_MSG_PROPERTY_REVERB">  <caption translate="true">AIMP_MSG_PROPERTY_REVERB</caption>
+</topicref>
+<topicref type="topic" id="-1874827180" build="ALL" icon="0" href="AIMPSDKCore.AIMP_MSG_PROPERTY_REVERSETIME">  <caption translate="true">AIMP_MSG_PROPERTY_REVERSETIME</caption>
+</topicref>
+<topicref type="topic" id="1115305298" build="ALL" icon="0" href="AIMPSDKCore.AIMP_MSG_PROPERTY_SHUFFLE">  <caption translate="true">AIMP_MSG_PROPERTY_SHUFFLE</caption>
+</topicref>
+<topicref type="topic" id="308849341" build="ALL" icon="0" href="AIMPSDKCore.AIMP_MSG_PROPERTY_SPEED">  <caption translate="true">AIMP_MSG_PROPERTY_SPEED</caption>
+</topicref>
+<topicref type="topic" id="1649143843" build="ALL" icon="0" href="AIMPSDKCore.AIMP_MSG_PROPERTY_STAYONTOP">  <caption translate="true">AIMP_MSG_PROPERTY_STAYONTOP</caption>
+</topicref>
+<topicref type="topic" id="326755043" build="ALL" icon="0" href="AIMPSDKCore.AIMP_MSG_PROPERTY_STOP_AFTER_TRACK">  <caption translate="true">AIMP_MSG_PROPERTY_STOP_AFTER_TRACK</caption>
+</topicref>
+<topicref type="topic" id="-1888875262" build="ALL" icon="0" href="AIMPSDKCore.AIMP_MSG_PROPERTY_TEMPO">  <caption translate="true">AIMP_MSG_PROPERTY_TEMPO</caption>
+</topicref>
+<topicref type="topic" id="-1235225019" build="ALL" icon="0" href="AIMPSDKCore.AIMP_MSG_PROPERTY_TRUEBASS">  <caption translate="true">AIMP_MSG_PROPERTY_TRUEBASS</caption>
+</topicref>
+<topicref type="topic" id="-1564957427" build="ALL" icon="0" href="AIMPSDKCore.AIMP_MSG_PROPERTY_VOLUME">  <caption translate="true">AIMP_MSG_PROPERTY_VOLUME</caption>
+</topicref>
+<topicref type="topic" id="1221929978" build="ALL" icon="0" href="AIMPSDKCore.AIMP_MSG_PROPVALUE_GET">  <caption translate="true">AIMP_MSG_PROPVALUE_GET</caption>
+</topicref>
+<topicref type="topic" id="-1311343796" build="ALL" icon="0" href="AIMPSDKCore.AIMP_MSG_PROPVALUE_SET">  <caption translate="true">AIMP_MSG_PROPVALUE_SET</caption>
+</topicref>
+<topicref type="topic" id="374102135" build="ALL" icon="0" href="AIMPSDKCore.IID_IAIMPCoreUnitMessageHook">  <caption translate="true">IID_IAIMPCoreUnitMessageHook</caption>
+</topicref>
+<topicref type="topic" id="-464046556" build="ALL" icon="0" href="AIMPSDKCore.SID_IAIMPCoreUnitMessageHook">  <caption translate="true">SID_IAIMPCoreUnitMessageHook</caption>
+</topicref>
+</topicref>
+</topicref>
+<topicref type="topic" id="652094340" build="ALL" icon="0" href="AIMPSDKInput">  <caption translate="true">AIMPSDKInput</caption>
+<topicref type="topic" id="126863104" build="ALL" icon="0" href="AIMPSDKInput_Interfaces">  <caption translate="true">Interfaces</caption>
+<topicref type="topic" id="-69567493" build="ALL" icon="0" href="AIMPSDKInput.IAIMPInputPluginDecoder">  <caption translate="true">IAIMPInputPluginDecoder</caption>
+<topicref type="topic" id="-810826431" build="ALL" icon="0" href="AIMPSDKInput.IAIMPInputPluginDecoder.DecoderGetFormatType">  <caption translate="true">DecoderGetFormatType</caption>
+</topicref>
+<topicref type="topic" id="1668041323" build="ALL" icon="0" href="AIMPSDKInput.IAIMPInputPluginDecoder.DecoderGetInfo(Integer,Integer,Integer)">  <caption translate="true">DecoderGetInfo(Integer,Integer,Integer)</caption>
+</topicref>
+<topicref type="topic" id="928657359" build="ALL" icon="0" href="AIMPSDKInput.IAIMPInputPluginDecoder.DecoderGetPosition">  <caption translate="true">DecoderGetPosition</caption>
+</topicref>
+<topicref type="topic" id="836089039" build="ALL" icon="0" href="AIMPSDKInput.IAIMPInputPluginDecoder.DecoderGetSize">  <caption translate="true">DecoderGetSize</caption>
+</topicref>
+<topicref type="topic" id="-1826264761" build="ALL" icon="0" href="AIMPSDKInput.IAIMPInputPluginDecoder.DecoderGetTags(PAIMPFileInfo)">  <caption translate="true">DecoderGetTags(PAIMPFileInfo)</caption>
+</topicref>
+<topicref type="topic" id="-1122231934" build="ALL" icon="0" href="AIMPSDKInput.IAIMPInputPluginDecoder.DecoderIsRealTimeStream">  <caption translate="true">DecoderIsRealTimeStream</caption>
+</topicref>
+<topicref type="topic" id="1445110632" build="ALL" icon="0" href="AIMPSDKInput.IAIMPInputPluginDecoder.DecoderIsSeekable">  <caption translate="true">DecoderIsSeekable</caption>
+</topicref>
+<topicref type="topic" id="-498484170" build="ALL" icon="0" href="AIMPSDKInput.IAIMPInputPluginDecoder.DecoderRead(PByte,Integer)">  <caption translate="true">DecoderRead(PByte,Integer)</caption>
+</topicref>
+<topicref type="topic" id="-666018914" build="ALL" icon="0" href="AIMPSDKInput.IAIMPInputPluginDecoder.DecoderSetPosition(Int64)">  <caption translate="true">DecoderSetPosition(Int64)</caption>
+</topicref>
+</topicref>
+<topicref type="topic" id="1656750567" build="ALL" icon="0" href="AIMPSDKInput.IAIMPInputPluginHeader">  <caption translate="true">IAIMPInputPluginHeader</caption>
+<topicref type="topic" id="429551698" build="ALL" icon="0" href="AIMPSDKInput.IAIMPInputPluginHeader.CreateDecoder(PWideChar,IAIMPInputPluginDecoder)">  <caption translate="true">CreateDecoder(PWideChar,IAIMPInputPluginDecoder)</caption>
+</topicref>
+<topicref type="topic" id="58121238" build="ALL" icon="0" href="AIMPSDKInput.IAIMPInputPluginHeader.CreateDecoderEx(IAIMPInputStream,IAIMPInputPluginDecoder)">  <caption translate="true">CreateDecoderEx(IAIMPInputStream,IAIMPInputPluginDecoder)</caption>
+</topicref>
+<topicref type="topic" id="-1410260927" build="ALL" icon="0" href="AIMPSDKInput.IAIMPInputPluginHeader.Finalize">  <caption translate="true">Finalize</caption>
+</topicref>
+<topicref type="topic" id="1272705268" build="ALL" icon="0" href="AIMPSDKInput.IAIMPInputPluginHeader.GetFileInfo(PWideChar,PAIMPFileInfo)">  <caption translate="true">GetFileInfo(PWideChar,PAIMPFileInfo)</caption>
+</topicref>
+<topicref type="topic" id="-947152038" build="ALL" icon="0" href="AIMPSDKInput.IAIMPInputPluginHeader.GetPluginAuthor">  <caption translate="true">GetPluginAuthor</caption>
+</topicref>
+<topicref type="topic" id="-206484706" build="ALL" icon="0" href="AIMPSDKInput.IAIMPInputPluginHeader.GetPluginFlags">  <caption translate="true">GetPluginFlags</caption>
+</topicref>
+<topicref type="topic" id="1806943456" build="ALL" icon="0" href="AIMPSDKInput.IAIMPInputPluginHeader.GetPluginInfo">  <caption translate="true">GetPluginInfo</caption>
+</topicref>
+<topicref type="topic" id="-747014716" build="ALL" icon="0" href="AIMPSDKInput.IAIMPInputPluginHeader.GetPluginName">  <caption translate="true">GetPluginName</caption>
+</topicref>
+<topicref type="topic" id="-977722944" build="ALL" icon="0" href="AIMPSDKInput.IAIMPInputPluginHeader.GetSupportsFormats">  <caption translate="true">GetSupportsFormats</caption>
+</topicref>
+<topicref type="topic" id="233291084" build="ALL" icon="0" href="AIMPSDKInput.IAIMPInputPluginHeader.Initialize">  <caption translate="true">Initialize</caption>
+</topicref>
+</topicref>
+<topicref type="topic" id="1042695383" build="ALL" icon="0" href="AIMPSDKInput.IAIMPInputStream">  <caption translate="true">IAIMPInputStream</caption>
+<topicref type="topic" id="-50118979" build="ALL" icon="0" href="AIMPSDKInput.IAIMPInputStream.GetPosition">  <caption translate="true">GetPosition</caption>
+</topicref>
+<topicref type="topic" id="-1030097990" build="ALL" icon="0" href="AIMPSDKInput.IAIMPInputStream.GetSize">  <caption translate="true">GetSize</caption>
+</topicref>
+<topicref type="topic" id="739889885" build="ALL" icon="0" href="AIMPSDKInput.IAIMPInputStream.ReadData(PByte,Integer)">  <caption translate="true">ReadData(PByte,Integer)</caption>
+</topicref>
+<topicref type="topic" id="536571032" build="ALL" icon="0" href="AIMPSDKInput.IAIMPInputStream.SetPosition(Int64)">  <caption translate="true">SetPosition(Int64)</caption>
+</topicref>
+<topicref type="topic" id="1058736386" build="ALL" icon="0" href="AIMPSDKInput.IAIMPInputStream.Skip(Int64)">  <caption translate="true">Skip(Int64)</caption>
+</topicref>
+</topicref>
+</topicref>
+<topicref type="topic" id="1350898787" build="ALL" icon="0" href="AIMPSDKInput_Types">  <caption translate="true">Types</caption>
+<topicref type="topic" id="2094844492" build="ALL" icon="0" href="AIMPSDKInput.TAIMPInputPluginHeaderProc">  <caption translate="true">TAIMPInputPluginHeaderProc</caption>
+</topicref>
+</topicref>
+<topicref type="topic" id="1522875871" build="ALL" icon="0" href="AIMPSDKInput_Variables">  <caption translate="true">Variables &amp; Constants</caption>
+<topicref type="topic" id="817986049" build="ALL" icon="0" href="AIMPSDKInput.AIMP_INPUT_BITDEPTH_08BIT">  <caption translate="true">AIMP_INPUT_BITDEPTH_08BIT</caption>
+</topicref>
+<topicref type="topic" id="-1253111942" build="ALL" icon="0" href="AIMPSDKInput.AIMP_INPUT_BITDEPTH_16BIT">  <caption translate="true">AIMP_INPUT_BITDEPTH_16BIT</caption>
+</topicref>
+<topicref type="topic" id="-1292503623" build="ALL" icon="0" href="AIMPSDKInput.AIMP_INPUT_BITDEPTH_24BIT">  <caption translate="true">AIMP_INPUT_BITDEPTH_24BIT</caption>
+</topicref>
+<topicref type="topic" id="1264608550" build="ALL" icon="0" href="AIMPSDKInput.AIMP_INPUT_BITDEPTH_32BIT">  <caption translate="true">AIMP_INPUT_BITDEPTH_32BIT</caption>
+</topicref>
+<topicref type="topic" id="1241462529" build="ALL" icon="0" href="AIMPSDKInput.AIMP_INPUT_BITDEPTH_32BITFLOAT">  <caption translate="true">AIMP_INPUT_BITDEPTH_32BITFLOAT</caption>
+</topicref>
+<topicref type="topic" id="-41346681" build="ALL" icon="0" href="AIMPSDKInput.AIMP_INPUT_BITDEPTH_64BITFLOAT">  <caption translate="true">AIMP_INPUT_BITDEPTH_64BITFLOAT</caption>
+</topicref>
+<topicref type="topic" id="-124812219" build="ALL" icon="0" href="AIMPSDKInput.AIMP_INPUT_FLAG_FILE">  <caption translate="true">AIMP_INPUT_FLAG_FILE</caption>
+</topicref>
+<topicref type="topic" id="1913911386" build="ALL" icon="0" href="AIMPSDKInput.AIMP_INPUT_FLAG_ISTREAM">  <caption translate="true">AIMP_INPUT_FLAG_ISTREAM</caption>
+</topicref>
+<topicref type="topic" id="-350460095" build="ALL" icon="0" href="AIMPSDKInput.IID_IAIMPInputPluginDecoder">  <caption translate="true">IID_IAIMPInputPluginDecoder</caption>
+</topicref>
+<topicref type="topic" id="1993395242" build="ALL" icon="0" href="AIMPSDKInput.IID_IAIMPInputStream">  <caption translate="true">IID_IAIMPInputStream</caption>
+</topicref>
+<topicref type="topic" id="-1619640230" build="ALL" icon="0" href="AIMPSDKInput.SID_IAIMPInputPluginDecoder">  <caption translate="true">SID_IAIMPInputPluginDecoder</caption>
+</topicref>
+<topicref type="topic" id="-713087065" build="ALL" icon="0" href="AIMPSDKInput.SID_IAIMPInputStream">  <caption translate="true">SID_IAIMPInputStream</caption>
+</topicref>
+</topicref>
+</topicref>
+<topicref type="topic" id="-1612245577" build="ALL" icon="0" href="AIMPSDKRemote">  <caption translate="true">AIMPSDKRemote</caption>
+<topicref type="topic" id="1191170832" build="ALL" icon="0" href="AIMPSDKRemote_Variables">  <caption translate="true">Variables &amp; Constants</caption>
+<topicref type="topic" id="-1654774891" build="ALL" icon="0" href="AIMPSDKRemote.AIMP_RA_CMD_ADD_FILES">  <caption translate="true">AIMP_RA_CMD_ADD_FILES</caption>
+</topicref>
+<topicref type="topic" id="20583926" build="ALL" icon="0" href="AIMPSDKRemote.AIMP_RA_CMD_ADD_FOLDERS">  <caption translate="true">AIMP_RA_CMD_ADD_FOLDERS</caption>
+</topicref>
+<topicref type="topic" id="220687402" build="ALL" icon="0" href="AIMPSDKRemote.AIMP_RA_CMD_ADD_PLAYLISTS">  <caption translate="true">AIMP_RA_CMD_ADD_PLAYLISTS</caption>
+</topicref>
+<topicref type="topic" id="-643480058" build="ALL" icon="0" href="AIMPSDKRemote.AIMP_RA_CMD_ADD_URL">  <caption translate="true">AIMP_RA_CMD_ADD_URL</caption>
+</topicref>
+<topicref type="topic" id="80860108" build="ALL" icon="0" href="AIMPSDKRemote.AIMP_RA_CMD_BASE">  <caption translate="true">AIMP_RA_CMD_BASE</caption>
+</topicref>
+<topicref type="topic" id="87653076" build="ALL" icon="0" href="AIMPSDKRemote.AIMP_RA_CMD_GET_COVER_ART">  <caption translate="true">AIMP_RA_CMD_GET_COVER_ART</caption>
+</topicref>
+<topicref type="topic" id="-1422849529" build="ALL" icon="0" href="AIMPSDKRemote.AIMP_RA_CMD_NEXT">  <caption translate="true">AIMP_RA_CMD_NEXT</caption>
+</topicref>
+<topicref type="topic" id="-737759285" build="ALL" icon="0" href="AIMPSDKRemote.AIMP_RA_CMD_OPEN_FILES">  <caption translate="true">AIMP_RA_CMD_OPEN_FILES</caption>
+</topicref>
+<topicref type="topic" id="1703531707" build="ALL" icon="0" href="AIMPSDKRemote.AIMP_RA_CMD_OPEN_FOLDERS">  <caption translate="true">AIMP_RA_CMD_OPEN_FOLDERS</caption>
+</topicref>
+<topicref type="topic" id="816194946" build="ALL" icon="0" href="AIMPSDKRemote.AIMP_RA_CMD_OPEN_PLAYLISTS">  <caption translate="true">AIMP_RA_CMD_OPEN_PLAYLISTS</caption>
+</topicref>
+<topicref type="topic" id="998073915" build="ALL" icon="0" href="AIMPSDKRemote.AIMP_RA_CMD_PAUSE">  <caption translate="true">AIMP_RA_CMD_PAUSE</caption>
+</topicref>
+<topicref type="topic" id="-404397295" build="ALL" icon="0" href="AIMPSDKRemote.AIMP_RA_CMD_PLAY">  <caption translate="true">AIMP_RA_CMD_PLAY</caption>
+</topicref>
+<topicref type="topic" id="1461990572" build="ALL" icon="0" href="AIMPSDKRemote.AIMP_RA_CMD_PLAYPAUSE">  <caption translate="true">AIMP_RA_CMD_PLAYPAUSE</caption>
+</topicref>
+<topicref type="topic" id="-1257333883" build="ALL" icon="0" href="AIMPSDKRemote.AIMP_RA_CMD_PREV">  <caption translate="true">AIMP_RA_CMD_PREV</caption>
+</topicref>
+<topicref type="topic" id="1935502027" build="ALL" icon="0" href="AIMPSDKRemote.AIMP_RA_CMD_QUIT">  <caption translate="true">AIMP_RA_CMD_QUIT</caption>
+</topicref>
+<topicref type="topic" id="2037529820" build="ALL" icon="0" href="AIMPSDKRemote.AIMP_RA_CMD_REGISTER_NOTIFY">  <caption translate="true">AIMP_RA_CMD_REGISTER_NOTIFY</caption>
+</topicref>
+<topicref type="topic" id="25708073" build="ALL" icon="0" href="AIMPSDKRemote.AIMP_RA_CMD_STOP">  <caption translate="true">AIMP_RA_CMD_STOP</caption>
+</topicref>
+<topicref type="topic" id="-651613631" build="ALL" icon="0" href="AIMPSDKRemote.AIMP_RA_CMD_UNREGISTER_NOTIFY">  <caption translate="true">AIMP_RA_CMD_UNREGISTER_NOTIFY</caption>
+</topicref>
+<topicref type="topic" id="-520898228" build="ALL" icon="0" href="AIMPSDKRemote.AIMP_RA_CMD_VISUAL_NEXT">  <caption translate="true">AIMP_RA_CMD_VISUAL_NEXT</caption>
+</topicref>
+<topicref type="topic" id="-691900820" build="ALL" icon="0" href="AIMPSDKRemote.AIMP_RA_CMD_VISUAL_PREV">  <caption translate="true">AIMP_RA_CMD_VISUAL_PREV</caption>
+</topicref>
+<topicref type="topic" id="599450743" build="ALL" icon="0" href="AIMPSDKRemote.AIMP_RA_NOTIFY_BASE">  <caption translate="true">AIMP_RA_NOTIFY_BASE</caption>
+</topicref>
+<topicref type="topic" id="921082876" build="ALL" icon="0" href="AIMPSDKRemote.AIMP_RA_NOTIFY_PROPERTY">  <caption translate="true">AIMP_RA_NOTIFY_PROPERTY</caption>
+</topicref>
+<topicref type="topic" id="682462202" build="ALL" icon="0" href="AIMPSDKRemote.AIMP_RA_NOTIFY_TRACK_INFO">  <caption translate="true">AIMP_RA_NOTIFY_TRACK_INFO</caption>
+</topicref>
+<topicref type="topic" id="1880151302" build="ALL" icon="0" href="AIMPSDKRemote.AIMP_RA_NOTIFY_TRACK_START">  <caption translate="true">AIMP_RA_NOTIFY_TRACK_START</caption>
+</topicref>
+<topicref type="topic" id="-683748900" build="ALL" icon="0" href="AIMPSDKRemote.AIMP_RA_PROPERTY_MASK">  <caption translate="true">AIMP_RA_PROPERTY_MASK</caption>
+</topicref>
+<topicref type="topic" id="-475358792" build="ALL" icon="0" href="AIMPSDKRemote.AIMP_RA_PROPERTY_MUTE">  <caption translate="true">AIMP_RA_PROPERTY_MUTE</caption>
+</topicref>
+<topicref type="topic" id="1903167985" build="ALL" icon="0" href="AIMPSDKRemote.AIMP_RA_PROPERTY_PLAYER_DURATION">  <caption translate="true">AIMP_RA_PROPERTY_PLAYER_DURATION</caption>
+</topicref>
+<topicref type="topic" id="519384475" build="ALL" icon="0" href="AIMPSDKRemote.AIMP_RA_PROPERTY_PLAYER_POSITION">  <caption translate="true">AIMP_RA_PROPERTY_PLAYER_POSITION</caption>
+</topicref>
+<topicref type="topic" id="-1642810984" build="ALL" icon="0" href="AIMPSDKRemote.AIMP_RA_PROPERTY_PLAYER_STATE">  <caption translate="true">AIMP_RA_PROPERTY_PLAYER_STATE</caption>
+</topicref>
+<topicref type="topic" id="-819236307" build="ALL" icon="0" href="AIMPSDKRemote.AIMP_RA_PROPERTY_RADIOCAP">  <caption translate="true">AIMP_RA_PROPERTY_RADIOCAP</caption>
+</topicref>
+<topicref type="topic" id="164845461" build="ALL" icon="0" href="AIMPSDKRemote.AIMP_RA_PROPERTY_TRACK_REPEAT">  <caption translate="true">AIMP_RA_PROPERTY_TRACK_REPEAT</caption>
+</topicref>
+<topicref type="topic" id="1080165659" build="ALL" icon="0" href="AIMPSDKRemote.AIMP_RA_PROPERTY_TRACK_SHUFFLE">  <caption translate="true">AIMP_RA_PROPERTY_TRACK_SHUFFLE</caption>
+</topicref>
+<topicref type="topic" id="-463945277" build="ALL" icon="0" href="AIMPSDKRemote.AIMP_RA_PROPERTY_VERSION">  <caption translate="true">AIMP_RA_PROPERTY_VERSION</caption>
+</topicref>
+<topicref type="topic" id="1190481424" build="ALL" icon="0" href="AIMPSDKRemote.AIMP_RA_PROPERTY_VOLUME">  <caption translate="true">AIMP_RA_PROPERTY_VOLUME</caption>
+</topicref>
+<topicref type="topic" id="2030586728" build="ALL" icon="0" href="AIMPSDKRemote.AIMP_RA_PROPVALUE_GET">  <caption translate="true">AIMP_RA_PROPVALUE_GET</caption>
+</topicref>
+<topicref type="topic" id="2133805187" build="ALL" icon="0" href="AIMPSDKRemote.AIMP_RA_PROPVALUE_SET">  <caption translate="true">AIMP_RA_PROPVALUE_SET</caption>
+</topicref>
+<topicref type="topic" id="-2022361033" build="ALL" icon="0" href="AIMPSDKRemote.AIMPRemoteAccessClass">  <caption translate="true">AIMPRemoteAccessClass</caption>
+</topicref>
+<topicref type="topic" id="-926878369" build="ALL" icon="0" href="AIMPSDKRemote.AIMPRemoteAccessMapFileSize">  <caption translate="true">AIMPRemoteAccessMapFileSize</caption>
+</topicref>
+<topicref type="topic" id="-1737812750" build="ALL" icon="0" href="AIMPSDKRemote.WM_AIMP_COMMAND">  <caption translate="true">WM_AIMP_COMMAND</caption>
+</topicref>
+<topicref type="topic" id="-2085827889" build="ALL" icon="0" href="AIMPSDKRemote.WM_AIMP_COPYDATA_COVER_ID">  <caption translate="true">WM_AIMP_COPYDATA_COVER_ID</caption>
+</topicref>
+<topicref type="topic" id="-1838093852" build="ALL" icon="0" href="AIMPSDKRemote.WM_AIMP_NOTIFY">  <caption translate="true">WM_AIMP_NOTIFY</caption>
+</topicref>
+<topicref type="topic" id="713164084" build="ALL" icon="0" href="AIMPSDKRemote.WM_AIMP_PROPERTY">  <caption translate="true">WM_AIMP_PROPERTY</caption>
+</topicref>
+</topicref>
+</topicref>
+<topicref type="topic" id="407516296" build="ALL" icon="0" href="AIMPSDKVisual">  <caption translate="true">AIMPSDKVisual</caption>
+<topicref type="topic" id="437368242" build="ALL" icon="0" href="AIMPSDKVisual_Classes">  <caption translate="true">Classes &amp; Structures</caption>
+<topicref type="topic" id="1687274705" build="ALL" icon="0" href="AIMPSDKVisual.TAIMPVisualData">  <caption translate="true">TAIMPVisualData</caption>
+<topicref type="topic" id="-98592047" build="ALL" icon="0" href="AIMPSDKVisual.TAIMPVisualData.LevelL">  <caption translate="true">LevelL</caption>
+</topicref>
+<topicref type="topic" id="1301620840" build="ALL" icon="0" href="AIMPSDKVisual.TAIMPVisualData.LevelR">  <caption translate="true">LevelR</caption>
+</topicref>
+<topicref type="topic" id="924245915" build="ALL" icon="0" href="AIMPSDKVisual.TAIMPVisualData.Spectrum">  <caption translate="true">Spectrum</caption>
+</topicref>
+<topicref type="topic" id="-745228222" build="ALL" icon="0" href="AIMPSDKVisual.TAIMPVisualData.WaveForm">  <caption translate="true">WaveForm</caption>
+</topicref>
+</topicref>
+</topicref>
+<topicref type="topic" id="-1453342366" build="ALL" icon="0" href="AIMPSDKVisual_Interfaces">  <caption translate="true">Interfaces</caption>
+<topicref type="topic" id="2132462931" build="ALL" icon="0" href="AIMPSDKVisual.IAIMPVisualPlugin3">  <caption translate="true">IAIMPVisualPlugin3</caption>
+<topicref type="topic" id="-1899154686" build="ALL" icon="0" href="AIMPSDKVisual.IAIMPVisualPlugin3.DisplayClick(Integer,Integer)">  <caption translate="true">DisplayClick(Integer,Integer)</caption>
+</topicref>
+<topicref type="topic" id="-1227658877" build="ALL" icon="0" href="AIMPSDKVisual.IAIMPVisualPlugin3.DisplayRender(HDC,PAIMPVisualData)">  <caption translate="true">DisplayRender(HDC,PAIMPVisualData)</caption>
+</topicref>
+<topicref type="topic" id="83878961" build="ALL" icon="0" href="AIMPSDKVisual.IAIMPVisualPlugin3.DisplayResize(Integer,Integer)">  <caption translate="true">DisplayResize(Integer,Integer)</caption>
+</topicref>
+<topicref type="topic" id="-397895131" build="ALL" icon="0" href="AIMPSDKVisual.IAIMPVisualPlugin3.Finalize">  <caption translate="true">Finalize</caption>
+</topicref>
+<topicref type="topic" id="110821445" build="ALL" icon="0" href="AIMPSDKVisual.IAIMPVisualPlugin3.GetPluginAuthor">  <caption translate="true">GetPluginAuthor</caption>
+</topicref>
+<topicref type="topic" id="1349443139" build="ALL" icon="0" href="AIMPSDKVisual.IAIMPVisualPlugin3.GetPluginFlags">  <caption translate="true">GetPluginFlags</caption>
+</topicref>
+<topicref type="topic" id="90490129" build="ALL" icon="0" href="AIMPSDKVisual.IAIMPVisualPlugin3.GetPluginInfo">  <caption translate="true">GetPluginInfo</caption>
+</topicref>
+<topicref type="topic" id="48850475" build="ALL" icon="0" href="AIMPSDKVisual.IAIMPVisualPlugin3.GetPluginName">  <caption translate="true">GetPluginName</caption>
+</topicref>
+<topicref type="topic" id="-1119548393" build="ALL" icon="0" href="AIMPSDKVisual.IAIMPVisualPlugin3.Initialize(IAIMPCoreUnit)">  <caption translate="true">Initialize(IAIMPCoreUnit)</caption>
+</topicref>
+</topicref>
+</topicref>
+<topicref type="topic" id="1428406949" build="ALL" icon="0" href="AIMPSDKVisual_Types">  <caption translate="true">Types</caption>
+<topicref type="topic" id="-1260941933" build="ALL" icon="0" href="AIMPSDKVisual.PAIMPVisualData">  <caption translate="true">PAIMPVisualData</caption>
+</topicref>
+<topicref type="topic" id="-687540729" build="ALL" icon="0" href="AIMPSDKVisual.TAIMPVisualPluginProc">  <caption translate="true">TAIMPVisualPluginProc</caption>
+</topicref>
+<topicref type="topic" id="-1328651372" build="ALL" icon="0" href="AIMPSDKVisual.TSpectrum">  <caption translate="true">TSpectrum</caption>
+</topicref>
+<topicref type="topic" id="1480088550" build="ALL" icon="0" href="AIMPSDKVisual.TWaveForm">  <caption translate="true">TWaveForm</caption>
+</topicref>
+</topicref>
+<topicref type="topic" id="1585900214" build="ALL" icon="0" href="AIMPSDKVisual_Variables">  <caption translate="true">Variables &amp; Constants</caption>
+<topicref type="topic" id="-1002533852" build="ALL" icon="0" href="AIMPSDKVisual.AIMP_VISUAL_FLAGS_NOT_SUSPEND">  <caption translate="true">AIMP_VISUAL_FLAGS_NOT_SUSPEND</caption>
+</topicref>
+<topicref type="topic" id="-207741429" build="ALL" icon="0" href="AIMPSDKVisual.AIMP_VISUAL_FLAGS_RQD_DATA_SPECTRUM">  <caption translate="true">AIMP_VISUAL_FLAGS_RQD_DATA_SPECTRUM</caption>
+</topicref>
+<topicref type="topic" id="-406743087" build="ALL" icon="0" href="AIMPSDKVisual.AIMP_VISUAL_FLAGS_RQD_DATA_WAVE">  <caption translate="true">AIMP_VISUAL_FLAGS_RQD_DATA_WAVE</caption>
+</topicref>
+</topicref>
+</topicref>
+
+</map>

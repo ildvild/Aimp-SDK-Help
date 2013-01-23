@@ -1,0 +1,129 @@
+﻿<?xml version="1.0"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/TR/xhtml1">
+<head>
+<title>TAIMPVisualData Structure</title>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+<meta name="generator" content="Documentation Insight (Trial Version)" />
+<base target="_self" />
+<link type="text/css" rel="Stylesheet" href="css/presentation.css" />
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/di.utils.js"></script>
+<script type="text/javascript">if (top.frames.length == 0)
+{
+var topicUrl = top.location.href.substring(top.location.href.lastIndexOf("/") + 1, top.location.href.length);
+var regex = new RegExp('(mk:@MSITStore|ms-help):?', 'i')
+if(!top.location.href.match(regex)) {
+	 top.location.href = "index.htm?" + topicUrl;
+}}
+else if (top && top.navigationFrame && top.navigationFrame.selectTocItem)
+{
+top.navigationFrame.selectTocItem("AIMPSDKVisual.TAIMPVisualData");
+};</script>
+<style></style>
+</head>
+<body>
+<input type="hidden" id="contentEditableControl" class="userDataStyle" value="false" />
+<input type="hidden" id="userDataCache" class="userDataStyle" />
+<input type="hidden" id="hiddenScrollOffset" />
+<img id="collapseImage" style="display:none; height:0; width:0;" src="images/collapse_all.gif" title="Collapse image" xmlns="" />
+<img id="expandImage" style="display:none; height:0; width:0;" src="images/expand_all.gif" title="Expand Image" xmlns="" />
+<img id="collapseAllImage" style="display:none; height:0; width:0;" src="images/collapse_all.gif" xmlns="" />
+<img id="expandAllImage" style="display:none; height:0; width:0;" src="images/expand_all.gif" xmlns="" />
+<img id="dropDownImage" style="display:none; height:0; width:0;" src="images/dropdown.gif" xmlns="" />
+<img id="dropDownHoverImage" style="display:none; height:0; width:0;" src="images/dropdownHover.gif" xmlns="" />
+<img id="copyImage" style="display:none; height:0; width:0;" src="images/copycode.gif" title="Copy image" xmlns="" />
+<img id="copyHoverImage" style="display:none; height:0; width:0;" src="images/copycodeHighlight.gif" title="CopyHover image" xmlns="" />
+<div id="header">
+<div class="title">Aimp Help</div>
+</div>
+<div id="mainSection">
+<div id="mainBody">
+<div id="summarySection" class="section" xmlns="">
+<input class="tagName" type="hidden" value="summary" />
+<div id="summaryHeader" class="sectionHeader">
+<h1 class="heading">
+<span onclick="ExpandCollapse(summaryHeaderImage)" style="cursor:default;" onkeypress="ExpandCollapse_CheckKey(summaryHeader, event)" tabindex="0">
+<img id="summaryHeaderImage" class="toggle" name="toggleSwitch" src="images/collapse_all.gif" />Summary</span>
+</h1>
+</div>
+<div id="summaryContent" class="sectionContent" name="collapseableSection" style="" contentEditable="false">
+<p>
+ The structure which contains Visualization data.
+ </p><p>
+ Структура, которая содержит данные для визуализации(уровни, данные
+ для спектра и волны)
+ </p>
+</div>
+</div>
+<div id="syntaxSection" class="section" xmlns="">
+<div id="syntaxHeader" class="sectionHeader">
+<h1 class="heading">
+<span onclick="ExpandCollapse(syntaxHeaderImage)" style="cursor:default;" onkeypress="ExpandCollapse_CheckKey(syntaxHeader, event)" tabindex="0">
+<img id="syntaxHeaderImage" class="toggle" name="toggleSwitch" src="images/collapse_all.gif" />Syntax</span>
+</h1>
+</div>
+<div id="syntaxContent" class="sectionContent" name="collapseableSection" style="" contentEditable="false">
+<div id="syntaxDefinition" class="code"><pre class="brush: delphi; toolbar: false;">TAIMPVisualData = packed record</pre></div>
+</div>
+</div>
+<div id="IDAAL2ABSection" class="section" xmlns="">
+<div id="IDAAL2ABHeader" class="sectionHeader">
+<h1 class="heading">
+<span onclick="ExpandCollapse(IDAAL2ABHeaderImage)" style="cursor:default;" onkeypress="ExpandCollapse_CheckKey(IDAAL2ABHeader, event)" tabindex="0">
+<img id="IDAAL2ABHeaderImage" class="toggle" name="toggleSwitch" src="images/collapse_all.gif" />Fields</span>
+</h1>
+</div>
+<div id="IDAAL2ABContent" class="sectionContent" name="collapseableSection" style="" contentEditable="false">
+<div class="tableSection"><table id="IDAAL2AB"><thead><tr><td class="iconColumn"> </td><td class="memberNameColumn">Name</td><td class="memberDescriptionColumn">Description</td></tr></thead><tbody><tr><td><img src="images/pubfield.gif" title="public field" /></td><td><a href="AIMPSDKVisual.TAIMPVisualData.LevelL.htm" title="LevelL: Integer;">LevelL</a></td><td><p>
+ Value of left level.
+ </p><p>
+ Значение левого уровня.<br /></p></td></tr><tr><td><img src="images/pubfield.gif" title="public field" /></td><td><a href="AIMPSDKVisual.TAIMPVisualData.LevelR.htm" title="LevelR: Integer;">LevelR</a></td><td><p>
+ Value of right level.
+ </p><p>
+ Значение правого уровня.<br /></p></td></tr><tr><td><img src="images/pubfield.gif" title="public field" /></td><td><a href="AIMPSDKVisual.TAIMPVisualData.Spectrum.htm" title="Spectrum: TSpectrum;">Spectrum</a></td><td><p>
+ Array for  spectrum's data.
+ </p><p>
+ Массив, содержащий значения для спектра.
+ </p></td></tr><tr><td><img src="images/pubfield.gif" title="public field" /></td><td><a href="AIMPSDKVisual.TAIMPVisualData.WaveForm.htm" title="WaveForm: TWaveForm;">WaveForm</a></td><td><p>
+ Array for  wave's data.
+ </p><p>
+ Массив, содержащий значения для волны.
+ </p></td></tr></tbody></table><a href="#mainBody">Top</a></div>
+</div>
+</div>
+<div id="exampleSection" class="section" xmlns="">
+<input class="tagName" type="hidden" value="example" />
+<div id="exampleHeader" class="sectionHeader">
+<h1 class="heading">
+<span onclick="ExpandCollapse(exampleHeaderImage)" style="cursor:default;" onkeypress="ExpandCollapse_CheckKey(exampleHeader, event)" tabindex="0">
+<img id="exampleHeaderImage" class="toggle" name="toggleSwitch" src="images/collapse_all.gif" />Examples</span>
+</h1>
+</div>
+<div id="exampleContent" class="sectionContent" name="collapseableSection" style="" contentEditable="false">
+<p>
+ See Aimp Visual Demo.
+ </p><p>
+ Пример смотри в демке.
+ </p>
+</div>
+</div>
+<div id="seealsoSection" class="section" xmlns="">
+<input class="tagName" type="hidden" value="seealso" />
+<div id="seealsoHeader" class="sectionHeader">
+<h1 class="heading">
+<span onclick="ExpandCollapse(seealsoHeaderImage)" style="cursor:default;" onkeypress="ExpandCollapse_CheckKey(seealsoHeader, event)" tabindex="0">
+<img id="seealsoHeaderImage" class="toggle" name="toggleSwitch" src="images/collapse_all.gif" />See Also</span>
+</h1>
+</div>
+<div id="seealsoContent" class="sectionContent" name="collapseableSection" style="" contentEditable="false">
+<h4 class="subHeading">Reference</h4><ul class="seeAlsoCodeReference"><li><a href="AIMPSDKVisual.htm" title="AIMPSDKVisual">AIMPSDKVisual Namespace</a></li></ul>
+</div>
+</div>
+</div>
+</div>
+<div id="footer">
+<div id="footerContent"><p><strong>Note</strong>: This file was generated by <a href="http://www.devjetsoftware.com" target="_blank">Documentation Insight</a> Trial version.</p></div>
+</div>
+</body>
+</html>

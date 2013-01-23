@@ -1,0 +1,2245 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE HelpIndex SYSTEM "MS-Help://hx/resources/HelpIndex.DTD">
+<HelpIndex
+Name="K"
+Visible="Yes"
+DTDVersion="1.0"
+FileVersion="1.0"
+LangId="1049">
+<Keyword Term="ActivePlaylistHandle">
+<Jump Url="AIMPSDKAddons.ActivePlaylistHandle.htm"/>
+</Keyword>
+
+<Keyword Term="AIMP_ADDON_FLAGS_HAS_DIALOG">
+<Jump Url="AIMPSDKAddons.AIMP_ADDON_FLAGS_HAS_DIALOG.htm"/>
+</Keyword>
+
+<Keyword Term="AIMP_CFG_PATH_HELP">
+<Jump Url="AIMPSDKAddons.AIMP_CFG_PATH_HELP.htm"/>
+</Keyword>
+
+<Keyword Term="AIMP_CFG_PATH_ICONS">
+<Jump Url="AIMPSDKAddons.AIMP_CFG_PATH_ICONS.htm"/>
+</Keyword>
+
+<Keyword Term="AIMP_CFG_PATH_LNG">
+<Jump Url="AIMPSDKAddons.AIMP_CFG_PATH_LNG.htm"/>
+</Keyword>
+
+<Keyword Term="AIMP_CFG_PATH_ML">
+<Jump Url="AIMPSDKAddons.AIMP_CFG_PATH_ML.htm"/>
+</Keyword>
+
+<Keyword Term="AIMP_CFG_PATH_ML_PLS">
+<Jump Url="AIMPSDKAddons.AIMP_CFG_PATH_ML_PLS.htm"/>
+</Keyword>
+
+<Keyword Term="AIMP_CFG_PATH_MODULES">
+<Jump Url="AIMPSDKAddons.AIMP_CFG_PATH_MODULES.htm"/>
+</Keyword>
+
+<Keyword Term="AIMP_CFG_PATH_PLS">
+<Jump Url="AIMPSDKAddons.AIMP_CFG_PATH_PLS.htm"/>
+</Keyword>
+
+<Keyword Term="AIMP_CFG_PATH_PLUGINS">
+<Jump Url="AIMPSDKAddons.AIMP_CFG_PATH_PLUGINS.htm"/>
+</Keyword>
+
+<Keyword Term="AIMP_CFG_PATH_PROFILE">
+<Jump Url="AIMPSDKAddons.AIMP_CFG_PATH_PROFILE.htm"/>
+</Keyword>
+
+<Keyword Term="AIMP_CFG_PATH_SKINS">
+<Jump Url="AIMPSDKAddons.AIMP_CFG_PATH_SKINS.htm"/>
+</Keyword>
+
+<Keyword Term="AIMP_INPUT_BITDEPTH_08BIT">
+<Jump Url="AIMPSDKInput.AIMP_INPUT_BITDEPTH_08BIT.htm"/>
+</Keyword>
+
+<Keyword Term="AIMP_INPUT_BITDEPTH_16BIT">
+<Jump Url="AIMPSDKInput.AIMP_INPUT_BITDEPTH_16BIT.htm"/>
+</Keyword>
+
+<Keyword Term="AIMP_INPUT_BITDEPTH_24BIT">
+<Jump Url="AIMPSDKInput.AIMP_INPUT_BITDEPTH_24BIT.htm"/>
+</Keyword>
+
+<Keyword Term="AIMP_INPUT_BITDEPTH_32BIT">
+<Jump Url="AIMPSDKInput.AIMP_INPUT_BITDEPTH_32BIT.htm"/>
+</Keyword>
+
+<Keyword Term="AIMP_INPUT_BITDEPTH_32BITFLOAT">
+<Jump Url="AIMPSDKInput.AIMP_INPUT_BITDEPTH_32BITFLOAT.htm"/>
+</Keyword>
+
+<Keyword Term="AIMP_INPUT_BITDEPTH_64BITFLOAT">
+<Jump Url="AIMPSDKInput.AIMP_INPUT_BITDEPTH_64BITFLOAT.htm"/>
+</Keyword>
+
+<Keyword Term="AIMP_INPUT_FLAG_FILE">
+<Jump Url="AIMPSDKInput.AIMP_INPUT_FLAG_FILE.htm"/>
+</Keyword>
+
+<Keyword Term="AIMP_INPUT_FLAG_ISTREAM">
+<Jump Url="AIMPSDKInput.AIMP_INPUT_FLAG_ISTREAM.htm"/>
+</Keyword>
+
+<Keyword Term="AIMP_MENUID_ADD">
+<Jump Url="AIMPSDKAddons.AIMP_MENUID_ADD.htm"/>
+</Keyword>
+
+<Keyword Term="AIMP_MENUID_DEL">
+<Jump Url="AIMPSDKAddons.AIMP_MENUID_DEL.htm"/>
+</Keyword>
+
+<Keyword Term="AIMP_MENUID_EQ_LIB">
+<Jump Url="AIMPSDKAddons.AIMP_MENUID_EQ_LIB.htm"/>
+</Keyword>
+
+<Keyword Term="AIMP_MENUID_MAIN_CONFIGS">
+<Jump Url="AIMPSDKAddons.AIMP_MENUID_MAIN_CONFIGS.htm"/>
+</Keyword>
+
+<Keyword Term="AIMP_MENUID_MAIN_FUNCTION">
+<Jump Url="AIMPSDKAddons.AIMP_MENUID_MAIN_FUNCTION.htm"/>
+</Keyword>
+
+<Keyword Term="AIMP_MENUID_MAIN_OPTIONS">
+<Jump Url="AIMPSDKAddons.AIMP_MENUID_MAIN_OPTIONS.htm"/>
+</Keyword>
+
+<Keyword Term="AIMP_MENUID_MISC">
+<Jump Url="AIMPSDKAddons.AIMP_MENUID_MISC.htm"/>
+</Keyword>
+
+<Keyword Term="AIMP_MENUID_PLS">
+<Jump Url="AIMPSDKAddons.AIMP_MENUID_PLS.htm"/>
+</Keyword>
+
+<Keyword Term="AIMP_MENUID_PLS_ADD">
+<Jump Url="AIMPSDKAddons.AIMP_MENUID_PLS_ADD.htm"/>
+</Keyword>
+
+<Keyword Term="AIMP_MENUID_PLS_DEL">
+<Jump Url="AIMPSDKAddons.AIMP_MENUID_PLS_DEL.htm"/>
+</Keyword>
+
+<Keyword Term="AIMP_MENUID_PLS_FNC">
+<Jump Url="AIMPSDKAddons.AIMP_MENUID_PLS_FNC.htm"/>
+</Keyword>
+
+<Keyword Term="AIMP_MENUID_PLS_JUMP">
+<Jump Url="AIMPSDKAddons.AIMP_MENUID_PLS_JUMP.htm"/>
+</Keyword>
+
+<Keyword Term="AIMP_MENUID_PLS_SEND">
+<Jump Url="AIMPSDKAddons.AIMP_MENUID_PLS_SEND.htm"/>
+</Keyword>
+
+<Keyword Term="AIMP_MENUID_SORT">
+<Jump Url="AIMPSDKAddons.AIMP_MENUID_SORT.htm"/>
+</Keyword>
+
+<Keyword Term="AIMP_MENUID_TRAY">
+<Jump Url="AIMPSDKAddons.AIMP_MENUID_TRAY.htm"/>
+</Keyword>
+
+<Keyword Term="AIMP_MENUID_UTILITIES">
+<Jump Url="AIMPSDKAddons.AIMP_MENUID_UTILITIES.htm"/>
+</Keyword>
+
+<Keyword Term="AIMP_MENUITEM_CHECKBOX">
+<Jump Url="AIMPSDKAddons.AIMP_MENUITEM_CHECKBOX.htm"/>
+</Keyword>
+
+<Keyword Term="AIMP_MENUITEM_CHECKED">
+<Jump Url="AIMPSDKAddons.AIMP_MENUITEM_CHECKED.htm"/>
+</Keyword>
+
+<Keyword Term="AIMP_MENUITEM_ENABLED">
+<Jump Url="AIMPSDKAddons.AIMP_MENUITEM_ENABLED.htm"/>
+</Keyword>
+
+<Keyword Term="AIMP_MENUITEM_RADIOITEM">
+<Jump Url="AIMPSDKAddons.AIMP_MENUITEM_RADIOITEM.htm"/>
+</Keyword>
+
+<Keyword Term="AIMP_MES_END_OF_PLAYLIST">
+<Jump Url="AIMPSDKCore.AIMP_MES_END_OF_PLAYLIST.htm"/>
+</Keyword>
+
+<Keyword Term="AIMP_MES_END_OF_QUEUE">
+<Jump Url="AIMPSDKCore.AIMP_MES_END_OF_QUEUE.htm"/>
+</Keyword>
+
+<Keyword Term="AIMP_MPH_APPLICATION">
+<Jump Url="AIMPSDKCore.AIMP_MPH_APPLICATION.htm"/>
+</Keyword>
+
+<Keyword Term="AIMP_MPH_EQUALIZERFORM">
+<Jump Url="AIMPSDKCore.AIMP_MPH_EQUALIZERFORM.htm"/>
+</Keyword>
+
+<Keyword Term="AIMP_MPH_MAINFORM">
+<Jump Url="AIMPSDKCore.AIMP_MPH_MAINFORM.htm"/>
+</Keyword>
+
+<Keyword Term="AIMP_MPH_PLAYLISTFORM">
+<Jump Url="AIMPSDKCore.AIMP_MPH_PLAYLISTFORM.htm"/>
+</Keyword>
+
+<Keyword Term="AIMP_MPH_TRAYCONTROL">
+<Jump Url="AIMPSDKCore.AIMP_MPH_TRAYCONTROL.htm"/>
+</Keyword>
+
+<Keyword Term="AIMP_MSG_CMD_ABOUT">
+<Jump Url="AIMPSDKCore.AIMP_MSG_CMD_ABOUT.htm"/>
+</Keyword>
+
+<Keyword Term="AIMP_MSG_CMD_ADD_FILES">
+<Jump Url="AIMPSDKCore.AIMP_MSG_CMD_ADD_FILES.htm"/>
+</Keyword>
+
+<Keyword Term="AIMP_MSG_CMD_ADD_FOLDERS">
+<Jump Url="AIMPSDKCore.AIMP_MSG_CMD_ADD_FOLDERS.htm"/>
+</Keyword>
+
+<Keyword Term="AIMP_MSG_CMD_ADD_PLAYLISTS">
+<Jump Url="AIMPSDKCore.AIMP_MSG_CMD_ADD_PLAYLISTS.htm"/>
+</Keyword>
+
+<Keyword Term="AIMP_MSG_CMD_ADD_URL">
+<Jump Url="AIMPSDKCore.AIMP_MSG_CMD_ADD_URL.htm"/>
+</Keyword>
+
+<Keyword Term="AIMP_MSG_CMD_BASE">
+<Jump Url="AIMPSDKCore.AIMP_MSG_CMD_BASE.htm"/>
+</Keyword>
+
+<Keyword Term="AIMP_MSG_CMD_BOOKMARKS">
+<Jump Url="AIMPSDKCore.AIMP_MSG_CMD_BOOKMARKS.htm"/>
+</Keyword>
+
+<Keyword Term="AIMP_MSG_CMD_BOOKMARKS_ADD">
+<Jump Url="AIMPSDKCore.AIMP_MSG_CMD_BOOKMARKS_ADD.htm"/>
+</Keyword>
+
+<Keyword Term="AIMP_MSG_CMD_NEXT">
+<Jump Url="AIMPSDKCore.AIMP_MSG_CMD_NEXT.htm"/>
+</Keyword>
+
+<Keyword Term="AIMP_MSG_CMD_OPEN_FILES">
+<Jump Url="AIMPSDKCore.AIMP_MSG_CMD_OPEN_FILES.htm"/>
+</Keyword>
+
+<Keyword Term="AIMP_MSG_CMD_OPEN_FOLDERS">
+<Jump Url="AIMPSDKCore.AIMP_MSG_CMD_OPEN_FOLDERS.htm"/>
+</Keyword>
+
+<Keyword Term="AIMP_MSG_CMD_OPEN_PLAYLISTS">
+<Jump Url="AIMPSDKCore.AIMP_MSG_CMD_OPEN_PLAYLISTS.htm"/>
+</Keyword>
+
+<Keyword Term="AIMP_MSG_CMD_OPTIONS">
+<Jump Url="AIMPSDKCore.AIMP_MSG_CMD_OPTIONS.htm"/>
+</Keyword>
+
+<Keyword Term="AIMP_MSG_CMD_PAUSE">
+<Jump Url="AIMPSDKCore.AIMP_MSG_CMD_PAUSE.htm"/>
+</Keyword>
+
+<Keyword Term="AIMP_MSG_CMD_PLAY">
+<Jump Url="AIMPSDKCore.AIMP_MSG_CMD_PLAY.htm"/>
+</Keyword>
+
+<Keyword Term="AIMP_MSG_CMD_PLAY_PREV_PLAYLIST">
+<Jump Url="AIMPSDKCore.AIMP_MSG_CMD_PLAY_PREV_PLAYLIST.htm"/>
+</Keyword>
+
+<Keyword Term="AIMP_MSG_CMD_PLAYPAUSE">
+<Jump Url="AIMPSDKCore.AIMP_MSG_CMD_PLAYPAUSE.htm"/>
+</Keyword>
+
+<Keyword Term="AIMP_MSG_CMD_PLS_DELETE_ALL">
+<Jump Url="AIMPSDKCore.AIMP_MSG_CMD_PLS_DELETE_ALL.htm"/>
+</Keyword>
+
+<Keyword Term="AIMP_MSG_CMD_PLS_DELETE_DUPLICATES">
+<Jump Url="AIMPSDKCore.AIMP_MSG_CMD_PLS_DELETE_DUPLICATES.htm"/>
+</Keyword>
+
+<Keyword Term="AIMP_MSG_CMD_PLS_DELETE_NON_EXISTS">
+<Jump Url="AIMPSDKCore.AIMP_MSG_CMD_PLS_DELETE_NON_EXISTS.htm"/>
+</Keyword>
+
+<Keyword Term="AIMP_MSG_CMD_PLS_DELETE_NON_SELECTED">
+<Jump Url="AIMPSDKCore.AIMP_MSG_CMD_PLS_DELETE_NON_SELECTED.htm"/>
+</Keyword>
+
+<Keyword Term="AIMP_MSG_CMD_PLS_DELETE_PLAYING_FROM_HDD">
+<Jump Url="AIMPSDKCore.AIMP_MSG_CMD_PLS_DELETE_PLAYING_FROM_HDD.htm"/>
+</Keyword>
+
+<Keyword Term="AIMP_MSG_CMD_PLS_DELETE_SELECTED">
+<Jump Url="AIMPSDKCore.AIMP_MSG_CMD_PLS_DELETE_SELECTED.htm"/>
+</Keyword>
+
+<Keyword Term="AIMP_MSG_CMD_PLS_DELETE_SELECTED_FROM_HDD">
+<Jump Url="AIMPSDKCore.AIMP_MSG_CMD_PLS_DELETE_SELECTED_FROM_HDD.htm"/>
+</Keyword>
+
+<Keyword Term="AIMP_MSG_CMD_PLS_DELETE_SWITCHEDOFF">
+<Jump Url="AIMPSDKCore.AIMP_MSG_CMD_PLS_DELETE_SWITCHEDOFF.htm"/>
+</Keyword>
+
+<Keyword Term="AIMP_MSG_CMD_PLS_DELETE_SWITCHEDOFF_FROM_HDD">
+<Jump Url="AIMPSDKCore.AIMP_MSG_CMD_PLS_DELETE_SWITCHEDOFF_FROM_HDD.htm"/>
+</Keyword>
+
+<Keyword Term="AIMP_MSG_CMD_PLS_FOCUS_NOWPLAYING">
+<Jump Url="AIMPSDKCore.AIMP_MSG_CMD_PLS_FOCUS_NOWPLAYING.htm"/>
+</Keyword>
+
+<Keyword Term="AIMP_MSG_CMD_PLS_RESCAN">
+<Jump Url="AIMPSDKCore.AIMP_MSG_CMD_PLS_RESCAN.htm"/>
+</Keyword>
+
+<Keyword Term="AIMP_MSG_CMD_PLS_SORT_BY_ARTIST">
+<Jump Url="AIMPSDKCore.AIMP_MSG_CMD_PLS_SORT_BY_ARTIST.htm"/>
+</Keyword>
+
+<Keyword Term="AIMP_MSG_CMD_PLS_SORT_BY_DURATION">
+<Jump Url="AIMPSDKCore.AIMP_MSG_CMD_PLS_SORT_BY_DURATION.htm"/>
+</Keyword>
+
+<Keyword Term="AIMP_MSG_CMD_PLS_SORT_BY_FOLDER">
+<Jump Url="AIMPSDKCore.AIMP_MSG_CMD_PLS_SORT_BY_FOLDER.htm"/>
+</Keyword>
+
+<Keyword Term="AIMP_MSG_CMD_PLS_SORT_BY_TITLE">
+<Jump Url="AIMPSDKCore.AIMP_MSG_CMD_PLS_SORT_BY_TITLE.htm"/>
+</Keyword>
+
+<Keyword Term="AIMP_MSG_CMD_PLS_SORT_INVERT">
+<Jump Url="AIMPSDKCore.AIMP_MSG_CMD_PLS_SORT_INVERT.htm"/>
+</Keyword>
+
+<Keyword Term="AIMP_MSG_CMD_PLS_SORT_RANDOMIZE">
+<Jump Url="AIMPSDKCore.AIMP_MSG_CMD_PLS_SORT_RANDOMIZE.htm"/>
+</Keyword>
+
+<Keyword Term="AIMP_MSG_CMD_PLS_SWITCH_OFF">
+<Jump Url="AIMPSDKCore.AIMP_MSG_CMD_PLS_SWITCH_OFF.htm"/>
+</Keyword>
+
+<Keyword Term="AIMP_MSG_CMD_PLS_SWITCH_ON">
+<Jump Url="AIMPSDKCore.AIMP_MSG_CMD_PLS_SWITCH_ON.htm"/>
+</Keyword>
+
+<Keyword Term="AIMP_MSG_CMD_PLUGINS">
+<Jump Url="AIMPSDKCore.AIMP_MSG_CMD_PLUGINS.htm"/>
+</Keyword>
+
+<Keyword Term="AIMP_MSG_CMD_PREV">
+<Jump Url="AIMPSDKCore.AIMP_MSG_CMD_PREV.htm"/>
+</Keyword>
+
+<Keyword Term="AIMP_MSG_CMD_QTE_NOWPLAYING_FILE">
+<Jump Url="AIMPSDKCore.AIMP_MSG_CMD_QTE_NOWPLAYING_FILE.htm"/>
+</Keyword>
+
+<Keyword Term="AIMP_MSG_CMD_QUIT">
+<Jump Url="AIMPSDKCore.AIMP_MSG_CMD_QUIT.htm"/>
+</Keyword>
+
+<Keyword Term="AIMP_MSG_CMD_RADIOCAT">
+<Jump Url="AIMPSDKCore.AIMP_MSG_CMD_RADIOCAT.htm"/>
+</Keyword>
+
+<Keyword Term="AIMP_MSG_CMD_RUNSTR_SEEKING_HINT">
+<Jump Url="AIMPSDKCore.AIMP_MSG_CMD_RUNSTR_SEEKING_HINT.htm"/>
+</Keyword>
+
+<Keyword Term="AIMP_MSG_CMD_RUNSTR_SHOW_TEXT">
+<Jump Url="AIMPSDKCore.AIMP_MSG_CMD_RUNSTR_SHOW_TEXT.htm"/>
+</Keyword>
+
+<Keyword Term="AIMP_MSG_CMD_SAVE_PLAYLISTS">
+<Jump Url="AIMPSDKCore.AIMP_MSG_CMD_SAVE_PLAYLISTS.htm"/>
+</Keyword>
+
+<Keyword Term="AIMP_MSG_CMD_SCHEDULER">
+<Jump Url="AIMPSDKCore.AIMP_MSG_CMD_SCHEDULER.htm"/>
+</Keyword>
+
+<Keyword Term="AIMP_MSG_CMD_SEARCH">
+<Jump Url="AIMPSDKCore.AIMP_MSG_CMD_SEARCH.htm"/>
+</Keyword>
+
+<Keyword Term="AIMP_MSG_CMD_SHOW_CURRENT_QFI">
+<Jump Url="AIMPSDKCore.AIMP_MSG_CMD_SHOW_CURRENT_QFI.htm"/>
+</Keyword>
+
+<Keyword Term="AIMP_MSG_CMD_STATE_GET">
+<Jump Url="AIMPSDKCore.AIMP_MSG_CMD_STATE_GET.htm"/>
+</Keyword>
+
+<Keyword Term="AIMP_MSG_CMD_STOP">
+<Jump Url="AIMPSDKCore.AIMP_MSG_CMD_STOP.htm"/>
+</Keyword>
+
+<Keyword Term="AIMP_MSG_CMD_TOGGLE_PARTREPEAT">
+<Jump Url="AIMPSDKCore.AIMP_MSG_CMD_TOGGLE_PARTREPEAT.htm"/>
+</Keyword>
+
+<Keyword Term="AIMP_MSG_CMD_TRAY_MINIMIZE_RESTORE">
+<Jump Url="AIMPSDKCore.AIMP_MSG_CMD_TRAY_MINIMIZE_RESTORE.htm"/>
+</Keyword>
+
+<Keyword Term="AIMP_MSG_CMD_VISUAL_NEXT">
+<Jump Url="AIMPSDKCore.AIMP_MSG_CMD_VISUAL_NEXT.htm"/>
+</Keyword>
+
+<Keyword Term="AIMP_MSG_CMD_VISUAL_PREV">
+<Jump Url="AIMPSDKCore.AIMP_MSG_CMD_VISUAL_PREV.htm"/>
+</Keyword>
+
+<Keyword Term="AIMP_MSG_EVENT_BASE">
+<Jump Url="AIMPSDKCore.AIMP_MSG_EVENT_BASE.htm"/>
+</Keyword>
+
+<Keyword Term="AIMP_MSG_EVENT_CMD_STATE">
+<Jump Url="AIMPSDKCore.AIMP_MSG_EVENT_CMD_STATE.htm"/>
+</Keyword>
+
+<Keyword Term="AIMP_MSG_EVENT_FILEMARK">
+<Jump Url="AIMPSDKCore.AIMP_MSG_EVENT_FILEMARK.htm"/>
+</Keyword>
+
+<Keyword Term="AIMP_MSG_EVENT_LANGUAGE">
+<Jump Url="AIMPSDKCore.AIMP_MSG_EVENT_LANGUAGE.htm"/>
+</Keyword>
+
+<Keyword Term="AIMP_MSG_EVENT_MODULES">
+<Jump Url="AIMPSDKCore.AIMP_MSG_EVENT_MODULES.htm"/>
+</Keyword>
+
+<Keyword Term="AIMP_MSG_EVENT_OPTIONS">
+<Jump Url="AIMPSDKCore.AIMP_MSG_EVENT_OPTIONS.htm"/>
+</Keyword>
+
+<Keyword Term="AIMP_MSG_EVENT_OPTIONS_FRAME_LIST">
+<Jump Url="AIMPSDKCore.AIMP_MSG_EVENT_OPTIONS_FRAME_LIST.htm"/>
+</Keyword>
+
+<Keyword Term="AIMP_MSG_EVENT_OPTIONS_FRAME_MODIFIED">
+<Jump Url="AIMPSDKCore.AIMP_MSG_EVENT_OPTIONS_FRAME_MODIFIED.htm"/>
+</Keyword>
+
+<Keyword Term="AIMP_MSG_EVENT_PLAYER_STATE">
+<Jump Url="AIMPSDKCore.AIMP_MSG_EVENT_PLAYER_STATE.htm"/>
+</Keyword>
+
+<Keyword Term="AIMP_MSG_EVENT_PLAYER_UPDATE_POSITION">
+<Jump Url="AIMPSDKCore.AIMP_MSG_EVENT_PLAYER_UPDATE_POSITION.htm"/>
+</Keyword>
+
+<Keyword Term="AIMP_MSG_EVENT_PROPERTY_VALUE">
+<Jump Url="AIMPSDKCore.AIMP_MSG_EVENT_PROPERTY_VALUE.htm"/>
+</Keyword>
+
+<Keyword Term="AIMP_MSG_EVENT_SKIN">
+<Jump Url="AIMPSDKCore.AIMP_MSG_EVENT_SKIN.htm"/>
+</Keyword>
+
+<Keyword Term="AIMP_MSG_EVENT_STATISTICS_CHANGED">
+<Jump Url="AIMPSDKCore.AIMP_MSG_EVENT_STATISTICS_CHANGED.htm"/>
+</Keyword>
+
+<Keyword Term="AIMP_MSG_EVENT_STATISTICS_DROPPED">
+<Jump Url="AIMPSDKCore.AIMP_MSG_EVENT_STATISTICS_DROPPED.htm"/>
+</Keyword>
+
+<Keyword Term="AIMP_MSG_EVENT_STREAM_END">
+<Jump Url="AIMPSDKCore.AIMP_MSG_EVENT_STREAM_END.htm"/>
+</Keyword>
+
+<Keyword Term="AIMP_MSG_EVENT_STREAM_START">
+<Jump Url="AIMPSDKCore.AIMP_MSG_EVENT_STREAM_START.htm"/>
+</Keyword>
+
+<Keyword Term="AIMP_MSG_EVENT_STREAM_START_SUBTRACK">
+<Jump Url="AIMPSDKCore.AIMP_MSG_EVENT_STREAM_START_SUBTRACK.htm"/>
+</Keyword>
+
+<Keyword Term="AIMP_MSG_EVENT_VISUAL_PLUGIN">
+<Jump Url="AIMPSDKCore.AIMP_MSG_EVENT_VISUAL_PLUGIN.htm"/>
+</Keyword>
+
+<Keyword Term="AIMP_MSG_PROPERTY_ACTION_ON_END_OF_PLAYLIST">
+<Jump Url="AIMPSDKCore.AIMP_MSG_PROPERTY_ACTION_ON_END_OF_PLAYLIST.htm"/>
+</Keyword>
+
+<Keyword Term="AIMP_MSG_PROPERTY_BALANCE">
+<Jump Url="AIMPSDKCore.AIMP_MSG_PROPERTY_BALANCE.htm"/>
+</Keyword>
+
+<Keyword Term="AIMP_MSG_PROPERTY_BASE">
+<Jump Url="AIMPSDKCore.AIMP_MSG_PROPERTY_BASE.htm"/>
+</Keyword>
+
+<Keyword Term="AIMP_MSG_PROPERTY_CHORUS">
+<Jump Url="AIMPSDKCore.AIMP_MSG_PROPERTY_CHORUS.htm"/>
+</Keyword>
+
+<Keyword Term="AIMP_MSG_PROPERTY_ECHO">
+<Jump Url="AIMPSDKCore.AIMP_MSG_PROPERTY_ECHO.htm"/>
+</Keyword>
+
+<Keyword Term="AIMP_MSG_PROPERTY_ENHANCER">
+<Jump Url="AIMPSDKCore.AIMP_MSG_PROPERTY_ENHANCER.htm"/>
+</Keyword>
+
+<Keyword Term="AIMP_MSG_PROPERTY_EQUALIZER">
+<Jump Url="AIMPSDKCore.AIMP_MSG_PROPERTY_EQUALIZER.htm"/>
+</Keyword>
+
+<Keyword Term="AIMP_MSG_PROPERTY_EQUALIZER_BAND">
+<Jump Url="AIMPSDKCore.AIMP_MSG_PROPERTY_EQUALIZER_BAND.htm"/>
+</Keyword>
+
+<Keyword Term="AIMP_MSG_PROPERTY_FLANGER">
+<Jump Url="AIMPSDKCore.AIMP_MSG_PROPERTY_FLANGER.htm"/>
+</Keyword>
+
+<Keyword Term="AIMP_MSG_PROPERTY_HWND">
+<Jump Url="AIMPSDKCore.AIMP_MSG_PROPERTY_HWND.htm"/>
+</Keyword>
+
+<Keyword Term="AIMP_MSG_PROPERTY_MINIMIZED_TO_TRAY">
+<Jump Url="AIMPSDKCore.AIMP_MSG_PROPERTY_MINIMIZED_TO_TRAY.htm"/>
+</Keyword>
+
+<Keyword Term="AIMP_MSG_PROPERTY_MUTE">
+<Jump Url="AIMPSDKCore.AIMP_MSG_PROPERTY_MUTE.htm"/>
+</Keyword>
+
+<Keyword Term="AIMP_MSG_PROPERTY_PARTREPEAT">
+<Jump Url="AIMPSDKCore.AIMP_MSG_PROPERTY_PARTREPEAT.htm"/>
+</Keyword>
+
+<Keyword Term="AIMP_MSG_PROPERTY_PITCH">
+<Jump Url="AIMPSDKCore.AIMP_MSG_PROPERTY_PITCH.htm"/>
+</Keyword>
+
+<Keyword Term="AIMP_MSG_PROPERTY_PLAYER_DURATION">
+<Jump Url="AIMPSDKCore.AIMP_MSG_PROPERTY_PLAYER_DURATION.htm"/>
+</Keyword>
+
+<Keyword Term="AIMP_MSG_PROPERTY_PLAYER_POSITION">
+<Jump Url="AIMPSDKCore.AIMP_MSG_PROPERTY_PLAYER_POSITION.htm"/>
+</Keyword>
+
+<Keyword Term="AIMP_MSG_PROPERTY_PLAYER_STATE">
+<Jump Url="AIMPSDKCore.AIMP_MSG_PROPERTY_PLAYER_STATE.htm"/>
+</Keyword>
+
+<Keyword Term="AIMP_MSG_PROPERTY_PREAMP">
+<Jump Url="AIMPSDKCore.AIMP_MSG_PROPERTY_PREAMP.htm"/>
+</Keyword>
+
+<Keyword Term="AIMP_MSG_PROPERTY_RADIOCAP">
+<Jump Url="AIMPSDKCore.AIMP_MSG_PROPERTY_RADIOCAP.htm"/>
+</Keyword>
+
+<Keyword Term="AIMP_MSG_PROPERTY_REPEAT">
+<Jump Url="AIMPSDKCore.AIMP_MSG_PROPERTY_REPEAT.htm"/>
+</Keyword>
+
+<Keyword Term="AIMP_MSG_PROPERTY_REPEAT_SINGLE_FILE_PLAYLISTS">
+<Jump Url="AIMPSDKCore.AIMP_MSG_PROPERTY_REPEAT_SINGLE_FILE_PLAYLISTS.htm"/>
+</Keyword>
+
+<Keyword Term="AIMP_MSG_PROPERTY_REVERB">
+<Jump Url="AIMPSDKCore.AIMP_MSG_PROPERTY_REVERB.htm"/>
+</Keyword>
+
+<Keyword Term="AIMP_MSG_PROPERTY_REVERSETIME">
+<Jump Url="AIMPSDKCore.AIMP_MSG_PROPERTY_REVERSETIME.htm"/>
+</Keyword>
+
+<Keyword Term="AIMP_MSG_PROPERTY_SHUFFLE">
+<Jump Url="AIMPSDKCore.AIMP_MSG_PROPERTY_SHUFFLE.htm"/>
+</Keyword>
+
+<Keyword Term="AIMP_MSG_PROPERTY_SPEED">
+<Jump Url="AIMPSDKCore.AIMP_MSG_PROPERTY_SPEED.htm"/>
+</Keyword>
+
+<Keyword Term="AIMP_MSG_PROPERTY_STAYONTOP">
+<Jump Url="AIMPSDKCore.AIMP_MSG_PROPERTY_STAYONTOP.htm"/>
+</Keyword>
+
+<Keyword Term="AIMP_MSG_PROPERTY_STOP_AFTER_TRACK">
+<Jump Url="AIMPSDKCore.AIMP_MSG_PROPERTY_STOP_AFTER_TRACK.htm"/>
+</Keyword>
+
+<Keyword Term="AIMP_MSG_PROPERTY_TEMPO">
+<Jump Url="AIMPSDKCore.AIMP_MSG_PROPERTY_TEMPO.htm"/>
+</Keyword>
+
+<Keyword Term="AIMP_MSG_PROPERTY_TRUEBASS">
+<Jump Url="AIMPSDKCore.AIMP_MSG_PROPERTY_TRUEBASS.htm"/>
+</Keyword>
+
+<Keyword Term="AIMP_MSG_PROPERTY_VOLUME">
+<Jump Url="AIMPSDKCore.AIMP_MSG_PROPERTY_VOLUME.htm"/>
+</Keyword>
+
+<Keyword Term="AIMP_MSG_PROPVALUE_GET">
+<Jump Url="AIMPSDKCore.AIMP_MSG_PROPVALUE_GET.htm"/>
+</Keyword>
+
+<Keyword Term="AIMP_MSG_PROPVALUE_SET">
+<Jump Url="AIMPSDKCore.AIMP_MSG_PROPVALUE_SET.htm"/>
+</Keyword>
+
+<Keyword Term="AIMP_PLAYLIST_ENTRY_PROPERTY_DISPLAYTEXT">
+<Jump Url="AIMPSDKAddons.AIMP_PLAYLIST_ENTRY_PROPERTY_DISPLAYTEXT.htm"/>
+</Keyword>
+
+<Keyword Term="AIMP_PLAYLIST_ENTRY_PROPERTY_FILENAME">
+<Jump Url="AIMPSDKAddons.AIMP_PLAYLIST_ENTRY_PROPERTY_FILENAME.htm"/>
+</Keyword>
+
+<Keyword Term="AIMP_PLAYLIST_ENTRY_PROPERTY_INDEX">
+<Jump Url="AIMPSDKAddons.AIMP_PLAYLIST_ENTRY_PROPERTY_INDEX.htm"/>
+</Keyword>
+
+<Keyword Term="AIMP_PLAYLIST_ENTRY_PROPERTY_INFO">
+<Jump Url="AIMPSDKAddons.AIMP_PLAYLIST_ENTRY_PROPERTY_INFO.htm"/>
+</Keyword>
+
+<Keyword Term="AIMP_PLAYLIST_ENTRY_PROPERTY_MARK">
+<Jump Url="AIMPSDKAddons.AIMP_PLAYLIST_ENTRY_PROPERTY_MARK.htm"/>
+</Keyword>
+
+<Keyword Term="AIMP_PLAYLIST_ENTRY_PROPERTY_PLAYINGSWITCH">
+<Jump Url="AIMPSDKAddons.AIMP_PLAYLIST_ENTRY_PROPERTY_PLAYINGSWITCH.htm"/>
+</Keyword>
+
+<Keyword Term="AIMP_PLAYLIST_ENTRY_PROPERTY_SELECTED">
+<Jump Url="AIMPSDKAddons.AIMP_PLAYLIST_ENTRY_PROPERTY_SELECTED.htm"/>
+</Keyword>
+
+<Keyword Term="AIMP_PLAYLIST_ENTRY_PROPERTY_STATISTICS">
+<Jump Url="AIMPSDKAddons.AIMP_PLAYLIST_ENTRY_PROPERTY_STATISTICS.htm"/>
+</Keyword>
+
+<Keyword Term="AIMP_PLAYLIST_FORMAT_MODE_CURRENT">
+<Jump Url="AIMPSDKAddons.AIMP_PLAYLIST_FORMAT_MODE_CURRENT.htm"/>
+</Keyword>
+
+<Keyword Term="AIMP_PLAYLIST_FORMAT_MODE_FILEINFO">
+<Jump Url="AIMPSDKAddons.AIMP_PLAYLIST_FORMAT_MODE_FILEINFO.htm"/>
+</Keyword>
+
+<Keyword Term="AIMP_PLAYLIST_FORMAT_MODE_PREVIEW">
+<Jump Url="AIMPSDKAddons.AIMP_PLAYLIST_FORMAT_MODE_PREVIEW.htm"/>
+</Keyword>
+
+<Keyword Term="AIMP_PLAYLIST_GETFILES_SELECTED">
+<Jump Url="AIMPSDKAddons.AIMP_PLAYLIST_GETFILES_SELECTED.htm"/>
+</Keyword>
+
+<Keyword Term="AIMP_PLAYLIST_GETFILES_VISIBLE">
+<Jump Url="AIMPSDKAddons.AIMP_PLAYLIST_GETFILES_VISIBLE.htm"/>
+</Keyword>
+
+<Keyword Term="AIMP_PLAYLIST_GROUP_PROPERTY_DURATION">
+<Jump Url="AIMPSDKAddons.AIMP_PLAYLIST_GROUP_PROPERTY_DURATION.htm"/>
+</Keyword>
+
+<Keyword Term="AIMP_PLAYLIST_GROUP_PROPERTY_EXPANDED">
+<Jump Url="AIMPSDKAddons.AIMP_PLAYLIST_GROUP_PROPERTY_EXPANDED.htm"/>
+</Keyword>
+
+<Keyword Term="AIMP_PLAYLIST_GROUP_PROPERTY_NAME">
+<Jump Url="AIMPSDKAddons.AIMP_PLAYLIST_GROUP_PROPERTY_NAME.htm"/>
+</Keyword>
+
+<Keyword Term="AIMP_PLAYLIST_NOTIFY_CONTENT">
+<Jump Url="AIMPSDKAddons.AIMP_PLAYLIST_NOTIFY_CONTENT.htm"/>
+</Keyword>
+
+<Keyword Term="AIMP_PLAYLIST_NOTIFY_ENTRYINFO">
+<Jump Url="AIMPSDKAddons.AIMP_PLAYLIST_NOTIFY_ENTRYINFO.htm"/>
+</Keyword>
+
+<Keyword Term="AIMP_PLAYLIST_NOTIFY_FOCUSINDEX">
+<Jump Url="AIMPSDKAddons.AIMP_PLAYLIST_NOTIFY_FOCUSINDEX.htm"/>
+</Keyword>
+
+<Keyword Term="AIMP_PLAYLIST_NOTIFY_NAME">
+<Jump Url="AIMPSDKAddons.AIMP_PLAYLIST_NOTIFY_NAME.htm"/>
+</Keyword>
+
+<Keyword Term="AIMP_PLAYLIST_NOTIFY_PLAYINDEX">
+<Jump Url="AIMPSDKAddons.AIMP_PLAYLIST_NOTIFY_PLAYINDEX.htm"/>
+</Keyword>
+
+<Keyword Term="AIMP_PLAYLIST_NOTIFY_PLAYINGSWITCHS">
+<Jump Url="AIMPSDKAddons.AIMP_PLAYLIST_NOTIFY_PLAYINGSWITCHS.htm"/>
+</Keyword>
+
+<Keyword Term="AIMP_PLAYLIST_NOTIFY_SELECTION">
+<Jump Url="AIMPSDKAddons.AIMP_PLAYLIST_NOTIFY_SELECTION.htm"/>
+</Keyword>
+
+<Keyword Term="AIMP_PLAYLIST_NOTIFY_STATISTICS">
+<Jump Url="AIMPSDKAddons.AIMP_PLAYLIST_NOTIFY_STATISTICS.htm"/>
+</Keyword>
+
+<Keyword Term="AIMP_PLAYLIST_NOTIFY_TRACKINGINDEX">
+<Jump Url="AIMPSDKAddons.AIMP_PLAYLIST_NOTIFY_TRACKINGINDEX.htm"/>
+</Keyword>
+
+<Keyword Term="AIMP_PLAYLIST_SORT_TYPE_ARTIST">
+<Jump Url="AIMPSDKAddons.AIMP_PLAYLIST_SORT_TYPE_ARTIST.htm"/>
+</Keyword>
+
+<Keyword Term="AIMP_PLAYLIST_SORT_TYPE_DURATION">
+<Jump Url="AIMPSDKAddons.AIMP_PLAYLIST_SORT_TYPE_DURATION.htm"/>
+</Keyword>
+
+<Keyword Term="AIMP_PLAYLIST_SORT_TYPE_FILENAME">
+<Jump Url="AIMPSDKAddons.AIMP_PLAYLIST_SORT_TYPE_FILENAME.htm"/>
+</Keyword>
+
+<Keyword Term="AIMP_PLAYLIST_SORT_TYPE_INVERSE">
+<Jump Url="AIMPSDKAddons.AIMP_PLAYLIST_SORT_TYPE_INVERSE.htm"/>
+</Keyword>
+
+<Keyword Term="AIMP_PLAYLIST_SORT_TYPE_RANDOMIZE">
+<Jump Url="AIMPSDKAddons.AIMP_PLAYLIST_SORT_TYPE_RANDOMIZE.htm"/>
+</Keyword>
+
+<Keyword Term="AIMP_PLAYLIST_SORT_TYPE_TITLE">
+<Jump Url="AIMPSDKAddons.AIMP_PLAYLIST_SORT_TYPE_TITLE.htm"/>
+</Keyword>
+
+<Keyword Term="AIMP_PLAYLIST_STORAGE_PROPERTY_DURATION">
+<Jump Url="AIMPSDKAddons.AIMP_PLAYLIST_STORAGE_PROPERTY_DURATION.htm"/>
+</Keyword>
+
+<Keyword Term="AIMP_PLAYLIST_STORAGE_PROPERTY_FOCUSINDEX">
+<Jump Url="AIMPSDKAddons.AIMP_PLAYLIST_STORAGE_PROPERTY_FOCUSINDEX.htm"/>
+</Keyword>
+
+<Keyword Term="AIMP_PLAYLIST_STORAGE_PROPERTY_FORMATING_LINE1_TEMPLATE">
+<Jump Url="AIMPSDKAddons.AIMP_PLAYLIST_STORAGE_PROPERTY_FORMATING_LINE1_TEMPLATE.htm"/>
+</Keyword>
+
+<Keyword Term="AIMP_PLAYLIST_STORAGE_PROPERTY_FORMATING_LINE2_TEMPLATE">
+<Jump Url="AIMPSDKAddons.AIMP_PLAYLIST_STORAGE_PROPERTY_FORMATING_LINE2_TEMPLATE.htm"/>
+</Keyword>
+
+<Keyword Term="AIMP_PLAYLIST_STORAGE_PROPERTY_FORMATING_OVERRIDEN">
+<Jump Url="AIMPSDKAddons.AIMP_PLAYLIST_STORAGE_PROPERTY_FORMATING_OVERRIDEN.htm"/>
+</Keyword>
+
+<Keyword Term="AIMP_PLAYLIST_STORAGE_PROPERTY_GROUPPING">
+<Jump Url="AIMPSDKAddons.AIMP_PLAYLIST_STORAGE_PROPERTY_GROUPPING.htm"/>
+</Keyword>
+
+<Keyword Term="AIMP_PLAYLIST_STORAGE_PROPERTY_GROUPPING_AUTOMERGING">
+<Jump Url="AIMPSDKAddons.AIMP_PLAYLIST_STORAGE_PROPERTY_GROUPPING_AUTOMERGING.htm"/>
+</Keyword>
+
+<Keyword Term="AIMP_PLAYLIST_STORAGE_PROPERTY_GROUPPING_OVERRIDEN">
+<Jump Url="AIMPSDKAddons.AIMP_PLAYLIST_STORAGE_PROPERTY_GROUPPING_OVERRIDEN.htm"/>
+</Keyword>
+
+<Keyword Term="AIMP_PLAYLIST_STORAGE_PROPERTY_GROUPPING_TEMPLATE">
+<Jump Url="AIMPSDKAddons.AIMP_PLAYLIST_STORAGE_PROPERTY_GROUPPING_TEMPLATE.htm"/>
+</Keyword>
+
+<Keyword Term="AIMP_PLAYLIST_STORAGE_PROPERTY_NAME">
+<Jump Url="AIMPSDKAddons.AIMP_PLAYLIST_STORAGE_PROPERTY_NAME.htm"/>
+</Keyword>
+
+<Keyword Term="AIMP_PLAYLIST_STORAGE_PROPERTY_PLAYINGINDEX">
+<Jump Url="AIMPSDKAddons.AIMP_PLAYLIST_STORAGE_PROPERTY_PLAYINGINDEX.htm"/>
+</Keyword>
+
+<Keyword Term="AIMP_PLAYLIST_STORAGE_PROPERTY_READONLY">
+<Jump Url="AIMPSDKAddons.AIMP_PLAYLIST_STORAGE_PROPERTY_READONLY.htm"/>
+</Keyword>
+
+<Keyword Term="AIMP_PLAYLIST_STORAGE_PROPERTY_SIZE">
+<Jump Url="AIMPSDKAddons.AIMP_PLAYLIST_STORAGE_PROPERTY_SIZE.htm"/>
+</Keyword>
+
+<Keyword Term="AIMP_PLAYLIST_STORAGE_PROPERTY_TRACKINGINDEX">
+<Jump Url="AIMPSDKAddons.AIMP_PLAYLIST_STORAGE_PROPERTY_TRACKINGINDEX.htm"/>
+</Keyword>
+
+<Keyword Term="AIMP_PLAYLIST_STORAGE_PROPERTY_VIEW_DURATION">
+<Jump Url="AIMPSDKAddons.AIMP_PLAYLIST_STORAGE_PROPERTY_VIEW_DURATION.htm"/>
+</Keyword>
+
+<Keyword Term="AIMP_PLAYLIST_STORAGE_PROPERTY_VIEW_EXPAND_BUTTONS">
+<Jump Url="AIMPSDKAddons.AIMP_PLAYLIST_STORAGE_PROPERTY_VIEW_EXPAND_BUTTONS.htm"/>
+</Keyword>
+
+<Keyword Term="AIMP_PLAYLIST_STORAGE_PROPERTY_VIEW_MARKS">
+<Jump Url="AIMPSDKAddons.AIMP_PLAYLIST_STORAGE_PROPERTY_VIEW_MARKS.htm"/>
+</Keyword>
+
+<Keyword Term="AIMP_PLAYLIST_STORAGE_PROPERTY_VIEW_NUMBERS">
+<Jump Url="AIMPSDKAddons.AIMP_PLAYLIST_STORAGE_PROPERTY_VIEW_NUMBERS.htm"/>
+</Keyword>
+
+<Keyword Term="AIMP_PLAYLIST_STORAGE_PROPERTY_VIEW_NUMBERS_ABSOLUTE">
+<Jump Url="AIMPSDKAddons.AIMP_PLAYLIST_STORAGE_PROPERTY_VIEW_NUMBERS_ABSOLUTE.htm"/>
+</Keyword>
+
+<Keyword Term="AIMP_PLAYLIST_STORAGE_PROPERTY_VIEW_OVERRIDEN">
+<Jump Url="AIMPSDKAddons.AIMP_PLAYLIST_STORAGE_PROPERTY_VIEW_OVERRIDEN.htm"/>
+</Keyword>
+
+<Keyword Term="AIMP_PLAYLIST_STORAGE_PROPERTY_VIEW_SECOND_LINE">
+<Jump Url="AIMPSDKAddons.AIMP_PLAYLIST_STORAGE_PROPERTY_VIEW_SECOND_LINE.htm"/>
+</Keyword>
+
+<Keyword Term="AIMP_PLAYLIST_STORAGE_PROPERTY_VIEW_SWITCHES">
+<Jump Url="AIMPSDKAddons.AIMP_PLAYLIST_STORAGE_PROPERTY_VIEW_SWITCHES.htm"/>
+</Keyword>
+
+<Keyword Term="AIMP_RA_CMD_ADD_FILES">
+<Jump Url="AIMPSDKRemote.AIMP_RA_CMD_ADD_FILES.htm"/>
+</Keyword>
+
+<Keyword Term="AIMP_RA_CMD_ADD_FOLDERS">
+<Jump Url="AIMPSDKRemote.AIMP_RA_CMD_ADD_FOLDERS.htm"/>
+</Keyword>
+
+<Keyword Term="AIMP_RA_CMD_ADD_PLAYLISTS">
+<Jump Url="AIMPSDKRemote.AIMP_RA_CMD_ADD_PLAYLISTS.htm"/>
+</Keyword>
+
+<Keyword Term="AIMP_RA_CMD_ADD_URL">
+<Jump Url="AIMPSDKRemote.AIMP_RA_CMD_ADD_URL.htm"/>
+</Keyword>
+
+<Keyword Term="AIMP_RA_CMD_BASE">
+<Jump Url="AIMPSDKRemote.AIMP_RA_CMD_BASE.htm"/>
+</Keyword>
+
+<Keyword Term="AIMP_RA_CMD_GET_COVER_ART">
+<Jump Url="AIMPSDKRemote.AIMP_RA_CMD_GET_COVER_ART.htm"/>
+</Keyword>
+
+<Keyword Term="AIMP_RA_CMD_NEXT">
+<Jump Url="AIMPSDKRemote.AIMP_RA_CMD_NEXT.htm"/>
+</Keyword>
+
+<Keyword Term="AIMP_RA_CMD_OPEN_FILES">
+<Jump Url="AIMPSDKRemote.AIMP_RA_CMD_OPEN_FILES.htm"/>
+</Keyword>
+
+<Keyword Term="AIMP_RA_CMD_OPEN_FOLDERS">
+<Jump Url="AIMPSDKRemote.AIMP_RA_CMD_OPEN_FOLDERS.htm"/>
+</Keyword>
+
+<Keyword Term="AIMP_RA_CMD_OPEN_PLAYLISTS">
+<Jump Url="AIMPSDKRemote.AIMP_RA_CMD_OPEN_PLAYLISTS.htm"/>
+</Keyword>
+
+<Keyword Term="AIMP_RA_CMD_PAUSE">
+<Jump Url="AIMPSDKRemote.AIMP_RA_CMD_PAUSE.htm"/>
+</Keyword>
+
+<Keyword Term="AIMP_RA_CMD_PLAY">
+<Jump Url="AIMPSDKRemote.AIMP_RA_CMD_PLAY.htm"/>
+</Keyword>
+
+<Keyword Term="AIMP_RA_CMD_PLAYPAUSE">
+<Jump Url="AIMPSDKRemote.AIMP_RA_CMD_PLAYPAUSE.htm"/>
+</Keyword>
+
+<Keyword Term="AIMP_RA_CMD_PREV">
+<Jump Url="AIMPSDKRemote.AIMP_RA_CMD_PREV.htm"/>
+</Keyword>
+
+<Keyword Term="AIMP_RA_CMD_QUIT">
+<Jump Url="AIMPSDKRemote.AIMP_RA_CMD_QUIT.htm"/>
+</Keyword>
+
+<Keyword Term="AIMP_RA_CMD_REGISTER_NOTIFY">
+<Jump Url="AIMPSDKRemote.AIMP_RA_CMD_REGISTER_NOTIFY.htm"/>
+</Keyword>
+
+<Keyword Term="AIMP_RA_CMD_STOP">
+<Jump Url="AIMPSDKRemote.AIMP_RA_CMD_STOP.htm"/>
+</Keyword>
+
+<Keyword Term="AIMP_RA_CMD_UNREGISTER_NOTIFY">
+<Jump Url="AIMPSDKRemote.AIMP_RA_CMD_UNREGISTER_NOTIFY.htm"/>
+</Keyword>
+
+<Keyword Term="AIMP_RA_CMD_VISUAL_NEXT">
+<Jump Url="AIMPSDKRemote.AIMP_RA_CMD_VISUAL_NEXT.htm"/>
+</Keyword>
+
+<Keyword Term="AIMP_RA_CMD_VISUAL_PREV">
+<Jump Url="AIMPSDKRemote.AIMP_RA_CMD_VISUAL_PREV.htm"/>
+</Keyword>
+
+<Keyword Term="AIMP_RA_NOTIFY_BASE">
+<Jump Url="AIMPSDKRemote.AIMP_RA_NOTIFY_BASE.htm"/>
+</Keyword>
+
+<Keyword Term="AIMP_RA_NOTIFY_PROPERTY">
+<Jump Url="AIMPSDKRemote.AIMP_RA_NOTIFY_PROPERTY.htm"/>
+</Keyword>
+
+<Keyword Term="AIMP_RA_NOTIFY_TRACK_INFO">
+<Jump Url="AIMPSDKRemote.AIMP_RA_NOTIFY_TRACK_INFO.htm"/>
+</Keyword>
+
+<Keyword Term="AIMP_RA_NOTIFY_TRACK_START">
+<Jump Url="AIMPSDKRemote.AIMP_RA_NOTIFY_TRACK_START.htm"/>
+</Keyword>
+
+<Keyword Term="AIMP_RA_PROPERTY_MASK">
+<Jump Url="AIMPSDKRemote.AIMP_RA_PROPERTY_MASK.htm"/>
+</Keyword>
+
+<Keyword Term="AIMP_RA_PROPERTY_MUTE">
+<Jump Url="AIMPSDKRemote.AIMP_RA_PROPERTY_MUTE.htm"/>
+</Keyword>
+
+<Keyword Term="AIMP_RA_PROPERTY_PLAYER_DURATION">
+<Jump Url="AIMPSDKRemote.AIMP_RA_PROPERTY_PLAYER_DURATION.htm"/>
+</Keyword>
+
+<Keyword Term="AIMP_RA_PROPERTY_PLAYER_POSITION">
+<Jump Url="AIMPSDKRemote.AIMP_RA_PROPERTY_PLAYER_POSITION.htm"/>
+</Keyword>
+
+<Keyword Term="AIMP_RA_PROPERTY_PLAYER_STATE">
+<Jump Url="AIMPSDKRemote.AIMP_RA_PROPERTY_PLAYER_STATE.htm"/>
+</Keyword>
+
+<Keyword Term="AIMP_RA_PROPERTY_RADIOCAP">
+<Jump Url="AIMPSDKRemote.AIMP_RA_PROPERTY_RADIOCAP.htm"/>
+</Keyword>
+
+<Keyword Term="AIMP_RA_PROPERTY_TRACK_REPEAT">
+<Jump Url="AIMPSDKRemote.AIMP_RA_PROPERTY_TRACK_REPEAT.htm"/>
+</Keyword>
+
+<Keyword Term="AIMP_RA_PROPERTY_TRACK_SHUFFLE">
+<Jump Url="AIMPSDKRemote.AIMP_RA_PROPERTY_TRACK_SHUFFLE.htm"/>
+</Keyword>
+
+<Keyword Term="AIMP_RA_PROPERTY_VERSION">
+<Jump Url="AIMPSDKRemote.AIMP_RA_PROPERTY_VERSION.htm"/>
+</Keyword>
+
+<Keyword Term="AIMP_RA_PROPERTY_VOLUME">
+<Jump Url="AIMPSDKRemote.AIMP_RA_PROPERTY_VOLUME.htm"/>
+</Keyword>
+
+<Keyword Term="AIMP_RA_PROPVALUE_GET">
+<Jump Url="AIMPSDKRemote.AIMP_RA_PROPVALUE_GET.htm"/>
+</Keyword>
+
+<Keyword Term="AIMP_RA_PROPVALUE_SET">
+<Jump Url="AIMPSDKRemote.AIMP_RA_PROPVALUE_SET.htm"/>
+</Keyword>
+
+<Keyword Term="AIMP_SUPPORTS_EXTS_FORMAT_AUDIO">
+<Jump Url="AIMPSDKAddons.AIMP_SUPPORTS_EXTS_FORMAT_AUDIO.htm"/>
+</Keyword>
+
+<Keyword Term="AIMP_SUPPORTS_EXTS_FORMAT_PLAYLIST">
+<Jump Url="AIMPSDKAddons.AIMP_SUPPORTS_EXTS_FORMAT_PLAYLIST.htm"/>
+</Keyword>
+
+<Keyword Term="AIMP_VISUAL_FLAGS_NOT_SUSPEND">
+<Jump Url="AIMPSDKVisual.AIMP_VISUAL_FLAGS_NOT_SUSPEND.htm"/>
+</Keyword>
+
+<Keyword Term="AIMP_VISUAL_FLAGS_RQD_DATA_SPECTRUM">
+<Jump Url="AIMPSDKVisual.AIMP_VISUAL_FLAGS_RQD_DATA_SPECTRUM.htm"/>
+</Keyword>
+
+<Keyword Term="AIMP_VISUAL_FLAGS_RQD_DATA_WAVE">
+<Jump Url="AIMPSDKVisual.AIMP_VISUAL_FLAGS_RQD_DATA_WAVE.htm"/>
+</Keyword>
+
+<Keyword Term="AIMPRemoteAccessClass">
+<Jump Url="AIMPSDKRemote.AIMPRemoteAccessClass.htm"/>
+</Keyword>
+
+<Keyword Term="AIMPRemoteAccessMapFileSize">
+<Jump Url="AIMPSDKRemote.AIMPRemoteAccessMapFileSize.htm"/>
+</Keyword>
+
+<Keyword Term="AIMPSDKAddons">
+<Jump Url="AIMPSDKAddons.htm"/>
+</Keyword>
+
+<Keyword Term="AIMPSDKAddons.HAIMPMENU">
+<Jump Url="AIMPSDKAddons.HAIMPMENU.htm"/>
+</Keyword>
+
+<Keyword Term="AIMPSDKAddons.HPLS">
+<Jump Url="AIMPSDKAddons.HPLS.htm"/>
+</Keyword>
+
+<Keyword Term="AIMPSDKAddons.HPLSENTRY">
+<Jump Url="AIMPSDKAddons.HPLSENTRY.htm"/>
+</Keyword>
+
+<Keyword Term="AIMPSDKAddons.HPLSGROUP">
+<Jump Url="AIMPSDKAddons.HPLSGROUP.htm"/>
+</Keyword>
+
+<Keyword Term="AIMPSDKAddons.IAIMPAddonPlugin">
+<Jump Url="AIMPSDKAddons.IAIMPAddonPlugin.htm"/>
+</Keyword>
+
+<Keyword Term="AIMPSDKAddons.IAIMPAddonsConfigFile">
+<Jump Url="AIMPSDKAddons.IAIMPAddonsConfigFile.htm"/>
+</Keyword>
+
+<Keyword Term="AIMPSDKAddons.IAIMPAddonsCoverArtManager">
+<Jump Url="AIMPSDKAddons.IAIMPAddonsCoverArtManager.htm"/>
+</Keyword>
+
+<Keyword Term="AIMPSDKAddons.IAIMPAddonsFileInfoRepository">
+<Jump Url="AIMPSDKAddons.IAIMPAddonsFileInfoRepository.htm"/>
+</Keyword>
+
+<Keyword Term="AIMPSDKAddons.IAIMPAddonsLanguageFile">
+<Jump Url="AIMPSDKAddons.IAIMPAddonsLanguageFile.htm"/>
+</Keyword>
+
+<Keyword Term="AIMPSDKAddons.IAIMPAddonsMenuManager">
+<Jump Url="AIMPSDKAddons.IAIMPAddonsMenuManager.htm"/>
+</Keyword>
+
+<Keyword Term="AIMPSDKAddons.IAIMPAddonsOptionsDialog">
+<Jump Url="AIMPSDKAddons.IAIMPAddonsOptionsDialog.htm"/>
+</Keyword>
+
+<Keyword Term="AIMPSDKAddons.IAIMPAddonsOptionsDialogFrame">
+<Jump Url="AIMPSDKAddons.IAIMPAddonsOptionsDialogFrame.htm"/>
+</Keyword>
+
+<Keyword Term="AIMPSDKAddons.IAIMPAddonsPlayerManager">
+<Jump Url="AIMPSDKAddons.IAIMPAddonsPlayerManager.htm"/>
+</Keyword>
+
+<Keyword Term="AIMPSDKAddons.IAIMPAddonsPlayingQueueController">
+<Jump Url="AIMPSDKAddons.IAIMPAddonsPlayingQueueController.htm"/>
+</Keyword>
+
+<Keyword Term="AIMPSDKAddons.IAIMPAddonsPlaylistManager">
+<Jump Url="AIMPSDKAddons.IAIMPAddonsPlaylistManager.htm"/>
+</Keyword>
+
+<Keyword Term="AIMPSDKAddons.IAIMPAddonsPlaylistManagerListener">
+<Jump Url="AIMPSDKAddons.IAIMPAddonsPlaylistManagerListener.htm"/>
+</Keyword>
+
+<Keyword Term="AIMPSDKAddons.IAIMPAddonsPlaylistStrings">
+<Jump Url="AIMPSDKAddons.IAIMPAddonsPlaylistStrings.htm"/>
+</Keyword>
+
+<Keyword Term="AIMPSDKAddons.IAIMPAddonsProxySettings">
+<Jump Url="AIMPSDKAddons.IAIMPAddonsProxySettings.htm"/>
+</Keyword>
+
+<Keyword Term="AIMPSDKAddons.IAIMPAddonsSkinsManager">
+<Jump Url="AIMPSDKAddons.IAIMPAddonsSkinsManager.htm"/>
+</Keyword>
+
+<Keyword Term="AIMPSDKAddons.PAIMPFileStatisticsInfo">
+<Jump Url="AIMPSDKAddons.PAIMPFileStatisticsInfo.htm"/>
+</Keyword>
+
+<Keyword Term="AIMPSDKAddons.PAIMPMenuItemInfo">
+<Jump Url="AIMPSDKAddons.PAIMPMenuItemInfo.htm"/>
+</Keyword>
+
+<Keyword Term="AIMPSDKAddons.PAIMPSkinInfo">
+<Jump Url="AIMPSDKAddons.PAIMPSkinInfo.htm"/>
+</Keyword>
+
+<Keyword Term="AIMPSDKAddons.TAIMPAddonPluginHeaderProc">
+<Jump Url="AIMPSDKAddons.TAIMPAddonPluginHeaderProc.htm"/>
+</Keyword>
+
+<Keyword Term="AIMPSDKAddons.TAIMPAddonsPlaylistManagerCompareProc">
+<Jump Url="AIMPSDKAddons.TAIMPAddonsPlaylistManagerCompareProc.htm"/>
+</Keyword>
+
+<Keyword Term="AIMPSDKAddons.TAIMPAddonsPlaylistManagerDeleteProc">
+<Jump Url="AIMPSDKAddons.TAIMPAddonsPlaylistManagerDeleteProc.htm"/>
+</Keyword>
+
+<Keyword Term="AIMPSDKAddons.TAIMPFileStatisticsInfo">
+<Jump Url="AIMPSDKAddons.TAIMPFileStatisticsInfo.htm"/>
+</Keyword>
+
+<Keyword Term="AIMPSDKAddons.TAIMPMenuItemInfo">
+<Jump Url="AIMPSDKAddons.TAIMPMenuItemInfo.htm"/>
+</Keyword>
+
+<Keyword Term="AIMPSDKAddons.TAIMPMenuProc">
+<Jump Url="AIMPSDKAddons.TAIMPMenuProc.htm"/>
+</Keyword>
+
+<Keyword Term="AIMPSDKAddons.TAIMPSkinInfo">
+<Jump Url="AIMPSDKAddons.TAIMPSkinInfo.htm"/>
+</Keyword>
+
+<Keyword Term="AIMPSDKCommon">
+<Jump Url="AIMPSDKCommon.htm"/>
+</Keyword>
+
+<Keyword Term="AIMPSDKCommon.PAIMPFileInfo">
+<Jump Url="AIMPSDKCommon.PAIMPFileInfo.htm"/>
+</Keyword>
+
+<Keyword Term="AIMPSDKCommon.TAIMPFileInfo">
+<Jump Url="AIMPSDKCommon.TAIMPFileInfo.htm"/>
+</Keyword>
+
+<Keyword Term="AIMPSDKCore">
+<Jump Url="AIMPSDKCore.htm"/>
+</Keyword>
+
+<Keyword Term="AIMPSDKCore.IAIMPCoreUnit">
+<Jump Url="AIMPSDKCore.IAIMPCoreUnit.htm"/>
+</Keyword>
+
+<Keyword Term="AIMPSDKCore.IAIMPCoreUnitMessageHook">
+<Jump Url="AIMPSDKCore.IAIMPCoreUnitMessageHook.htm"/>
+</Keyword>
+
+<Keyword Term="AIMPSDKCore.TAIMPVersionInfo">
+<Jump Url="AIMPSDKCore.TAIMPVersionInfo.htm"/>
+</Keyword>
+
+<Keyword Term="AIMPSDKInput">
+<Jump Url="AIMPSDKInput.htm"/>
+</Keyword>
+
+<Keyword Term="AIMPSDKInput.IAIMPInputPluginDecoder">
+<Jump Url="AIMPSDKInput.IAIMPInputPluginDecoder.htm"/>
+</Keyword>
+
+<Keyword Term="AIMPSDKInput.IAIMPInputPluginHeader">
+<Jump Url="AIMPSDKInput.IAIMPInputPluginHeader.htm"/>
+</Keyword>
+
+<Keyword Term="AIMPSDKInput.IAIMPInputStream">
+<Jump Url="AIMPSDKInput.IAIMPInputStream.htm"/>
+</Keyword>
+
+<Keyword Term="AIMPSDKInput.TAIMPInputPluginHeaderProc">
+<Jump Url="AIMPSDKInput.TAIMPInputPluginHeaderProc.htm"/>
+</Keyword>
+
+<Keyword Term="AIMPSDKRemote">
+<Jump Url="AIMPSDKRemote.htm"/>
+</Keyword>
+
+<Keyword Term="AIMPSDKVisual">
+<Jump Url="AIMPSDKVisual.htm"/>
+</Keyword>
+
+<Keyword Term="AIMPSDKVisual.IAIMPVisualPlugin3">
+<Jump Url="AIMPSDKVisual.IAIMPVisualPlugin3.htm"/>
+</Keyword>
+
+<Keyword Term="AIMPSDKVisual.PAIMPVisualData">
+<Jump Url="AIMPSDKVisual.PAIMPVisualData.htm"/>
+</Keyword>
+
+<Keyword Term="AIMPSDKVisual.TAIMPVisualData">
+<Jump Url="AIMPSDKVisual.TAIMPVisualData.htm"/>
+</Keyword>
+
+<Keyword Term="AIMPSDKVisual.TAIMPVisualPluginProc">
+<Jump Url="AIMPSDKVisual.TAIMPVisualPluginProc.htm"/>
+</Keyword>
+
+<Keyword Term="AIMPSDKVisual.TSpectrum">
+<Jump Url="AIMPSDKVisual.TSpectrum.htm"/>
+</Keyword>
+
+<Keyword Term="AIMPSDKVisual.TWaveForm">
+<Jump Url="AIMPSDKVisual.TWaveForm.htm"/>
+</Keyword>
+
+<Keyword Term="HAIMPMENU">
+<Jump Url="AIMPSDKAddons.HAIMPMENU.htm"/>
+</Keyword>
+
+<Keyword Term="HPLS">
+<Jump Url="AIMPSDKAddons.HPLS.htm"/>
+</Keyword>
+
+<Keyword Term="HPLSENTRY">
+<Jump Url="AIMPSDKAddons.HPLSENTRY.htm"/>
+</Keyword>
+
+<Keyword Term="HPLSGROUP">
+<Jump Url="AIMPSDKAddons.HPLSGROUP.htm"/>
+</Keyword>
+
+<Keyword Term="IAIMPAddonPlugin">
+<Jump Url="AIMPSDKAddons.IAIMPAddonPlugin.htm"/>
+</Keyword>
+
+<Keyword Term="IAIMPAddonPlugin.Finalize">
+<Jump Url="AIMPSDKAddons.IAIMPAddonPlugin.Finalize.htm"/>
+</Keyword>
+
+<Keyword Term="IAIMPAddonPlugin.GetPluginAuthor">
+<Jump Url="AIMPSDKAddons.IAIMPAddonPlugin.GetPluginAuthor.htm"/>
+</Keyword>
+
+<Keyword Term="IAIMPAddonPlugin.GetPluginFlags">
+<Jump Url="AIMPSDKAddons.IAIMPAddonPlugin.GetPluginFlags.htm"/>
+</Keyword>
+
+<Keyword Term="IAIMPAddonPlugin.GetPluginInfo">
+<Jump Url="AIMPSDKAddons.IAIMPAddonPlugin.GetPluginInfo.htm"/>
+</Keyword>
+
+<Keyword Term="IAIMPAddonPlugin.GetPluginName">
+<Jump Url="AIMPSDKAddons.IAIMPAddonPlugin.GetPluginName.htm"/>
+</Keyword>
+
+<Keyword Term="IAIMPAddonPlugin.Initialize">
+<Jump Url="AIMPSDKAddons.IAIMPAddonPlugin.Initialize(IAIMPCoreUnit).htm"/>
+</Keyword>
+
+<Keyword Term="IAIMPAddonPlugin.ShowSettingsDialog">
+<Jump Url="AIMPSDKAddons.IAIMPAddonPlugin.ShowSettingsDialog(HWND).htm"/>
+</Keyword>
+
+<Keyword Term="IAIMPAddonsConfigFile">
+<Jump Url="AIMPSDKAddons.IAIMPAddonsConfigFile.htm"/>
+</Keyword>
+
+<Keyword Term="IAIMPAddonsConfigFile.ReadInteger">
+<Jump Url="AIMPSDKAddons.IAIMPAddonsConfigFile.ReadInteger(PWideChar,PWideChar,Integer,Integer,Integer).htm"/>
+</Keyword>
+
+<Keyword Term="IAIMPAddonsConfigFile.ReadString">
+<Jump Url="AIMPSDKAddons.IAIMPAddonsConfigFile.ReadString(PWideChar,PWideChar,PWideChar,Integer,Integer,Integer).htm"/>
+</Keyword>
+
+<Keyword Term="IAIMPAddonsConfigFile.SectionExists">
+<Jump Url="AIMPSDKAddons.IAIMPAddonsConfigFile.SectionExists(PWideChar,Integer).htm"/>
+</Keyword>
+
+<Keyword Term="IAIMPAddonsConfigFile.SectionRemove">
+<Jump Url="AIMPSDKAddons.IAIMPAddonsConfigFile.SectionRemove(PWideChar,Integer).htm"/>
+</Keyword>
+
+<Keyword Term="IAIMPAddonsConfigFile.WriteInteger">
+<Jump Url="AIMPSDKAddons.IAIMPAddonsConfigFile.WriteInteger(PWideChar,PWideChar,Integer,Integer,Integer).htm"/>
+</Keyword>
+
+<Keyword Term="IAIMPAddonsConfigFile.WriteString">
+<Jump Url="AIMPSDKAddons.IAIMPAddonsConfigFile.WriteString(PWideChar,PWideChar,PWideChar,Integer,Integer,Integer).htm"/>
+</Keyword>
+
+<Keyword Term="IAIMPAddonsCoverArtManager">
+<Jump Url="AIMPSDKAddons.IAIMPAddonsCoverArtManager.htm"/>
+</Keyword>
+
+<Keyword Term="IAIMPAddonsCoverArtManager.CoverArtDraw">
+<Jump Url="AIMPSDKAddons.IAIMPAddonsCoverArtManager.CoverArtDraw(HDC,TRect).htm"/>
+</Keyword>
+
+<Keyword Term="IAIMPAddonsCoverArtManager.CoverArtGetFileName">
+<Jump Url="AIMPSDKAddons.IAIMPAddonsCoverArtManager.CoverArtGetFileName(PWideChar,Integer).htm"/>
+</Keyword>
+
+<Keyword Term="IAIMPAddonsCoverArtManager.CoverArtGetForFile">
+<Jump Url="AIMPSDKAddons.IAIMPAddonsCoverArtManager.CoverArtGetForFile(PWideChar,PSize,PWideChar,Integer).htm"/>
+</Keyword>
+
+<Keyword Term="IAIMPAddonsCoverArtManager.CoverArtGetSize">
+<Jump Url="AIMPSDKAddons.IAIMPAddonsCoverArtManager.CoverArtGetSize(TSize).htm"/>
+</Keyword>
+
+<Keyword Term="IAIMPAddonsFileInfoRepository">
+<Jump Url="AIMPSDKAddons.IAIMPAddonsFileInfoRepository.htm"/>
+</Keyword>
+
+<Keyword Term="IAIMPAddonsFileInfoRepository.GetInfo">
+<Jump Url="AIMPSDKAddons.IAIMPAddonsFileInfoRepository.GetInfo(PWideChar,PAIMPFileInfo).htm"/>
+</Keyword>
+
+<Keyword Term="IAIMPAddonsLanguageFile">
+<Jump Url="AIMPSDKAddons.IAIMPAddonsLanguageFile.htm"/>
+</Keyword>
+
+<Keyword Term="IAIMPAddonsLanguageFile.CurrentFile">
+<Jump Url="AIMPSDKAddons.IAIMPAddonsLanguageFile.CurrentFile(PWideChar,Integer).htm"/>
+</Keyword>
+
+<Keyword Term="IAIMPAddonsLanguageFile.Notification">
+<Jump Url="AIMPSDKAddons.IAIMPAddonsLanguageFile.Notification(HWND,LongBool).htm"/>
+</Keyword>
+
+<Keyword Term="IAIMPAddonsLanguageFile.ReadString">
+<Jump Url="AIMPSDKAddons.IAIMPAddonsLanguageFile.ReadString(PWideChar,PWideChar,PWideChar,Integer,Integer,Integer).htm"/>
+</Keyword>
+
+<Keyword Term="IAIMPAddonsLanguageFile.SectionExists">
+<Jump Url="AIMPSDKAddons.IAIMPAddonsLanguageFile.SectionExists(PWideChar,Integer).htm"/>
+</Keyword>
+
+<Keyword Term="IAIMPAddonsLanguageFile.Version">
+<Jump Url="AIMPSDKAddons.IAIMPAddonsLanguageFile.Version.htm"/>
+</Keyword>
+
+<Keyword Term="IAIMPAddonsMenuManager">
+<Jump Url="AIMPSDKAddons.IAIMPAddonsMenuManager.htm"/>
+</Keyword>
+
+<Keyword Term="IAIMPAddonsMenuManager.MenuCreate">
+<Jump Url="AIMPSDKAddons.IAIMPAddonsMenuManager.MenuCreate(DWORD,PAIMPMenuItemInfo).htm"/>
+</Keyword>
+
+<Keyword Term="IAIMPAddonsMenuManager.MenuCreateEx">
+<Jump Url="AIMPSDKAddons.IAIMPAddonsMenuManager.MenuCreateEx(HAIMPMENU,PAIMPMenuItemInfo).htm"/>
+</Keyword>
+
+<Keyword Term="IAIMPAddonsMenuManager.MenuRemove">
+<Jump Url="AIMPSDKAddons.IAIMPAddonsMenuManager.MenuRemove(HAIMPMENU).htm"/>
+</Keyword>
+
+<Keyword Term="IAIMPAddonsMenuManager.MenuTextToShortCut">
+<Jump Url="AIMPSDKAddons.IAIMPAddonsMenuManager.MenuTextToShortCut(PWideChar,Integer).htm"/>
+</Keyword>
+
+<Keyword Term="IAIMPAddonsMenuManager.MenuUpdate">
+<Jump Url="AIMPSDKAddons.IAIMPAddonsMenuManager.MenuUpdate(HAIMPMENU,PAIMPMenuItemInfo).htm"/>
+</Keyword>
+
+<Keyword Term="IAIMPAddonsOptionsDialog">
+<Jump Url="AIMPSDKAddons.IAIMPAddonsOptionsDialog.htm"/>
+</Keyword>
+
+<Keyword Term="IAIMPAddonsOptionsDialog.FrameAdd">
+<Jump Url="AIMPSDKAddons.IAIMPAddonsOptionsDialog.FrameAdd(IAIMPAddonsOptionsDialogFrame).htm"/>
+</Keyword>
+
+<Keyword Term="IAIMPAddonsOptionsDialog.FrameModified">
+<Jump Url="AIMPSDKAddons.IAIMPAddonsOptionsDialog.FrameModified(IAIMPAddonsOptionsDialogFrame).htm"/>
+</Keyword>
+
+<Keyword Term="IAIMPAddonsOptionsDialog.FrameRemove">
+<Jump Url="AIMPSDKAddons.IAIMPAddonsOptionsDialog.FrameRemove(IAIMPAddonsOptionsDialogFrame).htm"/>
+</Keyword>
+
+<Keyword Term="IAIMPAddonsOptionsDialog.FrameShow">
+<Jump Url="AIMPSDKAddons.IAIMPAddonsOptionsDialog.FrameShow(IAIMPAddonsOptionsDialogFrame,LongBool).htm"/>
+</Keyword>
+
+<Keyword Term="IAIMPAddonsOptionsDialogFrame">
+<Jump Url="AIMPSDKAddons.IAIMPAddonsOptionsDialogFrame.htm"/>
+</Keyword>
+
+<Keyword Term="IAIMPAddonsOptionsDialogFrame.FrameCreate">
+<Jump Url="AIMPSDKAddons.IAIMPAddonsOptionsDialogFrame.FrameCreate(HWND).htm"/>
+</Keyword>
+
+<Keyword Term="IAIMPAddonsOptionsDialogFrame.FrameData">
+<Jump Url="AIMPSDKAddons.IAIMPAddonsOptionsDialogFrame.FrameData.htm"/>
+</Keyword>
+
+<Keyword Term="IAIMPAddonsOptionsDialogFrame.FrameFlags">
+<Jump Url="AIMPSDKAddons.IAIMPAddonsOptionsDialogFrame.FrameFlags.htm"/>
+</Keyword>
+
+<Keyword Term="IAIMPAddonsOptionsDialogFrame.FrameFree">
+<Jump Url="AIMPSDKAddons.IAIMPAddonsOptionsDialogFrame.FrameFree(HWND).htm"/>
+</Keyword>
+
+<Keyword Term="IAIMPAddonsOptionsDialogFrame.FrameLoadConfigNotify">
+<Jump Url="AIMPSDKAddons.IAIMPAddonsOptionsDialogFrame.FrameLoadConfigNotify.htm"/>
+</Keyword>
+
+<Keyword Term="IAIMPAddonsOptionsDialogFrame.FrameName">
+<Jump Url="AIMPSDKAddons.IAIMPAddonsOptionsDialogFrame.FrameName.htm"/>
+</Keyword>
+
+<Keyword Term="IAIMPAddonsOptionsDialogFrame.FrameSaveConfigNotify">
+<Jump Url="AIMPSDKAddons.IAIMPAddonsOptionsDialogFrame.FrameSaveConfigNotify.htm"/>
+</Keyword>
+
+<Keyword Term="IAIMPAddonsPlayerManager">
+<Jump Url="AIMPSDKAddons.IAIMPAddonsPlayerManager.htm"/>
+</Keyword>
+
+<Keyword Term="IAIMPAddonsPlayerManager.ConfigGetPath">
+<Jump Url="AIMPSDKAddons.IAIMPAddonsPlayerManager.ConfigGetPath(Integer,PWideChar,Integer).htm"/>
+</Keyword>
+
+<Keyword Term="IAIMPAddonsPlayerManager.FileInfoQuery">
+<Jump Url="AIMPSDKAddons.IAIMPAddonsPlayerManager.FileInfoQuery(PWideChar,PAIMPFileInfo).htm"/>
+</Keyword>
+
+<Keyword Term="IAIMPAddonsPlayerManager.FileInfoRepository">
+<Jump Url="AIMPSDKAddons.IAIMPAddonsPlayerManager.FileInfoRepository(IAIMPAddonsFileInfoRepository,LongBool).htm"/>
+</Keyword>
+
+<Keyword Term="IAIMPAddonsPlayerManager.PlayEntry">
+<Jump Url="AIMPSDKAddons.IAIMPAddonsPlayerManager.PlayEntry(HPLSENTRY).htm"/>
+</Keyword>
+
+<Keyword Term="IAIMPAddonsPlayerManager.PlayFile">
+<Jump Url="AIMPSDKAddons.IAIMPAddonsPlayerManager.PlayFile(PWideChar,LongBool).htm"/>
+</Keyword>
+
+<Keyword Term="IAIMPAddonsPlayerManager.PlayingQueueController">
+<Jump Url="AIMPSDKAddons.IAIMPAddonsPlayerManager.PlayingQueueController(IAIMPAddonsPlayingQueueController,LongBool).htm"/>
+</Keyword>
+
+<Keyword Term="IAIMPAddonsPlayerManager.PlayStorage">
+<Jump Url="AIMPSDKAddons.IAIMPAddonsPlayerManager.PlayStorage(HPLS,Integer).htm"/>
+</Keyword>
+
+<Keyword Term="IAIMPAddonsPlayerManager.SupportsExts">
+<Jump Url="AIMPSDKAddons.IAIMPAddonsPlayerManager.SupportsExts(DWORD,PWideChar,Integer).htm"/>
+</Keyword>
+
+<Keyword Term="IAIMPAddonsPlayingQueueController">
+<Jump Url="AIMPSDKAddons.IAIMPAddonsPlayingQueueController.htm"/>
+</Keyword>
+
+<Keyword Term="IAIMPAddonsPlayingQueueController.GetFile">
+<Jump Url="AIMPSDKAddons.IAIMPAddonsPlayingQueueController.GetFile(HPLS,Integer,LongBool).htm"/>
+</Keyword>
+
+<Keyword Term="IAIMPAddonsPlaylistManager">
+<Jump Url="AIMPSDKAddons.IAIMPAddonsPlaylistManager.htm"/>
+</Keyword>
+
+<Keyword Term="IAIMPAddonsPlaylistManager.EntryDelete">
+<Jump Url="AIMPSDKAddons.IAIMPAddonsPlaylistManager.EntryDelete(HPLSENTRY).htm"/>
+</Keyword>
+
+<Keyword Term="IAIMPAddonsPlaylistManager.EntryGetGroup">
+<Jump Url="AIMPSDKAddons.IAIMPAddonsPlaylistManager.EntryGetGroup(HPLSENTRY,HPLSGROUP).htm"/>
+</Keyword>
+
+<Keyword Term="IAIMPAddonsPlaylistManager.EntryPropertyGetValue">
+<Jump Url="AIMPSDKAddons.IAIMPAddonsPlaylistManager.EntryPropertyGetValue(HPLSENTRY,Integer,Pointer,Integer).htm"/>
+</Keyword>
+
+<Keyword Term="IAIMPAddonsPlaylistManager.EntryPropertySetValue">
+<Jump Url="AIMPSDKAddons.IAIMPAddonsPlaylistManager.EntryPropertySetValue(HPLSENTRY,Integer,Pointer,Integer).htm"/>
+</Keyword>
+
+<Keyword Term="IAIMPAddonsPlaylistManager.EntryReloadInfo">
+<Jump Url="AIMPSDKAddons.IAIMPAddonsPlaylistManager.EntryReloadInfo(HPLSENTRY).htm"/>
+</Keyword>
+
+<Keyword Term="IAIMPAddonsPlaylistManager.FormatString">
+<Jump Url="AIMPSDKAddons.IAIMPAddonsPlaylistManager.FormatString(PWideChar,Integer,Integer,Pointer,PWideChar).htm"/>
+</Keyword>
+
+<Keyword Term="IAIMPAddonsPlaylistManager.GroupPropertyGetValue">
+<Jump Url="AIMPSDKAddons.IAIMPAddonsPlaylistManager.GroupPropertyGetValue(HPLSGROUP,Integer,Pointer,Integer).htm"/>
+</Keyword>
+
+<Keyword Term="IAIMPAddonsPlaylistManager.GroupPropertySetValue">
+<Jump Url="AIMPSDKAddons.IAIMPAddonsPlaylistManager.GroupPropertySetValue(HPLSGROUP,Integer,Pointer,Integer).htm"/>
+</Keyword>
+
+<Keyword Term="IAIMPAddonsPlaylistManager.ListenerAdd">
+<Jump Url="AIMPSDKAddons.IAIMPAddonsPlaylistManager.ListenerAdd(IAIMPAddonsPlaylistManagerListener).htm"/>
+</Keyword>
+
+<Keyword Term="IAIMPAddonsPlaylistManager.ListenerRemove">
+<Jump Url="AIMPSDKAddons.IAIMPAddonsPlaylistManager.ListenerRemove(IAIMPAddonsPlaylistManagerListener).htm"/>
+</Keyword>
+
+<Keyword Term="IAIMPAddonsPlaylistManager.QueueEntryAdd">
+<Jump Url="AIMPSDKAddons.IAIMPAddonsPlaylistManager.QueueEntryAdd(HPLSENTRY,LongBool).htm"/>
+</Keyword>
+
+<Keyword Term="IAIMPAddonsPlaylistManager.QueueEntryRemove">
+<Jump Url="AIMPSDKAddons.IAIMPAddonsPlaylistManager.QueueEntryRemove(HPLSENTRY).htm"/>
+</Keyword>
+
+<Keyword Term="IAIMPAddonsPlaylistManager.StorageActiveGet">
+<Jump Url="AIMPSDKAddons.IAIMPAddonsPlaylistManager.StorageActiveGet.htm"/>
+</Keyword>
+
+<Keyword Term="IAIMPAddonsPlaylistManager.StorageActiveSet">
+<Jump Url="AIMPSDKAddons.IAIMPAddonsPlaylistManager.StorageActiveSet(HPLS).htm"/>
+</Keyword>
+
+<Keyword Term="IAIMPAddonsPlaylistManager.StorageAddEntries">
+<Jump Url="AIMPSDKAddons.IAIMPAddonsPlaylistManager.StorageAddEntries(HPLS,IAIMPAddonsPlaylistStrings).htm"/>
+</Keyword>
+
+<Keyword Term="IAIMPAddonsPlaylistManager.StorageBeginUpdate">
+<Jump Url="AIMPSDKAddons.IAIMPAddonsPlaylistManager.StorageBeginUpdate(HPLS).htm"/>
+</Keyword>
+
+<Keyword Term="IAIMPAddonsPlaylistManager.StorageCreate">
+<Jump Url="AIMPSDKAddons.IAIMPAddonsPlaylistManager.StorageCreate(PWideChar,LongBool).htm"/>
+</Keyword>
+
+<Keyword Term="IAIMPAddonsPlaylistManager.StorageCreateFromFile">
+<Jump Url="AIMPSDKAddons.IAIMPAddonsPlaylistManager.StorageCreateFromFile(PWideChar,LongBool,LongBool).htm"/>
+</Keyword>
+
+<Keyword Term="IAIMPAddonsPlaylistManager.StorageDelete">
+<Jump Url="AIMPSDKAddons.IAIMPAddonsPlaylistManager.StorageDelete(HPLS,Integer).htm"/>
+</Keyword>
+
+<Keyword Term="IAIMPAddonsPlaylistManager.StorageDeleteAll">
+<Jump Url="AIMPSDKAddons.IAIMPAddonsPlaylistManager.StorageDeleteAll(HPLS).htm"/>
+</Keyword>
+
+<Keyword Term="IAIMPAddonsPlaylistManager.StorageDeleteByFilter">
+<Jump Url="AIMPSDKAddons.IAIMPAddonsPlaylistManager.StorageDeleteByFilter(HPLS,LongBool,TAIMPAddonsPlaylistManagerDeleteProc,Pointer).htm"/>
+</Keyword>
+
+<Keyword Term="IAIMPAddonsPlaylistManager.StorageEndUpdate">
+<Jump Url="AIMPSDKAddons.IAIMPAddonsPlaylistManager.StorageEndUpdate(HPLS).htm"/>
+</Keyword>
+
+<Keyword Term="IAIMPAddonsPlaylistManager.StorageGet">
+<Jump Url="AIMPSDKAddons.IAIMPAddonsPlaylistManager.StorageGet(Integer).htm"/>
+</Keyword>
+
+<Keyword Term="IAIMPAddonsPlaylistManager.StorageGetCount">
+<Jump Url="AIMPSDKAddons.IAIMPAddonsPlaylistManager.StorageGetCount.htm"/>
+</Keyword>
+
+<Keyword Term="IAIMPAddonsPlaylistManager.StorageGetEntry">
+<Jump Url="AIMPSDKAddons.IAIMPAddonsPlaylistManager.StorageGetEntry(HPLS,Integer).htm"/>
+</Keyword>
+
+<Keyword Term="IAIMPAddonsPlaylistManager.StorageGetEntryCount">
+<Jump Url="AIMPSDKAddons.IAIMPAddonsPlaylistManager.StorageGetEntryCount(HPLS).htm"/>
+</Keyword>
+
+<Keyword Term="IAIMPAddonsPlaylistManager.StorageGetFiles">
+<Jump Url="AIMPSDKAddons.IAIMPAddonsPlaylistManager.StorageGetFiles(HPLS,Integer,IAIMPAddonsPlaylistStrings).htm"/>
+</Keyword>
+
+<Keyword Term="IAIMPAddonsPlaylistManager.StorageGetGroup">
+<Jump Url="AIMPSDKAddons.IAIMPAddonsPlaylistManager.StorageGetGroup(HPLS,Integer).htm"/>
+</Keyword>
+
+<Keyword Term="IAIMPAddonsPlaylistManager.StorageGetGroupCount">
+<Jump Url="AIMPSDKAddons.IAIMPAddonsPlaylistManager.StorageGetGroupCount(HPLS).htm"/>
+</Keyword>
+
+<Keyword Term="IAIMPAddonsPlaylistManager.StoragePlayingGet">
+<Jump Url="AIMPSDKAddons.IAIMPAddonsPlaylistManager.StoragePlayingGet.htm"/>
+</Keyword>
+
+<Keyword Term="IAIMPAddonsPlaylistManager.StoragePropertyGetValue">
+<Jump Url="AIMPSDKAddons.IAIMPAddonsPlaylistManager.StoragePropertyGetValue(HPLS,Integer,Pointer,Integer).htm"/>
+</Keyword>
+
+<Keyword Term="IAIMPAddonsPlaylistManager.StoragePropertySetValue">
+<Jump Url="AIMPSDKAddons.IAIMPAddonsPlaylistManager.StoragePropertySetValue(HPLS,Integer,Pointer,Integer).htm"/>
+</Keyword>
+
+<Keyword Term="IAIMPAddonsPlaylistManager.StorageRemove">
+<Jump Url="AIMPSDKAddons.IAIMPAddonsPlaylistManager.StorageRemove(HPLS).htm"/>
+</Keyword>
+
+<Keyword Term="IAIMPAddonsPlaylistManager.StorageSort">
+<Jump Url="AIMPSDKAddons.IAIMPAddonsPlaylistManager.StorageSort(HPLS,Integer).htm"/>
+</Keyword>
+
+<Keyword Term="IAIMPAddonsPlaylistManager.StorageSortCustom">
+<Jump Url="AIMPSDKAddons.IAIMPAddonsPlaylistManager.StorageSortCustom(HPLS,TAIMPAddonsPlaylistManagerCompareProc,Pointer).htm"/>
+</Keyword>
+
+<Keyword Term="IAIMPAddonsPlaylistManager.StorageSortTemplate">
+<Jump Url="AIMPSDKAddons.IAIMPAddonsPlaylistManager.StorageSortTemplate(HPLS,PWideChar,Integer).htm"/>
+</Keyword>
+
+<Keyword Term="IAIMPAddonsPlaylistManagerListener">
+<Jump Url="AIMPSDKAddons.IAIMPAddonsPlaylistManagerListener.htm"/>
+</Keyword>
+
+<Keyword Term="IAIMPAddonsPlaylistManagerListener.StorageActivated">
+<Jump Url="AIMPSDKAddons.IAIMPAddonsPlaylistManagerListener.StorageActivated(HPLS).htm"/>
+</Keyword>
+
+<Keyword Term="IAIMPAddonsPlaylistManagerListener.StorageAdded">
+<Jump Url="AIMPSDKAddons.IAIMPAddonsPlaylistManagerListener.StorageAdded(HPLS).htm"/>
+</Keyword>
+
+<Keyword Term="IAIMPAddonsPlaylistManagerListener.StorageChanged">
+<Jump Url="AIMPSDKAddons.IAIMPAddonsPlaylistManagerListener.StorageChanged(HPLS,DWORD).htm"/>
+</Keyword>
+
+<Keyword Term="IAIMPAddonsPlaylistManagerListener.StorageRemoved">
+<Jump Url="AIMPSDKAddons.IAIMPAddonsPlaylistManagerListener.StorageRemoved(HPLS).htm"/>
+</Keyword>
+
+<Keyword Term="IAIMPAddonsPlaylistStrings">
+<Jump Url="AIMPSDKAddons.IAIMPAddonsPlaylistStrings.htm"/>
+</Keyword>
+
+<Keyword Term="IAIMPAddonsPlaylistStrings.ItemAdd">
+<Jump Url="AIMPSDKAddons.IAIMPAddonsPlaylistStrings.ItemAdd(PWideChar,PAIMPFileInfo).htm"/>
+</Keyword>
+
+<Keyword Term="IAIMPAddonsPlaylistStrings.ItemGetCount">
+<Jump Url="AIMPSDKAddons.IAIMPAddonsPlaylistStrings.ItemGetCount.htm"/>
+</Keyword>
+
+<Keyword Term="IAIMPAddonsPlaylistStrings.ItemGetFileName">
+<Jump Url="AIMPSDKAddons.IAIMPAddonsPlaylistStrings.ItemGetFileName(Integer,PWideChar,Integer).htm"/>
+</Keyword>
+
+<Keyword Term="IAIMPAddonsPlaylistStrings.ItemGetInfo">
+<Jump Url="AIMPSDKAddons.IAIMPAddonsPlaylistStrings.ItemGetInfo(Integer,PAIMPFileInfo).htm"/>
+</Keyword>
+
+<Keyword Term="IAIMPAddonsProxySettings">
+<Jump Url="AIMPSDKAddons.IAIMPAddonsProxySettings.htm"/>
+</Keyword>
+
+<Keyword Term="IAIMPAddonsProxySettings.GetProxyAuthorizationParams">
+<Jump Url="AIMPSDKAddons.IAIMPAddonsProxySettings.GetProxyAuthorizationParams(PWideChar,Integer,PWideChar,Integer).htm"/>
+</Keyword>
+
+<Keyword Term="IAIMPAddonsProxySettings.GetProxyParams">
+<Jump Url="AIMPSDKAddons.IAIMPAddonsProxySettings.GetProxyParams(PWideChar,Integer).htm"/>
+</Keyword>
+
+<Keyword Term="IAIMPAddonsSkinsManager">
+<Jump Url="AIMPSDKAddons.IAIMPAddonsSkinsManager.htm"/>
+</Keyword>
+
+<Keyword Term="IAIMPAddonsSkinsManager.GetCurrentSettings">
+<Jump Url="AIMPSDKAddons.IAIMPAddonsSkinsManager.GetCurrentSettings(PWideChar,Integer,PInteger,PInteger).htm"/>
+</Keyword>
+
+<Keyword Term="IAIMPAddonsSkinsManager.GetSkinInfo">
+<Jump Url="AIMPSDKAddons.IAIMPAddonsSkinsManager.GetSkinInfo(PWideChar,Integer,PAIMPSkinInfo).htm"/>
+</Keyword>
+
+<Keyword Term="IAIMPAddonsSkinsManager.HSLToRGB">
+<Jump Url="AIMPSDKAddons.IAIMPAddonsSkinsManager.HSLToRGB(Byte,Byte,Byte,Byte,Byte,Byte).htm"/>
+</Keyword>
+
+<Keyword Term="IAIMPAddonsSkinsManager.RGBToHSL">
+<Jump Url="AIMPSDKAddons.IAIMPAddonsSkinsManager.RGBToHSL(Byte,Byte,Byte,Byte,Byte,Byte).htm"/>
+</Keyword>
+
+<Keyword Term="IAIMPAddonsSkinsManager.Select">
+<Jump Url="AIMPSDKAddons.IAIMPAddonsSkinsManager.Select(PWideChar,Integer,Integer).htm"/>
+</Keyword>
+
+<Keyword Term="IAIMPCoreUnit">
+<Jump Url="AIMPSDKCore.IAIMPCoreUnit.htm"/>
+</Keyword>
+
+<Keyword Term="IAIMPCoreUnit.GetVersion">
+<Jump Url="AIMPSDKCore.IAIMPCoreUnit.GetVersion(TAIMPVersionInfo).htm"/>
+</Keyword>
+
+<Keyword Term="IAIMPCoreUnit.MessageHook">
+<Jump Url="AIMPSDKCore.IAIMPCoreUnit.MessageHook(IAIMPCoreUnitMessageHook).htm"/>
+</Keyword>
+
+<Keyword Term="IAIMPCoreUnit.MessageRegister">
+<Jump Url="AIMPSDKCore.IAIMPCoreUnit.MessageRegister(PWideChar).htm"/>
+</Keyword>
+
+<Keyword Term="IAIMPCoreUnit.MessageSend">
+<Jump Url="AIMPSDKCore.IAIMPCoreUnit.MessageSend(DWORD,Integer,Pointer).htm"/>
+</Keyword>
+
+<Keyword Term="IAIMPCoreUnit.MessageUnhook">
+<Jump Url="AIMPSDKCore.IAIMPCoreUnit.MessageUnhook(IAIMPCoreUnitMessageHook).htm"/>
+</Keyword>
+
+<Keyword Term="IAIMPCoreUnitMessageHook">
+<Jump Url="AIMPSDKCore.IAIMPCoreUnitMessageHook.htm"/>
+</Keyword>
+
+<Keyword Term="IAIMPCoreUnitMessageHook.CoreMessage">
+<Jump Url="AIMPSDKCore.IAIMPCoreUnitMessageHook.CoreMessage(DWORD,Integer,Pointer,HRESULT).htm"/>
+</Keyword>
+
+<Keyword Term="IAIMPInputPluginDecoder">
+<Jump Url="AIMPSDKInput.IAIMPInputPluginDecoder.htm"/>
+</Keyword>
+
+<Keyword Term="IAIMPInputPluginDecoder.DecoderGetFormatType">
+<Jump Url="AIMPSDKInput.IAIMPInputPluginDecoder.DecoderGetFormatType.htm"/>
+</Keyword>
+
+<Keyword Term="IAIMPInputPluginDecoder.DecoderGetInfo">
+<Jump Url="AIMPSDKInput.IAIMPInputPluginDecoder.DecoderGetInfo(Integer,Integer,Integer).htm"/>
+</Keyword>
+
+<Keyword Term="IAIMPInputPluginDecoder.DecoderGetPosition">
+<Jump Url="AIMPSDKInput.IAIMPInputPluginDecoder.DecoderGetPosition.htm"/>
+</Keyword>
+
+<Keyword Term="IAIMPInputPluginDecoder.DecoderGetSize">
+<Jump Url="AIMPSDKInput.IAIMPInputPluginDecoder.DecoderGetSize.htm"/>
+</Keyword>
+
+<Keyword Term="IAIMPInputPluginDecoder.DecoderGetTags">
+<Jump Url="AIMPSDKInput.IAIMPInputPluginDecoder.DecoderGetTags(PAIMPFileInfo).htm"/>
+</Keyword>
+
+<Keyword Term="IAIMPInputPluginDecoder.DecoderIsRealTimeStream">
+<Jump Url="AIMPSDKInput.IAIMPInputPluginDecoder.DecoderIsRealTimeStream.htm"/>
+</Keyword>
+
+<Keyword Term="IAIMPInputPluginDecoder.DecoderIsSeekable">
+<Jump Url="AIMPSDKInput.IAIMPInputPluginDecoder.DecoderIsSeekable.htm"/>
+</Keyword>
+
+<Keyword Term="IAIMPInputPluginDecoder.DecoderRead">
+<Jump Url="AIMPSDKInput.IAIMPInputPluginDecoder.DecoderRead(PByte,Integer).htm"/>
+</Keyword>
+
+<Keyword Term="IAIMPInputPluginDecoder.DecoderSetPosition">
+<Jump Url="AIMPSDKInput.IAIMPInputPluginDecoder.DecoderSetPosition(Int64).htm"/>
+</Keyword>
+
+<Keyword Term="IAIMPInputPluginHeader">
+<Jump Url="AIMPSDKInput.IAIMPInputPluginHeader.htm"/>
+</Keyword>
+
+<Keyword Term="IAIMPInputPluginHeader.CreateDecoder">
+<Jump Url="AIMPSDKInput.IAIMPInputPluginHeader.CreateDecoder(PWideChar,IAIMPInputPluginDecoder).htm"/>
+</Keyword>
+
+<Keyword Term="IAIMPInputPluginHeader.CreateDecoderEx">
+<Jump Url="AIMPSDKInput.IAIMPInputPluginHeader.CreateDecoderEx(IAIMPInputStream,IAIMPInputPluginDecoder).htm"/>
+</Keyword>
+
+<Keyword Term="IAIMPInputPluginHeader.Finalize">
+<Jump Url="AIMPSDKInput.IAIMPInputPluginHeader.Finalize.htm"/>
+</Keyword>
+
+<Keyword Term="IAIMPInputPluginHeader.GetFileInfo">
+<Jump Url="AIMPSDKInput.IAIMPInputPluginHeader.GetFileInfo(PWideChar,PAIMPFileInfo).htm"/>
+</Keyword>
+
+<Keyword Term="IAIMPInputPluginHeader.GetPluginAuthor">
+<Jump Url="AIMPSDKInput.IAIMPInputPluginHeader.GetPluginAuthor.htm"/>
+</Keyword>
+
+<Keyword Term="IAIMPInputPluginHeader.GetPluginFlags">
+<Jump Url="AIMPSDKInput.IAIMPInputPluginHeader.GetPluginFlags.htm"/>
+</Keyword>
+
+<Keyword Term="IAIMPInputPluginHeader.GetPluginInfo">
+<Jump Url="AIMPSDKInput.IAIMPInputPluginHeader.GetPluginInfo.htm"/>
+</Keyword>
+
+<Keyword Term="IAIMPInputPluginHeader.GetPluginName">
+<Jump Url="AIMPSDKInput.IAIMPInputPluginHeader.GetPluginName.htm"/>
+</Keyword>
+
+<Keyword Term="IAIMPInputPluginHeader.GetSupportsFormats">
+<Jump Url="AIMPSDKInput.IAIMPInputPluginHeader.GetSupportsFormats.htm"/>
+</Keyword>
+
+<Keyword Term="IAIMPInputPluginHeader.Initialize">
+<Jump Url="AIMPSDKInput.IAIMPInputPluginHeader.Initialize.htm"/>
+</Keyword>
+
+<Keyword Term="IAIMPInputStream">
+<Jump Url="AIMPSDKInput.IAIMPInputStream.htm"/>
+</Keyword>
+
+<Keyword Term="IAIMPInputStream.GetPosition">
+<Jump Url="AIMPSDKInput.IAIMPInputStream.GetPosition.htm"/>
+</Keyword>
+
+<Keyword Term="IAIMPInputStream.GetSize">
+<Jump Url="AIMPSDKInput.IAIMPInputStream.GetSize.htm"/>
+</Keyword>
+
+<Keyword Term="IAIMPInputStream.ReadData">
+<Jump Url="AIMPSDKInput.IAIMPInputStream.ReadData(PByte,Integer).htm"/>
+</Keyword>
+
+<Keyword Term="IAIMPInputStream.SetPosition">
+<Jump Url="AIMPSDKInput.IAIMPInputStream.SetPosition(Int64).htm"/>
+</Keyword>
+
+<Keyword Term="IAIMPInputStream.Skip">
+<Jump Url="AIMPSDKInput.IAIMPInputStream.Skip(Int64).htm"/>
+</Keyword>
+
+<Keyword Term="IAIMPVisualPlugin3">
+<Jump Url="AIMPSDKVisual.IAIMPVisualPlugin3.htm"/>
+</Keyword>
+
+<Keyword Term="IAIMPVisualPlugin3.DisplayClick">
+<Jump Url="AIMPSDKVisual.IAIMPVisualPlugin3.DisplayClick(Integer,Integer).htm"/>
+</Keyword>
+
+<Keyword Term="IAIMPVisualPlugin3.DisplayRender">
+<Jump Url="AIMPSDKVisual.IAIMPVisualPlugin3.DisplayRender(HDC,PAIMPVisualData).htm"/>
+</Keyword>
+
+<Keyword Term="IAIMPVisualPlugin3.DisplayResize">
+<Jump Url="AIMPSDKVisual.IAIMPVisualPlugin3.DisplayResize(Integer,Integer).htm"/>
+</Keyword>
+
+<Keyword Term="IAIMPVisualPlugin3.Finalize">
+<Jump Url="AIMPSDKVisual.IAIMPVisualPlugin3.Finalize.htm"/>
+</Keyword>
+
+<Keyword Term="IAIMPVisualPlugin3.GetPluginAuthor">
+<Jump Url="AIMPSDKVisual.IAIMPVisualPlugin3.GetPluginAuthor.htm"/>
+</Keyword>
+
+<Keyword Term="IAIMPVisualPlugin3.GetPluginFlags">
+<Jump Url="AIMPSDKVisual.IAIMPVisualPlugin3.GetPluginFlags.htm"/>
+</Keyword>
+
+<Keyword Term="IAIMPVisualPlugin3.GetPluginInfo">
+<Jump Url="AIMPSDKVisual.IAIMPVisualPlugin3.GetPluginInfo.htm"/>
+</Keyword>
+
+<Keyword Term="IAIMPVisualPlugin3.GetPluginName">
+<Jump Url="AIMPSDKVisual.IAIMPVisualPlugin3.GetPluginName.htm"/>
+</Keyword>
+
+<Keyword Term="IAIMPVisualPlugin3.Initialize">
+<Jump Url="AIMPSDKVisual.IAIMPVisualPlugin3.Initialize(IAIMPCoreUnit).htm"/>
+</Keyword>
+
+<Keyword Term="IID_IAIMPAddonsConfigFile">
+<Jump Url="AIMPSDKAddons.IID_IAIMPAddonsConfigFile.htm"/>
+</Keyword>
+
+<Keyword Term="IID_IAIMPAddonsCoverArtManager">
+<Jump Url="AIMPSDKAddons.IID_IAIMPAddonsCoverArtManager.htm"/>
+</Keyword>
+
+<Keyword Term="IID_IAIMPAddonsLanguageFile">
+<Jump Url="AIMPSDKAddons.IID_IAIMPAddonsLanguageFile.htm"/>
+</Keyword>
+
+<Keyword Term="IID_IAIMPAddonsMenuManager">
+<Jump Url="AIMPSDKAddons.IID_IAIMPAddonsMenuManager.htm"/>
+</Keyword>
+
+<Keyword Term="IID_IAIMPAddonsOptionsDialog">
+<Jump Url="AIMPSDKAddons.IID_IAIMPAddonsOptionsDialog.htm"/>
+</Keyword>
+
+<Keyword Term="IID_IAIMPAddonsPlayerManager">
+<Jump Url="AIMPSDKAddons.IID_IAIMPAddonsPlayerManager.htm"/>
+</Keyword>
+
+<Keyword Term="IID_IAIMPAddonsPlaylistManager">
+<Jump Url="AIMPSDKAddons.IID_IAIMPAddonsPlaylistManager.htm"/>
+</Keyword>
+
+<Keyword Term="IID_IAIMPAddonsPlaylistManagerListener">
+<Jump Url="AIMPSDKAddons.IID_IAIMPAddonsPlaylistManagerListener.htm"/>
+</Keyword>
+
+<Keyword Term="IID_IAIMPAddonsPlaylistStrings">
+<Jump Url="AIMPSDKAddons.IID_IAIMPAddonsPlaylistStrings.htm"/>
+</Keyword>
+
+<Keyword Term="IID_IAIMPAddonsProxySettings">
+<Jump Url="AIMPSDKAddons.IID_IAIMPAddonsProxySettings.htm"/>
+</Keyword>
+
+<Keyword Term="IID_IAIMPAddonsSkinsManager">
+<Jump Url="AIMPSDKAddons.IID_IAIMPAddonsSkinsManager.htm"/>
+</Keyword>
+
+<Keyword Term="IID_IAIMPCoreUnitMessageHook">
+<Jump Url="AIMPSDKCore.IID_IAIMPCoreUnitMessageHook.htm"/>
+</Keyword>
+
+<Keyword Term="IID_IAIMPInputPluginDecoder">
+<Jump Url="AIMPSDKInput.IID_IAIMPInputPluginDecoder.htm"/>
+</Keyword>
+
+<Keyword Term="IID_IAIMPInputStream">
+<Jump Url="AIMPSDKInput.IID_IAIMPInputStream.htm"/>
+</Keyword>
+
+<Keyword Term="PAIMPFileInfo">
+<Jump Url="AIMPSDKCommon.PAIMPFileInfo.htm"/>
+</Keyword>
+
+<Keyword Term="PAIMPFileStatisticsInfo">
+<Jump Url="AIMPSDKAddons.PAIMPFileStatisticsInfo.htm"/>
+</Keyword>
+
+<Keyword Term="PAIMPMenuItemInfo">
+<Jump Url="AIMPSDKAddons.PAIMPMenuItemInfo.htm"/>
+</Keyword>
+
+<Keyword Term="PAIMPSkinInfo">
+<Jump Url="AIMPSDKAddons.PAIMPSkinInfo.htm"/>
+</Keyword>
+
+<Keyword Term="PAIMPVisualData">
+<Jump Url="AIMPSDKVisual.PAIMPVisualData.htm"/>
+</Keyword>
+
+<Keyword Term="SID_IAIMPAddonsConfigFile">
+<Jump Url="AIMPSDKAddons.SID_IAIMPAddonsConfigFile.htm"/>
+</Keyword>
+
+<Keyword Term="SID_IAIMPAddonsCoverArtManager">
+<Jump Url="AIMPSDKAddons.SID_IAIMPAddonsCoverArtManager.htm"/>
+</Keyword>
+
+<Keyword Term="SID_IAIMPAddonsLanguageFile">
+<Jump Url="AIMPSDKAddons.SID_IAIMPAddonsLanguageFile.htm"/>
+</Keyword>
+
+<Keyword Term="SID_IAIMPAddonsMenuManager">
+<Jump Url="AIMPSDKAddons.SID_IAIMPAddonsMenuManager.htm"/>
+</Keyword>
+
+<Keyword Term="SID_IAIMPAddonsOptionsDialog">
+<Jump Url="AIMPSDKAddons.SID_IAIMPAddonsOptionsDialog.htm"/>
+</Keyword>
+
+<Keyword Term="SID_IAIMPAddonsPlayerManager">
+<Jump Url="AIMPSDKAddons.SID_IAIMPAddonsPlayerManager.htm"/>
+</Keyword>
+
+<Keyword Term="SID_IAIMPAddonsPlaylistManager">
+<Jump Url="AIMPSDKAddons.SID_IAIMPAddonsPlaylistManager.htm"/>
+</Keyword>
+
+<Keyword Term="SID_IAIMPAddonsPlaylistManagerListener">
+<Jump Url="AIMPSDKAddons.SID_IAIMPAddonsPlaylistManagerListener.htm"/>
+</Keyword>
+
+<Keyword Term="SID_IAIMPAddonsPlaylistStrings">
+<Jump Url="AIMPSDKAddons.SID_IAIMPAddonsPlaylistStrings.htm"/>
+</Keyword>
+
+<Keyword Term="SID_IAIMPAddonsProxySettings">
+<Jump Url="AIMPSDKAddons.SID_IAIMPAddonsProxySettings.htm"/>
+</Keyword>
+
+<Keyword Term="SID_IAIMPAddonsSkinsManager">
+<Jump Url="AIMPSDKAddons.SID_IAIMPAddonsSkinsManager.htm"/>
+</Keyword>
+
+<Keyword Term="SID_IAIMPCoreUnitMessageHook">
+<Jump Url="AIMPSDKCore.SID_IAIMPCoreUnitMessageHook.htm"/>
+</Keyword>
+
+<Keyword Term="SID_IAIMPInputPluginDecoder">
+<Jump Url="AIMPSDKInput.SID_IAIMPInputPluginDecoder.htm"/>
+</Keyword>
+
+<Keyword Term="SID_IAIMPInputStream">
+<Jump Url="AIMPSDKInput.SID_IAIMPInputStream.htm"/>
+</Keyword>
+
+<Keyword Term="TAIMPAddonPluginHeaderProc">
+<Jump Url="AIMPSDKAddons.TAIMPAddonPluginHeaderProc.htm"/>
+</Keyword>
+
+<Keyword Term="TAIMPAddonsPlaylistManagerCompareProc">
+<Jump Url="AIMPSDKAddons.TAIMPAddonsPlaylistManagerCompareProc.htm"/>
+</Keyword>
+
+<Keyword Term="TAIMPAddonsPlaylistManagerDeleteProc">
+<Jump Url="AIMPSDKAddons.TAIMPAddonsPlaylistManagerDeleteProc.htm"/>
+</Keyword>
+
+<Keyword Term="TAIMPFileInfo">
+<Jump Url="AIMPSDKCommon.TAIMPFileInfo.htm"/>
+</Keyword>
+
+<Keyword Term="TAIMPFileInfo.Active">
+<Jump Url="AIMPSDKCommon.TAIMPFileInfo.Active.htm"/>
+</Keyword>
+
+<Keyword Term="TAIMPFileInfo.Album">
+<Jump Url="AIMPSDKCommon.TAIMPFileInfo.Album.htm"/>
+</Keyword>
+
+<Keyword Term="TAIMPFileInfo.AlbumLength">
+<Jump Url="AIMPSDKCommon.TAIMPFileInfo.AlbumLength.htm"/>
+</Keyword>
+
+<Keyword Term="TAIMPFileInfo.Artist">
+<Jump Url="AIMPSDKCommon.TAIMPFileInfo.Artist.htm"/>
+</Keyword>
+
+<Keyword Term="TAIMPFileInfo.ArtistLength">
+<Jump Url="AIMPSDKCommon.TAIMPFileInfo.ArtistLength.htm"/>
+</Keyword>
+
+<Keyword Term="TAIMPFileInfo.BitRate">
+<Jump Url="AIMPSDKCommon.TAIMPFileInfo.BitRate.htm"/>
+</Keyword>
+
+<Keyword Term="TAIMPFileInfo.Channels">
+<Jump Url="AIMPSDKCommon.TAIMPFileInfo.Channels.htm"/>
+</Keyword>
+
+<Keyword Term="TAIMPFileInfo.Date">
+<Jump Url="AIMPSDKCommon.TAIMPFileInfo.Date.htm"/>
+</Keyword>
+
+<Keyword Term="TAIMPFileInfo.DateLength">
+<Jump Url="AIMPSDKCommon.TAIMPFileInfo.DateLength.htm"/>
+</Keyword>
+
+<Keyword Term="TAIMPFileInfo.Duration">
+<Jump Url="AIMPSDKCommon.TAIMPFileInfo.Duration.htm"/>
+</Keyword>
+
+<Keyword Term="TAIMPFileInfo.FileName">
+<Jump Url="AIMPSDKCommon.TAIMPFileInfo.FileName.htm"/>
+</Keyword>
+
+<Keyword Term="TAIMPFileInfo.FileNameLength">
+<Jump Url="AIMPSDKCommon.TAIMPFileInfo.FileNameLength.htm"/>
+</Keyword>
+
+<Keyword Term="TAIMPFileInfo.FileSize">
+<Jump Url="AIMPSDKCommon.TAIMPFileInfo.FileSize.htm"/>
+</Keyword>
+
+<Keyword Term="TAIMPFileInfo.Genre">
+<Jump Url="AIMPSDKCommon.TAIMPFileInfo.Genre.htm"/>
+</Keyword>
+
+<Keyword Term="TAIMPFileInfo.GenreLength">
+<Jump Url="AIMPSDKCommon.TAIMPFileInfo.GenreLength.htm"/>
+</Keyword>
+
+<Keyword Term="TAIMPFileInfo.Mark">
+<Jump Url="AIMPSDKCommon.TAIMPFileInfo.Mark.htm"/>
+</Keyword>
+
+<Keyword Term="TAIMPFileInfo.SampleRate">
+<Jump Url="AIMPSDKCommon.TAIMPFileInfo.SampleRate.htm"/>
+</Keyword>
+
+<Keyword Term="TAIMPFileInfo.StructSize">
+<Jump Url="AIMPSDKCommon.TAIMPFileInfo.StructSize.htm"/>
+</Keyword>
+
+<Keyword Term="TAIMPFileInfo.Title">
+<Jump Url="AIMPSDKCommon.TAIMPFileInfo.Title.htm"/>
+</Keyword>
+
+<Keyword Term="TAIMPFileInfo.TitleLength">
+<Jump Url="AIMPSDKCommon.TAIMPFileInfo.TitleLength.htm"/>
+</Keyword>
+
+<Keyword Term="TAIMPFileInfo.TrackNumber">
+<Jump Url="AIMPSDKCommon.TAIMPFileInfo.TrackNumber.htm"/>
+</Keyword>
+
+<Keyword Term="TAIMPFileStatisticsInfo">
+<Jump Url="AIMPSDKAddons.TAIMPFileStatisticsInfo.htm"/>
+</Keyword>
+
+<Keyword Term="TAIMPFileStatisticsInfo.AddDate">
+<Jump Url="AIMPSDKAddons.TAIMPFileStatisticsInfo.AddDate.htm"/>
+</Keyword>
+
+<Keyword Term="TAIMPFileStatisticsInfo.Mark">
+<Jump Url="AIMPSDKAddons.TAIMPFileStatisticsInfo.Mark.htm"/>
+</Keyword>
+
+<Keyword Term="TAIMPFileStatisticsInfo.PlayCount">
+<Jump Url="AIMPSDKAddons.TAIMPFileStatisticsInfo.PlayCount.htm"/>
+</Keyword>
+
+<Keyword Term="TAIMPFileStatisticsInfo.PlayDate">
+<Jump Url="AIMPSDKAddons.TAIMPFileStatisticsInfo.PlayDate.htm"/>
+</Keyword>
+
+<Keyword Term="TAIMPInputPluginHeaderProc">
+<Jump Url="AIMPSDKInput.TAIMPInputPluginHeaderProc.htm"/>
+</Keyword>
+
+<Keyword Term="TAIMPMenuItemInfo">
+<Jump Url="AIMPSDKAddons.TAIMPMenuItemInfo.htm"/>
+</Keyword>
+
+<Keyword Term="TAIMPMenuItemInfo.Bitmap">
+<Jump Url="AIMPSDKAddons.TAIMPMenuItemInfo.Bitmap.htm"/>
+</Keyword>
+
+<Keyword Term="TAIMPMenuItemInfo.Caption">
+<Jump Url="AIMPSDKAddons.TAIMPMenuItemInfo.Caption.htm"/>
+</Keyword>
+
+<Keyword Term="TAIMPMenuItemInfo.Flags">
+<Jump Url="AIMPSDKAddons.TAIMPMenuItemInfo.Flags.htm"/>
+</Keyword>
+
+<Keyword Term="TAIMPMenuItemInfo.Proc">
+<Jump Url="AIMPSDKAddons.TAIMPMenuItemInfo.Proc.htm"/>
+</Keyword>
+
+<Keyword Term="TAIMPMenuItemInfo.ShortCut">
+<Jump Url="AIMPSDKAddons.TAIMPMenuItemInfo.ShortCut.htm"/>
+</Keyword>
+
+<Keyword Term="TAIMPMenuItemInfo.StructSize">
+<Jump Url="AIMPSDKAddons.TAIMPMenuItemInfo.StructSize.htm"/>
+</Keyword>
+
+<Keyword Term="TAIMPMenuItemInfo.UserData">
+<Jump Url="AIMPSDKAddons.TAIMPMenuItemInfo.UserData.htm"/>
+</Keyword>
+
+<Keyword Term="TAIMPMenuProc">
+<Jump Url="AIMPSDKAddons.TAIMPMenuProc.htm"/>
+</Keyword>
+
+<Keyword Term="TAIMPSkinInfo">
+<Jump Url="AIMPSDKAddons.TAIMPSkinInfo.htm"/>
+</Keyword>
+
+<Keyword Term="TAIMPSkinInfo.AuthorBuffer">
+<Jump Url="AIMPSDKAddons.TAIMPSkinInfo.AuthorBuffer.htm"/>
+</Keyword>
+
+<Keyword Term="TAIMPSkinInfo.AuthorBufferLength">
+<Jump Url="AIMPSDKAddons.TAIMPSkinInfo.AuthorBufferLength.htm"/>
+</Keyword>
+
+<Keyword Term="TAIMPSkinInfo.InfoBuffer">
+<Jump Url="AIMPSDKAddons.TAIMPSkinInfo.InfoBuffer.htm"/>
+</Keyword>
+
+<Keyword Term="TAIMPSkinInfo.InfoBufferLength">
+<Jump Url="AIMPSDKAddons.TAIMPSkinInfo.InfoBufferLength.htm"/>
+</Keyword>
+
+<Keyword Term="TAIMPSkinInfo.NameBuffer">
+<Jump Url="AIMPSDKAddons.TAIMPSkinInfo.NameBuffer.htm"/>
+</Keyword>
+
+<Keyword Term="TAIMPSkinInfo.NameBufferLength">
+<Jump Url="AIMPSDKAddons.TAIMPSkinInfo.NameBufferLength.htm"/>
+</Keyword>
+
+<Keyword Term="TAIMPSkinInfo.Preview">
+<Jump Url="AIMPSDKAddons.TAIMPSkinInfo.Preview.htm"/>
+</Keyword>
+
+<Keyword Term="TAIMPSkinInfo.StructSize">
+<Jump Url="AIMPSDKAddons.TAIMPSkinInfo.StructSize.htm"/>
+</Keyword>
+
+<Keyword Term="TAIMPVersionInfo">
+<Jump Url="AIMPSDKCore.TAIMPVersionInfo.htm"/>
+</Keyword>
+
+<Keyword Term="TAIMPVersionInfo.BuildDate">
+<Jump Url="AIMPSDKCore.TAIMPVersionInfo.BuildDate.htm"/>
+</Keyword>
+
+<Keyword Term="TAIMPVersionInfo.BuildNumber">
+<Jump Url="AIMPSDKCore.TAIMPVersionInfo.BuildNumber.htm"/>
+</Keyword>
+
+<Keyword Term="TAIMPVersionInfo.BuildSuffix">
+<Jump Url="AIMPSDKCore.TAIMPVersionInfo.BuildSuffix.htm"/>
+</Keyword>
+
+<Keyword Term="TAIMPVersionInfo.ID">
+<Jump Url="AIMPSDKCore.TAIMPVersionInfo.ID.htm"/>
+</Keyword>
+
+<Keyword Term="TAIMPVisualData">
+<Jump Url="AIMPSDKVisual.TAIMPVisualData.htm"/>
+</Keyword>
+
+<Keyword Term="TAIMPVisualData.LevelL">
+<Jump Url="AIMPSDKVisual.TAIMPVisualData.LevelL.htm"/>
+</Keyword>
+
+<Keyword Term="TAIMPVisualData.LevelR">
+<Jump Url="AIMPSDKVisual.TAIMPVisualData.LevelR.htm"/>
+</Keyword>
+
+<Keyword Term="TAIMPVisualData.Spectrum">
+<Jump Url="AIMPSDKVisual.TAIMPVisualData.Spectrum.htm"/>
+</Keyword>
+
+<Keyword Term="TAIMPVisualData.WaveForm">
+<Jump Url="AIMPSDKVisual.TAIMPVisualData.WaveForm.htm"/>
+</Keyword>
+
+<Keyword Term="TAIMPVisualPluginProc">
+<Jump Url="AIMPSDKVisual.TAIMPVisualPluginProc.htm"/>
+</Keyword>
+
+<Keyword Term="TSpectrum">
+<Jump Url="AIMPSDKVisual.TSpectrum.htm"/>
+</Keyword>
+
+<Keyword Term="TWaveForm">
+<Jump Url="AIMPSDKVisual.TWaveForm.htm"/>
+</Keyword>
+
+<Keyword Term="WM_AIMP_COMMAND">
+<Jump Url="AIMPSDKRemote.WM_AIMP_COMMAND.htm"/>
+</Keyword>
+
+<Keyword Term="WM_AIMP_COPYDATA_COVER_ID">
+<Jump Url="AIMPSDKRemote.WM_AIMP_COPYDATA_COVER_ID.htm"/>
+</Keyword>
+
+<Keyword Term="WM_AIMP_LANG_CHANGED">
+<Jump Url="AIMPSDKAddons.WM_AIMP_LANG_CHANGED.htm"/>
+</Keyword>
+
+<Keyword Term="WM_AIMP_NOTIFY">
+<Jump Url="AIMPSDKRemote.WM_AIMP_NOTIFY.htm"/>
+</Keyword>
+
+<Keyword Term="WM_AIMP_PROPERTY">
+<Jump Url="AIMPSDKRemote.WM_AIMP_PROPERTY.htm"/>
+</Keyword>
+
+</HelpIndex>

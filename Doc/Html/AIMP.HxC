@@ -1,0 +1,25 @@
+﻿<?xml version="1.0"?>
+<!DOCTYPE HelpCollection SYSTEM "ms-help://Hx/Resources/HelpCollection.DTD">
+<HelpCollection
+  DTDVersion="1.0"
+  FileVersion="1.0"
+  Title="AIMP SDK HELP">
+
+  <CompilerOptions CompileResult="Hxs" OutputFile="AIMP.HxS" CreateFullTextIndex="Yes">
+    <IncludeFile File="AIMP.HxF"/>
+  </CompilerOptions>
+
+  <TOCDef File="AIMP.HxT"/>
+
+  <KeywordIndexDef File="AIMP.HxK"/>
+  <KeywordIndexDef File="AIMP_A.HxK"/>
+  <KeywordIndexDef File="AIMP_F.HxK"/>
+  <KeywordIndexDef File="AIMP_NamedURL.HxK"/>
+
+  <ItemMoniker Name="!DefaultFullTextSearch" ProgId="HxDs.HxFullTextSearch" InitData=""/>
+  <ItemMoniker Name="!DefaultTOC" ProgId="HxDs.HxHierarchy" InitData=""/>
+  <ItemMoniker Name="!DefaultKeywordIndex" ProgId="HxDs.HxIndex" InitData="K"/>
+  <ItemMoniker Name="!DefaultAssociativeIndex" ProgId="HxDs.HxIndex" InitData="A"/>
+  <ItemMoniker Name="!DefaultContextWindowIndex" ProgId="HxDs.HxIndex" InitData="F"/>
+  <ItemMoniker Name="!DefaultNamedUrlIndex" ProgId="HxDs.HxIndex" InitData="NamedUrlIndex"/>
+</HelpCollection>

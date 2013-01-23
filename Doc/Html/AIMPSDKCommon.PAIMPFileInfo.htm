@@ -1,0 +1,156 @@
+﻿<?xml version="1.0"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/TR/xhtml1">
+<head>
+<title>PAIMPFileInfo Type</title>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+<meta name="generator" content="Documentation Insight (Trial Version)" />
+<base target="_self" />
+<link type="text/css" rel="Stylesheet" href="css/presentation.css" />
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/di.utils.js"></script>
+<script type="text/javascript">if (top.frames.length == 0)
+{
+var topicUrl = top.location.href.substring(top.location.href.lastIndexOf("/") + 1, top.location.href.length);
+var regex = new RegExp('(mk:@MSITStore|ms-help):?', 'i')
+if(!top.location.href.match(regex)) {
+	 top.location.href = "index.htm?" + topicUrl;
+}}
+else if (top && top.navigationFrame && top.navigationFrame.selectTocItem)
+{
+top.navigationFrame.selectTocItem("AIMPSDKCommon.PAIMPFileInfo");
+};</script>
+<style></style>
+</head>
+<body>
+<input type="hidden" id="contentEditableControl" class="userDataStyle" value="false" />
+<input type="hidden" id="userDataCache" class="userDataStyle" />
+<input type="hidden" id="hiddenScrollOffset" />
+<img id="collapseImage" style="display:none; height:0; width:0;" src="images/collapse_all.gif" title="Collapse image" xmlns="" />
+<img id="expandImage" style="display:none; height:0; width:0;" src="images/expand_all.gif" title="Expand Image" xmlns="" />
+<img id="collapseAllImage" style="display:none; height:0; width:0;" src="images/collapse_all.gif" xmlns="" />
+<img id="expandAllImage" style="display:none; height:0; width:0;" src="images/expand_all.gif" xmlns="" />
+<img id="dropDownImage" style="display:none; height:0; width:0;" src="images/dropdown.gif" xmlns="" />
+<img id="dropDownHoverImage" style="display:none; height:0; width:0;" src="images/dropdownHover.gif" xmlns="" />
+<img id="copyImage" style="display:none; height:0; width:0;" src="images/copycode.gif" title="Copy image" xmlns="" />
+<img id="copyHoverImage" style="display:none; height:0; width:0;" src="images/copycodeHighlight.gif" title="CopyHover image" xmlns="" />
+<div id="header">
+<div class="title">Aimp Help</div>
+</div>
+<div id="mainSection">
+<div id="mainBody">
+<div id="summarySection" class="section" xmlns="">
+<input class="tagName" type="hidden" value="summary" />
+<div id="summaryHeader" class="sectionHeader">
+<h1 class="heading">
+<span onclick="ExpandCollapse(summaryHeaderImage)" style="cursor:default;" onkeypress="ExpandCollapse_CheckKey(summaryHeader, event)" tabindex="0">
+<img id="summaryHeaderImage" class="toggle" name="toggleSwitch" src="images/collapse_all.gif" />Summary</span>
+</h1>
+</div>
+<div id="summaryContent" class="sectionContent" name="collapseableSection" style="" contentEditable="false">
+<p>
+    A pointer to the structure TAIMPFileInfo.
+  </p><p>
+    Указатель на структуру TAIMPFileInfo.
+  </p>
+</div>
+</div>
+<div id="syntaxSection" class="section" xmlns="">
+<div id="syntaxHeader" class="sectionHeader">
+<h1 class="heading">
+<span onclick="ExpandCollapse(syntaxHeaderImage)" style="cursor:default;" onkeypress="ExpandCollapse_CheckKey(syntaxHeader, event)" tabindex="0">
+<img id="syntaxHeaderImage" class="toggle" name="toggleSwitch" src="images/collapse_all.gif" />Syntax</span>
+</h1>
+</div>
+<div id="syntaxContent" class="sectionContent" name="collapseableSection" style="" contentEditable="false">
+<div id="syntaxDefinition" class="code"><pre class="brush: delphi; toolbar: false;">PAIMPFileInfo = ^TAIMPFileInfo;</pre></div>
+</div>
+</div>
+<div id="remarksSection" class="section" xmlns="">
+<input class="tagName" type="hidden" value="remarks" />
+<div id="remarksHeader" class="sectionHeader">
+<h1 class="heading">
+<span onclick="ExpandCollapse(remarksHeaderImage)" style="cursor:default;" onkeypress="ExpandCollapse_CheckKey(remarksHeader, event)" tabindex="0">
+<img id="remarksHeaderImage" class="toggle" name="toggleSwitch" src="images/collapse_all.gif" />Remarks</span>
+</h1>
+</div>
+<div id="remarksContent" class="sectionContent" name="collapseableSection" style="" contentEditable="false">
+<p>
+    See Remote demo.
+  </p><p>
+    Пример использования смотри в демке Remote.
+  </p>
+</div>
+</div>
+<div id="exampleSection" class="section" xmlns="">
+<input class="tagName" type="hidden" value="example" />
+<div id="exampleHeader" class="sectionHeader">
+<h1 class="heading">
+<span onclick="ExpandCollapse(exampleHeaderImage)" style="cursor:default;" onkeypress="ExpandCollapse_CheckKey(exampleHeader, event)" tabindex="0">
+<img id="exampleHeaderImage" class="toggle" name="toggleSwitch" src="images/collapse_all.gif" />Examples</span>
+</h1>
+</div>
+<div id="exampleContent" class="sectionContent" name="collapseableSection" style="" contentEditable="false">
+<p><div class="code" contentEditable="false"><input class="code" type="hidden" value="Delphi" /><span><table width="100%" cellspacing="0" cellpadding="0"><tr><th>Delphi</th><th><span class="copyCode" onclick="CopyCode(this)" onkeypress="CopyCode_CheckKey(this)" onmouseover="ChangeCopyCodeIcon(this)" onfocusin="ChangeCopyCodeIcon(this)" onmouseout="ChangeCopyCodeIcon(this)" onfocusout="ChangeCopyCodeIcon(this)" tabindex="0"><img class="copyCodeImage" name="ccImage" align="absmiddle" alt="CopyCode image" src="images/copycode.gif" />Copy Code
+              </span></th></tr><tr><td colspan="2"><div class="codeEditor" contentEditable="false"><pre>
+procedure TForm.RefreshTrackInfo;
+ function ExtractString(var B: PByte; ALength: Integer): WideString;
+ begin
+ SetString(Result, PWideChar(B), ALength);
+ Inc(B, SizeOf(WideChar) * ALength);
+ end;
+
+var
+ABuffer: PByte;
+AFile: Cardinal;
+AInfo: PAIMPFileInfo;
+
+begin
+
+ListBox1.Items.Clear;
+AFile := OpenFileMapping(FILE_MAP_READ, True, AIMPRemoteAccessClass);
+try
+ AInfo := MapViewOfFile(AFile, FILE_MAP_READ, 0, 0, AIMPRemoteAccessMapFileSize);
+ if AInfo &lt;&gt; nil then
+ try
+ if AInfo &lt;&gt; nil  then
+  begin
+  ABuffer := Pointer(DWORD(AInfo) + SizeOf(TAIMPFileInfo));
+  Listbox.Items.Add(Format('%d Hz, %d kbps, %d chans', [AInfo^.SampleRate, AInfo^.BitRate, AInfo^.Channels]));
+  Listbox.Items.Add(Format('%d seconds, %d bytes', [AInfo^.Duration div 1000, AInfo^.FileSize]));
+  Listbox.Items.Add('Album: ' + ExtractString(ABuffer, AInfo^.AlbumLength));
+  Listbox.Items.Add('Artist: ' + ExtractString(ABuffer, AInfo^.ArtistLength));
+  Listbox.Items.Add('Date: ' + ExtractString(ABuffer, AInfo^.DateLength));
+  Listbox.Items.Add('FileName: ' + ExtractString(ABuffer, AInfo^.FileNameLength));
+  Listbox.Items.Add('Genre: ' + ExtractString(ABuffer, AInfo^.GenreLength));
+  Listbox.Items.Add('Title: ' + ExtractString(ABuffer, AInfo^.TitleLength));
+  end;
+ finally UnmapViewOfFile(AInfo);
+ end;
+finally
+CloseHandle(AFile);
+end;
+end;</pre></div></td></tr></table></span></div></p>
+</div>
+</div>
+<div id="seealsoSection" class="section" xmlns="">
+<input class="tagName" type="hidden" value="seealso" />
+<div id="seealsoHeader" class="sectionHeader">
+<h1 class="heading">
+<span onclick="ExpandCollapse(seealsoHeaderImage)" style="cursor:default;" onkeypress="ExpandCollapse_CheckKey(seealsoHeader, event)" tabindex="0">
+<img id="seealsoHeaderImage" class="toggle" name="toggleSwitch" src="images/collapse_all.gif" />See Also</span>
+</h1>
+</div>
+<div id="seealsoContent" class="sectionContent" name="collapseableSection" style="" contentEditable="false">
+<h4 class="subHeading">Reference</h4><ul class="seeAlsoCodeReference"><li><a href="AIMPSDKCommon.TAIMPFileInfo.htm" title="AIMPSDKCommon.TAIMPFileInfo">
+  TAIMPFileInfo
+</a></li><li><a href="AIMPSDKCommon.htm" title="AIMPSDKCommon">AIMPSDKCommon Namespace</a></li></ul>
+</div>
+</div>
+</div>
+</div>
+<div id="footer">
+<div id="footerContent"><p><strong>Note</strong>: This file was generated by <a href="http://www.devjetsoftware.com" target="_blank">Documentation Insight</a> Trial version.</p></div>
+</div>
+</body>
+</html>
