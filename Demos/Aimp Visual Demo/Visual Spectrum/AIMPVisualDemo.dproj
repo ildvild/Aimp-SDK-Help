@@ -39,8 +39,6 @@
 			<DelphiCompile Include="AIMPVisualDemo.dpr">
 				<MainSource>MainSource</MainSource>
 			</DelphiCompile>
-			<DCCReference Include="..\..\AIMPSDKCore.pas"/>
-			<DCCReference Include="..\..\AIMPSDKVisual.pas"/>
 			<DCCReference Include="AIMPVisualDemoMain.pas"/>
 			<BuildConfiguration Include="Base">
 				<Key>Base</Key>

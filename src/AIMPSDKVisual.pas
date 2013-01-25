@@ -1,45 +1,45 @@
 {$REGION 'Documentation'}
-///	<summary>
-///	  <para>
-///	    The module that contains the objects that implement the visualization.
-///	  </para>
-///	  <para>
-///	    Модуль, содержащий классы и струкуры, реализующие визуализацию.
-///	  </para>
-///	</summary>
-///	<remarks>
-///	  <para>
-///	    Export function name: <c>AIMP_QueryVisual3.</c>
-///	  </para>
-///	  <para>
-///	    See Visual demo.
-///	  </para>
-///	  <para>
-///	    Название экспортируемой функции: <c>AIMP_QueryVisual3.</c>
-///	  </para>
-///	  <para>
-///	    Смотри пример реализации в демке Visual.
-///	  </para>
-///	</remarks>
-///	<example>
-///	  <code lang="Delphi">
-///	 library AIMPVisualDemo;
+/// <summary>
+/// <para>
+/// The module that contains the objects that implement the visualization.
+/// </para>
+/// <para>
+/// Модуль, содержащий классы и струкуры, реализующие визуализацию.
+/// </para>
+/// </summary>
+/// <remarks>
+/// <para>
+/// Export function name: <c>AIMP_QueryVisual3.</c>
+/// </para>
+/// <para>
+/// See Visual demo.
+/// </para>
+/// <para>
+/// Название экспортируемой функции: <c>AIMP_QueryVisual3.</c>
+/// </para>
+/// <para>
+/// Смотри пример реализации в демке Visual.
+/// </para>
+/// </remarks>
+/// <example>
+/// <code lang="Delphi">
+/// library AIMPVisualDemo;
 ///
-///	 uses
-///	 AIMPVisualDemoMain in 'AIMPVisualDemoMain.pas';
+/// uses
+/// AIMPVisualDemoMain in 'AIMPVisualDemoMain.pas';
 ///
-///	 function AIMP_QueryVisual3(out AHeader: IAIMPVisualPlugin3): LongBool; stdcall;
-///	 begin
-///	 AHeader := TAIMPVisualPlugin.Create;
-///	 Result := True;
-///	 end;
+/// function AIMP_QueryVisual3(out AHeader: IAIMPVisualPlugin3): LongBool; stdcall;
+/// begin
+/// AHeader := TAIMPVisualPlugin.Create;
+/// Result := True;
+/// end;
 ///
-///	 exports
-///	 AIMP_QueryVisual3;
+/// exports
+/// AIMP_QueryVisual3;
 ///
-///	 begin
-///	 end.</code>
-///	</example>
+/// begin
+/// end.</code>
+/// </example>
 {$ENDREGION}
 unit AIMPSDKVisual;
 
@@ -139,25 +139,24 @@ type
   /// Array of spectrum's data.
   /// </para>
   /// <para>
-  /// Массив, содержащий значения для спектра: 2 канала по 512 значений.
+  /// Массив, содержащий значения для спектра: 2 канала по 256 значений.
   /// </para>
   /// </summary>
 {$ENDREGION}
   TSpectrum = array [0 .. 1, 0 .. 255] of Byte;
-
-  {$REGION 'Documentation'}
-  ///	<summary>
-  ///	  <para>
-  ///	    Pointer on TAIMPVisualData's structure.
-  ///	  </para>
-  ///	  <para>
-  ///	    Указатель на структуру TAIMPVisualData.
-  ///	  </para>
-  ///	</summary>
-  ///	<seealso cref="TAIMPVisualData">
-  ///	  TAIMPVisualData
-  ///	</seealso>
-  {$ENDREGION}
+{$REGION 'Documentation'}
+  /// <summary>
+  /// <para>
+  /// Pointer on TAIMPVisualData's structure.
+  /// </para>
+  /// <para>
+  /// Указатель на структуру TAIMPVisualData.
+  /// </para>
+  /// </summary>
+  /// <seealso cref="TAIMPVisualData">
+  /// TAIMPVisualData
+  /// </seealso>
+{$ENDREGION}
   PAIMPVisualData = ^TAIMPVisualData;
 {$REGION 'Documentation'}
   /// <summary>
@@ -345,45 +344,43 @@ type
     /// </seealso>
 {$ENDREGION}
     function GetPluginFlags: DWORD; stdcall; // See AIMP_VISUAL_FLAGS_XXX
-
-    {$REGION 'Documentation'}
-    ///	<summary>
-    ///	  <para>
-    ///	    Initialize of the visualization.
-    ///	  </para>
-    ///	  <para>
-    ///	    Инициализация визуализации.
-    ///	  </para>
-    ///	</summary>
-    ///	<example>
-    ///	  <code lang="Delphi">
-    ///	 function TAIMPVisualPlugin.Initialize(ACoreUnit: IAIMPCoreUnit): HRESULT;
-    ///	 begin
-    ///	 FWaveLinePen := CreatePen(PS_SOLID, 1, $FFFFFF);
-    ///	 Result := S_OK;
-    ///	 end;  </code>
-    ///	</example>
-    {$ENDREGION}
+{$REGION 'Documentation'}
+    /// <summary>
+    /// <para>
+    /// Initialize of the visualization.
+    /// </para>
+    /// <para>
+    /// Инициализация визуализации.
+    /// </para>
+    /// </summary>
+    /// <example>
+    /// <code lang="Delphi">
+    /// function TAIMPVisualPlugin.Initialize(ACoreUnit: IAIMPCoreUnit): HRESULT;
+    /// begin
+    /// FWaveLinePen := CreatePen(PS_SOLID, 1, $FFFFFF);
+    /// Result := S_OK;
+    /// end;  </code>
+    /// </example>
+{$ENDREGION}
     function Initialize(ACoreUnit: IAIMPCoreUnit): HRESULT; stdcall;
-
-    {$REGION 'Documentation'}
-    ///	<summary>
-    ///	  <para>
-    ///	    Finalize of the visualization.
-    ///	  </para>
-    ///	  <para>
-    ///	    Завершение визуализации.
-    ///	  </para>
-    ///	</summary>
-    ///	<example>
-    ///	  <code lang="Delphi">
-    ///	 function TAIMPVisualPlugin.Finalize: HRESULT;
-    ///	 begin
-    ///	 DeleteObject(WaveLinePen);
-    ///	 Result := S_OK;
-    ///	 end;</code>
-    ///	</example>
-    {$ENDREGION}
+{$REGION 'Documentation'}
+    /// <summary>
+    /// <para>
+    /// Finalize of the visualization.
+    /// </para>
+    /// <para>
+    /// Завершение визуализации.
+    /// </para>
+    /// </summary>
+    /// <example>
+    /// <code lang="Delphi">
+    /// function TAIMPVisualPlugin.Finalize: HRESULT;
+    /// begin
+    /// DeleteObject(WaveLinePen);
+    /// Result := S_OK;
+    /// end;</code>
+    /// </example>
+{$ENDREGION}
     function Finalize: HRESULT; stdcall;
 {$REGION 'Documentation'}
     /// <summary>
@@ -420,78 +417,77 @@ type
     /// </example>
 {$ENDREGION}
     procedure DisplayClick(X, Y: Integer); stdcall;
-
-    {$REGION 'Documentation'}
-    ///	<summary>
-    ///	  <para>
-    ///	    Display render.
-    ///	  </para>
-    ///	  <para>
-    ///	    Отображение визуализации.
-    ///	  </para>
-    ///	</summary>
-    ///	<param name="DC">
-    ///	  <para>
-    ///	    Handle of visualization's display.
-    ///	  </para>
-    ///	  <para>
-    ///	    Хендл окна визуализации.
-    ///	  </para>
-    ///	</param>
-    ///	<param name="AData">
-    ///	  <para>
-    ///	    The pointer on TAIMPVisualData.
-    ///	  </para>
-    ///	  <para>
-    ///	    Указатель на структуру TAIMPVisualData.
-    ///	  </para>
-    ///	</param>
-    ///	<example>
-    ///	  <code lang="Delphi">
-    ///	 procedure TAIMPVisualPlugin.DisplayRender(DC: HDC; AData: PAIMPVisualData);
-    ///	 var
-    ///	 APrevObject: HGDIOBJ;
-    ///	 ASaveIndex: Integer;
-    ///	 I, ADisplayMiddleY, AChannelHeight: Integer;
-    ///	 begin
-    ///	 FillRect(DC, Rect(0, 0, DisplaySize.cx, DisplaySize.cy), GetStockObject(BLACK_BRUSH));
+{$REGION 'Documentation'}
+    /// <summary>
+    /// <para>
+    /// Display render.
+    /// </para>
+    /// <para>
+    /// Отображение визуализации.
+    /// </para>
+    /// </summary>
+    /// <param name="DC">
+    /// <para>
+    /// Handle of visualization's display.
+    /// </para>
+    /// <para>
+    /// Хендл окна визуализации.
+    /// </para>
+    /// </param>
+    /// <param name="AData">
+    /// <para>
+    /// The pointer on TAIMPVisualData.
+    /// </para>
+    /// <para>
+    /// Указатель на структуру TAIMPVisualData.
+    /// </para>
+    /// </param>
+    /// <example>
+    /// <code lang="Delphi">
+    /// procedure TAIMPVisualPlugin.DisplayRender(DC: HDC; AData: PAIMPVisualData);
+    /// var
+    /// APrevObject: HGDIOBJ;
+    /// ASaveIndex: Integer;
+    /// I, ADisplayMiddleY, AChannelHeight: Integer;
+    /// begin
+    /// FillRect(DC, Rect(0, 0, DisplaySize.cx, DisplaySize.cy), GetStockObject(BLACK_BRUSH));
     ///
-    ///	 ASaveIndex := SaveDC(DC);
-    ///	 try
-    ///	 IntersectClipRect(DC, 0, 0, DisplaySize.cx, DisplaySize.cy);
-    ///	 APrevObject := SelectObject(DC, WaveLinePen);
-    ///	 try
-    ///	 AChannelHeight := DisplaySize.cy div 4;
+    /// ASaveIndex := SaveDC(DC);
+    /// try
+    /// IntersectClipRect(DC, 0, 0, DisplaySize.cx, DisplaySize.cy);
+    /// APrevObject := SelectObject(DC, WaveLinePen);
+    /// try
+    /// AChannelHeight := DisplaySize.cy div 4;
     ///
-    ///	 // Draw Left Channel
-    ///	 ADisplayMiddleY := DisplaySize.cy div 4;
-    ///	 MoveToEx(DC, -IntervalBetweenValues, ADisplayMiddleY, nil);
-    ///	 for I := 0 to 511 do
-    ///	 begin
-    ///	 LineTo(DC, I * IntervalBetweenValues, ADisplayMiddleY +
-    ///	 MulDiv(AData^.WaveForm[0, I], AChannelHeight, MAXCHAR {127}));
-    ///	 end;
+    /// // Draw Left Channel
+    /// ADisplayMiddleY := DisplaySize.cy div 4;
+    /// MoveToEx(DC, -IntervalBetweenValues, ADisplayMiddleY, nil);
+    /// for I := 0 to 511 do
+    /// begin
+    /// LineTo(DC, I * IntervalBetweenValues, ADisplayMiddleY +
+    /// MulDiv(AData^.WaveForm[0, I], AChannelHeight, MAXCHAR {127}));
+    /// end;
     ///
-    ///	 // Draw Right Channel
-    ///	 ADisplayMiddleY := MulDiv(DisplaySize.cy, 3, 4);
-    ///	 MoveToEx(DC, -IntervalBetweenValues, ADisplayMiddleY, nil);
-    ///	 for I := 0 to 511 do
-    ///	 begin
-    ///	 LineTo(DC, I * IntervalBetweenValues, ADisplayMiddleY +
-    ///	 MulDiv(AData^.WaveForm[1, I], AChannelHeight, MAXCHAR {127}));
-    ///	 end;
-    ///	 finally
-    ///	 SelectObject(DC, APrevObject);
-    ///	 end;
-    ///	 finally
-    ///	 RestoreDC(DC, ASaveIndex);
-    ///	 end;
-    ///	 end;  </code>
-    ///	</example>
-    ///	<seealso cref="TAIMPVisualData">
-    ///	  TAIMPVisualData
-    ///	</seealso>
-    {$ENDREGION}
+    /// // Draw Right Channel
+    /// ADisplayMiddleY := MulDiv(DisplaySize.cy, 3, 4);
+    /// MoveToEx(DC, -IntervalBetweenValues, ADisplayMiddleY, nil);
+    /// for I := 0 to 511 do
+    /// begin
+    /// LineTo(DC, I * IntervalBetweenValues, ADisplayMiddleY +
+    /// MulDiv(AData^.WaveForm[1, I], AChannelHeight, MAXCHAR {127}));
+    /// end;
+    /// finally
+    /// SelectObject(DC, APrevObject);
+    /// end;
+    /// finally
+    /// RestoreDC(DC, ASaveIndex);
+    /// end;
+    /// end;  </code>
+    /// </example>
+    /// <seealso cref="TAIMPVisualData">
+    /// TAIMPVisualData
+    /// </seealso>
+{$ENDREGION}
     procedure DisplayRender(DC: HDC; AData: PAIMPVisualData); stdcall;
 {$REGION 'Documentation'}
     /// <summary>
