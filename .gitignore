@@ -9,3 +9,4 @@ __history
 bin/*
 *.dsk
 *.~*
+*.res

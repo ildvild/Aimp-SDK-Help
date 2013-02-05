@@ -1,10 +1,10 @@
 {$REGION 'Documentation'}
 /// <summary>
 /// <para>
-/// The module that contains the objects that implement the remote control.
+/// The module that contains the constants that implement the remote control.
 /// </para>
 /// <para>
-/// Модуль, содержащий объекты, реализующие дистанционное управление.
+/// Модуль, содержащий константы, необходимые для дистанционного управления плеером.
 /// </para>
 ///
 /// </summary>
@@ -81,7 +81,7 @@ const
   ///	    Returns player version
   ///	  </para>
   ///	  <para>
-  ///	    Возвращает версию плеера.
+  ///	    Возвращает информацию о версии плеера.
   ///	  </para>
   ///	</summary>
   ///	<remarks>
@@ -137,6 +137,37 @@ const
   // GET: Return current volume [0..100] (%)
   // SET: LParam: volume [0..100] (%)
   // Returns 0, if fails
+
+  {$REGION 'Documentation'}
+  ///	<summary>
+  ///	  <para>
+  ///	    Methods:<br />GET: Return current volume [0..100] (%)<br />SET(LParam)
+  ///	     : Set volume [0..100] (%)
+  ///	  </para>
+  ///	  <para>
+  ///	    Методы:<br />GET: Возвращает текущее значение громкости [0..100] (%)
+  ///	    <br />SET(LParam): Устанавливает значение громкости [0..100] (%)
+  ///	  </para>
+  ///	</summary>
+  ///	<remarks>
+  ///	  Returns 0, if fails. See AIMP Remote Demo.
+  ///	</remarks>
+  ///	<example>
+  ///	  <code lang="Delphi">
+  ///	Get:
+  ///	Label.Caption := IntToStr(AIMPGetPropertyValue(AIMP_RA_PROPERTY_VOLUME)) + '%';
+  ///
+  ///	Set:
+  ///	if InputQuery('Current Volume', 'Enter volume (in percent)', S)
+  ///	  then AIMPSetPropertyValue(AIMP_RA_PROPERTY_VOLUME, StrToInt(S));</code>
+  ///	</example>
+  ///	<seealso cref="AIMP_RA_PROPVALUE_GET">
+  ///	  AIMP_RA_PROPVALUE_GET
+  ///	</seealso>
+  ///	<seealso cref="AIMP_RA_PROPVALUE_SET">
+  ///	  AIMP_RA_PROPVALUE_SET
+  ///	</seealso>
+  {$ENDREGION}
   AIMP_RA_PROPERTY_VOLUME = $50;
 
   // GET: Return current mute state [0..1]
