@@ -1,7 +1,8 @@
 library AIMPVisualDemo;
 
 uses
-  AIMPVisualDemoMain in 'AIMPVisualDemoMain.pas';
+  AIMPSDKVisual,
+  AIMPVisualDemoSpectrum in 'AIMPVisualDemoSpectrum.pas';
 
 function AIMP_QueryVisual3(out AHeader: IAIMPVisualPlugin3): LongBool; stdcall;
 begin
