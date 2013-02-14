@@ -4,10 +4,8 @@ library ANextVisual;
 uses
   AIMPSDKCore,
   AIMPSDKAddons,
-  AIMPSDKCommon,
-  AIMPSDKRemote,
   Windows,
-  Messages, Dialogs,
+  Dialogs,
   AIMPAddonCustomPlugin in 'AIMPAddonCustomPlugin.pas', SysUtils;
 
 type
@@ -74,6 +72,7 @@ end;
 function TNextVisual.Initialize(ACoreUnit: IAIMPCoreUnit): HRESULT;
 begin
   Result := inherited Initialize(ACoreUnit);
+  Randomize;
   if Succeeded(Result) then
   begin
     FHook := TAIMPHook.Create;
@@ -85,16 +84,13 @@ end;
 { TAIMPHook }
 procedure TAIMPHook.CoreMessage(AMessage: DWORD; AParam1: Integer;
   AParam2: Pointer; var AResult: HRESULT);
-
 begin
   if not Assigned(Plugin) then
     Exit;
 
   case AMessage of
     AIMP_MSG_EVENT_STREAM_START:
-      begin
-        Plugin.CoreUnit.MessageSend(AIMP_MSG_CMD_VISUAL_NEXT, 0, nil);
-      end;
+      Plugin.CoreUnit.MessageSend(AIMP_MSG_CMD_VISUAL_NEXT, 0, nil);
   end;
 
 end;

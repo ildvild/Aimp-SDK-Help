@@ -10,3 +10,7 @@ bin/*
 *.dsk
 *.~*
 *.res
+*.tvsconfig
+*.groupproj
+*.tvsconfig
+*.dres
