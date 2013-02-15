@@ -37,7 +37,7 @@ type
     //
     procedure TwitterCallBackProc(Sender: TObject);
     //
-    function getProfileDirectort: string;
+    function getProfileDirectory: string;
   protected
     function GetPluginAuthor: PWideChar; override; stdcall;
     function GetPluginInfo: PWideChar; override; stdcall;
@@ -57,7 +57,7 @@ type
   end;
 
 const
-  PluginFullName = 'ATweet v1.25';
+  PluginFullName = 'ATweet v1.45';
   PluginName = 'ATweet';
 
 implementation
@@ -74,7 +74,7 @@ begin
     AUserData.PostTweet;
 end;
 
-function TTweetPlugin.getProfileDirectort: string;
+function TTweetPlugin.getProfileDirectory: string;
 var
   APathBuffer: array [0 .. MAX_PATH] of WideChar;
   APlayerManager: IAIMPAddonsPlayerManager;
@@ -209,14 +209,14 @@ begin
 
   if Succeeded(Result) then
   begin
-    AppProfileFolder := getProfileDirectort;
+    LoadSettings(Self, PluginName, mySettings);
+    SettingsChanged(mySettings);
+
+    AppProfileFolder := getProfileDirectory;
     uLog.LogFileName := AppProfileFolder + '\ATweet.log';
 
     if mySettings.Log then
       sLog('', 'Plugin.Initialize');
-
-    LoadSettings(Self, PluginName, mySettings);
-    SettingsChanged(mySettings);
 
     if not GetPlaylistManager(FPlaylistManager) then
       FPlaylistManager := nil;
@@ -231,24 +231,21 @@ begin
     TweetMessage := Hook.SetTwitMess;
 
     Twit := TwitterCli.Create(TKey, TSecret);
-
     with Twit do
     begin
       OnReqDone := TwitterCallBackProc;
-      Twit.AccessToken := AccessToken;
-      Twit.AccessTokenSecret := AccessTokenSecret;
+      Twit.AccessToken := mySettings.AccessToken;
+      Twit.AccessTokenSecret := mySettings.AccessTokenSecret;
       if Authenticated then
+      begin
+        ATweetFrame.EdUsername.Text := SsAuth;
         SetStoredLogin(AccessToken, AccessTokenSecret);
+      end;
       RefURL := 'http://www.aimp.ru';
     end;
 
-    if Authenticated then
-      ATweetFrame.EdUsername.Text := SsAuth;
-
     if mySettings.Log then
       sLog('', 'Authenticated=' + BoolToStr(Authenticated));
-    
-
   end;
 end;
 
@@ -353,8 +350,9 @@ begin
 
     Authenticated := True;
 
-    mySettings.AccessToken:=Twit.AccessToken;
-    mySettings.AccessTokenSecret:=Twit.AccessTokenSecret;
+    mySettings.AccessToken := Twit.AccessToken;
+    mySettings.AccessTokenSecret := Twit.AccessTokenSecret;
+
     ATweetFrame.EdUsername.Text := SsAuth;
     Exit;
   end;

@@ -52,7 +52,7 @@ type
 
 var
   ATweetFrame: TAPTweet = nil;
-  SsAuth,SsPin: string;
+  SsAuth, SsPin: string;
 
 implementation
 
@@ -76,7 +76,7 @@ begin
     SchkLog := sRusLog;
     SEditStweetChange := sRusDefaultTweet;
     SsAuth := sRusAuth;
-    SsPin:=sRusPin;
+    SsPin := sRusPin;
   end
   else
   begin
@@ -88,7 +88,7 @@ begin
     SchkLog := sEngLog;
     SEditStweetChange := sEngDefaultTweet;
     SsAuth := sEngAuth;
-    SsPin:=sEngPin;
+    SsPin := sEngPin;
   end;
 
   grpAutorize.Caption := SgrpAutorize;

@@ -4,7 +4,7 @@ library ATweet;
 
 uses
   AIMPSDKAddons,
-  FAtweet in 'FAtweet.pas' { APTweet },
+  FAtweet in 'FAtweet.pas' { APTweet } ,
   AIMPAddonCustomPlugin in 'AIMPAddonCustomPlugin.pas',
   Atweet_Impl in 'Atweet_Impl.pas',
   Atweet_LangRes in 'Atweet_LangRes.pas',
