@@ -1,0 +1,9 @@
+Назначение: Расширения функционала
+Версия: AIMP3
+
+Name: ADesktopColor
+Version: 1.0
+Author: ildvild
+AuthorContact: ildvild@gmail.com
+Topic: http://www.aimp.ru/forum/index.php?topic=39231.0
+Description: Plugin set the color scheme of the player like on desktop. Плагин устанавливает цветовую схему плеера под рабочий стол.
