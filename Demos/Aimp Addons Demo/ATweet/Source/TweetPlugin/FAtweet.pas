@@ -8,7 +8,7 @@ uses
   Forms,
   StdCtrls,
   XPman,
-  Atweet_Impl, LangRes, TwitterLib;
+  Atweet_Impl, LangRes, TwitterLib, CodeSiteLogging;
 
 type
 
@@ -19,11 +19,16 @@ type
     grpAutorize: TGroupBox;
     EditStweet: TEdit;
     lblStweet: TLabel;
-    chkEachPlay: TCheckBox;
     btnOK: TButton;
-    cbbLang: TComboBox;
-    lblLang: TLabel;
+    lblShag1: TLabel;
+    lblShag2: TLabel;
+    lblShag3: TLabel;
+    grpConfig: TGroupBox;
+    chkEachPlay: TCheckBox;
     chkLog: TCheckBox;
+    lblLang: TLabel;
+    cbbLang: TComboBox;
+    btnReset: TButton;
     procedure btnLoginClick(Sender: TObject);
     procedure EditStweetChange(Sender: TObject);
 
@@ -31,6 +36,7 @@ type
     procedure cbbLangChange(Sender: TObject);
     procedure FormCloseQuery(Sender: TObject; var CanClose: Boolean);
     procedure FormShow(Sender: TObject);
+    procedure btnResetClick(Sender: TObject);
 
   private
     FPlugin: TTweetPlugin;
@@ -52,12 +58,12 @@ type
 
 var
   ATweetFrame: TAPTweet = nil;
-  SsAuth, SsPin: string;
+  SsAuth, SsStep1, SsStep2, SsStep3, SsReset, SsConfig: string;
 
 implementation
 
 uses
-  Atweet_uses, Atweet_LangRes, ulog;
+  Atweet_uses, Atweet_LangRes, Graphics;
 {$R *.dfm}
 
 var
@@ -76,7 +82,11 @@ begin
     SchkLog := sRusLog;
     SEditStweetChange := sRusDefaultTweet;
     SsAuth := sRusAuth;
-    SsPin := sRusPin;
+    SsStep1 := sRusStep1;
+    SsStep2 := sRusStep2;
+    SsStep3 := sRusStep3;
+    SsReset := sRusReset;
+    SsConfig := sRusConfig;
   end
   else
   begin
@@ -88,7 +98,11 @@ begin
     SchkLog := sEngLog;
     SEditStweetChange := sEngDefaultTweet;
     SsAuth := sEngAuth;
-    SsPin := sEngPin;
+    SsStep1 := sEngStep1;
+    SsStep2 := sEngStep2;
+    SsStep3 := sEngStep3;
+    SsReset := sEngReset;
+    SsConfig := sEngConfig;
   end;
 
   grpAutorize.Caption := SgrpAutorize;
@@ -97,16 +111,33 @@ begin
   lblLang.Caption := SlblLang;
   chkLog.Caption := SchkLog;
   chkEachPlay.Caption := SchkEachPlay;
+  lblShag1.Caption := SsStep1;
+  lblShag2.Caption := SsStep2;
+  lblShag3.Caption := SsStep3;
+  btnReset.Caption := SsReset;
+  grpConfig.Caption := SsConfig;
 
 end;
 
 procedure TAPTweet.btnOKClick(Sender: TObject);
 begin
+  CodeSite.TraceMethod(Self, 'btnOKClick');
   Close;
+end;
+
+procedure TAPTweet.btnResetClick(Sender: TObject);
+begin
+  CodeSite.TraceMethod(Self, 'btnResetClick');
+  Twit.OAuthToken := '';
+  Twit.OAuthTokenSecret := '';
+  mySettings.AccessToken := '';
+  mySettings.AccessTokenSecret := '';
+  EdUsername.Text := '';
 end;
 
 constructor TAPTweet.Create(APlugin: TTweetPlugin);
 begin
+  CodeSite.TraceMethod(Self, 'Create');
   inherited Create(nil);
   FPlugin := APlugin;
   OnSettingsChange := OnSettingsChanged;
@@ -114,11 +145,13 @@ end;
 
 destructor TAPTweet.Destroy;
 begin
+  CodeSite.TraceMethod(Self, 'Destroy');
   inherited Destroy;
 end;
 
 procedure TAPTweet.EditStweetChange(Sender: TObject);
 begin
+  CodeSite.TraceMethod(Self, 'EditStweetChange');
   if Assigned(Plugin) then
   begin
     TweetFormatMessage := EditStweet.Text;
@@ -129,11 +162,10 @@ end;
 
 procedure TAPTweet.btnLoginClick(Sender: TObject);
 begin
+  CodeSite.TraceMethod(Self, 'btnLoginClick');
   if EdUsername.Text = '' then
   begin
-
-    if mySettings.Log then
-      sLog('', 'Authenticating with Twitter...');
+    CodeSite.Send('Authenticating with Twitter...');
 
     Authenticated := false;
     Twit.Login(tlPIN, True);
@@ -146,8 +178,7 @@ begin
       Exit;
     Twit.AccessPIN := EdUsername.Text;
 
-    if mySettings.Log then
-      sLog('', 'Send Pin');
+    CodeSite.Send('Send Pin', Twit.AccessPIN);
 
     Twit.ContinuePINLogin;
     Exit;
@@ -156,21 +187,26 @@ end;
 
 procedure TAPTweet.cbbLangChange(Sender: TObject);
 begin
+  CodeSite.TraceMethod(Self, 'cbbLangChange');
   SettingsChanged(mySettings);
 end;
 
 procedure TAPTweet.FormCloseQuery(Sender: TObject; var CanClose: Boolean);
 begin
+  CodeSite.TraceMethod(Self, 'FormCloseQuery');
   with mySettings do
   begin
     TweetEachPlay := chkEachPlay.Checked;
     Log := chkLog.Checked;
+    CodeSite.Enabled := mySettings.Log;
+
     if cbbLang.ItemIndex = 0 then
       Language := 'Russian'
     else
       Language := 'English';
 
     Tweet := EditStweet.Text;
+
   end;
 
   if Assigned(FPlugin) then
@@ -182,6 +218,7 @@ end;
 
 procedure TAPTweet.FormShow(Sender: TObject);
 begin
+  CodeSite.TraceMethod(Self, 'FormShow');
   with mySettings do
   begin
     chkEachPlay.Checked := TweetEachPlay;
@@ -199,7 +236,10 @@ begin
   SelectLangForm;
 
   if Authenticated then
+  begin
+    EdUsername.Font.Color := clGreen;
     EdUsername.Text := SsAuth;
+  end;
 
   if EditStweet.Text = '' then
     EditStweet.Text := SEditStweetChange;

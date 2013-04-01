@@ -8,8 +8,7 @@ uses
   AIMPAddonCustomPlugin in 'AIMPAddonCustomPlugin.pas',
   Atweet_Impl in 'Atweet_Impl.pas',
   Atweet_LangRes in 'Atweet_LangRes.pas',
-  Atweet_uses in 'Atweet_uses.pas',
-  uLog in 'uLog.pas';
+  Atweet_uses in 'Atweet_uses.pas';
 
 function AIMP_QueryAddon3(out AHeader: IAIMPAddonPlugin): LongBool; stdcall;
 begin

@@ -3,7 +3,8 @@ unit Atweet_Impl;
 interface
 
 uses
-  AIMPSDKCore, AIMPSDKAddons, Windows, AIMPAddonCustomPlugin, TwitterLib, uLog;
+  AIMPSDKCore, AIMPSDKAddons, Windows, AIMPAddonCustomPlugin, TwitterLib,
+  CodeSiteLogging;
 
 type
   TTweetPlugin = class;
@@ -70,6 +71,7 @@ var
 
 procedure _MenuClick(AUserData: TTweetPlugin; AHandle: HAIMPMENU); stdcall;
 begin
+  CodeSite.TraceMethod('_MenuClick');
   if Assigned(AUserData) then
     AUserData.PostTweet;
 end;
@@ -122,6 +124,7 @@ var
   w: WideString;
   wc: PWideChar;
 begin
+  CodeSite.TraceMethod(Self, 'SetTwitMess');
   Result := '';
   if Plugin.GetPlaylistManager(APlaylistManager) then
     try
@@ -174,12 +177,6 @@ begin
   //
   Twit.Free;
   //
-  if mySettings.Log then
-  begin
-    sLog('', 'Plugin.Finalize');
-    sLog('', '----------------------------------------------');
-  end;
-
   Result := inherited Finalize;
 end;
 
@@ -204,7 +201,9 @@ begin
 end;
 
 function TTweetPlugin.Initialize(ACoreUnit: IAIMPCoreUnit): HRESULT;
+
 begin
+
   Result := inherited Initialize(ACoreUnit);
 
   if Succeeded(Result) then
@@ -213,10 +212,14 @@ begin
     SettingsChanged(mySettings);
 
     AppProfileFolder := getProfileDirectory;
-    uLog.LogFileName := AppProfileFolder + '\ATweet.log';
 
-    if mySettings.Log then
-      sLog('', 'Plugin.Initialize');
+    Dest := TCodeSiteDestination.Create(nil);
+    Dest.LogFile.FileName := 'ATweet.csl';
+    Dest.LogFile.FilePath := AppProfileFolder;
+    Dest.LogFile.Active := True;
+
+    CodeSite.Enabled := mySettings.Log;
+    CodeSite.Destination := Dest;
 
     if not GetPlaylistManager(FPlaylistManager) then
       FPlaylistManager := nil;
@@ -244,8 +247,7 @@ begin
       RefURL := 'http://www.aimp.ru';
     end;
 
-    if mySettings.Log then
-      sLog('', 'Authenticated=' + BoolToStr(Authenticated));
+    CodeSite.Send('Authenticated', Authenticated);
   end;
 end;
 
@@ -262,9 +264,7 @@ begin
     finally
       AMenuManager := nil;
     end;
-
-  if mySettings.Log then
-    sLog('', 'Plugin.MenuFinalize');
+  Dest.Free;
 end;
 
 procedure TTweetPlugin.MenuInitialize;
@@ -272,9 +272,6 @@ var
   AMenuInfo: TAIMPMenuItemInfo;
   AMenuManager: IAIMPAddonsMenuManager;
 begin
-  if mySettings.Log then
-    sLog('', 'Plugin.MenuInitialize');
-
   if GetMenuManager(AMenuManager) then
     try
       SelectLangMenu;
@@ -297,22 +294,18 @@ procedure TTweetPlugin.PostTweet;
 Var
   a: string;
 begin
+  CodeSite.TraceMethod(Self, 'PostTweet');
   if TweetMessage = '' then
     Exit;
   if not Authenticated then
     Exit;
-  if mySettings.Log then
-
-    if mySettings.Log then
-      sLog('', 'Sending message...');
 
   a := TweetMessage;
   a := Translit(a);
   if Length(a) > 140 then
     a := Copy(a, 1, 140);
 
-  if mySettings.Log then
-    sLog('', 'Message: ' + a);
+  CodeSite.Send('Message', a);
 
   Twit.SendTwit(a);
 end;
@@ -321,10 +314,6 @@ end;
 
 function TTweetPlugin.ShowSettingsDialog(AParentWindow: HWND): HRESULT;
 begin
-
-  if mySettings.Log then
-    sLog('', 'Plugin.ShowSettingsDialog');
-
   ATweetFrame.Show;
   Result := S_OK;
 end;
@@ -333,23 +322,15 @@ procedure TTweetPlugin.TwitterCallBackProc(Sender: TObject);
 begin
   if Twit.LastHttpStatus <> 200 then
   begin
-
-    if mySettings.Log then
-      sLog('',
-        'Error communicating with Twitter. Error ' + IntToStr
-          (Twit.LastHttpStatus));
-
+    CodeSite.Send('Error communicating with Twitter. Error ',
+      Twit.LastHttpStatus);
     Exit;
   end;
 
   if (Twit.LastReq = trLogin) and (Twit.LastInternalReq = trRequestAccess) then
   begin
-
-    if mySettings.Log then
-      sLog('', 'Authenticated: True');
-
     Authenticated := True;
-
+    CodeSite.Send('Authenticated', Authenticated);
     mySettings.AccessToken := Twit.AccessToken;
     mySettings.AccessTokenSecret := Twit.AccessTokenSecret;
 
@@ -359,19 +340,13 @@ begin
 
   if Twit.LastReq = trLogin then
   begin
-
-    if mySettings.Log then
-      sLog('', 'Enter PIN');
-
-    ATweetFrame.EdUsername.Text := SsPin;
+    CodeSite.Send('Enter PIN');
     Exit;
   end;
 
   if Twit.LastReq = trTwit then
   begin
-    if mySettings.Log then
-      sLog('', 'Message sent.');
-
+    CodeSite.Send('Message sent');
     Exit;
   end;
 end;

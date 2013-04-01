@@ -49,7 +49,6 @@
 			<DCCReference Include="Atweet_Impl.pas"/>
 			<DCCReference Include="Atweet_LangRes.pas"/>
 			<DCCReference Include="Atweet_uses.pas"/>
-			<DCCReference Include="uLog.pas"/>
 			<RcItem Include="resource\Tw.bmp">
 				<ResourceType>Bitmap</ResourceType>
 				<ResourceId>TWIT</ResourceId>
@@ -79,6 +78,7 @@
 						<Parameters Name="UseLauncher">False</Parameters>
 						<Parameters Name="LoadAllSymbols">True</Parameters>
 						<Parameters Name="LoadUnspecifiedSymbols">False</Parameters>
+						<Parameters Name="HostApplication">C:\Program Files\AIMP3\AIMP3.exe</Parameters>
 					</Parameters>
 					<VersionInfo>
 						<VersionInfo Name="IncludeVerInfo">False</VersionInfo>
@@ -116,3 +116,19 @@
 			<ProjectFileVersion>12</ProjectFileVersion>
 		</ProjectExtensions>
 	</Project>
+
+<!-- EurekaLog First Line
+[Exception Log]
+EurekaLog Version=7001
+Activate=0
+atVCL=1
+DeleteMapAfterCompile=0
+dpJCL=1
+Encrypt Password=""
+idEurekaLog=1
+idEurekaLogDetailed=1
+idMSClassic=1
+idStepsToReproduce=1
+ProjectID="{7FCE6856-A40B-424C-A03C-1A79E67056CD}"
+sndShowFailureMsg=1
+EurekaLog Last Line -->

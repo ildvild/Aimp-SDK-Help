@@ -3,7 +3,7 @@ unit Atweet_uses;
 interface
 
 uses
-  AIMPAddonCustomPlugin, TwitterLib, FAtweet, ulog;
+  AIMPAddonCustomPlugin, TwitterLib, FAtweet, CodeSiteLogging;
 
 type
   TSettings = record
@@ -39,7 +39,7 @@ var
   AppProfileFolder: string;
   Authenticated: Boolean = false;
   Twit: TwitterCli;
-
+  Dest: TCodeSiteDestination;
   { setting }
   mySettings: TSettings = (AuthorizeAutoStart: false; TweetEachPlay: false;
     Log: false; Language: 'Russian'; Tweet: ''; AccessToken: '';
@@ -79,15 +79,13 @@ begin
         AccessTokenSecret := ConfigReadString(Section, optAccessTokenSecret);
         if (AccessToken <> '') and (AccessTokenSecret <> '') then
           Authenticated := True;
-
-        if mySettings.Log then
-          sLog('', 'Load Settings');
       end;
 end;
 
 procedure SaveSettings(const Plugin: TAIMPAddonsCustomPlugin;
   const Section: String; const Settings: TSettings);
 begin
+  CodeSite.TraceMethod('SaveSettings');
   if Assigned(Plugin) then
     with Plugin do
       with Settings do
@@ -99,9 +97,6 @@ begin
         ConfigWriteString(Section, optTweet, Tweet);
         ConfigWriteString(Section, optAccessToken, AccessToken);
         ConfigWriteString(Section, optAccessTokenSecret, AccessTokenSecret);
-
-        if mySettings.Log then
-          sLog('', 'Save Settings');
       end;
 end;
 

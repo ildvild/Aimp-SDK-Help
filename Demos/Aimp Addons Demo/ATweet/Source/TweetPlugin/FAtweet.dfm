@@ -3,8 +3,8 @@ object APTweet: TAPTweet
   Top = 0
   BorderStyle = bsToolWindow
   Caption = 'ATweet'
-  ClientHeight = 326
-  ClientWidth = 399
+  ClientHeight = 603
+  ClientWidth = 436
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
@@ -91,7 +91,7 @@ object APTweet: TAPTweet
     0041000000410000004100000041000000410000004100000041000000410000
     0041000000410000004100000041000000410000004180000141C0000341}
   OldCreateOrder = False
-  Position = poScreenCenter
+  Position = poOwnerFormCenter
   OnCloseQuery = FormCloseQuery
   OnShow = FormShow
   PixelsPerInch = 96
@@ -99,20 +99,74 @@ object APTweet: TAPTweet
   object grpAutorize: TGroupBox
     Left = 0
     Top = 0
-    Width = 399
-    Height = 161
+    Width = 436
+    Height = 241
     Align = alTop
+    Caption = #1040#1074#1090#1086#1088#1080#1079#1072#1094#1080#1103
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
     TabOrder = 0
-    object lblLang: TLabel
-      Left = 24
-      Top = 122
-      Width = 33
-      Height = 13
-      Caption = 'lblLang'
+    ExplicitWidth = 432
+    object lblShag1: TLabel
+      Left = 13
+      Top = 23
+      Width = 415
+      Height = 32
+      AutoSize = False
+      Caption = 
+        #1064#1072#1075' 1. '#1053#1072#1078#1084#1080#1090#1077' '#1085#1072' '#1082#1085#1086#1087#1082#1091' "'#1040#1074#1090#1086#1088#1080#1079#1072#1094#1080#1103'" '#1080' '#1087#1086#1076#1086#1078#1076#1080#1090#1077', '#1087#1086#1082#1072' '#1085#1077' '#1086#1090#1082#1088 +
+        #1086#1077#1090#1089#1103' '#1086#1082#1085#1086' '#1073#1088#1072#1091#1079#1077#1088#1072'.'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -13
+      Font.Name = 'Tahoma'
+      Font.Style = []
+      ParentFont = False
+      Transparent = True
+      WordWrap = True
+    end
+    object lblShag2: TLabel
+      Left = 13
+      Top = 94
+      Width = 415
+      Height = 32
+      AutoSize = False
+      Caption = 
+        #1064#1072#1075' 2. '#1040#1074#1090#1086#1088#1080#1079#1080#1088#1091#1081#1090#1077' '#1087#1088#1080#1083#1086#1078#1077#1085#1080#1077' '#1074' Twitter, '#1074#1074#1077#1076#1080#1090#1077' PIN '#1082#1086#1076' '#1074' '#1087#1086#1083 +
+        #1077' '#1074#1074#1086#1076#1072' '#1085#1080#1078#1077' '#1080' '#1085#1072#1078#1084#1080#1090#1077' '#1085#1072' '#1082#1085#1086#1087#1082#1091' "'#1040#1074#1090#1086#1088#1080#1079#1072#1094#1080#1103'".'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -13
+      Font.Name = 'Tahoma'
+      Font.Style = []
+      ParentFont = False
+      WordWrap = True
+    end
+    object lblShag3: TLabel
+      Left = 13
+      Top = 163
+      Width = 415
+      Height = 48
+      AutoSize = False
+      Caption = 
+        #1064#1072#1075' 3. '#1055#1088#1080' '#1091#1089#1087#1077#1096#1085#1086#1081' '#1072#1074#1090#1086#1088#1080#1079#1072#1094#1080#1080' '#1074' '#1087#1086#1083#1077' '#1074#1074#1086#1076#1072' '#1074#1099#1096#1077' '#1087#1086#1103#1074#1080#1090#1089#1103' '#1089#1086#1086#1090#1074 +
+        #1077#1090#1089#1090#1074#1091#1102#1097#1077#1077' '#1089#1086#1086#1073#1097#1077#1085#1080#1077'. '#1042' '#1087#1088#1086#1090#1080#1074#1085#1086#1084' '#1089#1083#1091#1095#1072#1077' '#1087#1086#1074#1090#1086#1088#1080#1090#1077' '#1074#1089#1077' '#1096#1072#1075#1080' '#1089#1085#1072#1095 +
+        #1072#1083#1072'.'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -13
+      Font.Name = 'Tahoma'
+      Font.Style = []
+      ParentFont = False
+      WordWrap = True
     end
     object btnLogin: TButton
-      Left = 278
-      Top = 28
+      Left = 13
+      Top = 61
       Width = 91
       Height = 27
       Caption = 'btnLogin'
@@ -120,64 +174,43 @@ object APTweet: TAPTweet
       OnClick = btnLoginClick
     end
     object EdUsername: TEdit
-      Left = 24
-      Top = 31
+      Left = 13
+      Top = 133
       Width = 241
-      Height = 21
+      Height = 24
       NumbersOnly = True
       TabOrder = 1
-    end
-    object chkEachPlay: TCheckBox
-      Left = 24
-      Top = 64
-      Width = 320
-      Height = 17
-      Caption = 'chkEachPlay'
-      TabOrder = 2
-    end
-    object cbbLang: TComboBox
-      Left = 78
-      Top = 119
-      Width = 123
-      Height = 21
-      ItemIndex = 0
-      TabOrder = 3
-      Text = #1056#1091#1089#1089#1082#1080#1081
-      OnChange = cbbLangChange
-      Items.Strings = (
-        #1056#1091#1089#1089#1082#1080#1081
-        'English')
-    end
-    object chkLog: TCheckBox
-      Left = 24
-      Top = 87
-      Width = 320
-      Height = 17
-      Caption = 'chkLog'
-      TabOrder = 4
     end
   end
   object grpTweet: TGroupBox
     Left = 0
-    Top = 161
-    Width = 399
+    Top = 429
+    Width = 436
     Height = 128
     Align = alTop
+    Caption = #1058#1074#1080#1090
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
     TabOrder = 1
+    ExplicitWidth = 432
     object lblStweet: TLabel
       Left = 13
       Top = 59
-      Width = 372
+      Width = 396
       Height = 62
       AutoSize = False
       ShowAccelChar = False
       WordWrap = True
     end
     object EditStweet: TEdit
-      Left = 13
-      Top = 32
-      Width = 372
-      Height = 21
+      Left = 10
+      Top = 26
+      Width = 416
+      Height = 24
       ParentShowHint = False
       ShowHint = True
       TabOrder = 0
@@ -185,12 +218,109 @@ object APTweet: TAPTweet
     end
   end
   object btnOK: TButton
-    Left = 316
-    Top = 295
-    Width = 75
-    Height = 25
+    Left = 331
+    Top = 563
+    Width = 93
+    Height = 34
     Caption = #1054#1050
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
     TabOrder = 2
     OnClick = btnOKClick
+  end
+  object grpConfig: TGroupBox
+    Left = 0
+    Top = 241
+    Width = 436
+    Height = 188
+    Align = alTop
+    Caption = #1053#1072#1089#1090#1088#1086#1081#1082#1080
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 3
+    ExplicitWidth = 432
+    object lblLang: TLabel
+      Left = 13
+      Top = 99
+      Width = 40
+      Height = 16
+      Caption = 'lblLang'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -13
+      Font.Name = 'Tahoma'
+      Font.Style = []
+      ParentFont = False
+    end
+    object chkEachPlay: TCheckBox
+      Left = 13
+      Top = 63
+      Width = 320
+      Height = 17
+      Caption = 'chkEachPlay'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -13
+      Font.Name = 'Tahoma'
+      Font.Style = []
+      ParentFont = False
+      TabOrder = 0
+    end
+    object chkLog: TCheckBox
+      Left = 13
+      Top = 28
+      Width = 320
+      Height = 17
+      Caption = 'chkLog'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -13
+      Font.Name = 'Tahoma'
+      Font.Style = []
+      ParentFont = False
+      TabOrder = 1
+    end
+    object cbbLang: TComboBox
+      Left = 78
+      Top = 96
+      Width = 123
+      Height = 24
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -13
+      Font.Name = 'Tahoma'
+      Font.Style = []
+      ItemIndex = 0
+      ParentFont = False
+      TabOrder = 2
+      Text = #1056#1091#1089#1089#1082#1080#1081
+      OnChange = cbbLangChange
+      Items.Strings = (
+        #1056#1091#1089#1089#1082#1080#1081
+        'English')
+    end
+    object btnReset: TButton
+      Left = 13
+      Top = 142
+      Width = 228
+      Height = 35
+      Caption = #1057#1073#1088#1086#1089#1080#1090#1100' '#1085#1072#1089#1090#1088#1086#1081#1082#1080' '#1072#1074#1090#1086#1088#1080#1079#1072#1094#1080#1080
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -13
+      Font.Name = 'Tahoma'
+      Font.Style = []
+      ParentFont = False
+      TabOrder = 3
+      OnClick = btnResetClick
+    end
   end
 end
