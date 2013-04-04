@@ -58,7 +58,7 @@ type
   end;
 
 const
-  PluginFullName = 'ATweet v1.45';
+  PluginFullName = 'ATweet v1.46';
   PluginName = 'ATweet';
 
 implementation
