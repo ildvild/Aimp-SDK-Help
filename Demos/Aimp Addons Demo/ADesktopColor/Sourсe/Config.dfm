@@ -32,8 +32,6 @@ object frmConfig: TfrmConfig
     Font.Style = []
     ParentFont = False
     TabOrder = 0
-    ExplicitWidth = 399
-    ExplicitHeight = 222
     object chkOnStartConf: TCheckBox
       Left = 24
       Top = 32

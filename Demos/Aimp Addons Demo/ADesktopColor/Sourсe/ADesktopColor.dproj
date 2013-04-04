@@ -2,7 +2,7 @@
 		<PropertyGroup>
 			<ProjectGuid>{2FE2720B-2153-4409-82EC-A0FCCD037D6A}</ProjectGuid>
 			<MainSource>ADesktopColor.dpr</MainSource>
-			<Config Condition="'$(Config)'==''">Debug</Config>
+			<Config Condition="'$(Config)'==''">Release</Config>
 			<DCC_DCCCompiler>DCC32</DCC_DCCCompiler>
 			<ProjectVersion>12.0</ProjectVersion>
 		</PropertyGroup>
@@ -33,6 +33,7 @@
 			<DCC_DebugInformation>false</DCC_DebugInformation>
 		</PropertyGroup>
 		<PropertyGroup Condition="'$(Cfg_2)'!=''">
+			<DCC_GenerateStackFrames>true</DCC_GenerateStackFrames>
 			<DCC_MapFile>3</DCC_MapFile>
 			<DCC_Define>DEBUG;$(DCC_Define)</DCC_Define>
 		</PropertyGroup>
@@ -44,10 +45,6 @@
 			<DCCReference Include="Config.pas">
 				<Form> frmConfig </Form>
 			</DCCReference>
-			<RcItem Include="resource\SetColor.bmp">
-				<ResourceType>Bitmap</ResourceType>
-				<ResourceId>ICON</ResourceId>
-			</RcItem>
 			<BuildConfiguration Include="Base">
 				<Key>Base</Key>
 			</BuildConfiguration>
@@ -73,6 +70,7 @@
 						<Parameters Name="UseLauncher">False</Parameters>
 						<Parameters Name="LoadAllSymbols">True</Parameters>
 						<Parameters Name="LoadUnspecifiedSymbols">False</Parameters>
+						<Parameters Name="HostApplication">C:\Program Files\AIMP3\AIMP3.exe</Parameters>
 					</Parameters>
 					<VersionInfo>
 						<VersionInfo Name="IncludeVerInfo">True</VersionInfo>
@@ -115,14 +113,14 @@
 [Exception Log]
 EurekaLog Version=7001
 Activate=0
-atVCL=1
+atDLL=1
 DeleteMapAfterCompile=0
-dpJCL=1
+Dialog Class=""
+dpDLLExports=0
 Encrypt Password=""
-idEurekaLog=1
-idEurekaLogDetailed=1
-idMSClassic=1
-idStepsToReproduce=1
 ProjectID="{7FCE6856-A40B-424C-A03C-1A79E67056CD}"
-sndShowFailureMsg=1
+sndScreenshot=0
+sndShowSendDialog=0
+sndShowSuccessBugClosedOnly=0
+sndShowSuccessMsg=0
 EurekaLog Last Line -->

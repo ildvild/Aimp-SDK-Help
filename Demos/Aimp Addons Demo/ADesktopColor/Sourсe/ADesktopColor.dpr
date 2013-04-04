@@ -3,6 +3,7 @@ library ADesktopColor;
 {$R *.dres}
 
 uses
+  EAppDLL,
   AIMPSDKCore,
   AIMPSDKAddons,
   AIMPAddonCustomPlugin in 'AIMPAddonCustomPlugin.pas',
@@ -11,11 +12,18 @@ uses
   Graphics,
   Registry,
   jpeg,
-  pngimage,
   Config in 'Config.pas' { frmConfig } ,
-  ExtCtrls;
+  ExtCtrls,
+  Math;
 
 type
+  TRGB32 = packed record
+    Blue, Green, Red: Byte;
+  end;
+
+  TRGB32Array = packed array [0 .. MaxInt div SizeOf(TRGB32) - 1] of TRGB32;
+  PRGB32Array = ^TRGB32Array;
+
   { TADesktopColor }
   TADesktopColor = class(TAIMPAddonsCustomPlugin)
   private
@@ -45,6 +53,7 @@ type
 
 const
   PluginName = 'ADesktopColor';
+  PluginVers = '1.2';
 
 function AIMP_QueryAddon3(out AHeader: IAIMPAddonPlugin): LongBool; stdcall;
 begin
@@ -86,7 +95,7 @@ end;
 
 function TADesktopColor.GetPluginName: PWideChar;
 begin
-  Result := PluginName;
+  Result := PluginName + ' ' + PluginVers;
 end;
 
 function TADesktopColor.Initialize(ACoreUnit: IAIMPCoreUnit): HRESULT;
@@ -168,13 +177,56 @@ end;
 
 procedure TADesktopColor.SetThemeColor;
 
+// RGB, each 0 to 255, to HSV.
+// H = 0 to 360 (corresponding to 0..360 degrees around hexcone)
+// S = 0 (shade of gray) to 255 (pure color)
+// V = 0 (black) to 255 {white)
+  PROCEDURE RGBTripleToHSV(CONST RGBTriple: TRGB32;
+    { r, g and b IN [0..255] }
+    VAR H, S, V: INTEGER); { h IN 0..359; s,v IN 0..255 }
+  VAR
+    Delta: INTEGER;
+    Min: INTEGER;
+  BEGIN
+    WITH RGBTriple DO
+    BEGIN
+      Min := MinIntValue([Red, Green, Blue]);
+      V := MaxIntValue([Red, Green, Blue])
+    END;
+
+    Delta := V - Min;
+
+    // Calculate saturation:  saturation is 0 if r, g and b are all 0
+    IF V = 0 THEN
+      S := 0
+    ELSE
+      S := MulDiv(Delta, 255, V);
+
+    IF S = 0 THEN
+      H := 0 // Achromatic:  When s = 0, h is undefined but assigned the value 0
+    ELSE
+    BEGIN // Chromatic
+
+      WITH RGBTriple DO
+      BEGIN
+        IF Red = V THEN // degrees -- between yellow and magenta
+          H := MulDiv(Green - Blue, 60, Delta)
+        ELSE IF Green = V THEN // between cyan and yellow
+          H := 120 + MulDiv(Blue - Red, 60, Delta)
+        ELSE IF Blue = V THEN // between magenta and cyan
+          H := 240 + MulDiv(Red - Green, 60, Delta);
+      END;
+
+      IF H < 0 THEN
+        H := H + 360;
+    END
+  END { RGBTripleToHSV } ;
+
   function GetMaxColorBmp(Bmp: TBitmap): TColor;
-  Type
-    PRGBArray = ^TRGBArray;
-    TRGBArray = Array [0 .. 65535] of TRGBTriple;
+
   Var
-    Line: PRGBArray;
-    i, j, Pix: Integer;
+    Line: PRGB32Array;
+    i, j, Pix: INTEGER;
     _r, _g, _b: Extended;
   begin
     _r := 0;
@@ -186,13 +238,51 @@ procedure TADesktopColor.SetThemeColor;
       Line := Bmp.ScanLine[j];
       For i := 0 To Bmp.Width - 1 Do
       begin
-        _r := _r + Line[i].rgbtRed;
-        _g := _g + Line[i].rgbtGreen;
-        _b := _b + Line[i].rgbtBlue;
+        _r := _r + Line[i].Red;
+        _g := _g + Line[i].Green;
+        _b := _b + Line[i].Blue;
       end;
     end;
     Pix := Bmp.Width * Bmp.Height;
-    Result := RGB(Round(_r / Pix), Round(_g / Pix), Round(_b / Pix));
+    Result := rgb(ROUND(_r / Pix), ROUND(_g / Pix), ROUND(_b / Pix));
+  end;
+
+  function GetMaxColorBmpUseSpecAlg(Bmp: TBitmap): TColor;
+  Var
+    Line: PRGB32Array;
+    i, j: INTEGER;
+    _r, _g, _b: Extended;
+    Temp: TRGB32;
+    H, S, V: INTEGER;
+    PixNum: Extended;
+  begin
+    _r := 0;
+    _g := 0;
+    _b := 0;
+    PixNum := 0;
+    Bmp.PixelFormat := pf24bit;
+
+    For j := 0 To Bmp.Height - 1 Do
+    begin
+      Line := Bmp.ScanLine[j];
+      For i := 0 To Bmp.Width - 1 Do
+      begin
+        Temp := Line[i];
+
+        RGBTripleToHSV(Temp, H, S, V);
+
+        if (S > 100) and (V > 100) then
+        begin
+          _r := _r + Line[i].Red;
+          _g := _g + Line[i].Green;
+          _b := _b + Line[i].Blue;
+          PixNum := PixNum + 1; ;
+        end;
+
+      end;
+    end;
+
+    Result := rgb(ROUND(_r / PixNum), ROUND(_g / PixNum), ROUND(_b / PixNum));
   end;
 
   procedure JPEGtoBMP(const FileName: TFileName; var Bmp: TBitmap);
@@ -209,9 +299,22 @@ procedure TADesktopColor.SetThemeColor;
     end;
   end;
 
-  function Value255ToPercent(Val: byte): byte;
+  function Value255ToPercent(value: Byte): Byte;
   begin
-    Result := Round(Val * 100 / 255);
+    Result := ROUND(value * 100 / 255);
+  end;
+
+  function GetColorValFromReg(var ColorString: string): Byte;
+  var
+    Temp: string;
+  begin
+    Temp := ColorString;
+    if pos(' ', ColorString) > 0 then
+    begin
+      Temp := Copy(ColorString, 1, pos(' ', ColorString) - 1);
+      Delete(ColorString, 1, pos(' ', ColorString));
+    end;
+    Result := StrToInt(Temp);
   end;
 
 const
@@ -220,18 +323,17 @@ const
 var
   AManager: IAIMPAddonsSkinsManager;
   ASkinLocalFileName: WideString;
-  n1, n2: Integer;
+  n1, n2: INTEGER;
 
-  Path: string;
+  Path, ColorBackg: string;
   Bmp: TBitmap;
-  SetH, SetS, SetL: byte;
-  RGBcolor: TRGBTriple;
+  SetH, SetS, SetL: Byte;
+  RGBcolor: TRGB32;
   GetColor: TColor;
 begin
   Path := TRegIniFile.Create('Control Panel').ReadString('desktop',
     'Wallpaper', '');
-  if Path = '' then
-    Exit;
+
   if GetSkinsManager(AManager) then
   begin
     Bmp := TBitmap.Create;
@@ -251,27 +353,34 @@ begin
           else
             Bmp.LoadFromFile(Path);
 
-          GetColor := GetMaxColorBmp(Bmp);
-          RGBcolor.rgbtRed := GetRValue(GetColor);
-          RGBcolor.rgbtGreen := GetGValue(GetColor);
-          RGBcolor.rgbtBlue := GetBValue(GetColor);
+          if UseSpecialAlg then
+            GetColor := GetMaxColorBmpUseSpecAlg(Bmp)
+          else
+            GetColor := GetMaxColorBmp(Bmp);
 
-          if not((RGBcolor.rgbtRed = RGBcolor.rgbtBlue) and
-              (RGBcolor.rgbtRed = RGBcolor.rgbtGreen)) then
+          RGBcolor.Red := GetRValue(GetColor);
+          RGBcolor.Green := GetGValue(GetColor);
+          RGBcolor.Blue := GetBValue(GetColor);
+        end
+        else
+        begin
+          ColorBackg := TRegIniFile.Create('Control Panel').ReadString
+            ('Colors', 'Background', '0 0 0');
+          RGBcolor.Red := GetColorValFromReg(ColorBackg);
+          RGBcolor.Green := GetColorValFromReg(ColorBackg);
+          RGBcolor.Blue := GetColorValFromReg(ColorBackg);
+        end;
 
+        if not((RGBcolor.Red = RGBcolor.Blue) and
+            (RGBcolor.Red = RGBcolor.Green)) then
+
+        begin
+          if AManager.RGBToHSL(RGBcolor.Red, RGBcolor.Green, RGBcolor.Blue,
+            SetH, SetS, SetL) = S_OK then
           begin
-            if AManager.RGBToHSL(RGBcolor.rgbtRed, RGBcolor.rgbtGreen,
-              RGBcolor.rgbtBlue, SetH, SetS, SetL) = S_OK then
-            begin
-              // CodeSite.Send('SetH', SetH);
-              // CodeSite.Send('SetS', SetS);
-              // CodeSite.Send('SetS', SetL);
-
-              AManager.Select(PWideChar(ASkinLocalFileName), SetH,
-                Value255ToPercent(SetS));
-            end;
+            AManager.Select(PWideChar(ASkinLocalFileName), SetH,
+              Value255ToPercent(SetS));
           end;
-
         end;
 
       end;
