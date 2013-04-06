@@ -1,6 +1,7 @@
 library ADesktopColor;
 {$R *.res}
 {$R *.dres}
+// {$DEFINE Log}
 
 uses
   EAppDLL,
@@ -14,7 +15,7 @@ uses
   jpeg,
   Config in 'Config.pas' { frmConfig } ,
   ExtCtrls,
-  Math;
+  Math {$IFDEF Log}, CodeSiteLogging {$ENDIF};
 
 type
   TRGB32 = packed record
@@ -54,6 +55,8 @@ type
 const
   PluginName = 'ADesktopColor';
   PluginVers = '1.2';
+{$IFDEF Log}var
+  Dest: TCodeSiteDestination; {$ENDIF}
 
 function AIMP_QueryAddon3(out AHeader: IAIMPAddonPlugin): LongBool; stdcall;
 begin
@@ -71,6 +74,9 @@ end;
 { TADesktopColor }
 function TADesktopColor.Finalize: HRESULT;
 begin
+{$IFDEF Log}
+  Dest.Free;
+{$ENDIF};
   SaveSetting;
   FreeAndNil(ConfigForm);
   FreeAndNil(Time);
@@ -100,6 +106,15 @@ end;
 
 function TADesktopColor.Initialize(ACoreUnit: IAIMPCoreUnit): HRESULT;
 begin
+{$IFDEF Log}
+  Dest := TCodeSiteDestination.Create(nil);
+  Dest.Viewer.Active := false;
+  Dest.LogFile.Active := True;
+  Dest.LogFile.FileName := 'Log.csl';
+  Dest.LogFile.FilePath := 'C:\';
+  CodeSite.Destination := Dest;
+  CodeSite.TraceMethod(Self, 'Initialize');
+{$ENDIF};
   Result := inherited Initialize(ACoreUnit);
 
   if Succeeded(Result) then
@@ -229,6 +244,7 @@ procedure TADesktopColor.SetThemeColor;
     i, j, Pix: INTEGER;
     _r, _g, _b: Extended;
   begin
+{$IFDEF Log} CodeSite.TraceMethod(Self, 'GetMaxColorBmp'); {$ENDIF};
     _r := 0;
     _g := 0;
     _b := 0;
@@ -245,6 +261,7 @@ procedure TADesktopColor.SetThemeColor;
     end;
     Pix := Bmp.Width * Bmp.Height;
     Result := rgb(ROUND(_r / Pix), ROUND(_g / Pix), ROUND(_b / Pix));
+{$IFDEF Log} CodeSite.Send('Result', Result); {$ENDIF};
   end;
 
   function GetMaxColorBmpUseSpecAlg(Bmp: TBitmap): TColor;
@@ -256,6 +273,8 @@ procedure TADesktopColor.SetThemeColor;
     H, S, V: INTEGER;
     PixNum: Extended;
   begin
+{$IFDEF Log} CodeSite.TraceMethod(Self, 'GetMaxColorBmpUseSpecAlg');
+{$ENDIF};
     _r := 0;
     _g := 0;
     _b := 0;
@@ -281,14 +300,21 @@ procedure TADesktopColor.SetThemeColor;
 
       end;
     end;
-
-    Result := rgb(ROUND(_r / PixNum), ROUND(_g / PixNum), ROUND(_b / PixNum));
+    if PixNum = 0 then
+      Result := rgb(0, 0, 0)
+    else
+    begin
+{$IFDEF Log} CodeSite.Send('PixNum', PixNum); {$ENDIF};
+      Result := rgb(ROUND(_r / PixNum), ROUND(_g / PixNum), ROUND(_b / PixNum));
+{$IFDEF Log} CodeSite.Send('Result', Result); {$ENDIF};
+    end;
   end;
 
   procedure JPEGtoBMP(const FileName: TFileName; var Bmp: TBitmap);
   var
     jpeg: TJPEGImage;
   begin
+{$IFDEF Log} CodeSite.TraceMethod(Self, 'JPEGtoBMP'); {$ENDIF};
     jpeg := TJPEGImage.Create;
     try
       jpeg.CompressionQuality := 100; { Default Value }
@@ -301,19 +327,23 @@ procedure TADesktopColor.SetThemeColor;
 
   function Value255ToPercent(value: Byte): Byte;
   begin
+{$IFDEF Log} CodeSite.TraceMethod(Self, 'Value255ToPercent'); {$ENDIF};
     Result := ROUND(value * 100 / 255);
+{$IFDEF Log} CodeSite.Send('Result', Result); {$ENDIF};
   end;
 
   function GetColorValFromReg(var ColorString: string): Byte;
   var
     Temp: string;
   begin
+{$IFDEF Log} CodeSite.TraceMethod(Self, 'GetColorValFromReg'); {$ENDIF};
     Temp := ColorString;
     if pos(' ', ColorString) > 0 then
     begin
       Temp := Copy(ColorString, 1, pos(' ', ColorString) - 1);
       Delete(ColorString, 1, pos(' ', ColorString));
     end;
+{$IFDEF Log} CodeSite.Send('Temp', Temp); {$ENDIF};
     Result := StrToInt(Temp);
   end;
 
@@ -331,9 +361,10 @@ var
   RGBcolor: TRGB32;
   GetColor: TColor;
 begin
+{$IFDEF Log} CodeSite.TraceMethod(Self, 'SetThemeColor'); {$ENDIF};
   Path := TRegIniFile.Create('Control Panel').ReadString('desktop',
     'Wallpaper', '');
-
+{$IFDEF Log} CodeSite.Send('Path', Path); {$ENDIF};
   if GetSkinsManager(AManager) then
   begin
     Bmp := TBitmap.Create;
@@ -347,12 +378,12 @@ begin
 
         if FileExists(Path) then
         begin
-
+{$IFDEF Log} CodeSite.Send('FileExists'); {$ENDIF};
           if ExtractFileExt(Path) = '.jpg' then
             JPEGtoBMP(Path, Bmp)
           else
             Bmp.LoadFromFile(Path);
-
+{$IFDEF Log} CodeSite.Send('Bmp', Bmp); {$ENDIF};
           if UseSpecialAlg then
             GetColor := GetMaxColorBmpUseSpecAlg(Bmp)
           else
@@ -361,6 +392,11 @@ begin
           RGBcolor.Red := GetRValue(GetColor);
           RGBcolor.Green := GetGValue(GetColor);
           RGBcolor.Blue := GetBValue(GetColor);
+{$IFDEF Log} CodeSite.Send('RGBcolor.Red', RGBcolor.Red); {$ENDIF};
+{$IFDEF Log} CodeSite.Send('RGBcolor.Green', RGBcolor.Green);
+{$ENDIF};
+{$IFDEF Log} CodeSite.Send('RGBcolor.Blue', RGBcolor.Blue); {$ENDIF};
+
         end
         else
         begin
@@ -369,6 +405,10 @@ begin
           RGBcolor.Red := GetColorValFromReg(ColorBackg);
           RGBcolor.Green := GetColorValFromReg(ColorBackg);
           RGBcolor.Blue := GetColorValFromReg(ColorBackg);
+{$IFDEF Log} CodeSite.Send('RGBcolor.Red', RGBcolor.Red); {$ENDIF};
+{$IFDEF Log} CodeSite.Send('RGBcolor.Green', RGBcolor.Green);
+{$ENDIF};
+{$IFDEF Log} CodeSite.Send('RGBcolor.Blue', RGBcolor.Blue); {$ENDIF};
         end;
 
         if not((RGBcolor.Red = RGBcolor.Blue) and
@@ -378,6 +418,10 @@ begin
           if AManager.RGBToHSL(RGBcolor.Red, RGBcolor.Green, RGBcolor.Blue,
             SetH, SetS, SetL) = S_OK then
           begin
+{$IFDEF Log} CodeSite.Send('SetH', SetH); {$ENDIF};
+{$IFDEF Log} CodeSite.Send('SetS', SetS);
+{$ENDIF};
+{$IFDEF Log} CodeSite.Send('SetL', SetL); {$ENDIF};
             AManager.Select(PWideChar(ASkinLocalFileName), SetH,
               Value255ToPercent(SetS));
           end;
