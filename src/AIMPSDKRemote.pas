@@ -22,7 +22,7 @@ unit AIMPSDKRemote;
 { ************************************************ }
 { *                                              * }
 { *                AIMP Plugins API              * }
-{ *             v3.00.960 (01.12.2011)           * }
+{*             v3.50.1238 (13.03.2013)          *}
 { *                  Remote Access               * }
 { *                                              * }
 { *              (c) Artem Izmaylov              * }
@@ -39,7 +39,6 @@ uses
 
 const
   AIMPRemoteAccessClass = 'AIMP2_RemoteInfo';
-
   AIMPRemoteAccessMapFileSize = 2048;
 
   // Messages, which you can send to window with "AIMPRemoteAccessClass" class

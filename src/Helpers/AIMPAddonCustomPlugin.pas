@@ -19,6 +19,9 @@ uses
   Windows, AIMPSDKAddons, AIMPSDKCore;
 
 type
+{$IFNDEF VER200}
+  UnicodeString = WideString;
+{$ENDIF}
 
   { TAIMPAddonsCustomPlugin }
 
@@ -43,14 +46,14 @@ type
     function CorePropertySetValueI(APropertyID: DWORD; AValue: Integer): LongBool;
     function CorePropertySetValueS(APropertyID: DWORD; AValue: Single): LongBool;
     // Config
-    function ConfigReadBoolean(const ASectionName, AItemName: WideString; ADefaultValue: Boolean = False): Boolean;
-    function ConfigReadInteger(const ASectionName, AItemName: WideString; ADefaultValue: Integer = 0): Integer;
-    function ConfigReadString(const ASectionName, AItemName: WideString): WideString;
-    function ConfigWriteBoolean(const ASectionName, AItemName: WideString; AValue: Boolean): Boolean;
-    function ConfigWriteInteger(const ASectionName, AItemName: WideString; AValue: Integer): Boolean;
-    function ConfigWriteString(const ASectionName, AItemName, AValue: WideString): Boolean;
-    function ConfigSectionExists(const ASectionName: WideString): Boolean;
-    function ConfigSectionRemove(const ASectionName: WideString): Boolean;
+    function ConfigReadBoolean(const ASectionName, AItemName: UnicodeString; ADefaultValue: Boolean = False): Boolean;
+    function ConfigReadInteger(const ASectionName, AItemName: UnicodeString; ADefaultValue: Integer = 0): Integer;
+    function ConfigReadString(const ASectionName, AItemName: UnicodeString): UnicodeString;
+    function ConfigWriteBoolean(const ASectionName, AItemName: UnicodeString; AValue: Boolean): Boolean;
+    function ConfigWriteInteger(const ASectionName, AItemName: UnicodeString; AValue: Integer): Boolean;
+    function ConfigWriteString(const ASectionName, AItemName, AValue: UnicodeString): Boolean;
+    function ConfigSectionExists(const ASectionName: UnicodeString): Boolean;
+    function ConfigSectionRemove(const ASectionName: UnicodeString): Boolean;
     // Extensions
     function GetMenuManager(out AManager: IAIMPAddonsMenuManager): Boolean;
     function GetOptionsDialog(out ADialog: IAIMPAddonsOptionsDialog): Boolean;
@@ -62,82 +65,86 @@ type
     property Version: TAIMPVersionInfo read GetVersion;
   end;
 
-function FormatVersionInfo(const AVersion: TAIMPVersionInfo): WideString;
+function FormatVersionInfo(const AVersion: TAIMPVersionInfo): UnicodeString;
 // Helper routines
 function EntryPropertyGetBoolValue(AManager: IAIMPAddonsPlaylistManager; ID: HPLSENTRY; APropertyID: Integer): LongBool;
 function EntryPropertyGetIntegerValue(AManager: IAIMPAddonsPlaylistManager; ID: HPLSENTRY; APropertyID: Integer): Integer;
-function EntryPropertyGetStringValue(AManager: IAIMPAddonsPlaylistManager; ID: HPLSENTRY; APropertyID: Integer): WideString;
+function EntryPropertyGetStringValue(AManager: IAIMPAddonsPlaylistManager; ID: HPLSENTRY; APropertyID: Integer): UnicodeString;
 function EntryPropertySetBoolValue(AManager: IAIMPAddonsPlaylistManager; ID: HPLSENTRY; APropertyID: Integer; AValue: LongBool): LongBool;
 function EntryPropertySetIntegerValue(AManager: IAIMPAddonsPlaylistManager; ID: HPLSENTRY; APropertyID: Integer; AValue: Integer): LongBool;
-function EntryPropertySetStringValue(AManager: IAIMPAddonsPlaylistManager; ID: HPLSENTRY; APropertyID: Integer;
-  const AValue: WideString): LongBool;
+function EntryPropertySetStringValue(AManager: IAIMPAddonsPlaylistManager; ID: HPLSENTRY; APropertyID: Integer; const AValue: UnicodeString): LongBool;
 //
 function GroupPropertyGetBoolValue(AManager: IAIMPAddonsPlaylistManager; ID: HPLSGROUP; APropertyID: Integer): LongBool;
 function GroupPropertyGetIntegerValue(AManager: IAIMPAddonsPlaylistManager; ID: HPLSGROUP; APropertyID: Integer): Integer;
-function GroupPropertyGetStringValue(AManager: IAIMPAddonsPlaylistManager; ID: HPLSGROUP; APropertyID: Integer): WideString;
+function GroupPropertyGetStringValue(AManager: IAIMPAddonsPlaylistManager; ID: HPLSGROUP; APropertyID: Integer): UnicodeString;
 function GroupPropertySetBoolValue(AManager: IAIMPAddonsPlaylistManager; ID: HPLSGROUP; APropertyID: Integer; AValue: LongBool): LongBool;
 function GroupPropertySetIntegerValue(AManager: IAIMPAddonsPlaylistManager; ID: HPLSGROUP; APropertyID: Integer; AValue: Integer): LongBool;
-function GroupPropertySetStringValue(AManager: IAIMPAddonsPlaylistManager; ID: HPLSGROUP; APropertyID: Integer;
-  const AValue: WideString): LongBool;
+function GroupPropertySetStringValue(AManager: IAIMPAddonsPlaylistManager; ID: HPLSGROUP; APropertyID: Integer; const AValue: UnicodeString): LongBool;
 //
-function StoragePropertyGetStringValue(AManager: IAIMPAddonsPlaylistManager; ID: HPLS; APropertyID: Integer): WideString;
-
+function StoragePropertyGetStringValue(AManager: IAIMPAddonsPlaylistManager; ID: HPLS; APropertyID: Integer): UnicodeString;
 implementation
 
 uses
   SysUtils, Math;
 
-function FormatVersionInfo(const AVersion: TAIMPVersionInfo): WideString;
+function FormatVersionInfo(const AVersion: TAIMPVersionInfo): UnicodeString;
 begin
-  Result := Format('v%d.%s build %d', [AVersion.ID div 1000, FormatFloat('00', (AVersion.ID mod 1000) div 10), AVersion.BuildNumber]);
+  Result := Format('v%d.%s build %d', [AVersion.ID div 1000,
+    FormatFloat('00', (AVersion.ID mod 1000) div 10), AVersion.BuildNumber]);
   if AVersion.BuildSuffix <> nil then
     Result := Result + ' ' + AVersion.BuildSuffix;
 end;
 
-function EntryPropertyGetBoolValue(AManager: IAIMPAddonsPlaylistManager; ID: HPLSENTRY; APropertyID: Integer): LongBool;
+function EntryPropertyGetBoolValue(AManager: IAIMPAddonsPlaylistManager;
+  ID: HPLSENTRY; APropertyID: Integer): LongBool;
 begin
   if Failed(AManager.EntryPropertyGetValue(ID, APropertyID, @Result, SizeOf(Result))) then
     Result := False;
 end;
 
-function EntryPropertyGetIntegerValue(AManager: IAIMPAddonsPlaylistManager; ID: HPLSENTRY; APropertyID: Integer): Integer;
+function EntryPropertyGetIntegerValue(AManager: IAIMPAddonsPlaylistManager;
+  ID: HPLSENTRY; APropertyID: Integer): Integer;
 begin
   if Failed(AManager.EntryPropertyGetValue(ID, APropertyID, @Result, SizeOf(Result))) then
     Result := 0;
 end;
 
-function EntryPropertyGetStringValue(AManager: IAIMPAddonsPlaylistManager; ID: HPLSENTRY; APropertyID: Integer): WideString;
+function EntryPropertyGetStringValue(AManager: IAIMPAddonsPlaylistManager;
+  ID: HPLSENTRY; APropertyID: Integer): UnicodeString;
 var
   B: array [Byte] of WideChar;
 begin
   if AManager.EntryPropertyGetValue(ID, APropertyID, @B[0], SizeOf(B)) = S_OK then
-    Result := WideString(B)
+    Result := UnicodeString(B)
   else
     Result := '';
 end;
 
-function EntryPropertySetBoolValue(AManager: IAIMPAddonsPlaylistManager; ID: HPLSENTRY; APropertyID: Integer; AValue: LongBool): LongBool;
+function EntryPropertySetBoolValue(AManager: IAIMPAddonsPlaylistManager;
+  ID: HPLSENTRY; APropertyID: Integer; AValue: LongBool): LongBool;
 begin
   Result := AManager.EntryPropertySetValue(ID, APropertyID, @AValue, SizeOf(AValue)) = S_OK;
 end;
 
-function EntryPropertySetIntegerValue(AManager: IAIMPAddonsPlaylistManager; ID: HPLSENTRY; APropertyID: Integer; AValue: Integer): LongBool;
+function EntryPropertySetIntegerValue(AManager: IAIMPAddonsPlaylistManager;
+  ID: HPLSENTRY; APropertyID: Integer; AValue: Integer): LongBool;
 begin
   Result := AManager.EntryPropertySetValue(ID, APropertyID, @AValue, SizeOf(AValue)) = S_OK;
 end;
 
-function EntryPropertySetStringValue(AManager: IAIMPAddonsPlaylistManager; ID: HPLSENTRY; APropertyID: Integer;
-  const AValue: WideString): LongBool;
+function EntryPropertySetStringValue(AManager: IAIMPAddonsPlaylistManager;
+  ID: HPLSENTRY; APropertyID: Integer; const AValue: UnicodeString): LongBool;
 begin
-  Result := AManager.EntryPropertySetValue(ID, APropertyID, @AValue[1], Length(AValue) * SizeOf(WideChar)) = S_OK;
+  Result := AManager.EntryPropertySetValue(ID, APropertyID,
+    @AValue[1], Length(AValue) * SizeOf(WideChar)) = S_OK;
 end;
 
-function StoragePropertyGetStringValue(AManager: IAIMPAddonsPlaylistManager; ID: HPLS; APropertyID: Integer): WideString;
+function StoragePropertyGetStringValue(AManager: IAIMPAddonsPlaylistManager; ID: HPLS; APropertyID: Integer): UnicodeString;
 var
   B: array [Byte] of WideChar;
 begin
   if AManager.StoragePropertyGetValue(ID, APropertyID, @B[0], SizeOf(B)) = S_OK then
-    Result := WideString(B)
+    Result := UnicodeString(B)
   else
     Result := '';
 end;
@@ -154,30 +161,34 @@ begin
     Result := 0;
 end;
 
-function GroupPropertyGetStringValue(AManager: IAIMPAddonsPlaylistManager; ID: HPLSGROUP; APropertyID: Integer): WideString;
+function GroupPropertyGetStringValue(AManager: IAIMPAddonsPlaylistManager;
+  ID: HPLSGROUP; APropertyID: Integer): UnicodeString;
 var
   B: array [Byte] of WideChar;
 begin
   if AManager.GroupPropertyGetValue(ID, APropertyID, @B[0], SizeOf(B)) = S_OK then
-    Result := WideString(B)
+    Result := UnicodeString(B)
   else
     Result := '';
 end;
 
-function GroupPropertySetBoolValue(AManager: IAIMPAddonsPlaylistManager; ID: HPLSGROUP; APropertyID: Integer; AValue: LongBool): LongBool;
+function GroupPropertySetBoolValue(AManager: IAIMPAddonsPlaylistManager;
+  ID: HPLSGROUP; APropertyID: Integer; AValue: LongBool): LongBool;
 begin
   Result := AManager.GroupPropertySetValue(ID, APropertyID, @AValue, SizeOf(AValue)) = S_OK;
 end;
 
-function GroupPropertySetIntegerValue(AManager: IAIMPAddonsPlaylistManager; ID: HPLSGROUP; APropertyID: Integer; AValue: Integer): LongBool;
+function GroupPropertySetIntegerValue(AManager: IAIMPAddonsPlaylistManager;
+  ID: HPLSGROUP; APropertyID: Integer; AValue: Integer): LongBool;
 begin
   Result := AManager.GroupPropertySetValue(ID, APropertyID, @AValue, SizeOf(AValue)) = S_OK;
 end;
 
-function GroupPropertySetStringValue(AManager: IAIMPAddonsPlaylistManager; ID: HPLSGROUP; APropertyID: Integer;
-  const AValue: WideString): LongBool;
+function GroupPropertySetStringValue(AManager: IAIMPAddonsPlaylistManager;
+  ID: HPLSGROUP; APropertyID: Integer; const AValue: UnicodeString): LongBool;
 begin
-  Result := AManager.GroupPropertySetValue(ID, APropertyID, @AValue[1], Length(AValue) * SizeOf(WideChar)) = S_OK;
+  Result := AManager.GroupPropertySetValue(ID, APropertyID,
+    @AValue[1], Length(AValue) * SizeOf(WideChar)) = S_OK;
 end;
 
 { TAIMPAddonsCustomPlugin }
@@ -235,26 +246,31 @@ begin
   Result := CoreUnit.MessageSend(APropertyID, AIMP_MSG_PROPVALUE_SET, @AValue) = S_OK;
 end;
 
-function TAIMPAddonsCustomPlugin.ConfigReadBoolean(const ASectionName, AItemName: WideString; ADefaultValue: Boolean = False): Boolean;
+function TAIMPAddonsCustomPlugin.ConfigReadBoolean(
+  const ASectionName, AItemName: UnicodeString; ADefaultValue: Boolean = False): Boolean;
 begin
   Result := ConfigReadInteger(ASectionName, AItemName, Integer(ADefaultValue)) <> 0;
 end;
 
-function TAIMPAddonsCustomPlugin.ConfigReadInteger(const ASectionName, AItemName: WideString; ADefaultValue: Integer = 0): Integer;
+function TAIMPAddonsCustomPlugin.ConfigReadInteger(
+  const ASectionName, AItemName: UnicodeString; ADefaultValue: Integer = 0): Integer;
 var
   AConfig: IAIMPAddonsConfigFile;
 begin
   Result := ADefaultValue;
   if Supports(CoreUnit, IAIMPAddonsConfigFile, AConfig) then
     try
-      if AConfig.ReadInteger(PWideChar(ASectionName), PWideChar(AItemName), Length(ASectionName), Length(AItemName), Result) <> S_OK then
+    if AConfig.ReadInteger(PWideChar(ASectionName), PWideChar(AItemName),
+      Length(ASectionName), Length(AItemName), Result) <> S_OK
+    then
         Result := ADefaultValue;
     finally
       AConfig := nil;
     end;
 end;
 
-function TAIMPAddonsCustomPlugin.ConfigReadString(const ASectionName, AItemName: WideString): WideString;
+function TAIMPAddonsCustomPlugin.ConfigReadString(
+  const ASectionName, AItemName: UnicodeString): UnicodeString;
 var
   ABuffer: array [Byte] of WideChar;
   AConfig: IAIMPAddonsConfigFile;
@@ -262,8 +278,10 @@ begin
   Result := '';
   if Supports(CoreUnit, IAIMPAddonsConfigFile, AConfig) then
     try
-      if AConfig.ReadString(PWideChar(ASectionName), PWideChar(AItemName), @ABuffer[0], Length(ASectionName), Length(AItemName),
-        Length(ABuffer)) = S_OK then
+    if AConfig.ReadString(
+        PWideChar(ASectionName), PWideChar(AItemName), @ABuffer[0],
+        Length(ASectionName), Length(AItemName), Length(ABuffer)) = S_OK
+    then
         Result := ABuffer
       else
         Result := '';
@@ -272,7 +290,7 @@ begin
     end;
 end;
 
-function TAIMPAddonsCustomPlugin.ConfigSectionExists(const ASectionName: WideString): Boolean;
+function TAIMPAddonsCustomPlugin.ConfigSectionExists(const ASectionName: UnicodeString): Boolean;
 var
   AConfig: IAIMPAddonsConfigFile;
 begin
@@ -285,7 +303,7 @@ begin
     end;
 end;
 
-function TAIMPAddonsCustomPlugin.ConfigSectionRemove(const ASectionName: WideString): Boolean;
+function TAIMPAddonsCustomPlugin.ConfigSectionRemove(const ASectionName: UnicodeString): Boolean;
 var
   AConfig: IAIMPAddonsConfigFile;
 begin
@@ -298,33 +316,38 @@ begin
     end;
 end;
 
-function TAIMPAddonsCustomPlugin.ConfigWriteBoolean(const ASectionName, AItemName: WideString; AValue: Boolean): Boolean;
+function TAIMPAddonsCustomPlugin.ConfigWriteBoolean(
+  const ASectionName, AItemName: UnicodeString; AValue: Boolean): Boolean;
 begin
   Result := ConfigWriteInteger(ASectionName, AItemName, Integer(AValue));
 end;
 
-function TAIMPAddonsCustomPlugin.ConfigWriteInteger(const ASectionName, AItemName: WideString; AValue: Integer): Boolean;
+function TAIMPAddonsCustomPlugin.ConfigWriteInteger(
+  const ASectionName, AItemName: UnicodeString; AValue: Integer): Boolean;
 var
   AConfig: IAIMPAddonsConfigFile;
 begin
   Result := False;
   if Supports(CoreUnit, IAIMPAddonsConfigFile, AConfig) then
     try
-      Result := AConfig.WriteInteger(PWideChar(ASectionName), PWideChar(AItemName), Length(ASectionName), Length(AItemName), AValue) = S_OK;
+    Result := AConfig.WriteInteger(PWideChar(ASectionName),
+      PWideChar(AItemName), Length(ASectionName), Length(AItemName), AValue) = S_OK;
     finally
       AConfig := nil;
     end;
 end;
 
-function TAIMPAddonsCustomPlugin.ConfigWriteString(const ASectionName, AItemName, AValue: WideString): Boolean;
+function TAIMPAddonsCustomPlugin.ConfigWriteString(
+  const ASectionName, AItemName, AValue: UnicodeString): Boolean;
 var
   AConfig: IAIMPAddonsConfigFile;
 begin
   Result := False;
   if Supports(CoreUnit, IAIMPAddonsConfigFile, AConfig) then
     try
-      Result := AConfig.WriteString(PWideChar(ASectionName), PWideChar(AItemName), PWideChar(AValue), Length(ASectionName),
-        Length(AItemName), Length(AValue)) = S_OK;
+    Result := AConfig.WriteString(
+      PWideChar(ASectionName), PWideChar(AItemName), PWideChar(AValue),
+      Length(ASectionName), Length(AItemName), Length(AValue)) = S_OK;
     finally
       AConfig := nil;
     end;

@@ -3,7 +3,7 @@ unit AIMPSDKHelpers;
 {************************************************}
 {*                                              *}
 {*                AIMP Plugins API              *}
-{*             v3.00.943 (26.10.2011)           *}
+{*             v3.50.1238 (13.03.2013)          *}
 {*      Helper Classes for Delphi Developers    *}
 {*                                              *}
 {*              (c) Artem Izmaylov              *}
@@ -62,14 +62,14 @@ type
   private
     FFileInfo: TAIMPFileInfo;
     function GetHandle: PAIMPFileInfo;
-    function GetString(AIndex: Integer): WideString;
-    procedure SetString(AIndex: Integer; const AValue: WideString);
-    function DoGetString(ABuffer: PWideChar; ALength: Integer): WideString;
-    procedure DoSetString(ABuffer: PWideChar; ALength: Integer; const AValue: WideString);
+    function GetString(AIndex: Integer): UnicodeString;
+    procedure SetString(AIndex: Integer; const AValue: UnicodeString);
+    function DoGetString(ABuffer: PWideChar; ALength: Integer): UnicodeString;
+    procedure DoSetString(ABuffer: PWideChar; ALength: Integer; const AValue: UnicodeString);
   public
     constructor Create; overload; virtual;
-    constructor Create(AAlbumLength, AArtistLength, ADateLength: DWORD;
-      AFileNameLength, AGenreLength, ATitleLength: DWORD); overload; virtual;
+    constructor Create(AAlbumSizeInChars, AArtistSizeInChars, ADateSizeInChars: DWORD;
+      AFileNameSizeInChars, AGenreSizeInChars, ATitleSizeInChars: DWORD); overload; virtual;
     destructor Destroy; override;
     procedure Assign(AInfo: PAIMPFileInfo);
     procedure Reset;
@@ -82,12 +82,12 @@ type
     property SampleRate: DWORD read FFileInfo.SampleRate write FFileInfo.SampleRate;
     property TrackNumber: DWORD read FFileInfo.TrackNumber write FFileInfo.TrackNumber;
     //
-    property Album: WideString index 0 read GetString write SetString;
-    property Artist: WideString index 1 read GetString write SetString;
-    property Date: WideString index 2 read GetString write SetString;
-    property FileName: WideString index 3 read GetString write SetString;
-    property Genre: WideString index 4 read GetString write SetString;
-    property Title: WideString index 5 read GetString write SetString;
+    property Album: UnicodeString index 0 read GetString write SetString;
+    property Artist: UnicodeString index 1 read GetString write SetString;
+    property Date: UnicodeString index 2 read GetString write SetString;
+    property FileName: UnicodeString index 3 read GetString write SetString;
+    property Genre: UnicodeString index 4 read GetString write SetString;
+    property Title: UnicodeString index 5 read GetString write SetString;
     //
     property Handle: PAIMPFileInfo read GetHandle;
   end;
@@ -108,9 +108,8 @@ type
   end;
 
 function FileInfoCopy(ASource, ADest: PAIMPFileInfo): Boolean;
-function FileInfoIsValid(AInfo: PAIMPFileInfo): Boolean;
 function SafeCopyBuffer(ASource, ADest: PWideChar; ASourceSizeInChars, ADestSizeInChars: Integer): Boolean;
-function SafePutStringToBuffer(const S: WideString; ABuffer: PWideChar; ABufferSizeInChars: Integer): Boolean;
+function SafePutStringToBuffer(const S: UnicodeString; ABuffer: PWideChar; ABufferSizeInChars: Integer): Boolean;
 implementation
 
 uses
@@ -139,23 +138,14 @@ begin
     ADest^.SampleRate := ASource^.SampleRate;
     ADest^.TrackNumber := ASource^.TrackNumber;
 
-    SafeCopyBuffer(ASource^.Album, ADest^.Album, ASource^.AlbumLength, ADest^.AlbumLength);
-    SafeCopyBuffer(ASource^.Artist, ADest^.Artist, ASource^.ArtistLength, ADest^.ArtistLength);
-    SafeCopyBuffer(ASource^.Date, ADest^.Date, ASource^.DateLength, ADest^.DateLength);
-    SafeCopyBuffer(ASource^.FileName, ADest^.FileName, ASource^.FileNameLength, ADest^.FileNameLength);
-    SafeCopyBuffer(ASource^.Genre, ADest^.Genre, ASource^.GenreLength, ADest^.GenreLength);
-    SafeCopyBuffer(ASource^.Title, ADest^.Title, ASource^.TitleLength, ADest^.TitleLength);
+    SafeCopyBuffer(ASource^.AlbumBuffer, ADest^.AlbumBuffer, ASource^.AlbumBufferSizeInChars, ADest^.AlbumBufferSizeInChars);
+    SafeCopyBuffer(ASource^.ArtistBuffer, ADest^.ArtistBuffer, ASource^.ArtistBufferSizeInChars, ADest^.ArtistBufferSizeInChars);
+    SafeCopyBuffer(ASource^.DateBuffer, ADest^.DateBuffer, ASource^.DateBufferSizeInChars, ADest^.DateBufferSizeInChars);
+    SafeCopyBuffer(ASource^.FileNameBuffer, ADest^.FileNameBuffer, ASource^.FileNameBufferSizeInChars, ADest^.FileNameBufferSizeInChars);
+    SafeCopyBuffer(ASource^.GenreBuffer, ADest^.GenreBuffer, ASource^.GenreBufferSizeInChars, ADest^.GenreBufferSizeInChars);
+    SafeCopyBuffer(ASource^.TitleBuffer, ADest^.TitleBuffer, ASource^.TitleBufferSizeInChars, ADest^.TitleBufferSizeInChars);
   except
     Result := False;
-  end;
-end;
-
-function FileInfoIsValid(AInfo: PAIMPFileInfo): Boolean;
-begin
-  try
-    Result := Assigned(AInfo) and not IsBadReadPtr(AInfo, 4) and (AInfo^.StructSize = SizeOf(TAIMPFileInfo));
-  except
-    Result := False
   end;
 end;
 
@@ -175,7 +165,7 @@ begin
   end;
 end;
 
-function SafePutStringToBuffer(const S: WideString; ABuffer: PWideChar; ABufferSizeInChars: Integer): Boolean;
+function SafePutStringToBuffer(const S: UnicodeString; ABuffer: PWideChar; ABufferSizeInChars: Integer): Boolean;
 begin
   Result := SafeCopyBuffer(@S[1], ABuffer, Length(S), ABufferSizeInChars);
 end;
@@ -251,33 +241,33 @@ begin
   Create(128, 128, 16, MAX_PATH, 32, MAX_PATH);
 end;
 
-constructor TAIMPFileInfoAdapter.Create(AAlbumLength, AArtistLength: DWORD;
-  ADateLength, AFileNameLength, AGenreLength, ATitleLength: DWORD);
+constructor TAIMPFileInfoAdapter.Create(AAlbumSizeInChars, AArtistSizeInChars: DWORD;
+  ADateSizeInChars, AFileNameSizeInChars, AGenreSizeInChars, ATitleSizeInChars: DWORD);
 begin
   inherited Create;
   FFileInfo.StructSize := SizeOf(TAIMPFileInfo);
-  FFileInfo.AlbumLength := AAlbumLength;
-  FFileInfo.Album := AllocMem(AAlbumLength * SizeOf(WideChar));
-  FFileInfo.ArtistLength := AArtistLength;
-  FFileInfo.Artist := AllocMem(AArtistLength * SizeOf(WideChar));
-  FFileInfo.DateLength := ADateLength;
-  FFileInfo.Date := AllocMem(ADateLength * SizeOf(WideChar));
-  FFileInfo.FileNameLength := AFileNameLength;
-  FFileInfo.FileName := AllocMem(AFileNameLength * SizeOf(WideChar));
-  FFileInfo.GenreLength := AGenreLength;
-  FFileInfo.Genre := AllocMem(AGenreLength * SizeOf(WideChar));
-  FFileInfo.TitleLength := ATitleLength;
-  FFileInfo.Title := AllocMem(ATitleLength * SizeOf(WideChar));
+  FFileInfo.AlbumBufferSizeInChars := AAlbumSizeInChars;
+  FFileInfo.AlbumBuffer := AllocMem(AAlbumSizeInChars * SizeOf(WideChar));
+  FFileInfo.ArtistBufferSizeInChars := AArtistSizeInChars;
+  FFileInfo.ArtistBuffer := AllocMem(AArtistSizeInChars * SizeOf(WideChar));
+  FFileInfo.DateBufferSizeInChars := ADateSizeInChars;
+  FFileInfo.DateBuffer := AllocMem(ADateSizeInChars * SizeOf(WideChar));
+  FFileInfo.FileNameBufferSizeInChars := AFileNameSizeInChars;
+  FFileInfo.FileNameBuffer := AllocMem(AFileNameSizeInChars * SizeOf(WideChar));
+  FFileInfo.GenreBufferSizeInChars := AGenreSizeInChars;
+  FFileInfo.GenreBuffer := AllocMem(AGenreSizeInChars * SizeOf(WideChar));
+  FFileInfo.TitleBufferSizeInChars := ATitleSizeInChars;
+  FFileInfo.TitleBuffer := AllocMem(ATitleSizeInChars * SizeOf(WideChar));
 end;
 
 destructor TAIMPFileInfoAdapter.Destroy;
 begin
-  FreeMemAndNil(Pointer(FFileInfo.Album));
-  FreeMemAndNil(Pointer(FFileInfo.Artist));
-  FreeMemAndNil(Pointer(FFileInfo.Date));
-  FreeMemAndNil(Pointer(FFileInfo.FileName));
-  FreeMemAndNil(Pointer(FFileInfo.Genre));
-  FreeMemAndNil(Pointer(FFileInfo.Title));
+  FreeMemAndNil(Pointer(FFileInfo.AlbumBuffer));
+  FreeMemAndNil(Pointer(FFileInfo.ArtistBuffer));
+  FreeMemAndNil(Pointer(FFileInfo.DateBuffer));
+  FreeMemAndNil(Pointer(FFileInfo.FileNameBuffer));
+  FreeMemAndNil(Pointer(FFileInfo.GenreBuffer));
+  FreeMemAndNil(Pointer(FFileInfo.TitleBuffer));
   inherited Destroy;
 end;
 
@@ -303,12 +293,12 @@ begin
   FFileInfo.FileSize := 0;
   FFileInfo.SampleRate := 0;
   FFileInfo.TrackNumber := 0;
-  DoResetBuffer(FFileInfo.Album, FFileInfo.AlbumLength);
-  DoResetBuffer(FFileInfo.Artist, FFileInfo.ArtistLength);
-  DoResetBuffer(FFileInfo.Date, FFileInfo.DateLength);
-  DoResetBuffer(FFileInfo.FileName, FFileInfo.FileNameLength);
-  DoResetBuffer(FFileInfo.Genre, FFileInfo.GenreLength);
-  DoResetBuffer(FFileInfo.Title, FFileInfo.TitleLength);
+  DoResetBuffer(FFileInfo.AlbumBuffer, FFileInfo.AlbumBufferSizeInChars);
+  DoResetBuffer(FFileInfo.ArtistBuffer, FFileInfo.ArtistBufferSizeInChars);
+  DoResetBuffer(FFileInfo.DateBuffer, FFileInfo.DateBufferSizeInChars);
+  DoResetBuffer(FFileInfo.FileNameBuffer, FFileInfo.FileNameBufferSizeInChars);
+  DoResetBuffer(FFileInfo.GenreBuffer, FFileInfo.GenreBufferSizeInChars);
+  DoResetBuffer(FFileInfo.TitleBuffer, FFileInfo.TitleBufferSizeInChars);
 end;
 
 function TAIMPFileInfoAdapter.GetHandle: PAIMPFileInfo;
@@ -316,7 +306,7 @@ begin
   Result := @FFileInfo;
 end;
 
-function TAIMPFileInfoAdapter.DoGetString(ABuffer: PWideChar; ALength: Integer): WideString;
+function TAIMPFileInfoAdapter.DoGetString(ABuffer: PWideChar; ALength: Integer): UnicodeString;
 begin
   if ABuffer = nil then
     raise Exception.Create(ClassName + ': Buffer is not allocated');
@@ -324,7 +314,7 @@ begin
 end;
 
 procedure TAIMPFileInfoAdapter.DoSetString(
-  ABuffer: PWideChar; ALength: Integer; const AValue: WideString);
+  ABuffer: PWideChar; ALength: Integer; const AValue: UnicodeString);
 begin
   if ABuffer = nil then
     raise Exception.Create(ClassName + ': Buffer is not allocated');
@@ -332,29 +322,29 @@ begin
   Move(AValue[1], ABuffer^, Min(Length(AValue), ALength) * SizeOf(WideChar));
 end;
 
-function TAIMPFileInfoAdapter.GetString(AIndex: Integer): WideString;
+function TAIMPFileInfoAdapter.GetString(AIndex: Integer): UnicodeString;
 begin
   case AIndex of
-    0: Result := DoGetString(FFileInfo.Album, FFileInfo.AlbumLength);
-    1: Result := DoGetString(FFileInfo.Artist, FFileInfo.ArtistLength);
-    2: Result := DoGetString(FFileInfo.Date, FFileInfo.DateLength);
-    3: Result := DoGetString(FFileInfo.FileName, FFileInfo.FileNameLength);
-    4: Result := DoGetString(FFileInfo.Genre, FFileInfo.GenreLength);
-    5: Result := DoGetString(FFileInfo.Title, FFileInfo.TitleLength);
+    0: Result := DoGetString(FFileInfo.AlbumBuffer, FFileInfo.AlbumBufferSizeInChars);
+    1: Result := DoGetString(FFileInfo.ArtistBuffer, FFileInfo.ArtistBufferSizeInChars);
+    2: Result := DoGetString(FFileInfo.DateBuffer, FFileInfo.DateBufferSizeInChars);
+    3: Result := DoGetString(FFileInfo.FileNameBuffer, FFileInfo.FileNameBufferSizeInChars);
+    4: Result := DoGetString(FFileInfo.GenreBuffer, FFileInfo.GenreBufferSizeInChars);
+    5: Result := DoGetString(FFileInfo.TitleBuffer, FFileInfo.TitleBufferSizeInChars);
     else
       Result := '';
   end;
 end;
 
-procedure TAIMPFileInfoAdapter.SetString(AIndex: Integer; const AValue: WideString);
+procedure TAIMPFileInfoAdapter.SetString(AIndex: Integer; const AValue: UnicodeString);
 begin
   case AIndex of
-    0: DoSetString(FFileInfo.Album, FFileInfo.AlbumLength, AValue);
-    1: DoSetString(FFileInfo.Artist, FFileInfo.ArtistLength, AValue);
-    2: DoSetString(FFileInfo.Date, FFileInfo.DateLength, AValue);
-    3: DoSetString(FFileInfo.FileName, FFileInfo.FileNameLength, AValue);
-    4: DoSetString(FFileInfo.Genre, FFileInfo.GenreLength, AValue);
-    5: DoSetString(FFileInfo.Title, FFileInfo.TitleLength, AValue);
+    0: DoSetString(FFileInfo.AlbumBuffer, FFileInfo.AlbumBufferSizeInChars, AValue);
+    1: DoSetString(FFileInfo.ArtistBuffer, FFileInfo.ArtistBufferSizeInChars, AValue);
+    2: DoSetString(FFileInfo.DateBuffer, FFileInfo.DateBufferSizeInChars, AValue);
+    3: DoSetString(FFileInfo.FileNameBuffer, FFileInfo.FileNameBufferSizeInChars, AValue);
+    4: DoSetString(FFileInfo.GenreBuffer, FFileInfo.GenreBufferSizeInChars, AValue);
+    5: DoSetString(FFileInfo.TitleBuffer, FFileInfo.TitleBufferSizeInChars, AValue);
   end;
 end;
 

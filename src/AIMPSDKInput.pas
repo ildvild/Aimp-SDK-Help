@@ -22,7 +22,7 @@ unit AIMPSDKInput;
 {************************************************}
 {*                                              *}
 {*                AIMP Plugins API              *}
-{*             v3.00.960 (01.12.2011)           *}
+{*             v3.50.1238 (13.03.2013)          *}
 {*                 Input Plugins                *}
 {*                                              *}
 {*              (c) Artem Izmaylov              *}
@@ -45,8 +45,8 @@ const
   AIMP_INPUT_BITDEPTH_32BITFLOAT = 5;
   AIMP_INPUT_BITDEPTH_64BITFLOAT = 6;
 
-  AIMP_INPUT_FLAG_FILE           = 1; // IAIMPInputHeader.CreateDecoder supports
-  AIMP_INPUT_FLAG_ISTREAM        = 2; // IAIMPInputHeader.CreateDecoderEx supports
+  AIMP_INPUT_FLAG_FILE           = 1; // IAIMPInputHeader.CreateDecoder is supported by plugin
+  AIMP_INPUT_FLAG_ISTREAM        = 2; // IAIMPInputHeader.CreateDecoderEx is supported by plugin
 
 const
   SID_IAIMPInputStream        = '{41494D50-0033-494E-0000-000000000010}';

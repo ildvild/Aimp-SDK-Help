@@ -1,10 +1,9 @@
-
 unit AIMPSDKAddons;
 
 {************************************************}
 {*                                              *}
 {*                AIMP Plugins API              *}
-{*             v3.00.960 (01.12.2011)           *}
+{*             v3.50.1238 (13.03.2013)          *}
 {*                 Addons Plugins               *}
 {*                                              *}
 {*              (c) Artem Izmaylov              *}
@@ -14,7 +13,7 @@ unit AIMPSDKAddons;
 {*                                              *}
 {************************************************}
 
-// WARNING! Addons API functions doesn't support calling from non-main threads
+// WARNING! Addons API functions doesn't support multithreading
 
 interface
 
@@ -212,10 +211,6 @@ const
   AIMP_MENUITEM_RADIOITEM  = 8;
 
   // IAIMPAddonsMenuManager.MenuCreate, MenuIDs
-  AIMP_MENUID_MAIN_OPTIONS   = 0; //в меню после открыть файл
-
-  AIMP_MENUID_MAIN_FUNCTION  = 2; //в меню после планировщик
-
   {$REGION 'Documentation'}
   ///	<summary>
   ///	  <para>
@@ -229,6 +224,8 @@ const
   ///	  See Aimp Addons Demo.
   ///	</example>
   {$ENDREGION}
+  AIMP_MENUID_MAIN_OPTIONS   = 0; //в меню после открыть файл
+  AIMP_MENUID_MAIN_FUNCTION  = 2; //в меню после планировщик
   AIMP_MENUID_MAIN_CONFIGS   = 3; //в меню после язык интерфейса
   AIMP_MENUID_UTILITIES      = 4;  //утилиты
   AIMP_MENUID_PLS_ADD        = 5; //в плейлисте в добавить
@@ -277,6 +274,7 @@ const
   AIMP_PLAYLIST_STORAGE_PROPERTY_DURATION                 = 52; // READONLY! ABuffer: Pointer to Int64 (64-bit Integer), ABufferSize: SizeOf(Int64)
   AIMP_PLAYLIST_STORAGE_PROPERTY_SIZE                     = 53; // READONLY! ABuffer: Pointer to Int64 (64-bit Integer), ABufferSize: SizeOf(Int64)
   AIMP_PLAYLIST_STORAGE_PROPERTY_PLAYINGINDEX             = 54; // READONLY! ABuffer: Pointer to Integer, ABufferSize: SizeOf(Integer)
+  AIMP_PLAYLIST_STORAGE_PROPERTY_PREIMAGE                 = 60; // [v3.10] ABuffer: Pointer to array of WideChar, ABufferSize: size of array in Bytes
 
   // IAIMPAddonsPlaylistManager.StorageSort
   AIMP_PLAYLIST_SORT_TYPE_TITLE      = 1;
@@ -290,6 +288,11 @@ const
   AIMP_PLAYLIST_GETFILES_VISIBLE  = 1; // Files from collapsed groups will be excluded from list
   AIMP_PLAYLIST_GETFILES_SELECTED = 2; // Only selected files will be processed
 
+  // IAIMPAddonsPlaylistManager.ElementGetType
+  AIMP_PLAYLIST_ELEMENT_TYPE_UNKNOWN = 0;
+  AIMP_PLAYLIST_ELEMENT_TYPE_ENTRY   = 1;
+  AIMP_PLAYLIST_ELEMENT_TYPE_GROUP   = 2;
+
   // IAIMPAddonsPlaylistManager.FormatString Flags
   AIMP_PLAYLIST_FORMAT_MODE_PREVIEW  = 1;
   AIMP_PLAYLIST_FORMAT_MODE_FILEINFO = 2;
@@ -299,6 +302,8 @@ const
   AIMP_PLAYLIST_GROUP_PROPERTY_NAME                       = 0;  // READONLY! ABuffer: Pointer to array of WideChar, ABufferSize: size of array in Bytes
   AIMP_PLAYLIST_GROUP_PROPERTY_EXPANDED                   = 1;  // ABuffer: Pointer to LongBool (32-bit Boolean), ABufferSize: SizeOf(LongBool)
   AIMP_PLAYLIST_GROUP_PROPERTY_DURATION                   = 2;  // READONLY! ABuffer: Pointer to Int64 (64-bit Integer), ABufferSize: SizeOf(Int64)
+  AIMP_PLAYLIST_GROUP_PROPERTY_INDEX    = 3;  // [v3.10] READONLY! ABuffer: Pointer to Integer, ABufferSize: SizeOf(Integer)
+  AIMP_PLAYLIST_GROUP_PROPERTY_SELECTED = 4;  // [v3.10] ABuffer: Pointer to LongBool (32-bit Boolean), ABufferSize: SizeOf(LongBool)
 
   // Flags for IAIMPAddonsPlaylistManagerListener.StorageChanged
   AIMP_PLAYLIST_NOTIFY_NAME           = 1;
@@ -310,18 +315,36 @@ const
   AIMP_PLAYLIST_NOTIFY_ENTRYINFO      = 64;
   AIMP_PLAYLIST_NOTIFY_STATISTICS     = 128;
   AIMP_PLAYLIST_NOTIFY_PLAYINGSWITCHS = 256;
+  AIMP_PLAYLIST_NOTIFY_READONLY       = 512;   // [v3.10]
+  AIMP_PLAYLIST_NOTIFY_PREIMAGE       = 1024;  // [v3.10]
+
+  // [v3.50]
+  // Flags for IAIMPAddonsActionManager.ActionPropertyGetValue / ActionPropertySetValue
+  AIMP_ACTION_PROPERTY_NAME                 = 1; // ABuffer: Pointer to array of WideChar, ABufferSize: size of array in Bytes
+  AIMP_ACTION_PROPERTY_GROUPNAME            = 2; // ABuffer: Pointer to array of WideChar, ABufferSize: size of array in Bytes
+  AIMP_ACTION_PROPERTY_ENABLED              = 3; // ABuffer: Pointer to LongBool (32-bit Boolean), ABufferSize: SizeOf(LongBool)
+  AIMP_ACTION_PROPERTY_DEFAULTLOCALHOTKEY   = 4; // ABuffer: Pointer to Integer, ABufferSize: SizeOf(Integer)
+  AIMP_ACTION_PROPERTY_DEFAULTGLOBALHOTKEY  = 5; // ABuffer: Pointer to Integer, ABufferSize: SizeOf(Integer)
+  AIMP_ACTION_PROPERTY_DEFAULTGLOBALHOTKEY2 = 6; // ABuffer: Pointer to Integer, ABufferSize: SizeOf(Integer)
+
+  // [v3.50]
+  // Flags for IAIMPAddonsActionManager.ActionMakeHotkey
+  AIMP_ACTION_HOTKEY_MODIFIER_CTRL  = 1;
+  AIMP_ACTION_HOTKEY_MODIFIER_ALT   = 2;
+  AIMP_ACTION_HOTKEY_MODIFIER_SHIFT = 4;
+  AIMP_ACTION_HOTKEY_MODIFIER_WIN   = 8;
 
   // AConfigPathIDs for IAIMPAddonsPlayerManager.ConfigGetPath
   AIMP_CFG_PATH_PROFILE  = 0;
   AIMP_CFG_PATH_PLS      = 1;
   AIMP_CFG_PATH_LNG      = 2;
   AIMP_CFG_PATH_SKINS    = 3;
+  AIMP_CFG_PATH_SKINS_COMMON = 11; // [v3.10]
   AIMP_CFG_PATH_PLUGINS  = 4;
   AIMP_CFG_PATH_ICONS    = 5;
-  AIMP_CFG_PATH_ML       = 6;
   AIMP_CFG_PATH_MODULES  = 8;
   AIMP_CFG_PATH_HELP     = 9;
-  AIMP_CFG_PATH_ML_PLS   = 10;
+  AIMP_CFG_PATH_ML           = 6;
 
   // AFlags for IAIMPAddonsPlayerManager.SupportsExts
   AIMP_SUPPORTS_EXTS_FORMAT_AUDIO    = 2;
@@ -339,32 +362,50 @@ const
   SID_IAIMPAddonsPlaylistStrings = '{41494D50-0033-434F-5245-000000000018}';
   SID_IAIMPAddonsSkinsManager = '{41494D50-0033-434F-5245-000000000019}';
   SID_IAIMPAddonsProxySettings = '{41494D50-0033-434F-5245-000000000020}';
+  SID_IAIMPAddonsPlaylistManager2 = '{41494D50-0033-434F-5245-000000000021}'; // [v3.10]
+  SID_IAIMPAddonsPlaylistQueue = '{41494D50-0033-434F-5245-000000000022}'; // [v3.10]
+  SID_IAIMPAddonsMediaBase = '{41494D50-0033-434F-5245-000000000024}'; // [v3.50]
+  SID_IAIMPAddonsActionManager = '{41494D50-0033-434F-5245-000000000025}'; // [v3.50]
+  SID_IAIMPAddonsMenuManager2 = '{41494D50-0033-434F-5245-000000000026}'; // [v3.50]
 
+  IID_IAIMPAddonsActionManager: TGUID = SID_IAIMPAddonsActionManager;
   IID_IAIMPAddonsConfigFile: TGUID = SID_IAIMPAddonsConfigFile;
   IID_IAIMPAddonsCoverArtManager: TGUID = SID_IAIMPAddonsCoverArtManager;
   IID_IAIMPAddonsLanguageFile: TGUID = SID_IAIMPAddonsLanguageFile;
+  IID_IAIMPAddonsMediaBase: TGUID = SID_IAIMPAddonsMediaBase;
   IID_IAIMPAddonsMenuManager: TGUID = SID_IAIMPAddonsMenuManager;
+  IID_IAIMPAddonsMenuManager2: TGUID = SID_IAIMPAddonsMenuManager2;
   IID_IAIMPAddonsOptionsDialog: TGUID = SID_IAIMPAddonsLanguageFile;
   IID_IAIMPAddonsPlayerManager: TGUID = SID_IAIMPAddonsPlayerManager;
   IID_IAIMPAddonsPlaylistManager: TGUID = SID_IAIMPAddonsPlaylistManager;
+  IID_IAIMPAddonsPlaylistManager2: TGUID = SID_IAIMPAddonsPlaylistManager2;
   IID_IAIMPAddonsPlaylistManagerListener: TGUID = SID_IAIMPAddonsPlaylistManagerListener;
+  IID_IAIMPAddonsPlaylistQueue: TGUID = SID_IAIMPAddonsPlaylistQueue;
   IID_IAIMPAddonsPlaylistStrings: TGUID = SID_IAIMPAddonsPlaylistStrings;
-  IID_IAIMPAddonsSkinsManager: TGUID = SID_IAIMPAddonsSkinsManager;
   IID_IAIMPAddonsProxySettings: TGUID = SID_IAIMPAddonsProxySettings;
+  IID_IAIMPAddonsSkinsManager: TGUID = SID_IAIMPAddonsSkinsManager;
 
 type
+  HAIMPACTION = type Pointer;
+  HAIMPMENU = type Pointer;
+
   HPLS = type Pointer;
+  HPLSELEMENT = type Pointer;
   HPLSENTRY = type Pointer;
   HPLSGROUP = type Pointer;
-  HAIMPMENU = type Pointer;
 
 const
   // Universal Handle for Active Playlist
   ActivePlaylistHandle = HPLS(-1);
 
 type
+  TAIMPActionProc = procedure (UserData: Pointer; ID: Integer; Handle: HAIMPACTION); stdcall;
+
+  { TAIMPMenuItemInfo }
+
   TAIMPMenuProc = procedure (UserData: Pointer; Handle: HAIMPMENU); stdcall;
 
+  // refer to IAIMPAddonsMenuManager
   PAIMPMenuItemInfo = ^TAIMPMenuItemInfo;
   TAIMPMenuItemInfo = packed record
     StructSize: DWORD; // SizeOf(TAIMPMenuItemInfo)
@@ -372,27 +413,32 @@ type
     Caption: PWideChar;
     Flags: DWORD;   // Combination of AIMP_MENUITEM_XXX flags
     Proc: TAIMPMenuProc;
-    ShortCut: DWORD;
-    UserData: Pointer;
+    ShortCut: DWORD; // Obsolete, use HAIMPACTION instead (see IAIMPAddonsActionManager)
+    UserData: Pointer; // User parameter for Proc callback event
   end;
+
+  { TAIMPFileStatisticsInfo }
 
   PAIMPFileStatisticsInfo = ^TAIMPFileStatisticsInfo;
   TAIMPFileStatisticsInfo = packed record
-    Mark: Integer;
-    AddDate: TDateTime;
+    AddedDate: TDateTime;
+    LastPlayDate: TDateTime;
+    Mark: Double;
     PlayCount: Integer;
-    PlayDate: TDateTime;
+    Rating: Double; // Rating = file_play_count / max_play_count_in_db
   end;
+
+  { TAIMPSkinInfo }
 
   PAIMPSkinInfo = ^TAIMPSkinInfo;
   TAIMPSkinInfo = packed record
     StructSize: DWORD; // SizeOf(TAIMPSkinInfo)
     AuthorBuffer: PWideChar;
-    AuthorBufferLength: DWORD;
+    AuthorBufferSizeInChars: DWORD;
     InfoBuffer: PWideChar;
-    InfoBufferLength: DWORD;
+    InfoBufferSizeInChars: DWORD;
     NameBuffer: PWideChar;
-    NameBufferLength: DWORD;
+    NameBufferSizeInChars: DWORD;
     Preview: HBITMAP;
   end;
 
@@ -431,7 +477,7 @@ type
   // Must be implemented by Plugin
   IAIMPAddonsFileInfoRepository = interface(IUnknown)
     // You can fill custom info for AFile using AInfo property
-    // If you was processed request, return S_OK
+    // If you has processed request, return S_OK
     function GetInfo(AFile: PWideChar; AInfo: PAIMPFileInfo): HRESULT; stdcall;
   end;
 
@@ -444,7 +490,7 @@ type
     // Out: Next / Previous Playlist ID & EntryIndex
     // Notes:
     //   If previous controller has processed request, you don't receive it
-    //   return S_OK if you was processed request or E_FAIL otherwise
+    //   return S_OK if you has processed request or E_FAIL otherwise
     // Priorities:
     //   1) Queue
     //   2) Plugins
@@ -531,11 +577,21 @@ type
 
   IAIMPAddonsMenuManager = interface(IUnknown)
   [SID_IAIMPAddonsMenuManager]
-    function MenuCreate(AMenuID: DWORD; AItemInfo: PAIMPMenuItemInfo): HAIMPMENU; stdcall; // AMenuID: see AIMP_MENUID_XXX
+    // AMenuID: see AIMP_MENUID_XXX
+    function MenuCreate(AMenuID: DWORD; AItemInfo: PAIMPMenuItemInfo): HAIMPMENU; stdcall; 
     function MenuCreateEx(AParentMenu: HAIMPMENU; AItemInfo: PAIMPMenuItemInfo): HAIMPMENU; stdcall;
+    // Deprecated, use IAIMPAddonsActionManager.ActionMakeHotkey instead
     function MenuTextToShortCut(ABuffer: PWideChar; ABufferSizeInChars: Integer): DWORD; stdcall;
     function MenuRemove(AHandle: HAIMPMENU): HRESULT; stdcall;
     function MenuUpdate(AHandle: HAIMPMENU; AItemInfo: PAIMPMenuItemInfo): HRESULT; stdcall;
+  end;
+
+  { IAIMPAddonsMenuManager2 }
+
+  IAIMPAddonsMenuManager2 = interface(IAIMPAddonsMenuManager) // [v3.50]
+  [SID_IAIMPAddonsMenuManager2]
+    // set AActionHandle to nil to remove any action from specified menu item
+    function MenuSetAction(AHandle: HAIMPMENU; AActionHandle: HAIMPACTION): HRESULT; stdcall;
   end;
 
   { IAIMPAddonsProxySettings }
@@ -546,7 +602,7 @@ type
     // Returns E_FAIL, if proxy doesn't use, and S_OK otherwise
     function GetProxyParams(AServerBuffer: PWideChar; AServerBufferSizeInChars: Integer): HRESULT; stdcall;
     // Receiving Proxy Server user autorization params
-    // Returns E_FAIL, if proxy server or user authorization doesn't use
+    // Returns E_FAIL, if proxy server or user authorization don't used
     function GetProxyAuthorizationParams(
       AUserNameBuffer: PWideChar; AUserNameBufferSizeInChars: Integer;
       AUserPassBuffer: PWideChar; AUserPassBufferSizeInChars: Integer): HRESULT; stdcall;
@@ -569,6 +625,7 @@ type
   [SID_IAIMPAddonsPlaylistManagerListener]
     procedure StorageActivated(ID: HPLS); stdcall;
     procedure StorageAdded(ID: HPLS); stdcall;
+	  // AFlags - combination of AIMP_PLAYLIST_NOTIFY_XXX
     procedure StorageChanged(ID: HPLS; AFlags: DWORD); stdcall;
     procedure StorageRemoved(ID: HPLS); stdcall;
   end;
@@ -596,14 +653,14 @@ type
     // See AIMP_PLAYLIST_GROUP_PROPERTY_XXX
     function GroupPropertyGetValue(AGroup: HPLSGROUP; APropertyID: Integer; ABuffer: Pointer; ABufferSize: Integer): HRESULT; stdcall;
     function GroupPropertySetValue(AGroup: HPLSGROUP; APropertyID: Integer; ABuffer: Pointer; ABufferSize: Integer): HRESULT; stdcall;
-    //
+    // Storages
     function StorageActiveGet: HPLS; stdcall;
     function StorageActiveSet(ID: HPLS): HRESULT; stdcall;
     function StorageAddEntries(ID: HPLS; AObjects: IAIMPAddonsPlaylistStrings): HRESULT; stdcall; // Add Objects to playlist. "Objects" can contains: shortcuts, files, folder, playlists
     function StorageCreate(AName: PWideChar; AActivate: LongBool): HPLS; stdcall;
     function StorageCreateFromFile(AFileName: PWideChar; AActivate, AStartPlay: LongBool): HPLS; stdcall;
     function StoragePlayingGet: HPLS; stdcall;
-    //
+    // Content
     function StorageGet(AIndex: Integer): HPLS; stdcall;
     function StorageGetCount: Integer; stdcall; // Count of loaded playlists
     function StorageGetEntry(ID: HPLS; AEntryIndex: Integer): HPLSENTRY; stdcall;
@@ -611,13 +668,13 @@ type
     function StorageGetFiles(ID: HPLS; AFlags: Integer; out AFiles: IAIMPAddonsPlaylistStrings): HRESULT; stdcall; // Flags: Use combination of the AIMP_PLAYLIST_GETFILES_XXX flags
     function StorageGetGroup(ID: HPLS; AGroupIndex: Integer): HPLSGROUP; stdcall;
     function StorageGetGroupCount(ID: HPLS): Integer; stdcall;
-    //
+    // Removing
     function StorageDelete(ID: HPLS; AEntryIndex: Integer): HRESULT; stdcall;
     function StorageDeleteAll(ID: HPLS): HRESULT; stdcall;
     function StorageDeleteByFilter(ID: HPLS; APhysically: LongBool;
       AFilterProc: TAIMPAddonsPlaylistManagerDeleteProc; AUserData: Pointer): HRESULT; stdcall;
     function StorageRemove(ID: HPLS): HRESULT; stdcall; // Remove playlist storage from manager (like "close playlist")
-    //
+    // Sorting
     function StorageSort(ID: HPLS; ASortType: Integer): HRESULT; stdcall; // Predefined Sorting, see AIMP_PLAYLIST_SORT_TYPE_XXX
     function StorageSortCustom(ID: HPLS; ACompareProc: TAIMPAddonsPlaylistManagerCompareProc; AUserData: Pointer): HRESULT; stdcall;
     function StorageSortTemplate(ID: HPLS; ABuffer: PWideChar; ABufferSizeInChars: Integer): HRESULT; stdcall;
@@ -630,6 +687,36 @@ type
     // Queue
     function QueueEntryAdd(AEntry: HPLSENTRY; AInsertAtQueueBegining: LongBool): HRESULT; stdcall;
     function QueueEntryRemove(AEntry: HPLSENTRY): HRESULT; stdcall;
+  end;
+
+  { IAIMPAddonsPlaylistManager2 }
+
+  IAIMPAddonsPlaylistManager2 = interface(IAIMPAddonsPlaylistManager) // [v3.10]
+  [SID_IAIMPAddonsPlaylistManager2]
+    // Element
+    function ElementGetType(AElement: HPLSELEMENT): Integer; stdcall;
+    // Groups
+    function GroupGetEntry(AGroup: HPLSGROUP; AIndex: Integer; out AEntry: HPLSENTRY): HRESULT; stdcall;
+    function GroupGetEntryCount(AGroup: HPLSGROUP): Integer; stdcall;
+    // Storage
+    // HPLSELEMENT - HPLSENTRY or HPLSGROUP, use ElementGetType to determine the type of element
+    function StorageFocusGet(ID: HPLS; out AElement: HPLSELEMENT): HRESULT; stdcall;
+    function StorageFocusSet(ID: HPLS; AElement: HPLSELEMENT): HRESULT; stdcall;
+    function StorageReloadFromPreimage(ID: HPLS): HRESULT; stdcall;
+  end;
+
+  { IAIMPAddonsPlaylistQueue }
+
+  IAIMPAddonsPlaylistQueue = interface // [v3.10]
+  [SID_IAIMPAddonsPlaylistQueue]
+    function QueueEntryAdd(AEntry: HPLSENTRY; AInsertAtQueueBegining: LongBool): HRESULT; stdcall;
+    function QueueEntryRemove(AEntry: HPLSENTRY): HRESULT; stdcall;
+    function QueueEntryGet(Index: Integer; out AEntry: HPLSENTRY): HRESULT; stdcall;
+    function QueueEntryGetCount: Integer; stdcall;
+    function QueueEntryMove(AEntry: HPLSENTRY; ANewIndex: Integer): HRESULT; stdcall;
+    function QueueEntryMove2(AOldIndex, ANewIndex: Integer): HRESULT; stdcall;
+    function QueueSuspendedGet: LongBool; stdcall;
+    function QueueSuspendedSet(AValue: LongBool): HRESULT; stdcall;
   end;
 
   { IAIMPAddonsCoverArtManager }
@@ -673,7 +760,7 @@ type
 
   IAIMPAddonsSkinsManager = interface(IUnknown)
   [SID_IAIMPAddonsSkinsManager]
-    // AColorHue & AColorHueIntensity - optional
+    // AColorHue & AColorHueIntensity - optional, can be nil
     function GetCurrentSettings(ASkinLocalFileNameBuffer: PWideChar;
       ASkinLocalFileNameBufferSizeInChars: Integer; AColorHue, AColorHueIntensity: PInteger): HRESULT; stdcall;
     // Get Info about Skin
@@ -688,6 +775,40 @@ type
     // Conversion between HSL and RGB color spaces
     function HSLToRGB(H, S, L: Byte; out R, G, B: Byte): HRESULT; stdcall;
     function RGBToHSL(R, G, B: Byte; out H, S, L: Byte): HRESULT; stdcall;
+  end;
+
+  { IAIMPAddonsMediaBase }
+
+  IAIMPAddonsMediaBase = interface(IUnknown) // [v3.50]
+  [SID_IAIMPAddonsMediaBase]
+    // AMark - mark for the specified file, [0.0 .. 5.0]
+    // Function returns E_NOTIMPL if Audio Library is not installed
+    function MarkGet(AFileNameBuffer: PWideChar; AFileNameBufferSizeInChars: Integer; out AMark: Single): HRESULT; stdcall;
+    function MarkSet(AFileNameBuffer: PWideChar; AFileNameBufferSizeInChars: Integer; AMark: Single): HRESULT; stdcall;
+    // Function receive information about the specified file from DataBase
+    // To get statistics information about the file, you should:
+    // + Set to ABuffer pointer to TAIMPFileStatisticsInfo struct
+    // + Set to ABufferSize value equals to SizeOf(TAIMPFileStatisticsInfo)
+    // Function returns E_NOTIMPL if Audio Library is not installed
+    function InfoGet(AFileNameBuffer: PWideChar; AFileNameBufferSizeInChars: Integer; ABuffer: Pointer; ABufferSize: Integer): HRESULT; stdcall;
+  end;
+
+  { IAIMPAddonsActionManager }
+
+  IAIMPAddonsActionManager = interface(IUnknown) // [v3.50]
+  [SID_IAIMPAddonsActionManager]
+    // AInstance - A handle to an instance of the plugin
+    // ID - Unique action id for the plugin, it uses for save / restore information about the action from config
+    // AProc - callback procedure
+    // AUserData - user data for callback procedure
+    function ActionCreate(AInstance: HINST; ID: Integer; AProc: TAIMPActionProc; AUserData: Pointer; out AHandle: HAIMPACTION): HRESULT; stdcall;
+    // APropertyID - see AIMP_ACTION_PROPERTY_XXX
+    function ActionPropertyGetValue(AHandle: HAIMPACTION; APropertyID: Integer; ABuffer: Pointer; ABufferSize: Integer): HRESULT; stdcall;
+    function ActionPropertySetValue(AHandle: HAIMPACTION; APropertyID: Integer; ABuffer: Pointer; ABufferSize: Integer): HRESULT; stdcall;
+    function ActionRemove(AHandle: HAIMPACTION): HRESULT; stdcall;
+    // AModifiers - combination of AIMP_ACTION_HOTKEY_MODIFIER_XXX flags
+    // AKey - virtual key code, see VK_XXX consts from Windows.pas
+    function ActionMakeHotkey(AModifiers: Word; AKey: Word): DWORD; stdcall;
   end;
 
   { IAIMPAddonPlugin }
@@ -705,6 +826,7 @@ type
 
   TAIMPAddonPluginHeaderProc = function (out AHeader: IAIMPAddonPlugin): LongBool; stdcall;
   // Export function name: AIMP_QueryAddon3
+
 implementation
 
 end.

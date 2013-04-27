@@ -57,7 +57,7 @@ unit AIMPSDKCommon;
 { ************************************************ }
 { *                                              * }
 { *                AIMP Plugins API              * }
-{ *             v3.00.960 (01.12.2011)           * }
+{*             v3.50.1238 (13.03.2013)          *}
 { *                Common Objects                * }
 { *                                              * }
 { *              (c) Artem Izmaylov              * }
@@ -273,7 +273,7 @@ type
     /// Album
     /// </seealso>
 {$ENDREGION}
-    AlbumLength: DWORD;
+    AlbumBufferSizeInChars: DWORD;
 {$REGION 'Documentation'}
     /// <summary>
     /// <para>
@@ -287,7 +287,7 @@ type
     /// Artist
     /// </seealso>
 {$ENDREGION}
-    ArtistLength: DWORD;
+    ArtistBufferSizeInChars: DWORD;
 {$REGION 'Documentation'}
     /// <summary>
     /// <para>
@@ -301,7 +301,7 @@ type
     /// Date
     /// </seealso>
 {$ENDREGION}
-    DateLength: DWORD;
+    DateBufferSizeInChars: DWORD;
 {$REGION 'Documentation'}
     /// <summary>
     /// <para>
@@ -315,7 +315,7 @@ type
     /// FileName
     /// </seealso>
 {$ENDREGION}
-    FileNameLength: DWORD;
+    FileNameBufferSizeInChars: DWORD;
 {$REGION 'Documentation'}
     /// <summary>
     /// <para>
@@ -329,7 +329,7 @@ type
     /// Genre
     /// </seealso>
 {$ENDREGION}
-    GenreLength: DWORD;
+    GenreBufferSizeInChars: DWORD;
 {$REGION 'Documentation'}
     /// <summary>
     /// <para>
@@ -343,7 +343,7 @@ type
     /// Title
     /// </seealso>
 {$ENDREGION}
-    TitleLength: DWORD;
+    TitleBufferSizeInChars: DWORD;
 {$REGION 'Documentation'}
     /// <summary>
     /// <para>
@@ -354,7 +354,7 @@ type
     /// </para>
     /// </summary>
 {$ENDREGION}
-    Album: PWideChar;
+    AlbumBuffer: PWideChar;
 {$REGION 'Documentation'}
     /// <summary>
     /// <para>
@@ -365,7 +365,7 @@ type
     /// </para>
     /// </summary>
 {$ENDREGION}
-    Artist: PWideChar;
+    ArtistBuffer: PWideChar;
 {$REGION 'Documentation'}
     /// <summary>
     /// <para>
@@ -376,7 +376,7 @@ type
     /// </para>
     /// </summary>
 {$ENDREGION}
-    Date: PWideChar;
+    DateBuffer: PWideChar;
 {$REGION 'Documentation'}
     /// <summary>
     /// <para>
@@ -387,7 +387,7 @@ type
     /// </para>
     /// </summary>
 {$ENDREGION}
-    FileName: PWideChar;
+    FileNameBuffer: PWideChar;
 {$REGION 'Documentation'}
     /// <summary>
     /// <para>
@@ -398,7 +398,7 @@ type
     /// </para>
     /// </summary>
 {$ENDREGION}
-    Genre: PWideChar;
+    GenreBuffer: PWideChar;
 {$REGION 'Documentation'}
     /// <summary>
     /// <para>
@@ -409,9 +409,48 @@ type
     /// </para>
     /// </summary>
 {$ENDREGION}
-    Title: PWideChar;
+    TitleBuffer: PWideChar;
   end;
 
+procedure FileInfoClear(AInfo: PAIMPFileInfo);
+function FileInfoIsValid(AInfo: PAIMPFileInfo): Boolean;
 implementation
+
+procedure FileInfoClearBuffer(ABuffer: PWideChar; ASizeInChars: Integer);
+begin
+  if ABuffer <> nil then
+    ZeroMemory(ABuffer, ASizeInChars * SizeOf(WideChar));
+end;
+
+procedure FileInfoClear(AInfo: PAIMPFileInfo);
+begin
+  if FileInfoIsValid(AInfo) then
+  begin
+    AInfo.Active := False;
+    AInfo.BitRate := 0;
+    AInfo.Channels := 0;
+    AInfo.Duration := 0;
+    AInfo.FileSize := 0;
+    AInfo.Mark := 0;
+    AInfo.SampleRate := 0;
+    AInfo.TrackNumber := 0;
+
+    FileInfoClearBuffer(AInfo.AlbumBuffer, AInfo.AlbumBufferSizeInChars);
+    FileInfoClearBuffer(AInfo.ArtistBuffer, AInfo.ArtistBufferSizeInChars);
+    FileInfoClearBuffer(AInfo.DateBuffer, AInfo.DateBufferSizeInChars);
+    FileInfoClearBuffer(AInfo.FileNameBuffer, AInfo.FileNameBufferSizeInChars);
+    FileInfoClearBuffer(AInfo.GenreBuffer, AInfo.GenreBufferSizeInChars);
+    FileInfoClearBuffer(AInfo.TitleBuffer, AInfo.TitleBufferSizeInChars);
+  end;
+end;
+
+function FileInfoIsValid(AInfo: PAIMPFileInfo): Boolean;
+begin
+  try
+    Result := Assigned(AInfo) and not IsBadReadPtr(AInfo, 4) and (AInfo^.StructSize = SizeOf(TAIMPFileInfo));
+  except
+    Result := False
+  end;
+end;
 
 end.

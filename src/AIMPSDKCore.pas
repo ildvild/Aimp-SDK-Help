@@ -3,7 +3,7 @@ unit AIMPSDKCore;
 {************************************************}
 {*                                              *}
 {*                AIMP Plugins API              *}
-{*             v3.00.960 (01.12.2011)           *}
+{*             v3.50.1238 (13.03.2013)          *}
 {*                CoreUnit Objects              *}
 {*                                              *}
 {*              (c) Artem Izmaylov              *}
@@ -37,14 +37,15 @@ const
   AIMP_MSG_CMD_SHOW_CURRENT_QFI = AIMP_MSG_CMD_BASE + 2;
 
   // Show custom text in display of RunningString element
-  // AParam1: unused
+  // AParam1: 0 - Hide text automaticly after 2 seconds
+  //          1 - Text will be hidden manually (put nil to AParam2 to hide previous text)
   // AParam2: Pointer to WideChar array
   AIMP_MSG_CMD_RUNSTR_SHOW_TEXT = AIMP_MSG_CMD_BASE + 3;
 
   // For Backward compatibility
   // AParam1: unused
   // AParam2: Pointer to Single value, New Track Position
-  AIMP_MSG_CMD_RUNSTR_SEEKING_HINT = AIMP_MSG_CMD_BASE + 4;
+  //!!! REMOVED: AIMP_MSG_CMD_RUNSTR_SEEKING_HINT = AIMP_MSG_CMD_BASE + 4;
 
   AIMP_MSG_CMD_TOGGLE_PARTREPEAT = AIMP_MSG_CMD_BASE + 5;
 
@@ -173,7 +174,7 @@ const
   // AParam1, AParam2: unused
   AIMP_MSG_CMD_PLS_DELETE_SWITCHEDOFF_FROM_HDD = AIMP_MSG_CMD_BASE + 36;
 
-  // Delete duplcates from active playlist
+  // Delete duplicates from active playlist
   // AParam1, AParam2: unused
   AIMP_MSG_CMD_PLS_DELETE_DUPLICATES = AIMP_MSG_CMD_BASE + 37;
 
@@ -230,6 +231,18 @@ const
   // Show Advanced Search Dialog
   // AParam1, AParam2: unused
   AIMP_MSG_CMD_SEARCH = AIMP_MSG_CMD_BASE + 52;
+
+  // Show DSP Manager Dialog
+  // AParam1, AParam2: unused
+  AIMP_MSG_CMD_DSPMANAGER = AIMP_MSG_CMD_BASE + 53;
+
+  // Show DSP Manager Dialog with active "Equalizer" page
+  // AParam1, AParam2: unused
+  AIMP_MSG_CMD_DSPMANAGER_EQ = AIMP_MSG_CMD_BASE + 54;
+
+  // Sync active playlist with preimage
+  // AParam1, AParam2: unused
+  AIMP_MSG_CMD_PLS_RELOAD_FROM_PREIMAGE = AIMP_MSG_CMD_BASE + 55;
 
 //==============================================================================
 // Properties
@@ -301,7 +314,7 @@ const
 
   // AParam1: AIMP_MSG_PROPVALUE_GET / AIMP_MSG_PROPVALUE_SET
   // AParam2: Pointer to Single (32-bit floating point value) variable
-  //          [0.5 .. 1.5], Default: 1.0 (switched off)
+  //          [-15.0 .. 15.0] (in db), Default: 0.0 (switched off)
   AIMP_MSG_PROPERTY_PREAMP = AIMP_MSG_PROPERTY_BASE + 13;
 
   // AParam1: AIMP_MSG_PROPVALUE_GET / AIMP_MSG_PROPVALUE_SET
@@ -310,7 +323,7 @@ const
   AIMP_MSG_PROPERTY_EQUALIZER =  AIMP_MSG_PROPERTY_BASE + 14;
 
   // AParam1: LoWord: AIMP_MSG_PROPVALUE_GET / AIMP_MSG_PROPVALUE_SET
-  //          HiWord: Slider Index [0..17]
+  //          HiWord: Band Index [0..17]
   // AParam2: Pointer to Single (32-bit floating point value) variable
   //          [-15.0 .. 15.0] (in db), Default: 0.0 (switched off)
   // !!!NOTE: AParam2 in AIMP_MSG_EVENT_PROPERTY_VALUE will be nil;
@@ -437,7 +450,7 @@ const
   AIMP_MSG_EVENT_MODULES = AIMP_MSG_EVENT_BASE + 10;
 
   // Called, when swithing between visual plugins
-  // AParam2: reserved, internal plugin handle
+  // AParam1, AParam2: unused
   AIMP_MSG_EVENT_VISUAL_PLUGIN = AIMP_MSG_EVENT_BASE + 11;
 
   // Called, when mark of file has been changed
@@ -446,15 +459,13 @@ const
   // !!!WARNING: You must not fire this event manually!
   AIMP_MSG_EVENT_FILEMARK = AIMP_MSG_EVENT_BASE + 12;
 
-  // Called, when All statistics in data base has been dropped
-  // AParam1, AParam2: unused
-  AIMP_MSG_EVENT_STATISTICS_DROPPED = AIMP_MSG_EVENT_BASE + 13;
-
   // Called, when statistics of the file changed
   // AParam2: FileName (Pointer to WideChar)
+  // !!!Note: If filename is empty or AParam2 is nil - statistics for all files has been changed
   // !!!WARNING: You must not fire this event manually!
   AIMP_MSG_EVENT_STATISTICS_CHANGED = AIMP_MSG_EVENT_BASE + 14;
 
+  // Called after skin changed
   // AParam1, AParam2: unused
   AIMP_MSG_EVENT_SKIN = AIMP_MSG_EVENT_BASE + 15;
 
@@ -467,6 +478,10 @@ const
   // Called, when inteface language has been changed
   // AParam1, AParam2: unused
   AIMP_MSG_EVENT_LANGUAGE = AIMP_MSG_EVENT_BASE + 17;
+
+  // Called, when AIMP completely loaded
+  // AParam1, AParam2: unused
+  AIMP_MSG_EVENT_LOADED = AIMP_MSG_EVENT_BASE + 18;
 
 const
   SID_IAIMPCoreUnitMessageHook = '{FC6FB524-A959-4089-AA0A-EA40AB7374CD}';

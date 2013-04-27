@@ -46,7 +46,7 @@ unit AIMPSDKVisual;
 { ************************************************ }
 { *                                              * }
 { *                AIMP Plugins API              * }
-{ *             v3.00.960 (01.12.2011)           * }
+{*             v3.50.1238 (13.03.2013)          *}
 { *                 Visual Plugins               * }
 { *                                              * }
 { *              (c) Artem Izmaylov              * }
@@ -121,6 +121,9 @@ const
 {$ENDREGION}
   AIMP_VISUAL_FLAGS_NOT_SUSPEND = 4;
 
+  AIMP_VISUAL_SPECTRUM_MAX = 256;
+  AIMP_VISUAL_WAVEFORM_MAX = 512;
+
 type
 {$REGION 'Documentation'}
   /// <summary>
@@ -132,7 +135,7 @@ type
   /// </para>
   /// </summary>
 {$ENDREGION}
-  TWaveForm = array [0 .. 1, 0 .. 511] of ShortInt;
+  TWaveForm = array[0..1, 0..AIMP_VISUAL_WAVEFORM_MAX - 1] of ShortInt;
 {$REGION 'Documentation'}
   /// <summary>
   /// <para>
@@ -143,7 +146,7 @@ type
   /// </para>
   /// </summary>
 {$ENDREGION}
-  TSpectrum = array [0 .. 1, 0 .. 255] of Byte;
+  TSpectrum = array[0..1, 0..AIMP_VISUAL_SPECTRUM_MAX - 1] of Byte;
 {$REGION 'Documentation'}
   /// <summary>
   /// <para>
@@ -543,8 +546,8 @@ type
   /// </example>
 {$ENDREGION}
 
-  TAIMPVisualPluginProc = function(out AHeader: IAIMPVisualPlugin3): LongBool;
-    stdcall;
+  TAIMPVisualPluginProc = function (out AHeader: IAIMPVisualPlugin3): LongBool; stdcall;
+  // Export function name: AIMP_QueryVisual3
 
 implementation
 
